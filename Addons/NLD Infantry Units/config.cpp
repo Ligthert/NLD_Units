@@ -42,6 +42,7 @@ class CfgVehicles {
 	class B_Helipilot_F;
 	class B_helicrew_F;
 	class B_sniper_F;
+	class B_pilot_F;
 
 
 // Woodland Units
