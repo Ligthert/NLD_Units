@@ -1,5 +1,5 @@
 class CfgPatches {
-	class NL_Units {
+	class NLD_Units {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -8,9 +8,9 @@ class CfgPatches {
 };
 class CfgFactionClasses
 {
-	class NL_Units
+	class NLD_Units
 	{
-		displayName="NL Armed Forces";
+		displayName="NLD Armed Forces";
 		icon="\NL Infantry Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -45,13 +45,13 @@ class CfgVehicles {
 
 
 // Woodland Units
-	class NL_WLD_rifleman: B_Soldier_base_F
+	class NLD_WLD_rifleman: B_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
 		side = 1;
 		scope = 2; 
 		displayName = "Rifleman";
-		faction = "NL_Units";
+		faction = "NLD_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
@@ -70,7 +70,7 @@ class CfgVehicles {
 		canHideBodies = 1;
 	};
 
-	class NL_WLD_AR: NL_WLD_rifleman
+	class NLD_WLD_AR: NLD_WLD_rifleman
 	{
 		displayName = "Automatic Rifleman";
 		icon = "iconManMG";
@@ -80,7 +80,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
 	};
 
-	class NL_WLD_LAT: NL_WLD_rifleman
+	class NLD_WLD_LAT: NLD_WLD_rifleman
 	{
 		displayName = "Rifleman (LAT)";
 		icon = "iconManAT";
@@ -91,7 +91,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_WLD_CLS: NL_WLD_rifleman
+	class NLD_WLD_CLS: NLD_WLD_rifleman
 	{
 		displayName = "Combat Life Saver";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -99,7 +99,7 @@ class CfgVehicles {
 		icon = "iconManMedic";
 	};
 
-	class NL_WLD_GL: NL_WLD_rifleman
+	class NLD_WLD_GL: NLD_WLD_rifleman
 	{
 		displayName = "Grenadier";
 		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
@@ -108,7 +108,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_WLD_ENGI: NL_WLD_rifleman
+	class NLD_WLD_ENGI: NLD_WLD_rifleman
 	{
 		displayName = "Engineer";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -116,14 +116,14 @@ class CfgVehicles {
 		icon = "iconManEngineer";
 	};
 
-	class NL_WLD_EXPL: NL_WLD_rifleman
+	class NLD_WLD_EXPL: NLD_WLD_rifleman
 	{
 		displayName = "Explosives Expert";
 		backpack = "KL_Carryall_WLD_Expl";
 		icon = "iconManExplosive";
 	};
 
-	class NL_WLD_UAV: NL_WLD_rifleman
+	class NLD_WLD_UAV: NLD_WLD_rifleman
 	{
 		displayName = "UAV Operator";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
@@ -131,7 +131,7 @@ class CfgVehicles {
 		backpack = "KL_Carryall_WLD_UAV";
 	};
 
-	class NL_WLD_JTAC: NL_WLD_rifleman
+	class NLD_WLD_JTAC: NLD_WLD_rifleman
 	{
 		displayName = "JTAC";
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
@@ -139,7 +139,7 @@ class CfgVehicles {
 		backpack = "KL_Carryall_WLD_JTAC";
 	};
 
-	class NL_WLD_OFF: NL_WLD_rifleman
+	class NLD_WLD_OFF: NLD_WLD_rifleman
 	{
 		displayName = "Officer";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -150,7 +150,7 @@ class CfgVehicles {
 		icon = "iconManOfficer";
 	};
 
-	class NL_WLD_SL: NL_WLD_rifleman
+	class NLD_WLD_SL: NLD_WLD_rifleman
 	{
 		displayName = "Squad Leader";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -159,7 +159,7 @@ class CfgVehicles {
 		icon = "iconManLeader";
 	};
 
-	class NL_WLD_TL: NL_WLD_rifleman
+	class NLD_WLD_TL: NLD_WLD_rifleman
 	{
 		displayName = "Team Leader";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -169,7 +169,7 @@ class CfgVehicles {
 		icon = "iconManLeader";
 	};
 
-	class NL_WLD_SLA: NL_WLD_rifleman
+	class NLD_WLD_SLA: NLD_WLD_rifleman
 	{
 		displayName = "Designated Marksman";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -180,7 +180,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_WLD_Ammo: NL_WLD_rifleman
+	class NLD_WLD_Ammo: NLD_WLD_rifleman
 	{
 		displayName = "Ammo Bearer";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -190,7 +190,7 @@ class CfgVehicles {
 
 // Desert Units
 
-	class NL_DST_rifleman: NL_WLD_rifleman
+	class NLD_DST_rifleman: NLD_WLD_rifleman
 	{
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_B";
@@ -199,7 +199,7 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
-	class NL_DST_AR: NL_DST_rifleman
+	class NLD_DST_AR: NLD_DST_rifleman
 	{
 		displayName = "Automatic Rifleman";
 		icon = "iconManMG";
@@ -209,7 +209,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
 	};
 
-	class NL_DST_LAT: NL_DST_rifleman
+	class NLD_DST_LAT: NLD_DST_rifleman
 	{
 		displayName = "Rifleman (LAT)";
 		icon = "iconManAT";
@@ -220,7 +220,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_DST_CLS: NL_DST_rifleman
+	class NLD_DST_CLS: NLD_DST_rifleman
 	{
 		displayName = "Combat Life Saver";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -228,7 +228,7 @@ class CfgVehicles {
 		icon = "iconManMedic";
 	};
 
-	class NL_DST_GL: NL_DST_rifleman
+	class NLD_DST_GL: NLD_DST_rifleman
 	{
 		displayName = "Grenadier";
 		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
@@ -237,7 +237,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_DST_ENGI: NL_DST_rifleman
+	class NLD_DST_ENGI: NLD_DST_rifleman
 	{
 		displayName = "Engineer";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -245,14 +245,14 @@ class CfgVehicles {
 		icon = "iconManEngineer";
 	};
 
-	class NL_DST_EXPL: NL_DST_rifleman
+	class NLD_DST_EXPL: NLD_DST_rifleman
 	{
 		displayName = "Explosives Expert";
 		backpack = "KL_Carryall_D_Expl";
 		icon = "iconManExplosive";
 	};
 
-	class NL_DST_UAV: NL_DST_rifleman
+	class NLD_DST_UAV: NLD_DST_rifleman
 	{
 		displayName = "UAV Operator";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
@@ -260,7 +260,7 @@ class CfgVehicles {
 		backpack = "KL_Carryall_D_UAV";
 	};
 
-	class NL_DST_JTAC: NL_DST_rifleman
+	class NLD_DST_JTAC: NLD_DST_rifleman
 	{
 		displayName = "JTAC";
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
@@ -268,7 +268,7 @@ class CfgVehicles {
 		backpack = "KL_Carryall_D_JTAC";
 	};
 
-	class NL_DST_OFF: NL_DST_rifleman
+	class NLD_DST_OFF: NLD_DST_rifleman
 	{
 		displayName = "Officer";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -279,7 +279,7 @@ class CfgVehicles {
 		icon = "iconManOfficer";
 	};
 
-	class NL_DST_SL: NL_DST_rifleman
+	class NLD_DST_SL: NLD_DST_rifleman
 	{
 		displayName = "Squad Leader";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -288,7 +288,7 @@ class CfgVehicles {
 		icon = "iconManLeader";
 	};
 
-	class NL_DST_TL: NL_DST_rifleman
+	class NLD_DST_TL: NLD_DST_rifleman
 	{
 		displayName = "Team Leader";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -298,7 +298,7 @@ class CfgVehicles {
 		icon = "iconManLeader";
 	};
 
-	class NL_DST_SLA: NL_DST_rifleman
+	class NLD_DST_SLA: NLD_DST_rifleman
 	{
 		displayName = "Designated Marksman";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -309,7 +309,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 
-	class NL_DST_Ammo: NL_DST_rifleman
+	class NLD_DST_Ammo: NLD_DST_rifleman
 	{
 		displayName = "Ammo Bearer";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -319,7 +319,7 @@ class CfgVehicles {
 
 // "Special" forces
 
-	class NL_SF_rifleman: NL_WLD_rifleman
+	class NLD_SF_rifleman: NLD_WLD_rifleman
 	{
 		displayName = "Operator";
 		vehicleClass = "Infantry_SF";
@@ -331,6 +331,172 @@ class CfgVehicles {
 		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+	};
+
+	class NLD_SF_CLS: NLD_SF_rifleman
+	{
+		displayName = "Medic";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "KL_Carryall_WLD_Medic";
+		icon = "iconManMedic";
+	};
+
+	class NLD_SF_JTAC: NLD_SF_rifleman
+	{
+		displayName = "JTAC";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		backpack = "KL_Carryall_WLD_JTAC";
+	};
+
+	class NLD_SF_Eng: NLD_SF_rifleman
+	{
+		displayName = "Engineer";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "KL_Carryall_WLD_Eng";
+		icon = "iconManEngineer";
+	};
+
+	class NLD_SF_EXPL: NLD_SF_rifleman
+	{
+		displayName = "Explosives Expert";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		backpack = "KL_Carryall_WLD_Expl";
+		icon = "iconManExplosive";
+	};
+
+	class NLD_SF_UAV: NLD_SF_rifleman
+	{
+		displayName = "UAV Operator";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		linkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		respawnLinkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		backpack = "KL_Carryall_WLD_UAV";
+	};
+
+	class NLD_SF_Ammo: NLD_SF_rifleman
+	{
+		displayName = "Ammo Bearer";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "KL_Carryall_WLD_Ammo";
+	};
+
+	class NLD_SF_GL: NLD_SF_rifleman
+	{
+		displayName = "Grenadier";
+		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+	};
+
+	class NLD_SF_OFF: NLD_SF_rifleman
+	{
+		displayName = "Officer";
+		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		backpack = "KL_Carryall_WLD_TL";
+		icon = "iconManOfficer";
+	};
+
+	class NLD_SF_SL: NLD_SF_rifleman
+	{
+		displayName = "Squad Leader";
+		backpack = "KL_Carryall_WLD_TL";
+		icon = "iconManLeader";
+	};
+
+	class NLD_SF_TL: NLD_SF_rifleman
+	{
+		displayName = "Team Leader";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "KL_Carryall_WLD_TL";
+		icon = "iconManLeader";
+	};
+
+	class NLD_SF_SLA: NLD_SF_rifleman
+	{
+		displayName = "Sharpshooter";
+		backpack = "KL_Carryall_WLD_B";
+		linkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+	};
+
+	class NLD_SF_AR: NLD_SF_rifleman
+	{
+		displayName = "Automatic Rifleman";
+		icon = "iconManMG";
+		linkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"arifle_MX_SW_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"arifle_MX_SW_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
+		respawnMagazines[] = {"100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
+	};
+
+	class NLD_SF_LAT: NLD_SF_rifleman
+	{
+		displayName = "Rifleman (LAT)";
+		icon = "iconManAT";
+		linkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "launch_NLAW_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "launch_NLAW_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+	};
+
+
+// Support
+	class NLD_Helipilot: B_Helipilot_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Heli Pilot";
+		faction = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "KL_Helipilot_base";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Support\Data\pilotcoveralls_co.paa", "\NL Infantry Units\Badges\LMB.paa"};
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"arifle_MXC_Black_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MXC_Black_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		canHideBodies = 1;
+	};
+
+	class KL_Helicrew: B_helicrew_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Heli Crew";
+		faction = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "KL_Helicrew_base";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Support\Data\coveralls_co.paa", "\NL Infantry Units\Badges\LMB.paa"};
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"arifle_MXC_Black_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MXC_Black_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		canHideBodies = 1;
 	};
 
 
