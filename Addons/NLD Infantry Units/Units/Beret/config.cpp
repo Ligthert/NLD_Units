@@ -54,9 +54,9 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Koninklijke Landmacht";
-		picture = "\NL Infantry Units\Units\Beret\uim\RoyalArmy.jpg";
+		picture = "\NLD Infantry Units\Units\Beret\uim\RoyalArmy.jpg";
 		model = "\A3\Characters_F\Common\headgear_beret01";
-		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\RoyalArmy.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\RoyalArmy.paa"};
 		hiddenSelections[] = {"Camo"};
          
 		class ItemInfo: HeadgearItem
@@ -66,7 +66,7 @@ class cfgWeapons
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-			hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\RoyalArmy.paa"};
+			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\RoyalArmy.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -76,9 +76,9 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Korps Commandotroepen";
-		picture = "\NL Infantry Units\Units\Beret\uim\Commandos.jpg";
+		picture = "\NLD Infantry Units\Units\Beret\uim\Commandos.jpg";
 		model = "\A3\Characters_F\Common\headgear_beret01";
-		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\Commandos.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\Commandos.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem
@@ -88,7 +88,7 @@ class cfgWeapons
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-			hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\Commandos.paa"};
+			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\Commandos.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -98,9 +98,9 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Luchtmobiele Brigade";
-		picture = "\NL Infantry Units\Units\Beret\uim\11AirManoeuvreBrigade.jpg";
+		picture = "\NLD Infantry Units\Units\Beret\uim\11AirManoeuvreBrigade.jpg";
 		model = "\A3\Characters_F\Common\headgear_beret01";
-		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\11AirManoeuvreBrigade.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\11AirManoeuvreBrigade.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem
@@ -110,7 +110,7 @@ class cfgWeapons
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-			hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Beret\11AirManoeuvreBrigade.paa"};
+			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Beret\11AirManoeuvreBrigade.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
