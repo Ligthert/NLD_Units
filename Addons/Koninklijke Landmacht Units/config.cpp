@@ -1,5 +1,5 @@
 class CfgPatches {
-	class Koninklijke_Landmacht {
+	class NL_Units {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -8,9 +8,9 @@ class CfgPatches {
 };
 class CfgFactionClasses
 {
-	class Koninklijke_Landmacht
+	class NL_Units
 	{
-		displayName="Koninklijke Landmacht";
+		displayName="NL Armed Forces";
 		icon="\Koninklijke Landmacht Units\Icon\Icon.jpg";
 		priority=100;
 		side=1;
