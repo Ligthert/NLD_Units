@@ -11,7 +11,7 @@ class CfgFactionClasses
 	class NL_Units
 	{
 		displayName="NL Armed Forces";
-		icon="\Koninklijke Landmacht Units\Icon\Icon.jpg";
+		icon="\NL Infantry Units\Icon\Icon.jpg";
 		priority=100;
 		side=1;
 	};
@@ -36,7 +36,6 @@ class CfgVehicleClasses
 	};
 
 };
-
 class CfgVehicles {
 	class B_Soldier_base_F;	
 	class B_Carryall_Base;
@@ -51,13 +50,13 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Heli Pilot";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Support";
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "KL_Helipilot_base";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Support\Data\pilotcoveralls_co.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Support\Data\pilotcoveralls_co.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -73,13 +72,13 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Heli Crew";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Support";
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "KL_Helicrew_base";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Support\Data\coveralls_co.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Support\Data\coveralls_co.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -95,14 +94,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Rifleman";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_D_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -162,14 +161,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Grenadier";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_GL";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_D_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -209,14 +208,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Sharpshooter";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_D_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -234,14 +233,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Automatic Rifleman";
 		icon = "iconManMG";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_AR";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_D_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -259,14 +258,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Rifleman (AT)";
 		icon = "iconManAT";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "KL_Carryall_D_AT";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_D_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -283,14 +282,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Rifleman";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -350,14 +349,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Grenadier";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -397,14 +396,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Sharpshooter";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -422,14 +421,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Automatic Rifleman";
 		icon = "iconManMG";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_AR";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -447,14 +446,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Rifleman (AT)";
 		icon = "iconManAT";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_Woodland";
 		backpack = "KL_Carryall_WLD_AT";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Uniform.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Uniform.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_WLD_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -471,14 +470,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Rifleman";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_SF_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\Green.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\Green.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -538,14 +537,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Grenadier";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "KL_Carryall_WLD_GL";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_SF1_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\Grey.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\Grey.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_BaseballCap", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -585,14 +584,14 @@ class CfgVehicles {
 		side = 1;
 		scope = 2; 
 		displayName = "Sharpshooter";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "KL_Carryall_WLD_B";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_SF2_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\Black.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\Black.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -610,14 +609,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Automatic Rifleman";
 		icon = "iconManMG";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "KL_Carryall_WLD_AR";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_SF2_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\Black.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\Black.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_SF_Black_Vest", "KL_WLD_Helmet", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -635,14 +634,14 @@ class CfgVehicles {
 		scope = 2; 
 		displayName = "Rifleman (AT)";
 		icon = "iconManAT";
-		faction = "Koninklijke_Landmacht";
+		faction = "NL_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "KL_Carryall_WLD_AT";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "KL_SF2_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\Black.paa", "\Koninklijke Landmacht Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\Black.paa", "\NL Infantry Units\Badges\LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"KL_SF_Black_Vest", "H_Watchcap_blk", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -658,8 +657,8 @@ class CfgVehicles {
 	
 	class KL_Carryall_D_B : B_Carryall_oli {
 		displayName = "Carryall base Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -705,14 +704,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_B : KL_Carryall_D_B {
 		displayName = "Carryall Base Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_GL : B_Carryall_oli {
 		displayName = "Carryall GL Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -773,15 +772,15 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_GL : KL_Carryall_D_GL {
 		displayName = "Carryall GL Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 
 	class KL_Carryall_D_TL : B_Carryall_oli {
 		displayName = "Carryall GL Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -832,14 +831,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_TL : KL_Carryall_D_TL {
 		displayName = "Carryall GL Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_Medic : B_Carryall_oli {
 		displayName = "Carryall Medic Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -880,14 +879,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_Medic : KL_Carryall_D_Medic {
 		displayName = "Carryall Medic Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_AT : B_Carryall_oli {
 		displayName = "Carryall AT Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -939,14 +938,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_AT : KL_Carryall_D_AT {
 		displayName = "Carryall AT Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_AR : B_Carryall_oli {
 		displayName = "Carryall AR Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -998,14 +997,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_AR : KL_Carryall_D_AR {
 		displayName = "Carryall AR Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_Eng : B_Carryall_oli {
 		displayName = "Carryall Eng Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1056,14 +1055,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_Eng : KL_Carryall_D_Eng {
 		displayName = "Carryall Eng Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_Ammo : B_Carryall_oli {
 		displayName = "Carryall Ammo Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1124,14 +1123,14 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_Ammo : KL_Carryall_D_Ammo {
 		displayName = "Carryall Ammo Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class KL_Carryall_D_Expl : B_Carryall_oli {
 		displayName = "Carryall Expl Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1182,16 +1181,16 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_Expl : KL_Carryall_D_Expl {
 		displayName = "Carryall Expl Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 	
 	class B_UAV_01_backpack_F;	// External class reference
 	
 	class KL_Carryall_D_UAV : B_UAV_01_backpack_F {
 		displayName = "Carryall UAV Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Camo.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Camo.paa"};
 
 		class TransportMagazines
 		{
@@ -1237,13 +1236,13 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_UAV : KL_Carryall_D_UAV {
 		displayName = "Carryall UAV Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Camo.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Camo.paa"};
 	};
 	class KL_Carryall_D_JTAC : B_Carryall_oli {
 		displayName = "Carryall JTAC Desert";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Black.paa"};
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Black.paa"};
 
 		class TransportMagazines
 		{
@@ -1294,8 +1293,8 @@ class CfgVehicles {
 	
 	class KL_Carryall_WLD_JTAC : KL_Carryall_D_JTAC {
 		displayName = "Carryall JTAC Woodland";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 };
 
@@ -1306,7 +1305,7 @@ class cfgWeapons {
 	class KL_D_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "Desert Camo";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Uniform.jpg";
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Uniform.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
@@ -1324,10 +1323,10 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Desert Helmet";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Helmet.jpg";
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Helmet.jpg";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Helmet.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Helmet.paa"};
 		
 		class ItemInfo : HeadgearItem {
 			mass = 1;
@@ -1335,7 +1334,7 @@ class cfgWeapons {
 			modelSides[] = {3, 1};
 			armor = 3*0.5;
 			passThrough = 0.7;
-			hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Helmet.paa"};
+			hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Helmet.paa"};
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -1343,9 +1342,9 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Desert Baseball Cap";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\BaseballCap.jpg";
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\BaseballCap.jpg";
 		model = "\A3\Characters_F\common\capb";
-                hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\BaseballCap.paa"};
+                hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\BaseballCap.paa"};
                 hiddenSelections[] = {"Camo"};
                 
                   
@@ -1356,7 +1355,7 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-                        hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\BaseballCap.paa"};
+                        hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\BaseballCap.paa"};
                         hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -1364,9 +1363,9 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Desert Boonie Hat";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\BoonieHat.jpg";
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\BoonieHat.jpg";
 		model = "\A3\Characters_F\Common\booniehat";
-                hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\BoonieHat.paa"};
+                hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\BoonieHat.paa"};
                 hiddenSelections[] = {"Camo"};
                 
                   
@@ -1377,14 +1376,14 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-                        hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\BoonieHat.paa"};
+                        hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\BoonieHat.paa"};
                         hiddenSelections[] = {"Camo"};
 		};
 	};
 	class KL_WLD_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "Woodland Camo";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Uniform.jpg";
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Uniform.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
@@ -1399,10 +1398,10 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Woodland Helmet";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\Helmet.jpg";
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\Helmet.jpg";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\Helmet.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\Helmet.paa"};
 		
 		class ItemInfo : HeadgearItem {
 			mass = 1;
@@ -1410,7 +1409,7 @@ class cfgWeapons {
 			modelSides[] = {3, 1};
 			armor = 3*0.5;
 			passThrough = 0.7;
-                        hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\BaseballCap.paa"};
+                        hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -1418,9 +1417,9 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Woodland Baseball Cap";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\BaseballCap.jpg";
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\BaseballCap.jpg";
 		model = "\A3\Characters_F\common\capb";
-                hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\BaseballCap.paa"};
+                hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
                 hiddenSelections[] = {"Camo"};
                 
                   
@@ -1431,7 +1430,7 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-                        hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\BaseballCap.paa"};
+                        hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
                         hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -1439,9 +1438,9 @@ class cfgWeapons {
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Woodland Boonie Hat";
-		picture = "\Koninklijke Landmacht Units\Units\Woodland\Data\uim\BoonieHat.jpg";
+		picture = "\NL Infantry Units\Units\Woodland\Data\uim\BoonieHat.jpg";
 		model = "\A3\Characters_F\Common\booniehat";
-                hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\BoonieHat.paa"};
+                hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\BoonieHat.paa"};
                 hiddenSelections[] = {"Camo"};
                 
                   
@@ -1452,7 +1451,7 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
-                        hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Woodland\Data\BoonieHat.paa"};
+                        hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Woodland\Data\BoonieHat.paa"};
                         hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -1462,9 +1461,9 @@ class cfgWeapons {
 	class KL_WLD_Vest : Vest_Camo_Base {
 		scope = 2;
 		displayName = "Woodland Vest";
-		picture = "\Koninklijke Landmacht Units\Units\Desert\Data\uim\Vest.jpg";
+		picture = "\NL Infantry Units\Units\Desert\Data\uim\Vest.jpg";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\Desert\Data\Vest.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\Desert\Data\Vest.paa"};
 		
 		class ItemInfo : VestItem {
 			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
@@ -1478,7 +1477,7 @@ class cfgWeapons {
 	class KL_SF_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "SF Green Camo";
-		picture = "\Koninklijke Landmacht Units\Units\SF\Data\uim\Black.jpg";
+		picture = "\NL Infantry Units\Units\SF\Data\uim\Black.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
@@ -1491,7 +1490,7 @@ class cfgWeapons {
 	class KL_SF1_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "SF Grey Camo";
-		picture = "\Koninklijke Landmacht Units\Units\SF\Data\uim\Black.jpg";
+		picture = "\NL Infantry Units\Units\SF\Data\uim\Black.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
@@ -1504,7 +1503,7 @@ class cfgWeapons {
 	class KL_SF2_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "SF Black Camo";
-		picture = "\Koninklijke Landmacht Units\Units\SF\Data\uim\Black.jpg";
+		picture = "\NL Infantry Units\Units\SF\Data\uim\Black.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
@@ -1518,9 +1517,9 @@ class cfgWeapons {
 	class KL_SF_Black_Vest : Vest_Camo_Base {
 		scope = 2;
 		displayName = "Black Vest";
-		picture = "\Koninklijke Landmacht Units\Units\SF\Data\uim\VestBlack.jpg";
+		picture = "\NL Infantry Units\Units\SF\Data\uim\VestBlack.jpg";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\Koninklijke Landmacht Units\Units\SF\Data\VestBlack.paa"};
+		hiddenSelectionsTextures[] = {"\NL Infantry Units\Units\SF\Data\VestBlack.paa"};
 		
 		class ItemInfo : VestItem {
 			uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ia_vest02";
