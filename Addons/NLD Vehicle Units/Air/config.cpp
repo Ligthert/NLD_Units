@@ -16,6 +16,7 @@ class CfgFactionClasses
 		side=1;
 	};
 };
+
 class cfgVehicleClasses 
 {
 	class NLD_Air
@@ -26,13 +27,9 @@ class cfgVehicleClasses
 };
 
 class WeaponFireGun ;
-
 class WeaponCloudsGun ;
-
 class WeaponFireMGun ;
-
 class WeaponCloudsMGun ;
-
 class RCWSOptics ;
 
 class CfgVehicles 
@@ -46,7 +43,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Heli_Light_02_unarmed_F";
-		displayName = "MH-65 NL";
+		displayName = "MH-65";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -60,7 +57,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "O_Heli_Light_02_F";
-		displayName = "MH-65 NL (Armed)";
+		displayName = "MH-65 (Armed)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -69,14 +66,14 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Air\Data\MH65.paa"};
 	};
 
-    class NLD_NH90: Heli_Transport_02_base_F
+    class NLD_NH90 : Heli_Transport_02_base_F
     {
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "Heli_Transport_02_base_F";
-		displayName = "NH-90 NL";
+		displayName = "NH-90";
 		side = 1;
-		crew = "KL_Helipilot";
+		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Air";
 	    hiddenSelections[]= {"camo1","camo2","camo3"};

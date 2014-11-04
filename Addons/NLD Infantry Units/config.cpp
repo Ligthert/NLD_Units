@@ -20,19 +20,19 @@ class CfgVehicleClasses
 {
 	class Infantry_Desert
 	{
-		displayName="Infantry Desert";
+		displayName="Men (Desert)";
 	};
 	class Infantry_Woodland
 	{
-		displayName="Infantry Woodland";
+		displayName="Men (Woodland)";
 	};
 	class Infantry_SF
 	{
-		displayName="Special Forces";
+		displayName="Men (Recon)";
 	};
 	class Infantry_Support
 	{
-		displayName="Support Crew";
+		displayName="Men (Support)";
 	};
 
 };
