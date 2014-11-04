@@ -8,7 +8,7 @@ A collection of units mirroring elements of the Royal Netherlands Army for ArmA 
 * Smootch
 
 ## Classes
-Please not, this is subjected to change.
+Please note, this is subjected to change.
 
 ### Faction
 * NLD_Units
