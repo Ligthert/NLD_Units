@@ -1086,7 +1086,7 @@ class CfgVehicles {
 	class NLD_Carryall_WLD_UAV : NLD_Carryall_D_UAV {
 		displayName = "Carryall UAV Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Camo.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 	class NLD_Carryall_D_JTAC : B_Carryall_oli {
 		displayName = "Carryall JTAC Desert";
