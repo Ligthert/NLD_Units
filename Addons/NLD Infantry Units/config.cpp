@@ -1159,7 +1159,7 @@ class cfgWeapons {
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "NLD_Desert_Basic1";
+			uniformClass = "NLD_DST_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
@@ -1237,7 +1237,7 @@ class cfgWeapons {
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "NLD_WLD_Basic1";
+			uniformClass = "NLD_WLD_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
@@ -1331,7 +1331,7 @@ class cfgWeapons {
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "NLD_SF_Basic1";
+			uniformClass = "NLD_SF_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
