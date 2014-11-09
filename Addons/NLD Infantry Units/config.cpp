@@ -190,14 +190,29 @@ class CfgVehicles {
 
 
 // Desert Units
-
-	class NLD_DST_rifleman: NLD_WLD_rifleman
+	class NLD_DST_rifleman: B_Soldier_base_F
 	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Rifleman";
+		faction = "NLD_Units";
 		vehicleClass = "Infantry_Desert";
 		backpack = "NLD_Carryall_D_B";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_D_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_D_Helmet", "shemagh_neckD", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		canHideBodies = 1;
 	};
 
 	class NLD_DST_AR: NLD_DST_rifleman
@@ -320,18 +335,29 @@ class CfgVehicles {
 
 // "Special" forces
 
-	class NLD_SF_rifleman: NLD_WLD_rifleman
+	class NLD_SF_rifleman: B_Soldier_base_F
 	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
 		displayName = "Operator";
+		faction = "NLD_Units";
 		vehicleClass = "Infantry_SF";
 		backpack = "NLD_Carryall_WLD_B";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\Green.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_SF_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\Black.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
 		linkedItems[] = {"NLD_SF_Black_Vest", "NLD_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_Black_Vest", "NLD_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		canHideBodies = 1;
 	};
 
 	class NLD_SF_CLS: NLD_SF_rifleman
@@ -1332,32 +1358,6 @@ class cfgWeapons {
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
 			uniformClass = "NLD_SF_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-	class NLD_SF1_Camo : Uniform_Base {
-		scope = 2;
-		displayName = "SF Grey Camo";
-		picture = "\NLD Infantry Units\Units\SF\Data\uim\Black.jpg";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_SF_GL";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-	class NLD_SF2_Camo : Uniform_Base {
-		scope = 2;
-		displayName = "SF Black Camo";
-		picture = "\NLD Infantry Units\Units\SF\Data\uim\Black.jpg";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_SF_AR";
 			containerClass = "Supply60";
 			mass = 1;
 		};
