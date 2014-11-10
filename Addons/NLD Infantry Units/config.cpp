@@ -327,7 +327,7 @@ class CfgVehicles {
 		backpack = "NLD_Carryall_WLD_B";
 		uniformClass = "NLD_SF_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\Black.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\Black.paa", "\NLD Infantry Units\Badges\KCT.paa"};
 		hasDriver = 1;
 		linkedItems[] = {"NLD_SF_Black_Vest", "NLD_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_Black_Vest", "NLD_WLD_BoonieHat", "shemagh_neckOD", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
