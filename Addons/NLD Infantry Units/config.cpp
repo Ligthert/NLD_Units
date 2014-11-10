@@ -1348,7 +1348,7 @@ class cfgWeapons {
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\VestBlack.paa"};
 		
 		class ItemInfo : VestItem {
-			uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 			containerClass = "Supply120";
 			mass = 1;
 			armor = 5*0.5;
