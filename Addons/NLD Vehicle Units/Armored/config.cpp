@@ -21,7 +21,7 @@ class CfgVehicleClasses
 {
 	class NLD_Armoured
 	{
-		displayName="Armoured";
+		displayName="Armored";
 	};
 
 };
