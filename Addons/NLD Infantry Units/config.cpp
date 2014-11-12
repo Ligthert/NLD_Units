@@ -59,7 +59,7 @@ class CfgVehicles {
 		uniformAccessories[] = {};
 		uniformClass = "NLD_WLD_Camo";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Uniform.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -195,7 +195,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_Desert";
 		backpack = "NLD_Carryall_D_B";
 		uniformClass = "NLD_D_Camo";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_D_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_D_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
@@ -469,7 +469,7 @@ class CfgVehicles {
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Helipilot_base";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Support\Data\pilotcoveralls_co.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Support\Data\pilotcoveralls_co.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NLD_NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NLD_NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -492,7 +492,7 @@ class CfgVehicles {
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Helicrew_base";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Support\Data\coveralls_co.paa", "\NLD Infantry Units\Badges\LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Support\Data\coveralls_co.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NLD_NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_PilotHelmetHeli_O", "NLD_NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
