@@ -6,6 +6,7 @@ class CfgPatches {
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
 };
+
 class CfgFactionClasses
 {
 	class NLD_Units
@@ -15,15 +16,6 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
-};
-
-class CfgVehicleClasses
-{
-	class NLD_cars
-	{
-		displayName="Cars";
-	};
-
 };
 
 class CfgVehicles {
@@ -37,7 +29,7 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "Fennek (Desert)";
 		side = 1;
-		vehicleClass = "NLD_cars";
+		vehicleClass = Car;
 		faction = NLD_Units;
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
@@ -93,7 +85,7 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "Fennek HMG (Desert)";
 		side = 1;
-		vehicleClass = "NLD_cars";
+		vehicleClass = Car;
 		faction = NLD_Units;
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
@@ -150,7 +142,7 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "Fennek GMG (Desert)";
 		side = 1;
-		vehicleClass = "NLD_cars";
+		vehicleClass = Car;
 		faction = NLD_Units;
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};

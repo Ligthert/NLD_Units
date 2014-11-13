@@ -17,16 +17,6 @@ class CfgFactionClasses
 	};
 };
 
-class CfgVehicleClasses
-{
-	class NLD_Armoured
-	{
-		displayName="Armored";
-	};
-
-};
-
-
 // The MEAT!
 class CfgVehicles {
 
@@ -41,7 +31,7 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "Leopard2 (Woodland)";
 		side = 1;
-		vehicleClass = "NLD_Armoured";
+		vehicleClass = Armored;
 		faction = NLD_Units;
 		crew = "NLD_WLD_rifleman";
 		typicalCargo[] = {"NLD_WLD_OFF"};
@@ -63,7 +53,7 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "Leopard2 (Desert)";
 		side = 1;
-		vehicleClass = "NLD_Armoured";
+		vehicleClass = Armored;
 		faction = NLD_Units;
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};

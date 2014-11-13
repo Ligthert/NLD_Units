@@ -17,15 +17,6 @@ class CfgFactionClasses
 	};
 };
 
-class cfgVehicleClasses 
-{
-	class NLD_Air
-	{
-		displayName = "Air";
-	};
-
-};
-
 class WeaponFireGun ;
 class WeaponCloudsGun ;
 class WeaponFireMGun ;
@@ -47,7 +38,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
-		vehicleClass = "NLD_Air";
+		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Air\Data\MH65.paa"};
 	};
@@ -61,7 +52,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
-		vehicleClass = "NLD_Air";
+		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Air\Data\MH65.paa"};
 	};
@@ -75,7 +66,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
-		vehicleClass = "NLD_Air";
+		vehicleClass = Air;
 	    hiddenSelections[]= {"camo1","camo2","camo3"};
 	    hiddenSelectionsTextures[]= {"\NLD Vehicle Units\Air\Data\NH90_1.paa","\NLD Vehicle Units\Air\Data\NH90_2.paa","\NLD Vehicle Units\Air\Data\NH90_3.paa"};
     };
