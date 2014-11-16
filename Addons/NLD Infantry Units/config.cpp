@@ -34,7 +34,14 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Support)";
 	};
-
+	class Infantry_NFPTAN
+	{
+		displayName="Men (NFP-TAN)";
+	};
+	class Infantry_NFPGREEN
+	{
+		displayName="Men (NFP-Green)";
+	};
 };
 class CfgVehicles {
 	class B_Soldier_base_F;	
@@ -331,6 +338,9 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
+// NFP-TAN
+
+// NFP-Green
 
 // "Special" forces
 
@@ -522,7 +532,7 @@ class CfgVehicles {
 	class B_Carryall_oli;	// External class reference
 	
 	class NLD_Carryall_DST_B : B_Carryall_oli {
-		displayName = "Carryall base Desert";
+		displayName = "NLD Carryall base Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -569,13 +579,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_B : NLD_Carryall_DST_B {
-		displayName = "Carryall Base Woodland";
+		displayName = "NLD Carryall Base Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_GL : B_Carryall_oli {
-		displayName = "Carryall GL Desert";
+		displayName = "NLD Carryall GL Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -637,14 +647,14 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_GL : NLD_Carryall_DST_GL {
-		displayName = "Carryall GL Woodland";
+		displayName = "NLD Carryall GL Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 
 	class NLD_Carryall_DST_TL : B_Carryall_oli {
-		displayName = "Carryall GL Desert";
+		displayName = "NLD Carryall GL Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -696,13 +706,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_TL : NLD_Carryall_DST_TL {
-		displayName = "Carryall GL Woodland";
+		displayName = "NLD Carryall GL Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Medic : B_Carryall_oli {
-		displayName = "Carryall Medic Desert";
+		displayName = "NLD Carryall Medic Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -744,13 +754,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Medic : NLD_Carryall_DST_Medic {
-		displayName = "Carryall Medic Woodland";
+		displayName = "NLD Carryall Medic Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AT : B_Carryall_oli {
-		displayName = "Carryall AT Desert";
+		displayName = "NLD Carryall AT Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -803,13 +813,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_AT : NLD_Carryall_DST_AT {
-		displayName = "Carryall AT Woodland";
+		displayName = "NLD Carryall AT Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AR : B_Carryall_oli {
-		displayName = "Carryall AR Desert";
+		displayName = "NLD Carryall AR Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -862,13 +872,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_AR : NLD_Carryall_DST_AR {
-		displayName = "Carryall AR Woodland";
+		displayName = "NLD Carryall AR Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Eng : B_Carryall_oli {
-		displayName = "Carryall Eng Desert";
+		displayName = "NLD Carryall Eng Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -920,13 +930,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Eng : NLD_Carryall_DST_Eng {
-		displayName = "Carryall Eng Woodland";
+		displayName = "NLD Carryall Eng Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Ammo : B_Carryall_oli {
-		displayName = "Carryall Ammo Desert";
+		displayName = "NLD Carryall Ammo Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -988,13 +998,13 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Ammo : NLD_Carryall_DST_Ammo {
-		displayName = "Carryall Ammo Woodland";
+		displayName = "NLD Carryall Ammo Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Expl : B_Carryall_oli {
-		displayName = "Carryall Expl Desert";
+		displayName = "NLD Carryall Expl Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1046,7 +1056,7 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Expl : NLD_Carryall_DST_Expl {
-		displayName = "Carryall Expl Woodland";
+		displayName = "NLD Carryall Expl Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
@@ -1054,7 +1064,7 @@ class CfgVehicles {
 	class B_UAV_01_backpack_F;	// External class reference
 	
 	class NLD_Carryall_DST_UAV : B_UAV_01_backpack_F {
-		displayName = "Carryall UAV Desert";
+		displayName = "NLD Carryall UAV Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Camo.paa"};
 
@@ -1101,12 +1111,12 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_UAV : NLD_Carryall_DST_UAV {
-		displayName = "Carryall UAV Woodland";
+		displayName = "NLD Carryall UAV Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 	class NLD_Carryall_DST_JTAC : B_Carryall_oli {
-		displayName = "Carryall JTAC Desert";
+		displayName = "NLD Carryall JTAC Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1158,7 +1168,7 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_JTAC : NLD_Carryall_DST_JTAC {
-		displayName = "Carryall JTAC Woodland";
+		displayName = "NLD Carryall JTAC Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
@@ -1170,7 +1180,7 @@ class cfgWeapons {
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
-		displayName = "Desert Camo";
+		displayName = "NLD Desert Camo";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Uniform.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
@@ -1188,7 +1198,7 @@ class cfgWeapons {
 	class NLD_DST_Helmet : H_HelmetIA {
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Desert Helmet";
+		displayName = "NLD Desert Helmet";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Helmet.jpg";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelections[] = {"camo"};
@@ -1207,7 +1217,7 @@ class cfgWeapons {
 	class NLD_DST_BaseballCap: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Desert Baseball Cap";
+		displayName = "NLD Desert Baseball Cap";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\BaseballCap.jpg";
 		model = "\A3\Characters_F\common\capb";
                 hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\BaseballCap.paa"};
@@ -1228,7 +1238,7 @@ class cfgWeapons {
 	class NLD_DST_BoonieHat: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Desert Boonie Hat";
+		displayName = "NLD Desert Boonie Hat";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\BoonieHat.jpg";
 		model = "\A3\Characters_F\Common\booniehat";
                 hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\BoonieHat.paa"};
@@ -1264,7 +1274,7 @@ class cfgWeapons {
 	};
 	class NLD_WLD_Camo : Uniform_Base {
 		scope = 2;
-		displayName = "Woodland Camo";
+		displayName = "NLD Woodland Camo";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Uniform.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
@@ -1279,7 +1289,7 @@ class cfgWeapons {
 	class NLD_WLD_Helmet : H_HelmetIA {
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Woodland Helmet";
+		displayName = "NLD Woodland Helmet";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Helmet.jpg";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelections[] = {"camo"};
@@ -1298,7 +1308,7 @@ class cfgWeapons {
 	class NLD_WLD_BaseballCap: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Woodland Baseball Cap";
+		displayName = "NLD Woodland Baseball Cap";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\BaseballCap.jpg";
 		model = "\A3\Characters_F\common\capb";
                 hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
@@ -1319,7 +1329,7 @@ class cfgWeapons {
 	class NLD_WLD_BoonieHat: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Woodland Boonie Hat";
+		displayName = "NLD Woodland Boonie Hat";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\BoonieHat.jpg";
 		model = "\A3\Characters_F\Common\booniehat";
                 hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BoonieHat.paa"};
@@ -1342,7 +1352,7 @@ class cfgWeapons {
 	
 	class NLD_WLD_Vest : Vest_Camo_Base {
 		scope = 2;
-		displayName = "Woodland Vest";
+		displayName = "NLD Woodland Vest";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Vest.jpg";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Vest.paa"};
@@ -1363,7 +1373,7 @@ class cfgWeapons {
 
 	class NLD_SF_Camo : Uniform_Base {
 		scope = 2;
-		displayName = "SF Black Camo";
+		displayName = "NLD SF Black Camo";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Black.jpg";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
@@ -1377,7 +1387,7 @@ class cfgWeapons {
 	
 	class NLD_SF_Black_Vest : Vest_Camo_Base {
 		scope = 2;
-		displayName = "Black Vest";
+		displayName = "NLD Black Vest";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\VestBlack.jpg";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\SF\Data\VestBlack.paa"};
@@ -1427,7 +1437,7 @@ class cfgWeapons {
 	
 	class NLD_Sniper_base : U_B_GhillieSuit {
 		scope = 2;
-		displayName = "Sniper Ghilliesuit Woodland";
+		displayName = "NLD Sniper Ghilliesuit Woodland";
 		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		
