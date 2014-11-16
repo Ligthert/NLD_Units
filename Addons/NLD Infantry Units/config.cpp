@@ -340,7 +340,26 @@ class CfgVehicles {
 
 // NFP-TAN
 
+	class NLD_NFPT_rifleman: NLD_WLD_rifleman
+		{
+			vehicleClass = "Infantry_NFPTAN";
+			backpack = "NLD_Carryall_NFPT_B";
+			uniformClass = "NLD_NFPT_Camo";
+			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+			linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		};
+
 // NFP-Green
+	class NLD_NFPG_rifleman: NLD_WLD_rifleman
+		{
+			vehicleClass = "Infantry_NFPGREEN";
+			backpack = "NLD_Carryall_NFPG_B";
+			uniformClass = "NLD_NFPG_Camo";
+			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+			linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		};
 
 // "Special" forces
 
@@ -530,6 +549,7 @@ class CfgVehicles {
 
 // Backpacks
 	class B_Carryall_oli;	// External class reference
+	class B_UAV_01_backpack_F;	// External class reference
 	
 	class NLD_Carryall_DST_B : B_Carryall_oli {
 		displayName = "NLD Carryall base Desert";
@@ -582,6 +602,18 @@ class CfgVehicles {
 		displayName = "NLD Carryall Base Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_B : NLD_Carryall_DST_B {
+		displayName = "NLD Carryall Base NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_B : NLD_Carryall_DST_B {
+		displayName = "NLD Carryall Base NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_GL : B_Carryall_oli {
@@ -652,6 +684,17 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
+	class NLD_Carryall_NFPT_GL : NLD_Carryall_DST_GL {
+		displayName = "NLD Carryall GL NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_GL : NLD_Carryall_DST_GL {
+		displayName = "NLD Carryall GL NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
 
 	class NLD_Carryall_DST_TL : B_Carryall_oli {
 		displayName = "NLD Carryall GL Desert";
@@ -706,9 +749,21 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_TL : NLD_Carryall_DST_TL {
-		displayName = "NLD Carryall GL Woodland";
+		displayName = "NLD Carryall TL Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_TL : NLD_Carryall_DST_TL {
+		displayName = "NLD Carryall TL NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_TL : NLD_Carryall_DST_TL {
+		displayName = "NLD Carryall TL NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Medic : B_Carryall_oli {
@@ -757,6 +812,18 @@ class CfgVehicles {
 		displayName = "NLD Carryall Medic Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_Medic : NLD_Carryall_DST_Medic {
+		displayName = "NLD Carryall Medic NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_Medic : NLD_Carryall_DST_Medic {
+		displayName = "NLD Carryall Medic NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AT : B_Carryall_oli {
@@ -818,6 +885,18 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
+	class NLD_Carryall_NFPT_AT : NLD_Carryall_DST_AT {
+		displayName = "NLD Carryall AT NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_AT : NLD_Carryall_DST_AT {
+		displayName = "NLD Carryall AT NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_DST_AR : B_Carryall_oli {
 		displayName = "NLD Carryall AR Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
@@ -871,10 +950,16 @@ class CfgVehicles {
 		};
 	};
 	
-	class NLD_Carryall_WLD_AR : NLD_Carryall_DST_AR {
-		displayName = "NLD Carryall AR Woodland";
-		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	class NLD_Carryall_NFPT_AR : NLD_Carryall_DST_AR {
+		displayName = "NLD Carryall AR NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_AR : NLD_Carryall_DST_AR {
+		displayName = "NLD Carryall AR NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Eng : B_Carryall_oli {
@@ -933,6 +1018,18 @@ class CfgVehicles {
 		displayName = "NLD Carryall Eng Woodland";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_Eng : NLD_Carryall_DST_Eng {
+		displayName = "NLD Carryall Eng NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_Eng : NLD_Carryall_DST_Eng {
+		displayName = "NLD Carryall Eng NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Ammo : B_Carryall_oli {
@@ -1003,6 +1100,18 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
+	class NLD_Carryall_NFPT_Ammo : NLD_Carryall_DST_Ammo {
+		displayName = "NLD Carryall Ammo NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_Ammo : NLD_Carryall_DST_Ammo {
+		displayName = "NLD Carryall Ammo NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_DST_Expl : B_Carryall_oli {
 		displayName = "NLD Carryall Expl Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
@@ -1060,8 +1169,18 @@ class CfgVehicles {
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
-	
-	class B_UAV_01_backpack_F;	// External class reference
+
+	class NLD_Carryall_NFPT_Expl : NLD_Carryall_DST_Expl {
+		displayName = "NLD Carryall Expl NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_Expl : NLD_Carryall_DST_Expl {
+		displayName = "NLD Carryall Expl NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
 	
 	class NLD_Carryall_DST_UAV : B_UAV_01_backpack_F {
 		displayName = "NLD Carryall UAV Desert";
@@ -1115,6 +1234,19 @@ class CfgVehicles {
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
+
+	class NLD_Carryall_NFPT_UAV : NLD_Carryall_DST_UAV {
+		displayName = "NLD Carryall UAV NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_UAV : NLD_Carryall_DST_UAV {
+		displayName = "NLD Carryall UAV NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_DST_JTAC : B_Carryall_oli {
 		displayName = "NLD Carryall JTAC Desert";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
@@ -1172,11 +1304,34 @@ class CfgVehicles {
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
+
+	class NLD_Carryall_NFPT_JTAC : NLD_Carryall_DST_JTAC {
+		displayName = "NLD Carryall JTAC NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_JTAC : NLD_Carryall_DST_JTAC {
+		displayName = "NLD Carryall JTAC NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
 };
 
 class cfgWeapons {
 	class Uniform_Base;	// External class reference
 	class UniformItem;	// External class reference
+	class U_B_GhillieSuit;	// External class reference
+	class ItemCore;		// External class reference
+	class HeadgearItem;	// External class reference
+	class H_HelmetIA;	// External class reference
+	class NVGoggles_OPFOR;	// External class reference
+	class ItemInfo;	// External class reference
+	class Vest_Camo_Base;	// External class reference
+	class VestItem;	// External class reference
+	class U_I_CombatUniform;	// External class reference
+	class U_B_HeliPilotCoveralls;	// External class reference
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
@@ -1191,9 +1346,6 @@ class cfgWeapons {
 			mass = 1;
 		};
 	};
-	class ItemCore;		// External class reference
-	class HeadgearItem;	// External class reference
-	class H_HelmetIA;	// External class reference
 	
 	class NLD_DST_Helmet : H_HelmetIA {
 		scope = 2;
@@ -1214,6 +1366,7 @@ class cfgWeapons {
 			hiddenSelections[] = {"camo"};
 		};
 	};
+
 	class NLD_DST_BaseballCap: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -1235,6 +1388,7 @@ class cfgWeapons {
                         hiddenSelections[] = {"Camo"};
 		};
 	};
+
 	class NLD_DST_BoonieHat: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -1256,8 +1410,6 @@ class cfgWeapons {
                         hiddenSelections[] = {"Camo"};
 		};
 	};
-	class NVGoggles_OPFOR;	// External class reference
-	class ItemInfo;	// External class reference
 	
 	 class NLD_NVGoggles : NVGoggles_OPFOR {
 			modelOptics = "\A3\weapons_f\reticle\optics_night";
@@ -1266,12 +1418,13 @@ class cfgWeapons {
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"a3\characters_f\common\data\nvg_opfor_co.paa"};
   
-	class ItemInfo : ItemInfo {
+		class ItemInfo : ItemInfo {
 			uniformModel = "A3\weapons_f\binocular\nvg_proxy.p3d";
 			modelOff = "A3\weapons_f\binocular\NVG_proxy_off.p3d";
 			hiddenSelections[] = {"camo"};
 		};
 	};
+
 	class NLD_WLD_Camo : Uniform_Base {
 		scope = 2;
 		displayName = "NLD Woodland Camo";
@@ -1286,6 +1439,34 @@ class cfgWeapons {
 		};
 	};
 	
+	class NLD_NFPT_Camo : NLD_WLD_Camo {
+		scope = 2;
+		displayName = "NLD NFP-Tan Camo";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Uniform.jpg";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_NFPT_rifleman";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
+	class NLD_NFPG_Camo : NLD_WLD_Camo {
+		scope = 2;
+		displayName = "NLD NFP-Green Camo";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Uniform.jpg";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_NFPG_rifleman";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
 	class NLD_WLD_Helmet : H_HelmetIA {
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -1305,17 +1486,28 @@ class cfgWeapons {
 			hiddenSelections[] = {"camo"};
 		};
 	};
+
+	class NLD_NFPT_Helmet : NLD_WLD_Helmet {
+		displayName = "NLD NFP-Tan Helmet";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Helmet.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Helmet.paa"};		
+	};
+
+	class NLD_NFPG_Helmet : NLD_WLD_Helmet {
+		displayName = "NLD NFP-Green Helmet";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Helmet.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Helmet.paa"};		
+	};
+
 	class NLD_WLD_BaseballCap: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "NLD Woodland Baseball Cap";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\BaseballCap.jpg";
 		model = "\A3\Characters_F\common\capb";
-                hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
-                hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BaseballCap.paa"};
+        hiddenSelections[] = {"Camo"};
                 
-                  
-
 		class ItemInfo: HeadgearItem{
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\common\capb";
@@ -1326,16 +1518,27 @@ class cfgWeapons {
                         hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class NLD_NFPT_BaseballCap : NLD_WLD_BaseballCap {
+		displayName = "NLD NFP-Tan Baseball Cap";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\BaseballCap.jpg";
+        hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\BaseballCap.paa"};
+	};
+
+	class NLD_NFPG_BaseballCap : NLD_WLD_BaseballCap {
+		displayName = "NLD NFP-Green Baseball Cap";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\BaseballCap.jpg";
+        hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\BaseballCap.paa"};
+	};
+
 	class NLD_WLD_BoonieHat: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "NLD Woodland Boonie Hat";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\BoonieHat.jpg";
 		model = "\A3\Characters_F\Common\booniehat";
-                hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BoonieHat.paa"};
-                hiddenSelections[] = {"Camo"};
-                
-                  
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\BoonieHat.paa"};
+		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem{
 			mass = 1;
@@ -1347,9 +1550,19 @@ class cfgWeapons {
                         hiddenSelections[] = {"Camo"};
 		};
 	};
-	class Vest_Camo_Base;	// External class reference
-	class VestItem;	// External class reference
 	
+	class NLD_NFPT_BoonieHat : NLD_WLD_BoonieHat {
+		displayName = "NLD NFP-Tan Boonie Hat";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\BoonieHat.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\BoonieHat.paa"};
+	};
+
+	class NLD_NFPG_BoonieHat : NLD_WLD_BoonieHat {
+		displayName = "NLD NFP-Green Boonie Hat";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\BoonieHat.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\BoonieHat.paa"};
+	};
+
 	class NLD_WLD_Vest : Vest_Camo_Base {
 		scope = 2;
 		displayName = "NLD Woodland Vest";
@@ -1367,9 +1580,22 @@ class cfgWeapons {
 		};
 	};
 
+	class NLD_NFPT_Vest : NLD_WLD_Vest {
+		displayName = "NLD NFP-Tan Vest";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Vest.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Vest.paa"};
+	};
+
+	class NLD_NFPG_Vest : NLD_WLD_Vest {
+		displayName = "NLD NFP-Green Vest";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Vest.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Vest.paa"};
+	};
+
 	class NLD_DST_Vest : NLD_WLD_Vest {
+		displayName = "NLD Desert Vest";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Vest.paa"};
-	}
+	};
 
 	class NLD_SF_Camo : Uniform_Base {
 		scope = 2;
@@ -1401,9 +1627,6 @@ class cfgWeapons {
 			hiddenSelections[] = {"camo"};
 		};
 	};
-
-	class U_I_CombatUniform;	// External class reference
-	class U_B_HeliPilotCoveralls;	// External class reference
 	
 	class NLD_Helipilot_base : U_B_HeliPilotCoveralls {
 		scope = 2;
@@ -1432,8 +1655,6 @@ class cfgWeapons {
 			mass = 40;
 		};
 	};
-
-	class U_B_GhillieSuit;	// External class reference
 	
 	class NLD_Sniper_base : U_B_GhillieSuit {
 		scope = 2;
