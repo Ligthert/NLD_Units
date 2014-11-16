@@ -346,9 +346,141 @@ class CfgVehicles {
 			backpack = "NLD_Carryall_NFPT_B";
 			uniformClass = "NLD_NFPT_Camo";
 			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
-			linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-			respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		};
+
+	class NLD_NFPT_AR: NLD_WLD_AR
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_B";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_LAT: NLD_WLD_LAT
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_AT";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_CLS: NLD_WLD_CLS
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_Medic";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_GL: NLD_WLD_GL
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPT_TL";
+	};
+
+	class NLD_NFPT_ENGI: NLD_WLD_ENGI
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_Eng";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_EXPL: NLD_WLD_EXPL
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_Expl";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_UAV: NLD_WLD_UAV
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPT_UAV";
+	};
+
+	class NLD_NFPT_JTAC: NLD_WLD_JTAC
+	{
+ 		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_JTAC";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_NFPT_OFF: NLD_WLD_OFF
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPT_TL";
+	};
+
+	class NLD_NFPT_SL: NLD_WLD_SL
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPT_TL";
+	};
+
+	class NLD_NFPT_TL: NLD_WLD_TL
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "NLD_Carryall_NFPT_TL";
+	};
+
+	class NLD_NFPT_SLA: NLD_WLD_SLA
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		backpack = "NLD_Carryall_NFPT_B";
+	};
+
+	class NLD_NFPT_Ammo: NLD_WLD_Ammo
+	{
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "NLD_Carryall_NFPT_Ammo";
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
 
 // NFP-Green
 	class NLD_NFPG_rifleman: NLD_WLD_rifleman
@@ -357,9 +489,141 @@ class CfgVehicles {
 			backpack = "NLD_Carryall_NFPG_B";
 			uniformClass = "NLD_NFPG_Camo";
 			hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
-			linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-			respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+			respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		};
+
+	class NLD_NFPG_AR: NLD_WLD_AR
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_B";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_LAT: NLD_WLD_LAT
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_AT";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_CLS: NLD_WLD_CLS
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_Medic";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_GL: NLD_WLD_GL
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPG_TL";
+	};
+
+	class NLD_NFPG_ENGI: NLD_WLD_ENGI
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_Eng";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_EXPL: NLD_WLD_EXPL
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_Expl";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_UAV: NLD_WLD_UAV
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "B_UAVTerminal", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPG_UAV";
+	};
+
+	class NLD_NFPG_JTAC: NLD_WLD_JTAC
+	{
+ 		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_JTAC";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_NFPG_OFF: NLD_WLD_OFF
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPG_TL";
+	};
+
+	class NLD_NFPG_SL: NLD_WLD_SL
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		backpack = "NLD_Carryall_NFPG_TL";
+	};
+
+	class NLD_NFPG_TL: NLD_WLD_TL
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "NLD_Carryall_NFPG_TL";
+	};
+
+	class NLD_NFPG_SLA: NLD_WLD_SLA
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		backpack = "NLD_Carryall_NFPG_B";
+	};
+
+	class NLD_NFPG_Ammo: NLD_WLD_Ammo
+	{
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
+		backpack = "NLD_Carryall_NFPG_Ammo";
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
 
 // "Special" forces
 
