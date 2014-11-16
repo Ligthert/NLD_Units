@@ -1,0 +1,87 @@
+@NLD_units: Classes
+______________________________________________________________
+
+Faction:
+
+	NLD_units
+
+
+Groups:
+
+	NLD_INF_WLD_SQ		Woodland Infantry Squad
+	NLD_INF_WLD_FT		Woodland Infantry Fireteam
+	NLD_INF_WLD_MAT		Woodland Medium-AT Team
+	NLD_INF_WLD_MMG		Woodland Medium-MG Team
+
+	NLD_INF_DST_SQ		Desert Infantry Squad
+	NLD_INF_DST_FT		Desert Infantry Fireteam
+	NLD_INF_DST_MAT		Desert Medium-AT Team
+	NLD_INF_DST_MMG		Desert Medium-MG Team
+
+	NLD_INF_NFPT_SQ		NFP-Tan Infantry Squad
+	NLD_INF_NFPT_FT		NFP-Tan Infantry Fireteam
+	NLD_INF_NFPT_MAT	NFP-Tan Medium-AT Team
+	NLD_INF_NFPT_MMG	NFP-Tan Medium-MG Team
+
+	NLD_INF_NFPG_SQ		NFP-Green Infantry Squad
+	NLD_INF_NFPG_FT		NFP-Green Infantry Fireteam
+	NLD_INF_NFPG_MAT	NFP-Green Medium-AT Team
+	NLD_INF_NFPG_MMG	NFP-Green Medium-MG Team
+
+	NLD_TANK_WLD_CREW	Woodland Tank Crew
+	NLD_TANK_DST_CREW	Desert Tank Crew
+	NLD_TANK_NFPT_CREW	NFP-Tan Tank Crew
+	NLD_TANK_NFPG_CREW	NFP-Tan Tank Crew
+
+	NLD_HELI_CREW		Helicopter Crew
+
+
+Vehicles:
+
+	NH-90			NLD_NH90
+	MH-65			NLD_MH65
+	MH-65 (Armed)		NLD_MH65_Armed
+
+	Fennek (Desert)		NLD_Fennek_DST
+	Fennek HMG (Desert)	NLD_Fennek_DST_HMG
+	Fennek GMG (Desert)	NLD_Fennek_DST_GMG
+
+	Fennek (Woodland)	NLD_Fennek_WLD
+	Fennek HMG (Woodland)	NLD_Fennek_WLD_HMG
+	Fennek GMG (Woodland)	NLD_Fennek_WLD_GMG
+
+	Leopard2 (Woodland)	NLD_Leo2_WLD
+	Leopard2 (Desert)	NLD_Leo2_DST
+
+
+Infantry:
+
+	Rifleman
+		NLD_WLD_rifleman
+		NLD_DST_rifleman
+		NLD_NFPT_rifleman
+		NLD_NFPG_rifleman
+
+	Automatic Rifleman
+		NLD_WLD_AR
+		NLD_DST_AR
+		NLD_NFPT_AR
+		NLD_NFPG_AR
+
+###TODO###
+
+
+Items:
+
+###TODO###
+
+
+Weapons:
+
+###TODO###
+
+
+Magazines:
+
+###TODO###
+

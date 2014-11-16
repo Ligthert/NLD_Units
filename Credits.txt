@@ -1,0 +1,11 @@
+@NLD_units: Credits
+__________________________________________
+
+Textures: 	Smootch & Outlaw28
+config.cpp:	Sacha Ligthert & Smootch
+Models:		Bohemia Interactive
+
+__________________________________________
+
+NH-90 skin: JW (@MARSOF)
+MH-69 skin: JW (@MARSOF)
