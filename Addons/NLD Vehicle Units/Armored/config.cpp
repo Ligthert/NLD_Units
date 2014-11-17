@@ -33,8 +33,8 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
-		crew = "NLD_WLD_rifleman";
-		typicalCargo[] = {"NLD_WLD_OFF"};
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Armored\Leopard2\woodland\Leopard_0.paa", "\NLD Vehicle Units\Armored\Leopard2\woodland\Leopard_1.paa", "\NLD Vehicle Units\Armored\Leopard2\woodland\Leopard_2.paa"};
 
