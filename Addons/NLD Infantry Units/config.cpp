@@ -26,10 +26,6 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Woodland)";
 	};
-	class Infantry_SF
-	{
-		displayName="Men (Recon)";
-	};
 	class Infantry_Support
 	{
 		displayName="Men (Support)";
@@ -41,6 +37,22 @@ class CfgVehicleClasses
 	class Infantry_NFPGREEN
 	{
 		displayName="Men (NFP-Green)";
+	};
+	class Infantry_WINTER
+	{
+		displayName="Men (Winter)";
+	};
+	class Infantry_JUNGLE
+	{
+		displayName="Men (Jungle)";
+	};
+	class Infantry_SF
+	{
+		displayName="Men (SF Black)";
+	};
+	class Infantry_SFMTP
+	{
+		displayName="Men (SF MTP)";
 	};
 };
 class CfgVehicles {
@@ -198,7 +210,7 @@ class CfgVehicles {
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_Carryall_WLD_Ammo";
 	};
-//// NEW ////
+
 	class NLD_WLD_AAR: NLD_WLD_rifleman
 	{
 		displayName = "Assistant Automatic Rifleman";
@@ -400,6 +412,83 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
+	class NLD_DST_AAR: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Automatic Rifleman";
+		vehicleClass = "Infantry_Desert";
+		backpack = "NLD_Carryall_DST_AAR";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_MMG: NLD_WLD_MMG
+	{
+		displayName = "Medium Machine Gunner";
+		backpack = "NLD_Carryall_DST_MMG";
+		vehicleClass = "Infantry_Desert";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_AMMG: NLD_WLD_AMMG
+	{
+		displayName = "Assistant Medium Machine Gunner";
+		vehicleClass = "Infantry_Desert";
+		backpack = "NLD_Carryall_DST_MMG";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_MAT: NLD_WLD_MAT
+	{
+		displayName = "Medium Anti-Tank";
+		backpack = "NLD_Carryall_DST_MAT";
+		vehicleClass = "Infantry_Desert";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_AMAT: NLD_WLD_AMAT
+	{
+		displayName = "Assistant Medium Anti-Tank";
+		backpack = "NLD_Carryall_DST_MAT";
+		vehicleClass = "Infantry_Desert";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_AA: NLD_WLD_AA
+	{
+		displayName = "Anti-Air";
+		vehicleClass = "Infantry_Desert";
+		backpack = "NLD_Carryall_DST_AA";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_DST_AAA: NLD_WLD_AAA
+	{
+		displayName = "Assistant Anti-Air";
+		backpack = "NLD_Carryall_DST_AA";
+		vehicleClass = "Infantry_Desert";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	}
+
 // NFP-TAN
 
 	class NLD_NFPT_rifleman: NLD_WLD_rifleman
@@ -544,6 +633,83 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
+	class NLD_NFPT_AAR: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Automatic Rifleman";
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_AAR";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_MMG: NLD_WLD_MMG
+	{
+		displayName = "Medium Machine Gunner";
+		backpack = "NLD_Carryall_NFPT_MMG";
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_AMMG: NLD_WLD_AMMG
+	{
+		displayName = "Assistant Medium Machine Gunner";
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_MMG";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_MAT: NLD_WLD_MAT
+	{
+		displayName = "Medium Anti-Tank";
+		backpack = "NLD_Carryall_NFPT_MAT";
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_AMAT: NLD_WLD_AMAT
+	{
+		displayName = "Assistant Medium Anti-Tank";
+		backpack = "NLD_Carryall_NFPT_MAT";
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_AA: NLD_WLD_AA
+	{
+		displayName = "Anti-Air";
+		vehicleClass = "Infantry_NFPTAN";
+		backpack = "NLD_Carryall_NFPT_AA";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPT_AAA: NLD_WLD_AAA
+	{
+		displayName = "Assistant Anti-Air";
+		backpack = "NLD_Carryall_NFPT_AA";
+		vehicleClass = "Infantry_NFPTAN";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	}
+
 // NFP-Green
 	class NLD_NFPG_rifleman: NLD_WLD_rifleman
 		{
@@ -686,6 +852,83 @@ class CfgVehicles {
 		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
+
+	class NLD_NFPG_AAR: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Automatic Rifleman";
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_AAR";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_MMG: NLD_WLD_MMG
+	{
+		displayName = "Medium Machine Gunner";
+		backpack = "NLD_Carryall_NFPG_MMG";
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_AMMG: NLD_WLD_AMMG
+	{
+		displayName = "Assistant Medium Machine Gunner";
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_MMG";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_MAT: NLD_WLD_MAT
+	{
+		displayName = "Medium Anti-Tank";
+		backpack = "NLD_Carryall_NFPG_MAT";
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_AMAT: NLD_WLD_AMAT
+	{
+		displayName = "Assistant Medium Anti-Tank";
+		backpack = "NLD_Carryall_NFPG_MAT";
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_AA: NLD_WLD_AA
+	{
+		displayName = "Anti-Air";
+		vehicleClass = "Infantry_NFPGREEN";
+		backpack = "NLD_Carryall_NFPG_AA";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+
+	class NLD_NFPG_AAA: NLD_WLD_AAA
+	{
+		displayName = "Assistant Anti-Air";
+		backpack = "NLD_Carryall_NFPG_AA";
+		vehicleClass = "Infantry_NFPGREEN";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	}
 
 // "Special" forces
 
