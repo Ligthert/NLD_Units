@@ -198,7 +198,64 @@ class CfgVehicles {
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_Carryall_WLD_Ammo";
 	};
+//// NEW ////
+	class NLD_WLD_AAR: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Automatic Rifleman";
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		backpack = "NLD_Carryall_WLD_AAR";
+	};
 
+	class NLD_WLD_MMG: NLD_WLD_rifleman
+	{
+		displayName = "Medium Machine Gunner";
+		backpack = "NLD_Carryall_WLD_MMG";
+		weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box_Tracer","HandGrenade","SmokeShell","SmokeShellGreen"};
+		respawnMagazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box_Tracer","HandGrenade","SmokeShell","SmokeShellGreen"};
+	};
+
+	class NLD_WLD_AMMG: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Medium Machine Gunner";
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
+		backpack = "NLD_Carryall_WLD_MMG";
+	};
+
+	class NLD_WLD_MAT: NLD_WLD_rifleman
+	{
+		displayName = "Medium Anti-Tank";
+		backpack = "NLD_Carryall_WLD_MAT";
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_short_F"};
+		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_short_F"};
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AT"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AT"};
+	};
+
+	class NLD_WLD_AMAT: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Medium Anti-Tank";
+		backpack = "NLD_Carryall_WLD_MAT";
+	};
+
+	class NLD_WLD_AA: NLD_WLD_rifleman
+	{
+		displayName = "Anti-Air";
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_F"};
+		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_F"};
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AA"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AA"};
+		backpack = "NLD_Carryall_WLD_AA";
+	};
+
+	class NLD_WLD_AAA: NLD_WLD_rifleman
+	{
+		displayName = "Assistant Anti-Air";
+		backpack = "NLD_Carryall_WLD_AA";
+	}
 
 // Desert Units
 	class NLD_DST_rifleman: NLD_WLD_rifleman
@@ -823,6 +880,9 @@ class CfgVehicles {
 // Backpacks
 	class B_Carryall_oli;	// External class reference
 	class B_UAV_01_backpack_F;	// External class reference
+//	class Launch_B_Titan_F;
+//	class Launch_B_Titan_short_F;
+//	class LMG_Mk200_F;
 	
 	class NLD_Carryall_DST_B : B_Carryall_oli {
 		displayName = "NLD Desert Carryall";
@@ -1051,7 +1111,7 @@ class CfgVehicles {
 			class _xx_FirstAidKit
 			{
 				name="FirstAidKit";
-				count=10
+				count=10;
 			};
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
@@ -1157,7 +1217,6 @@ class CfgVehicles {
 				magazine="100Rnd_65x39_caseless_mag";
 				count=6;
 			};
-
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
@@ -1526,6 +1585,229 @@ class CfgVehicles {
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
+
+
+	class NLD_Carryall_DST_AAR : B_Carryall_oli {
+		displayName = "NLD Carryall AAR Desert";
+		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=7;
+			};
+			class _xx_100Rnd_65x39_caseless_mag_Tracer
+			{
+				magazine="100Rnd_65x39_caseless_mag_Tracer";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_Carryall_WLD_AAR : NLD_Carryall_DST_AAR {
+		displayName = "NLD Carryall AAR Woodland";
+		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_AAR : NLD_Carryall_DST_AAR {
+		displayName = "NLD Carryall AAR NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_AAR : NLD_Carryall_DST_AAR {
+		displayName = "NLD Carryall AAR NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
+
+
+	class NLD_Carryall_DST_MMG : B_Carryall_oli {
+		displayName = "NLD Carryall MMG Desert";
+		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=4;
+			};
+			class _xx_200Rnd_65x39_cased_Box_Tracer
+			{
+				magazine="200Rnd_65x39_cased_Box_Tracer";
+				count=2;
+			};
+			
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_Carryall_WLD_MMG : NLD_Carryall_DST_MMG {
+		displayName = "NLD Carryall MMG Woodland";
+		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_MMG : NLD_Carryall_DST_MMG {
+		displayName = "NLD Carryall MMG NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_MMG : NLD_Carryall_DST_MMG {
+		displayName = "NLD Carryall MMG NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
+
+
+	class NLD_Carryall_DST_MAT : B_Carryall_oli {
+		displayName = "NLD Carryall MAT Desert";
+		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=2;
+			};
+			class _xx_Titan_AP
+			{
+				magazine="Titan_AP";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_Carryall_WLD_MAT : NLD_Carryall_DST_MAT {
+		displayName = "NLD Carryall MAT Woodland";
+		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_MAT : NLD_Carryall_DST_MAT {
+		displayName = "NLD Carryall MAT NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_MAT : NLD_Carryall_DST_MAT {
+		displayName = "NLD Carryall MAT NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
+
+	class NLD_Carryall_DST_AA : B_Carryall_oli {
+		displayName = "NLD Carryall AA Desert";
+		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AA";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_Carryall_WLD_AA : NLD_Carryall_DST_AA {
+		displayName = "NLD Carryall AA Woodland";
+		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPT_AA : NLD_Carryall_DST_AA {
+		displayName = "NLD Carryall AA NFP-Tan";
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_Carryall_NFPG_AA : NLD_Carryall_DST_AA {
+		displayName = "NLD Carryall AA NFP-Green";
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
 
 };
 
