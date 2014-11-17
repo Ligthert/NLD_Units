@@ -109,8 +109,8 @@ class CfgVehicles {
 		displayName = "Grenadier";
 		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		respawnWeapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
-		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","SmokeShellGreen","SmokeShell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","SmokeShell"};
-		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","SmokeShellGreen","SmokeShell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","SmokeShell"};
+		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","SmokeShellGreen","SmokeShell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","SmokeShell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell"};
+		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","SmokeShellGreen","SmokeShell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","SmokeShell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell"};
 	};
 
 	class NLD_WLD_ENGI: NLD_WLD_rifleman
@@ -140,7 +140,9 @@ class CfgVehicles {
 	{
 		displayName = "JTAC";
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		backpack = "NLD_Carryall_WLD_JTAC";
 	};
 
@@ -149,8 +151,8 @@ class CfgVehicles {
 		displayName = "Officer";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Ra"}; 
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		backpack = "NLD_Carryall_WLD_TL";
 		icon = "iconManOfficer";
 	};
@@ -160,6 +162,8 @@ class CfgVehicles {
 		displayName = "Squad Leader";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
 		backpack = "NLD_Carryall_WLD_TL";
 		icon = "iconManLeader";
 	};
@@ -169,6 +173,8 @@ class CfgVehicles {
 		displayName = "Team Leader";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_Carryall_WLD_TL";
 		icon = "iconManLeader";
@@ -960,11 +966,6 @@ class CfgVehicles {
 
 		class TransportMagazines
 		{
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=6;
-			};
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
@@ -979,11 +980,6 @@ class CfgVehicles {
 			{
 				magazine="SmokeShellGreen";
 				count=2;
-			};
-			class _xx_Laserbatteries
-			{
-				magazine="Laserbatteries";
-				count=1;
 			};
 		};
 		class TransportItems
@@ -1209,19 +1205,6 @@ class CfgVehicles {
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
-		class TransportMagazines
-		{
-			class _xx_DemoCharge_Remote_Mag
-			{
-				magazine="DemoCharge_Remote_Mag";
-				count=2;
-			};
-			class _xx_ATMine_Range_Mag
-			{
-				magazine="ATMine_Range_Mag";
-				count=1;
-			};
-		};
 		class TransportItems
 		{
 			class _xx_NLD_NVGoggles {
@@ -1354,11 +1337,11 @@ class CfgVehicles {
 			class _xx_DemoCharge_Remote_Mag
 			{
 				magazine="DemoCharge_Remote_Mag";
-				count=2;
+				count=3;
 			};
-			class _xx_ATMine_Range_Mag
+			class _xx_SatchelCharge_Remote_Mag 
 			{
-				magazine="ATMine_Range_Mag";
+				magazine="SatchelCharge_Remote_Mag";
 				count=1;
 			};
 		};
@@ -1490,6 +1473,11 @@ class CfgVehicles {
 			{
 				magazine="SmokeShellOrange";
 				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
 			};
 			class _xx_Laserbatteries
 			{
