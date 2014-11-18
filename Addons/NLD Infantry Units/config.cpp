@@ -1164,8 +1164,8 @@ class CfgVehicles {
 		hasDriver = 1;
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
@@ -1181,8 +1181,8 @@ class CfgVehicles {
 	class NLD_SF_COMSPEC: NLD_SF_Operator
 	{
 		displayName = "ComSpec";
-		weapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
-		respawnWeapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_Carryall_SF_ComSpec";
 	};
 
@@ -1198,8 +1198,8 @@ class CfgVehicles {
 		displayName = "Team Leader";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		icon = "iconManLeader";
-		weapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"}; 
-		respawnWeapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_Carryall_SF_ComSpec";
 	};
 
@@ -1220,8 +1220,8 @@ class CfgVehicles {
 		displayName = "Operator (AT)";
 		icon = "iconManAT";
 		backpack = "NLD_Carryall_SF_AT";
-		weapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"}; 
-		respawnWeapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"};
 	};
 
 	class NLD_SF_AA: NLD_SF_Operator
@@ -1229,8 +1229,8 @@ class CfgVehicles {
 		displayName = "Operator (AA)";
 		icon = "iconManAT";
 		backpack = "NLD_Carryall_SF_AA";
-		weapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"}; 
-		respawnWeapons[] = {"arifle_MX_RCO_pointer_snds_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"};
 	};
 
 	class NLD_SF_AR: NLD_SF_Operator
@@ -1244,6 +1244,18 @@ class CfgVehicles {
 		respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+	};
+
+// SF MTP
+
+	class NLD_MTP_Operator: NLD_SF_Operator
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_WLD_B";
+		uniformClass = "NLD_MTP_Camo";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Uniform.paa", "\NLD Infantry Units\Badges\KCT.paa"};
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
 
@@ -1294,8 +1306,8 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Support\Data\coveralls_co.paa", "\NLD Infantry Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
-		linkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
-		respawnLinkedItems[] = {"V_Chestrig_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		linkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		respawnLinkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 	};
 
 
@@ -2340,6 +2352,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2382,6 +2399,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2434,6 +2456,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2486,6 +2513,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2543,6 +2575,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2590,6 +2627,11 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2877,6 +2919,20 @@ class cfgWeapons {
 		};
 	};
 
+	class NLD_MTP_CAMO : NLD_WLD_Camo {
+		scope = 2;
+		displayName = "NLD MTP Camo";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Uniform.jpg";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_MTP_Operator";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
 	class NLD_WLD_Helmet : H_HelmetIA {
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -3053,6 +3109,13 @@ class cfgWeapons {
 		};
 	};
 
+	class NLD_MTP_PlateCarrier : NLD_SF_PlateCarrier
+	{
+		displayName = "NLD MTP Plate Carrier";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\PlateCarrier.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\PlateCarrier.paa"};
+	};
+
 	class NLD_SF_ECH: H_HelmetB {
 		displayname = "NLD Black ECH";
 		hiddenselections[] = {"camo"};
@@ -3069,6 +3132,13 @@ class cfgWeapons {
 			passthrough = 0.5;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 		};
+	};
+
+	class NLD_MTP_ECH : NLD_SF_ECH
+	{
+		displayName = "NLD MTP ECH";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\ECH.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\ECH.paa"};
 	};
 
 	class NLD_Helipilot_base : U_B_HeliPilotCoveralls {
