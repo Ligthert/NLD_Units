@@ -33,7 +33,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=129;
+		items=133;
 		class Item0
 		{
 			side="WEST";
@@ -2265,6 +2265,75 @@ class Mission
 				};
 			};
 		};
+		class Item129
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4087.7893,5,4395.5225};
+					id=129;
+					side="WEST";
+					vehicle="NLD_MTP_Operator";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item130
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4005.4021,5,4388.2949};
+					id=130;
+					side="WEST";
+					vehicle="NLD_Fennek_WTR";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item131
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4005.2285,5,4377.9961};
+					id=131;
+					side="WEST";
+					vehicle="NLD_Fennek_WTR_GMG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item132
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4005.2834,5,4368.2271};
+					id=132;
+					side="WEST";
+					vehicle="NLD_Fennek_WTR_HMG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -2272,7 +2341,7 @@ class Mission
 		class Item0
 		{
 			position[]={4080.3733,5,4403.874};
-			id=129;
+			id=133;
 			side="EMPTY";
 			vehicle="Box_East_Ammo_F";
 			skill=0.60000002;
