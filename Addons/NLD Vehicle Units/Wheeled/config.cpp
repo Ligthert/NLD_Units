@@ -195,21 +195,21 @@ class CfgVehicles {
 
 // Fennek - Woodland
 
-	class NLD_Fennek_WLD : NLD_Fennek_DST {
+	class NLD_WLD_Fennek : NLD_Fennek_DST {
 		displayName = "Fennek (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\woodland\Turret.paa"};
 	};
 
-	class NLD_Fennek_WLD_HMG : NLD_Fennek_DST_HMG {
+	class NLD_WLD_Fennek_HMG : NLD_Fennek_DST_HMG {
 		displayName = "Fennek HMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\woodland\Turret.paa"};
 	};
 
-	class NLD_Fennek_WLD_GMG : NLD_Fennek_DST_GMG {
+	class NLD_WLD_Fennek_GMG : NLD_Fennek_DST_GMG {
 		displayName = "Fennek GMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
@@ -218,21 +218,21 @@ class CfgVehicles {
 
 
 // Fennek - Winter
-	class NLD_Fennek_WTR : NLD_Fennek_DST {
+	class NLD_WTR_Fennek : NLD_Fennek_DST {
 		displayName = "Fennek (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\winter\Turret.paa"};
 	};
 
-	class NLD_Fennek_WTR_HMG : NLD_Fennek_DST_HMG {
+	class NLD_WTR_Fennek_HMG : NLD_Fennek_DST_HMG {
 		displayName = "Fennek HMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\winter\Turret.paa"};
 	};
 
-	class NLD_Fennek_WTR_GMG : NLD_Fennek_DST_GMG {
+	class NLD_WTR_Fennek_GMG : NLD_Fennek_DST_GMG {
 		displayName = "Fennek GMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
