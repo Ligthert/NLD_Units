@@ -46,7 +46,7 @@ class CfgVehicles {
 
 
 // Leopard2 - Desert
-	class NLD_DST_Leo2 : NLD_Leo2_WLD
+	class NLD_DST_Leo2 : NLD_WLD_Leo2
 	{
 
 		author = "Lowlands Tactical";
