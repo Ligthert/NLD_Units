@@ -1437,7 +1437,7 @@ class CfgVehicles {
 	class NLD_SF_SLA: NLD_SF_Operator
 	{
 		displayName = "Sharpshooter";
-		backpack = "NLD_SF_Carryall_SLA"
+		backpack = "NLD_SF_Carryall_SLA";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		weapons[] = {"srifle_EBR_ARCO_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
@@ -1468,7 +1468,7 @@ class CfgVehicles {
 	{
 		displayName = "Machinegunner";
 		icon = "iconManMG";
-		backpack = "NLD_SF_Carryall_AR"
+		backpack = "NLD_SF_Carryall_AR";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
