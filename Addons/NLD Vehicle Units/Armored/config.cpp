@@ -24,12 +24,12 @@ class CfgVehicles {
 	class I_MBT_03_BASE_F;
 
 // Leopard2 - Woodland
-	class NLD_Leo2_WLD : I_MBT_03_BASE_F
+	class NLD_WLD_Leo2 : I_MBT_03_BASE_F
 	{
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard2 (Woodland)";
+		displayName = "Leopard2A8 (Woodland)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -46,12 +46,12 @@ class CfgVehicles {
 
 
 // Leopard2 - Desert
-	class NLD_Leo2_DST : NLD_Leo2_WLD
+	class NLD_DST_Leo2 : NLD_Leo2_WLD
 	{
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard2 (Desert)";
+		displayName = "Leopard2A8 (Desert)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
