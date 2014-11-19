@@ -7,5 +7,7 @@ Models:		Bohemia Interactive
 
 __________________________________________
 
-NH-90 skin: JW (@MARSOF)
-MH-69 skin: JW (@MARSOF)
+NH-90 skin	: JW (@MARSOF)
+MH-69 skin	: JW (@MARSOF)
+
+Uniforms	: Craig (@SP_Pack/NED_Pack)
