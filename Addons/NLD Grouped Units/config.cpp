@@ -1496,11 +1496,804 @@ class CfgGroups
 			class SpecOps
 			{
 				name = "Special Forces";
+
+				class NLD_SF_InfReconTeam
+				{
+					name = "Recon Team (Black)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_SF_TL";
+						faction = "NLD_Units";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_SF_TL";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle = "NLD_SF_MEDIC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle = "NLD_SF_AT";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {15,0,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle = "NLD_SF_SLA";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {20,0,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle = "NLD_SF_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {25,0,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle = "NLD_SF_COMSPEC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {30,0,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle = "NLD_SF_DEMSPEC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {35,0,0};
+					};
+				};
+				class NLD_SF_InfReconPatrol
+				{
+					name = "Recon Patrol (Black)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_SF_TL";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_SF_MEDIC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle = "NLD_SF_AT";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle = "NLD_SF_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_SF_InfReconSentry
+				{
+					name = "Recon Sentry (Black)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_SF_Operator";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_SF_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+				};
+				class NLD_MTP_InfReconTeam
+				{
+					name = "Recon Team (MTP)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_MTP_TL";
+						faction = "NLD_Units";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_MTP_TL";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle = "NLD_MTP_MEDIC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle = "NLD_MTP_AT";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {15,0,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle = "NLD_MTP_SLA";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {20,0,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle = "NLD_MTP_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {25,0,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle = "NLD_MTP_COMSPEC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {30,0,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle = "NLD_MTP_DEMSPEC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {35,0,0};
+					};
+				};
+				class NLD_MTP_InfReconPatrol
+				{
+					name = "Recon Patrol (MTP)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_MTP_TL";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_MTP_MEDIC";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle = "NLD_MTP_AT";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle = "NLD_MTP_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_MTP_InfReconSentry
+				{
+					name = "Recon Sentry (MTP)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle = "NLD_MTP_Operator";
+						faction = "NLD_Units";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle = "NLD_MTP_AR";
+						faction = "NLD_Units";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+				};
 			};
 
 			class Support
 			{
 				name = "Support";
+
+				class NLD_WLD_InfClsTeam
+				{
+					name = "Medic Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_WLD_InfEngTeam
+				{
+					name = "Engineering Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_WLD_InfExplTeam
+				{
+					name = "EOD Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_DST_InfClsTeam
+				{
+					name = "Medic Team (Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_DST_InfEngTeam
+				{
+					name = "Engineering Team (Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_DST_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_DST_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_DST_InfExplTeam
+				{
+					name = "EOD Team (Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_DST_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_DST_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_WTR_InfClsTeam
+				{
+					name = "Medic Team (Winter)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WTR_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WTR_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WTR_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WTR_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_WTR_InfEngTeam
+				{
+					name = "Engineering Team (Winter)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WTR_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WTR_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WTR_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WTR_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_WTR_InfExplTeam
+				{
+					name = "EOD Team (Winter)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WTR_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WTR_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WTR_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WTR_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPT_InfClsTeam
+				{
+					name = "Medic Team (NFP-Tan)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPT_InfEngTeam
+				{
+					name = "Engineering Team (NFP-Tan)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPT_InfExplTeam
+				{
+					name = "EOD Team (NFP-Tan)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPG_InfClsTeam
+				{
+					name = "Medic Team (NFP-Green)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPG_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPG_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPG_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPG_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPG_InfEngTeam
+				{
+					name = "Engineering Team (NFP-Green)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPG_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_NFPG_InfExplTeam
+				{
+					name = "EOD Team (NFP-Green)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPG_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPG_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
 			};
 
 			class Armored
