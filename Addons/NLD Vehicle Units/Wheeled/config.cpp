@@ -75,6 +75,16 @@ class CfgVehicles {
 				magazine="100Rnd_65x39_caseless_mag";
 				count=10;
 			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
 		};
 		class TransportWeapons {};
 	};
@@ -131,8 +141,17 @@ class CfgVehicles {
 				magazine="100Rnd_65x39_caseless_mag";
 				count=10;
 			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
 		};
-		
 		class TransportWeapons {};
 	};
 	
@@ -187,6 +206,16 @@ class CfgVehicles {
 			{
 				magazine="100Rnd_65x39_caseless_mag";
 				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
 			};
 		};
 		class TransportWeapons {};
