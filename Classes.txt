@@ -1,87 +1,436 @@
-@NLD_units: Classes
+@NLD_units
 ______________________________________________________________
+
+The units are generally the same bit differ in terms of uniform.
+
+The regular infantry come with the following cammo-types:
+	WLD		Woodland
+	DST		Desert
+	WTR		Winter
+	NFPT	NFP-Tan
+	NFPG	NFP-Green
+
+The special forces come in two types of cammo:
+	SF		Black
+	MTP		MTP
+
+So you'll see this return in the units
 
 Faction:
 
-	NLD_units
+	NLD_Units
 
 
 Groups:
+	Infantry
+		NLD_WLD_InfSentry
+		NLD_WLD_InfTeam
+		NLD_WLD_InfSquad
+		NLD_WLD_InfCmdr
+		NLD_WLD_InfAtTeam
+		NLD_WLD_InfAaTeam
+		NLD_WLD_InfLMGTeam
+		NLD_WLD_InfMMGTeam
+		NLD_DST_InfSentry
+		NLD_DST_InfTeam
+		NLD_DST_InfSquad
+		NLD_DST_InfCmdr
+		NLD_DST_InfAtTeam
+		NLD_DST_InfAaTeam
+		NLD_DST_InfLMGTeam
+		NLD_DST_InfMMGTeam
+		NLD_WTR_InfSentry
+		NLD_WTR_InfTeam
+		NLD_WTR_InfSquad
+		NLD_WTR_InfCmdr
+		NLD_WTR_InfAtTeam
+		NLD_WTR_InfAaTeam
+		NLD_WTR_InfLMGTeam
+		NLD_WTR_InfMMGTeam
+		NLD_NFPT_InfSentry
+		NLD_NFPT_InfTeam
+		NLD_NFPT_InfSquad
+		NLD_NFPT_InfCmdr
+		NLD_NFPT_InfAtTeam
+		NLD_NFPT_InfAaTeam
+		NLD_NFPT_InfLMGTeam
+		NLD_NFPT_InfMMGTeam
+		NLD_NFPG_InfSentry
+		NLD_NFPG_InfTeam
+		NLD_NFPG_InfSquad
+		NLD_NFPG_InfCmdr
+		NLD_NFPG_InfAtTeam
+		NLD_NFPG_InfAaTeam
+		NLD_NFPG_InfLMGTeam
+		NLD_NFPG_InfMMGTeam
+		NLD_JGL_InfSentry
+		NLD_JGL_InfTeam
+		NLD_JGL_InfSquad
+		NLD_JGL_InfCmdr
+		NLD_JGL_InfAtTeam
+		NLD_JGL_InfAaTeam
+		NLD_JGL_InfLMGTeam
+		NLD_JGL_InfMMGTeam
 
-	NLD_INF_WLD_SQ		Woodland Infantry Squad
-	NLD_INF_WLD_FT		Woodland Infantry Fireteam
-	NLD_INF_WLD_MAT		Woodland Medium-AT Team
-	NLD_INF_WLD_MMG		Woodland Medium-MG Team
+	SpecOps
+		NLD_SF_InfReconTeam
+		NLD_SF_InfReconPatrol
+		NLD_SF_InfReconSentry
+		NLD_MTP_InfReconTeam
+		NLD_MTP_InfReconPatrol
+		NLD_MTP_InfReconSentry
 
-	NLD_INF_DST_SQ		Desert Infantry Squad
-	NLD_INF_DST_FT		Desert Infantry Fireteam
-	NLD_INF_DST_MAT		Desert Medium-AT Team
-	NLD_INF_DST_MMG		Desert Medium-MG Team
+	Support
+		NLD_WLD_InfClsTeam
+		NLD_WLD_InfEngTeam
+		NLD_WLD_InfExplTeam
+		NLD_DST_InfClsTeam
+		NLD_DST_InfEngTeam
+		NLD_DST_InfExplTeam
+		NLD_WTR_InfClsTeam
+		NLD_WTR_InfEngTeam
+		NLD_WTR_InfExplTeam
+		NLD_NFPT_InfClsTeam
+		NLD_NFPT_InfEngTeam
+		NLD_NFPT_InfExplTeam
+		NLD_NFPG_InfClsTeam
+		NLD_NFPG_InfEngTeam
+		NLD_NFPG_InfExplTeam
+		NLD_JGL_InfClsTeam
+		NLD_JGL_InfEngTeam
+		NLD_JGL_InfExplTeam
 
-	NLD_INF_NFPT_SQ		NFP-Tan Infantry Squad
-	NLD_INF_NFPT_FT		NFP-Tan Infantry Fireteam
-	NLD_INF_NFPT_MAT	NFP-Tan Medium-AT Team
-	NLD_INF_NFPT_MMG	NFP-Tan Medium-MG Team
-
-	NLD_INF_NFPG_SQ		NFP-Green Infantry Squad
-	NLD_INF_NFPG_FT		NFP-Green Infantry Fireteam
-	NLD_INF_NFPG_MAT	NFP-Green Medium-AT Team
-	NLD_INF_NFPG_MMG	NFP-Green Medium-MG Team
-
-	NLD_TANK_WLD_CREW	Woodland Tank Crew
-	NLD_TANK_DST_CREW	Desert Tank Crew
-	NLD_TANK_NFPT_CREW	NFP-Tan Tank Crew
-	NLD_TANK_NFPG_CREW	NFP-Tan Tank Crew
-
-	NLD_HELI_CREW		Helicopter Crew
-
+	Armored
+		 NLD_WLD_ArmorPlt
+		 NLD_WLD_LeoSection
+		 NLD_DST_ArmorPlt
+		 NLD_DST_LeoSection
 
 Vehicles:
-
-	NH-90			NLD_NH90
-	MH-65			NLD_MH65
-	MH-65 (Armed)		NLD_MH65_Armed
-
-	Fennek (Desert)		NLD_Fennek_DST
-	Fennek HMG (Desert)	NLD_Fennek_DST_HMG
-	Fennek GMG (Desert)	NLD_Fennek_DST_GMG
-
-	Fennek (Woodland)	NLD_Fennek_WLD
-	Fennek HMG (Woodland)	NLD_Fennek_WLD_HMG
-	Fennek GMG (Woodland)	NLD_Fennek_WLD_GMG
-
-	Leopard2 (Woodland)	NLD_Leo2_WLD
-	Leopard2 (Desert)	NLD_Leo2_DST
-
+	Air:
+		NLD_MH65
+		NLD_MH65_Armed
+		NLD_NH90
+	Armor:
+		NLD_WLD_Leo2
+		NLD_DST_Leo2
+	Car:
+		NLD_DST_Fennek
+		NLD_DST_Fennek_HMG
+		NLD_DST_Fennek_GMG
+		NLD_WLD_Fennek
+		NLD_WLD_Fennek_HMG
+		NLD_WLD_Fennek_GMG
+		NLD_WTR_Fennek
+		NLD_WTR_Fennek_HMG
+		NLD_WTR_Fennek_GMG
 
 Infantry:
 
-	Rifleman
-		NLD_WLD_rifleman
-		NLD_DST_rifleman
-		NLD_NFPT_rifleman
-		NLD_NFPG_rifleman
+	Crew:
+		NLD_Crew
+		NLD_Helicrew
+		NLD_Helipilot
 
-	Automatic Rifleman
-		NLD_WLD_AR
+	Desert:
+		NLD_DST_AA
+		NLD_DST_AAA
+		NLD_DST_AAR
+		NLD_DST_AMAT
+		NLD_DST_AMMG
+		NLD_DST_Ammo
 		NLD_DST_AR
-		NLD_NFPT_AR
+		NLD_DST_CLS
+		NLD_DST_ENGI
+		NLD_DST_EXPL
+		NLD_DST_GL
+		NLD_DST_JTAC
+		NLD_DST_LAT
+		NLD_DST_MAT
+		NLD_DST_MMG
+		NLD_DST_OFF
+		NLD_DST_rifleman
+		NLD_DST_SL
+		NLD_DST_SLA
+		NLD_DST_TL
+		NLD_DST_UAV
+
+	Jungle:
+		NLD_JGL_AA
+		NLD_JGL_AAA
+		NLD_JGL_AAR
+		NLD_JGL_AMAT
+		NLD_JGL_AMMG
+		NLD_JGL_Ammo
+		NLD_JGL_AR
+		NLD_JGL_CLS
+		NLD_JGL_ENGI
+		NLD_JGL_EXPL
+		NLD_JGL_GL
+		NLD_JGL_JTAC
+		NLD_JGL_LAT
+		NLD_JGL_MAT
+		NLD_JGL_MMG
+		NLD_JGL_OFF
+		NLD_JGL_rifleman
+		NLD_JGL_SL
+		NLD_JGL_SLA
+		NLD_JGL_TL
+		NLD_JGL_UAV
+
+	NFP-Green:
+		NLD_NFPG_AA
+		NLD_NFPG_AAA
+		NLD_NFPG_AAR
+		NLD_NFPG_AMAT
+		NLD_NFPG_AMMG
+		NLD_NFPG_Ammo
 		NLD_NFPG_AR
+		NLD_NFPG_CLS
+		NLD_NFPG_ENGI
+		NLD_NFPG_EXPL
+		NLD_NFPG_GL
+		NLD_NFPG_JTAC
+		NLD_NFPG_LAT
+		NLD_NFPG_MAT
+		NLD_NFPG_MMG
+		NLD_NFPG_OFF
+		NLD_NFPG_rifleman
+		NLD_NFPG_SL
+		NLD_NFPG_SLA
+		NLD_NFPG_TL
+		NLD_NFPG_UAV
 
-###TODO###
+	NFP-Tan:
+		NLD_NFPT_AA
+		NLD_NFPT_AAA
+		NLD_NFPT_AAR
+		NLD_NFPT_AMAT
+		NLD_NFPT_AMMG
+		NLD_NFPT_Ammo
+		NLD_NFPT_AR
+		NLD_NFPT_CLS
+		NLD_NFPT_ENGI
+		NLD_NFPT_EXPL
+		NLD_NFPT_GL
+		NLD_NFPT_JTAC
+		NLD_NFPT_LAT
+		NLD_NFPT_MAT
+		NLD_NFPT_MMG
+		NLD_NFPT_OFF
+		NLD_NFPT_rifleman
+		NLD_NFPT_SL
+		NLD_NFPT_SLA
+		NLD_NFPT_TL
+		NLD_NFPT_UAV
 
+	Woodland:
+		NLD_WLD_AA
+		NLD_WLD_AAA
+		NLD_WLD_AAR
+		NLD_WLD_AMAT
+		NLD_WLD_AMMG
+		NLD_WLD_Ammo
+		NLD_WLD_AR
+		NLD_WLD_CLS
+		NLD_WLD_ENGI
+		NLD_WLD_EXPL
+		NLD_WLD_GL
+		NLD_WLD_JTAC
+		NLD_WLD_LAT
+		NLD_WLD_MAT
+		NLD_WLD_MMG
+		NLD_WLD_OFF
+		NLD_WLD_rifleman
+		NLD_WLD_SL
+		NLD_WLD_SLA
+		NLD_WLD_Sniper
+		NLD_WLD_TL
+		NLD_WLD_UAV
+
+	Winter:
+		NLD_WTR_AA
+		NLD_WTR_AAA
+		NLD_WTR_AAR
+		NLD_WTR_AMAT
+		NLD_WTR_AMMG
+		NLD_WTR_Ammo
+		NLD_WTR_AR
+		NLD_WTR_CLS
+		NLD_WTR_ENGI
+		NLD_WTR_EXPL
+		NLD_WTR_GL
+		NLD_WTR_Helmet
+		NLD_WTR_JTAC
+		NLD_WTR_LAT
+		NLD_WTR_MAT
+		NLD_WTR_MMG
+		NLD_WTR_OFF
+		NLD_WTR_rifleman
+		NLD_WTR_SL
+		NLD_WTR_SLA
+		NLD_WTR_TL
+		NLD_WTR_UAV
+
+	SF:
+		NLD_SF_AA
+		NLD_SF_AR
+		NLD_SF_AT
+		NLD_SF_COMSPEC
+		NLD_SF_DEMSPEC
+		NLD_SF_ECH
+		NLD_SF_MEDIC
+		NLD_SF_Operator
+		NLD_SF_SLA
+		NLD_SF_TL
+		NLD_SF_Vest
+
+	MTP:
+		NLD_MTP_AA
+		NLD_MTP_AR
+		NLD_MTP_AT
+		NLD_MTP_CAMO
+		NLD_MTP_COMSPEC
+		NLD_MTP_DEMSPEC
+		NLD_MTP_ECH
+		NLD_MTP_MEDIC
+		NLD_MTP_Operator
+		NLD_MTP_PlateCarrier
+		NLD_MTP_SLA
+		NLD_MTP_TL
+
+
+BackPacks:
+	NLD_DST_Carryall_AA
+	NLD_DST_Carryall_AAR
+	NLD_DST_Carryall_Ammo
+	NLD_DST_Carryall_AR
+	NLD_DST_Carryall_AT
+	NLD_DST_Carryall_B
+	NLD_DST_Carryall_Eng
+	NLD_DST_Carryall_Expl
+	NLD_DST_Carryall_GL
+	NLD_DST_Carryall_JTAC
+	NLD_DST_Carryall_MAT
+	NLD_DST_Carryall_Medic
+	NLD_DST_Carryall_MMG
+	NLD_DST_Carryall_TL
+	NLD_DST_Carryall_UAV
+	NLD_JGL_Carryall_AA
+	NLD_JGL_Carryall_AAR
+	NLD_JGL_Carryall_Ammo
+	NLD_JGL_Carryall_AR
+	NLD_JGL_Carryall_AT
+	NLD_JGL_Carryall_B
+	NLD_JGL_Carryall_Eng
+	NLD_JGL_Carryall_Expl
+	NLD_JGL_Carryall_GL
+	NLD_JGL_Carryall_JTAC
+	NLD_JGL_Carryall_MAT
+	NLD_JGL_Carryall_Medic
+	NLD_JGL_Carryall_MMG
+	NLD_JGL_Carryall_TL
+	NLD_JGL_Carryall_UAV
+	NLD_MTP_Carryall_AA
+	NLD_MTP_Carryall_AR
+	NLD_MTP_Carryall_AT
+	NLD_MTP_Carryall_B
+	NLD_MTP_Carryall_ComSpec
+	NLD_MTP_Carryall_Expl
+	NLD_MTP_Carryall_Medic
+	NLD_MTP_Carryall_SLA
+	NLD_NFPG_Carryall_AA
+	NLD_NFPG_Carryall_AAR
+	NLD_NFPG_Carryall_Ammo
+	NLD_NFPG_Carryall_AR
+	NLD_NFPG_Carryall_AT
+	NLD_NFPG_Carryall_B
+	NLD_NFPG_Carryall_Eng
+	NLD_NFPG_Carryall_Expl
+	NLD_NFPG_Carryall_GL
+	NLD_NFPG_Carryall_JTAC
+	NLD_NFPG_Carryall_MAT
+	NLD_NFPG_Carryall_Medic
+	NLD_NFPG_Carryall_MMG
+	NLD_NFPG_Carryall_TL
+	NLD_NFPG_Carryall_UAV
+	NLD_NFPT_Carryall_AA
+	NLD_NFPT_Carryall_AAR
+	NLD_NFPT_Carryall_Ammo
+	NLD_NFPT_Carryall_AR
+	NLD_NFPT_Carryall_AT
+	NLD_NFPT_Carryall_B
+	NLD_NFPT_Carryall_Eng
+	NLD_NFPT_Carryall_Expl
+	NLD_NFPT_Carryall_GL
+	NLD_NFPT_Carryall_JTAC
+	NLD_NFPT_Carryall_MAT
+	NLD_NFPT_Carryall_Medic
+	NLD_NFPT_Carryall_MMG
+	NLD_NFPT_Carryall_TL
+	NLD_NFPT_Carryall_UAV
+	NLD_SF_Carryall_AA
+	NLD_SF_Carryall_AR
+	NLD_SF_Carryall_AT
+	NLD_SF_Carryall_B
+	NLD_SF_Carryall_ComSpec
+	NLD_SF_Carryall_Expl
+	NLD_SF_Carryall_Medic
+	NLD_SF_Carryall_SLA
+	NLD_WLD_Carryall_AA
+	NLD_WLD_Carryall_AAR
+	NLD_WLD_Carryall_Ammo
+	NLD_WLD_Carryall_AT
+	NLD_WLD_Carryall_B
+	NLD_WLD_Carryall_Eng
+	NLD_WLD_Carryall_Expl
+	NLD_WLD_Carryall_GL
+	NLD_WLD_Carryall_JTAC
+	NLD_WLD_Carryall_MAT
+	NLD_WLD_Carryall_Medic
+	NLD_WLD_Carryall_MMG
+	NLD_WLD_Carryall_TL
+	NLD_WLD_Carryall_UAV
+	NLD_WTR_Carryall_AA
+	NLD_WTR_Carryall_AAR
+	NLD_WTR_Carryall_Ammo
+	NLD_WTR_Carryall_AR
+	NLD_WTR_Carryall_AT
+	NLD_WTR_Carryall_B
+	NLD_WTR_Carryall_Eng
+	NLD_WTR_Carryall_Expl
+	NLD_WTR_Carryall_GL
+	NLD_WTR_Carryall_JTAC
+	NLD_WTR_Carryall_MAT
+	NLD_WTR_Carryall_Medic
+	NLD_WTR_Carryall_TL
+	NLD_WTR_Carryall_UAV
 
 Items:
-
-###TODO###
-
-
-Weapons:
-
-###TODO###
-
-
-Magazines:
-
-###TODO###
-
+	Dutch_Beret_RoyalArmy
+	Dutch_Beret_Commandos
+	Dutch_Beret_Luchtmobiele_Brigade
+	NLD_NVGoggles
+	NLD_DST_BaseballCap
+	NLD_DST_BoonieHat
+	NLD_DST_Helmet
+	NLD_DST_Vest
+	NLD_JGL_Helmet
+	NLD_JGL_Vest
+	NLD_NFPG_BaseballCap
+	NLD_NFPG_BoonieHat
+	NLD_NFPG_Helmet
+	NLD_NFPT_BaseballCap
+	NLD_NFPT_BoonieHat
+	NLD_NFPT_Helmet
+	NLD_NFPT_Vest
+	NLD_SF_BaseballCap
+	NLD_SF_BoonieHat
+	NLD_SF_PlateCarrier
+	NLD_WLD_BaseballCap
+	NLD_WLD_BoonieHat
+	NLD_WLD_Helmet
+	NLD_WLD_Vest
+	NLD_WTR_Helmet
+	NLD_WTR_Helmet
+	NLD_WTR_Vest
