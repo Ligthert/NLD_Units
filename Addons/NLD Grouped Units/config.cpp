@@ -1491,6 +1491,300 @@ class CfgGroups
 						position[] = {15,0,0};
 					};
 				};
+				class NLD_JGL_InfSentry
+				{
+					name = "Sentry (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "NLD_JGL_GL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "NLD_JGL_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_JGL_InfTeam
+				{
+					name = "Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_AR";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_LAT";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfSquad
+				{
+					name = "Squad (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_SL";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_LAT";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_JGL_AR";
+						rank = "PRIVATE";
+						position[] = {20,0,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_JGL_AR";
+						rank = "PRIVATE";
+						position[] = {25,0,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_JGL_GL";
+						rank = "PRIVATE";
+						position[] = {30,0,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_JGL_AMMO";
+						rank = "PRIVATE";
+						position[] = {35,0,0};
+					};
+				};
+				class NLD_JGL_InfCmdr
+				{
+					name = "Platoon Command (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_OFF";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfAtTeam
+				{
+					name = "Anti-armor Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_MAT";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_MAT";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_AMAT";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfAaTeam
+				{
+					name = "Anti-air Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_AA";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_AA";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_AAA";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfLMGTeam
+				{
+					name = "LMG Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_AR";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_AR";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_AAR";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfMMGTeam
+				{
+					name = "MMG Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_MMG";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_MMG";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_AMMG";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
 			};
 
 			class SpecOps
@@ -2290,6 +2584,111 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfClsTeam
+				{
+					name = "Medic Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_CLS";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_CLS";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_CLS";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfEngTeam
+				{
+					name = "Engineering Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_Engi";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_Engi";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_Rifleman";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+				};
+				class NLD_JGL_InfExplTeam
+				{
+					name = "EOD Team (Jungle)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_JGL_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_JGL_Expl";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_JGL_Expl";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
 						position[] = {15,0,0};
 					};
