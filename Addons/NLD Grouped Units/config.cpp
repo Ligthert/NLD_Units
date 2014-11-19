@@ -2309,28 +2309,28 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {10,0,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {20,0,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {30,0,0};
 					};
@@ -2344,14 +2344,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_Leo2_WLD";
+						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {10,0,0};
 					};
@@ -2365,28 +2365,28 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {10,0,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {20,0,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {30,0,0};
 					};
@@ -2400,14 +2400,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_Leo2_DST";
+						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
 						position[] = {10,0,0};
 					};
