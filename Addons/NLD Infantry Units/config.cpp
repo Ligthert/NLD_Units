@@ -54,6 +54,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (SF MTP)";
 	};
+	class Infantry_Sniper
+	{
+		displayName="Men (Sniper)";
+	};
 };
 class CfgVehicles {
 	class B_Soldier_base_F;	
@@ -62,6 +66,7 @@ class CfgVehicles {
 	class B_helicrew_F;
 	class B_sniper_F;
 	class B_pilot_F;
+	class B_Spotter_F;
 
 
 // Woodland Units
@@ -1383,8 +1388,49 @@ class CfgVehicles {
 		linkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 	};
-
-
+	
+	class NLD_WLD_Sniper : B_Sniper_F 
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Sniper (Woodland)";
+		faction = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		uniformClass = "NLD_Sniper_base";
+		hiddenSelections[] = {"Camo", "Insignia"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Uniform.paa"};
+		faceType = "Man_A3";
+		model = "A3\Characters_f_beta\indep\ia_sniper.p3d";
+		items[] = {};
+		linkedItems[] = {"NLD_MTP_Vest", "NLD_MTP_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_Vest", "NLD_MTP_BaseballCap","ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"srifle_LRR_camo_LRPS_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"srifle_LRR_camo_LRPS_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+	};
+	
+	class NLD_DST_Sniper: NLD_WLD_Sniper
+	{
+		displayName = "Sniper (Desert)";
+		uniformClass = "NLD_Sniper_base";
+		hiddenSelections[] = {"Camo", "Ïnsignia"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa"};
+		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+	
+	class NLD_WTR_Sniper: NLD_WLD_Sniper
+	{
+		displayName = "Sniper (Winter)";
+		uniformClass = "NLD_Sniper_base";
+		hiddenSelections[] = {"Camo", "Ïnsignia"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Uniform.paa"};
+		linkedItems[] = {"NLD_WTR_Vest", "NLD_WLD_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_WTR_Vest", "NLD_WLD_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+	
 // Backpacks
 	class B_Carryall_oli;	// External class reference
 	class B_UAV_01_backpack_F;	// External class reference
@@ -3293,15 +3339,15 @@ class cfgWeapons {
 		};
 	};
 	
-	class NLD_Sniper_base : U_B_GhillieSuit {
+	class NLD_Ghillie_base : U_B_GhillieSuit {
 		scope = 2;
-		displayName = "NLD Sniper Ghilliesuit Woodland";
+		displayName = "NLD Ghillie Woodland";
 		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		
 		class ItemInfo : UniformItem {
 			uniformModel = "-";
-			uniformClass = "NLD_Sniper_base";
+			uniformClass = "NLD_WLD_Sniper";
 			containerClass = "Supply90";
 			mass = 40;
 		};
