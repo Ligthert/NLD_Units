@@ -1151,7 +1151,7 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_WTR_Vest", "NLD_WTR_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	}
 
-// "Special" forces
+// "Special" forces (black)
 
 	class NLD_SF_Operator: NLD_WLD_rifleman
 	{
@@ -1251,13 +1251,84 @@ class CfgVehicles {
 	class NLD_MTP_Operator: NLD_SF_Operator
 	{
 		vehicleClass = "Infantry_SFMTP";
-		backpack = "NLD_Carryall_WLD_B";
+		backpack = "NLD_Carryall_MTP_B";
 		uniformClass = "NLD_MTP_Camo";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Uniform.paa", "\NLD Infantry Units\Badges\KCT.paa"};
 		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
 
+	class NLD_MTP_MEDIC: NLD_SF_MEDIC
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_Medic";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_COMSPEC: NLD_SF_COMSPEC
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_ComSpec";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_DEMSPEC: NLD_SF_DEMSPEC
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_Expl";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_TL: NLD_SF_TL
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_ComSpec";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_SLA: NLD_SF_SLA
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_SLA";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_AT: NLD_SF_AT
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_AT";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_AA: NLD_SF_AA
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_AA";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
+
+	class NLD_MTP_AR: NLD_SF_AR
+	{
+		vehicleClass = "Infantry_SFMTP";
+		backpack = "NLD_Carryall_MTP_AR";
+		uniformClass = "NLD_MTP_Camo";
+		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+	};
 
 // Support
 	class NLD_Helipilot: B_Helipilot_F
@@ -2374,6 +2445,13 @@ class CfgVehicles {
 		};
 	};
 
+	class NLD_Carryall_MTP_B : NLD_Carryall_SF_B
+	{
+		displayName = "NLD MTP Carryall";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_SF_Medic : B_Carryall_oli {
 		displayName = "NLD Black Carryall Medic";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Backpack.jpg";
@@ -2426,6 +2504,13 @@ class CfgVehicles {
 		};
 	};
 
+	class NLD_Carryall_MTP_Medic : NLD_Carryall_SF_Medic
+	{
+		displayName = "NLD MTP Carryall Medic";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_SF_ComSpec : B_Carryall_oli {
 		displayName = "NLD Black Carryall ComSpec";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Backpack.jpg";
@@ -2476,6 +2561,12 @@ class CfgVehicles {
 				count=1;
 			};
 		};
+	};
+
+	class NLD_Carryall_MTP_ComSpec : NLD_Carryall_SF_ComSpec {
+		displayName = "NLD MTP Carryall ComSpec";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_SF_Expl : B_Carryall_oli {
@@ -2545,6 +2636,12 @@ class CfgVehicles {
 		};
 	};	
 
+	class NLD_Carryall_MTP_Expl : NLD_Carryall_SF_Expl {
+		displayName = "NLD MTP Carryall Expl";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_SF_AT : B_Carryall_oli {
 		displayName = "NLD Black Carryall AT";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Backpack.jpg";
@@ -2595,6 +2692,12 @@ class CfgVehicles {
 				count=1;
 			};
 		};
+	};
+
+	class NLD_Carryall_MTP_AT : NLD_Carryall_SF_AT {
+		displayName = "NLD MTP Carryall AT";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_SF_AA : B_Carryall_oli {
@@ -2649,6 +2752,12 @@ class CfgVehicles {
 		};
 	};
 
+	class NLD_Carryall_MTP_AA : NLD_Carryall_SF_AA {
+		displayName = "NLD MTP Carryall AA";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_SF_SLA : B_Carryall_oli {
 		displayName = "NLD Black Carryall Sharpshooter";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Backpack.jpg";
@@ -2696,6 +2805,12 @@ class CfgVehicles {
 		};
 	};
 
+	class NLD_Carryall_MTP_SLA : NLD_Carryall_SF_SLA {
+		displayName = "NLD MTP Carryall Sharpshooter";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 	class NLD_Carryall_SF_AR : B_Carryall_oli {
 		displayName = "NLD Black Carryall AR";
 		picture = "\NLD Infantry Units\Units\SF\Data\uim\Backpack.jpg";
@@ -2741,6 +2856,12 @@ class CfgVehicles {
 				count=1;
 			};
 		};
+	};
+
+	class NLD_Carryall_MTP_AR : NLD_Carryall_SF_AR {
+		displayName = "NLD MTP Carryall AR";
+		picture = "\NLD Infantry Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 };
