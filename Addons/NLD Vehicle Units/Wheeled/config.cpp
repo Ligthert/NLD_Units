@@ -24,7 +24,7 @@ class CfgVehicles {
 	class MRAP_03_gmg_base_F;	// External class reference
 	
 // Fennek - Desert
-	class NLD_Fennek_DST : MRAP_03_base_F {
+	class NLD_DST_Fennek : MRAP_03_base_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "Fennek (Desert)";
@@ -90,7 +90,7 @@ class CfgVehicles {
 	};
 
 	
-	class NLD_Fennek_DST_HMG : MRAP_03_hmg_base_F {
+	class NLD_DST_Fennek_HMG : MRAP_03_hmg_base_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "Fennek HMG (Desert)";
@@ -156,7 +156,7 @@ class CfgVehicles {
 	};
 	
 	
-	class NLD_Fennek_DST_GMG : MRAP_03_gmg_base_F {
+	class NLD_DST_Fennek_GMG : MRAP_03_gmg_base_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "Fennek GMG (Desert)";
@@ -224,21 +224,21 @@ class CfgVehicles {
 
 // Fennek - Woodland
 
-	class NLD_WLD_Fennek : NLD_Fennek_DST {
+	class NLD_WLD_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\woodland\Turret.paa"};
 	};
 
-	class NLD_WLD_Fennek_HMG : NLD_Fennek_DST_HMG {
+	class NLD_WLD_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\woodland\Turret.paa"};
 	};
 
-	class NLD_WLD_Fennek_GMG : NLD_Fennek_DST_GMG {
+	class NLD_WLD_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
@@ -247,21 +247,21 @@ class CfgVehicles {
 
 
 // Fennek - Winter
-	class NLD_WTR_Fennek : NLD_Fennek_DST {
+	class NLD_WTR_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\winter\Turret.paa"};
 	};
 
-	class NLD_WTR_Fennek_HMG : NLD_Fennek_DST_HMG {
+	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD Vehicle Units\Wheeled\Fennek\winter\Turret.paa"};
 	};
 
-	class NLD_WTR_Fennek_GMG : NLD_Fennek_DST_GMG {
+	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
