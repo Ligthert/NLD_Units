@@ -1416,26 +1416,6 @@ class CfgVehicles {
 		respawnMagazines[] = {"7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 	
-	class NLD_DST_Sniper: NLD_WLD_Sniper
-	{
-		displayName = "Sniper (Desert)";
-		uniformClass = "NLD_Sniper_base";
-		hiddenSelections[] = {"Camo", "Ïnsignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Uniform.paa"};
-		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-	};
-	
-	class NLD_WTR_Sniper: NLD_WLD_Sniper
-	{
-		displayName = "Sniper (Winter)";
-		uniformClass = "NLD_Sniper_base";
-		hiddenSelections[] = {"Camo", "Ïnsignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Uniform.paa"};
-		linkedItems[] = {"NLD_WTR_Vest", "NLD_WLD_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		respawnLinkedItems[] = {"NLD_WTR_Vest", "NLD_WLD_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-	};
-	
 // Backpacks
 	class B_Carryall_oli;	// External class reference
 	class B_UAV_01_backpack_F;	// External class reference
