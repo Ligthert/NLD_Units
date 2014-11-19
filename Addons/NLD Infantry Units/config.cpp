@@ -223,6 +223,7 @@ class CfgVehicles {
 	{
 		displayName = "Medium Machine Gunner";
 		backpack = "NLD_Carryall_WLD_MMG";
+		icon = "iconManMG";
 		weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
 		respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"};
 		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box_Tracer","HandGrenade","SmokeShell","SmokeShellGreen"};
@@ -241,6 +242,7 @@ class CfgVehicles {
 	{
 		displayName = "Medium Anti-Tank";
 		backpack = "NLD_Carryall_WLD_MAT";
+		icon = "iconManAT";
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_short_F"};
 		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_short_F"};
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AT"};
@@ -256,6 +258,7 @@ class CfgVehicles {
 	class NLD_WLD_AA: NLD_WLD_rifleman
 	{
 		displayName = "Anti-Air";
+		icon = "iconManAT";
 		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_F"};
 		respawnWeapons[] = {"arifle_MXM_SOS_pointer_F", "hgun_P07_F", "Throw", "Put","launch_B_Titan_F"};
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_tracer", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen", "Titan_AA"};
@@ -1454,7 +1457,7 @@ class CfgVehicles {
 	};	
 
 	class NLD_Carryall_DST_GL : B_Carryall_oli {
-		displayName = "NLD Carryall GL Desert";
+		displayName = "NLD Desert Carryall GL";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1516,31 +1519,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_GL : NLD_Carryall_DST_GL {
-		displayName = "NLD Carryall GL Woodland";
+		displayName = "NLD Woodland Carryall GL";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_GL : NLD_Carryall_DST_GL {
-		displayName = "NLD Carryall GL NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall GL";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_GL : NLD_Carryall_DST_GL {
-		displayName = "NLD Carryall GL NFP-Green";
+		displayName = "NLD NFP-Green Carryall GL";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_GL : NLD_Carryall_DST_GL {
-		displayName = "NLD Carryall GL Winter";
+		displayName = "NLD Winter Carryall GL";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_TL : B_Carryall_oli {
-		displayName = "NLD Carryall GL Desert";
+		displayName = "NLD Desert Carryall TL";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1577,31 +1580,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_TL : NLD_Carryall_DST_TL {
-		displayName = "NLD Carryall TL Woodland";
+		displayName = "NLD Woodland Carryall TL";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_TL : NLD_Carryall_DST_TL {
-		displayName = "NLD Carryall TL NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall TL";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_TL : NLD_Carryall_DST_TL {
-		displayName = "NLD Carryall TL NFP-Green";
+		displayName = "NLD NFP-Green Carryall TL";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_TL : NLD_Carryall_DST_TL {
-		displayName = "NLD Carryall TL Winter";
+		displayName = "NLD Winter Carryall TL";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Medic : B_Carryall_oli {
-		displayName = "NLD Carryall Medic Desert";
+		displayName = "NLD Desert Carryall Medic";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1643,31 +1646,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Medic : NLD_Carryall_DST_Medic {
-		displayName = "NLD Carryall Medic Woodland";
+		displayName = "NLD Woodland Carryall Medic";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_Medic : NLD_Carryall_DST_Medic {
-		displayName = "NLD Carryall Medic NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall Medic";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_Medic : NLD_Carryall_DST_Medic {
-		displayName = "NLD Carryall Medic NFP-Green";
+		displayName = "NLD NFP-Green Carryall Medic";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_Medic : NLD_Carryall_DST_Medic {
-		displayName = "NLD Carryall Medic Winter";
+		displayName = "NLD Winter Carryall Medic";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AT : B_Carryall_oli {
-		displayName = "NLD Carryall AT Desert";
+		displayName = "NLD Desert Carryall AT";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1715,31 +1718,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_AT : NLD_Carryall_DST_AT {
-		displayName = "NLD Carryall AT Woodland";
+		displayName = "NLD Woodland Carryall AT";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_AT : NLD_Carryall_DST_AT {
-		displayName = "NLD Carryall AT NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall AT";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_AT : NLD_Carryall_DST_AT {
-		displayName = "NLD Carryall AT NFP-Green";
+		displayName = "NLD NFP-Green Carryall AT";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_AT : NLD_Carryall_DST_AT {
-		displayName = "NLD Carryall AT Winter";
+		displayName = "NLD Winter Carryall AT";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AR : B_Carryall_oli {
-		displayName = "NLD Carryall AR Desert";
+		displayName = "NLD Desert Carryall AR";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1786,25 +1789,25 @@ class CfgVehicles {
 	};
 
 	class NLD_Carryall_NFPT_AR : NLD_Carryall_DST_AR {
-		displayName = "NLD Carryall AR NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall AR";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_AR : NLD_Carryall_DST_AR {
-		displayName = "NLD Carryall AR NFP-Green";
+		displayName = "NLD NFP-Green Carryall AR";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_AR : NLD_Carryall_DST_AR {
-		displayName = "NLD Carryall AR Winter";
+		displayName = "NLD Winter Carryall AR";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Eng : B_Carryall_oli {
-		displayName = "NLD Carryall Eng Desert";
+		displayName = "NLD Desert Carryall Eng";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1838,31 +1841,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Eng : NLD_Carryall_DST_Eng {
-		displayName = "NLD Carryall Eng Woodland";
+		displayName = "NLD Woodland Carryall Eng";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_Eng : NLD_Carryall_DST_Eng {
-		displayName = "NLD Carryall Eng NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall Eng";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_Eng : NLD_Carryall_DST_Eng {
-		displayName = "NLD Carryall Eng NFP-Green";
+		displayName = "NLD NFP-Green Carryall Eng";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_Eng : NLD_Carryall_DST_Eng {
-		displayName = "NLD Carryall Eng Winter";
+		displayName = "NLD Winter Carryall Eng";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Ammo : B_Carryall_oli {
-		displayName = "NLD Carryall Ammo Desert";
+		displayName = "NLD Desert Carryall Ammo";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1919,31 +1922,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Ammo : NLD_Carryall_DST_Ammo {
-		displayName = "NLD Carryall Ammo Woodland";
+		displayName = "NLD Woodland Carryall Ammo";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_Ammo : NLD_Carryall_DST_Ammo {
-		displayName = "NLD Carryall Ammo NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall Ammo";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_Ammo : NLD_Carryall_DST_Ammo {
-		displayName = "NLD Carryall Ammo NFP-Green";
+		displayName = "NLD NFP-Green Carryall Ammo";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_Ammo : NLD_Carryall_DST_Ammo {
-		displayName = "NLD Carryall Ammo Winter";
+		displayName = "NLD Winter Carryall Ammo";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_Expl : B_Carryall_oli {
-		displayName = "NLD Carryall Expl Desert";
+		displayName = "NLD Desert Carryall Expl";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -1990,31 +1993,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_Expl : NLD_Carryall_DST_Expl {
-		displayName = "NLD Carryall Expl Woodland";
+		displayName = "NLD Woodland Carryall Expl";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_Expl : NLD_Carryall_DST_Expl {
-		displayName = "NLD Carryall Expl NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall Expl";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_Expl : NLD_Carryall_DST_Expl {
-		displayName = "NLD Carryall Expl NFP-Green";
+		displayName = "NLD NFP-Green Carryall Expl";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_Expl : NLD_Carryall_DST_Expl {
-		displayName = "NLD Carryall Expl Winter";
+		displayName = "NLD Winter Carryall Expl";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 	
 	class NLD_Carryall_DST_UAV : B_UAV_01_backpack_F {
-		displayName = "NLD Carryall UAV Desert";
+		displayName = "NLD Desert Carryall UAV";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Camo.paa"};
 
@@ -2056,31 +2059,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_UAV : NLD_Carryall_DST_UAV {
-		displayName = "NLD Carryall UAV Woodland";
+		displayName = "NLD Woodland Carryall UAV";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_UAV : NLD_Carryall_DST_UAV {
-		displayName = "NLD Carryall UAV NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall UAV";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_UAV : NLD_Carryall_DST_UAV {
-		displayName = "NLD Carryall UAV NFP-Green";
+		displayName = "NLD NFP-Green Carryall UAV";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_UAV : NLD_Carryall_DST_UAV {
-		displayName = "NLD Carryall UAV Winter";
+		displayName = "NLD Winter Carryall UAV";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_JTAC : B_Carryall_oli {
-		displayName = "NLD Carryall JTAC Desert";
+		displayName = "NLD Desert Carryall JTAC";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -2132,31 +2135,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_JTAC : NLD_Carryall_DST_JTAC {
-		displayName = "NLD Carryall JTAC Woodland";
+		displayName = "NLD Woodland Carryall JTAC";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_JTAC : NLD_Carryall_DST_JTAC {
-		displayName = "NLD Carryall JTAC NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall JTAC";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_JTAC : NLD_Carryall_DST_JTAC {
-		displayName = "NLD Carryall JTAC NFP-Green";
+		displayName = "NLD NFP-Green Carryall JTAC";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_JTAC : NLD_Carryall_DST_JTAC {
-		displayName = "NLD Carryall JTAC Winter";
+		displayName = "NLD Winter Carryall JTAC";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AAR : B_Carryall_oli {
-		displayName = "NLD Carryall AAR Desert";
+		displayName = "NLD Desert Carryall AAR";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -2193,31 +2196,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_AAR : NLD_Carryall_DST_AAR {
-		displayName = "NLD Carryall AAR Woodland";
+		displayName = "NLD Woodland Carryall AAR";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_AAR : NLD_Carryall_DST_AAR {
-		displayName = "NLD Carryall AAR NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall AAR";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_AAR : NLD_Carryall_DST_AAR {
-		displayName = "NLD Carryall AAR NFP-Green";
+		displayName = "NLD NFP-Green Carryall AAR";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_AAR : NLD_Carryall_DST_AAR {
-		displayName = "NLD Carryall AAR Winter";
+		displayName = "NLD Winter Carryall AAR";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_MMG : B_Carryall_oli {
-		displayName = "NLD Carryall MMG Desert";
+		displayName = "NLD Desert Carryall MMG";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -2255,31 +2258,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_MMG : NLD_Carryall_DST_MMG {
-		displayName = "NLD Carryall MMG Woodland";
+		displayName = "NLD Woodland Carryall MMG";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_MMG : NLD_Carryall_DST_MMG {
-		displayName = "NLD Carryall MMG NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall MMG";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_MMG : NLD_Carryall_DST_MMG {
-		displayName = "NLD Carryall MMG NFP-Green";
+		displayName = "NLD NFP-Green Carryall MMG";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_MMG : NLD_Carryall_DST_MMG {
-		displayName = "NLD Carryall MMG Winter";
+		displayName = "NLD Winter Carryall MMG";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_MAT : B_Carryall_oli {
-		displayName = "NLD Carryall MAT Desert";
+		displayName = "NLD Desert Carryall MAT";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -2316,31 +2319,31 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_MAT : NLD_Carryall_DST_MAT {
-		displayName = "NLD Carryall MAT Woodland";
+		displayName = "NLD Woodland Carryall MAT";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_MAT : NLD_Carryall_DST_MAT {
-		displayName = "NLD Carryall MAT NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall MAT";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_MAT : NLD_Carryall_DST_MAT {
-		displayName = "NLD Carryall MAT NFP-Green";
+		displayName = "NLD NFP-Green Carryall MAT";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_MAT : NLD_Carryall_DST_MAT {
-		displayName = "NLD Carryall MAT Winter";
+		displayName = "NLD Winter Carryall MAT";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_DST_AA : B_Carryall_oli {
-		displayName = "NLD Carryall AA Desert";
+		displayName = "NLD Desert Carryall AA";
 		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Backpack.paa"};
 
@@ -2372,25 +2375,25 @@ class CfgVehicles {
 	};
 	
 	class NLD_Carryall_WLD_AA : NLD_Carryall_DST_AA {
-		displayName = "NLD Carryall AA Woodland";
+		displayName = "NLD Woodland Carryall AA";
 		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPT_AA : NLD_Carryall_DST_AA {
-		displayName = "NLD Carryall AA NFP-Tan";
+		displayName = "NLD NFP-Tan Carryall AA";
 		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_NFPG_AA : NLD_Carryall_DST_AA {
-		displayName = "NLD Carryall AA NFP-Green";
+		displayName = "NLD NFP-Green Carryall AA";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
 	};
 
 	class NLD_Carryall_WTR_AA : NLD_Carryall_DST_AA {
-		displayName = "NLD Carryall AA Winter";
+		displayName = "NLD Winter Carryall AA";
 		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
