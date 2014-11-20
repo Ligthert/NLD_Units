@@ -54,10 +54,6 @@ class CfgVehicleClasses
 	{
 		displayName="Men (SF MTP)";
 	};
-	class Infantry_Sniper
-	{
-		displayName="Men (Sniper)";
-	};
 };
 class CfgVehicles {
 	class B_Soldier_base_F;	
@@ -1615,28 +1611,6 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 	};
 	
-	class NLD_WLD_Sniper : B_Sniper_F 
-	{
-		author = "Lowlands Tactical";
-		side = 1;
-		scope = 2; 
-		displayName = "Sniper (Woodland)";
-		faction = "NLD_Units";
-		vehicleClass = "Infantry_Support";
-		uniformClass = "NLD_Sniper_base";
-		hiddenSelections[] = {"Camo", "Insignia"};
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Uniform.paa"};
-		faceType = "Man_A3";
-		model = "A3\Characters_f_beta\indep\ia_sniper.p3d";
-		items[] = {};
-		linkedItems[] = {"NLD_MTP_Vest", "NLD_MTP_BaseballCap", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		respawnLinkedItems[] = {"NLD_MTP_Vest", "NLD_MTP_BaseballCap","ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"srifle_LRR_camo_LRPS_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"srifle_LRR_camo_LRPS_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
-		magazines[] = {"7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
-		respawnMagazines[] = {"7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag","7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
-	};
-	
 // Backpacks
 	class B_Carryall_oli;	// External class reference
 	class B_UAV_01_backpack_F;	// External class reference
@@ -2324,8 +2298,8 @@ class CfgVehicles {
 	
 	class NLD_DST_Carryall_UAV : B_UAV_01_backpack_F {
 		displayName = "NLD Desert Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
+		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV.paa"};
 
 		class TransportMagazines
 		{
@@ -2366,32 +2340,32 @@ class CfgVehicles {
 	
 	class NLD_WLD_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Woodland Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_rgr_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV-Dark.paa"};
+		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV.paa"};
 	};
 
 	class NLD_NFPT_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD NFP-Tan Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
+		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV.paa"};
 	};
 
 	class NLD_NFPG_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD NFP-Green Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_oli_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack-UAV-Green.paa"};
+		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack-UAV.paa.paa"};
 	};
 
 	class NLD_WTR_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Winter Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_rgr_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV-Dark.paa"};
+		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV.paa"};
 	};
 
 	class NLD_JGL_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Jungle Carryall UAV";
-		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
+		picture = "\NLD Infantry Units\Units\Jungle\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV.paa"};
 	};
 
 	class NLD_DST_Carryall_JTAC : B_Carryall_oli {
@@ -3661,20 +3635,6 @@ class cfgWeapons {
 			mass = 40;
 		};
 	};
-	
-	class NLD_Ghillie_base : U_B_GhillieSuit {
-		scope = 2;
-		displayName = "NLD Ghillie Woodland";
-		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_WLD_Sniper";
-			containerClass = "Supply90";
-			mass = 40;
-		};
-	};
 };
 
 class CfgWorlds
@@ -3685,7 +3645,7 @@ class CfgWorlds
 		{
 			class FirstNames
 			{
-				NLD_Name01="Laurens";
+				NLD_Name01="Pepijn";
 				NLD_Name02="Jos";
 				NLD_Name03="John";
 				NLD_Name04="Rik";
@@ -3727,7 +3687,7 @@ class CfgWorlds
 				NLD_Name40="Daan";
 				NLD_Name41="Erik";
 				NLD_Name42="Christiaan";
-				NLD_Name43="Falko";
+				NLD_Name43="Ancor";
 				NLD_Name44="Lars";
 				NLD_Name45="Tim";
 				NLD_Name46="Kay";
@@ -3761,7 +3721,7 @@ class CfgWorlds
 			};
 			class LastNames
 			{
-				NLD_Name01="van Horssen";
+				NLD_Name01="Heerkens";
 				NLD_Name02="Vergouwen";
 				NLD_Name03="de Leeuw";
 				NLD_Name04="Loomans";
