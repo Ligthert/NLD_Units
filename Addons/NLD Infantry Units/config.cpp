@@ -2353,7 +2353,7 @@ class CfgVehicles {
 	class NLD_NFPG_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD NFP-Green Carryall UAV";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack-UAV.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack-UAV.paa.paa"};
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack-UAV.paa"};
 	};
 
 	class NLD_WTR_Carryall_UAV : NLD_DST_Carryall_UAV {
