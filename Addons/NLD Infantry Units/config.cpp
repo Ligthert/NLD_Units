@@ -2324,8 +2324,8 @@ class CfgVehicles {
 	
 	class NLD_DST_Carryall_UAV : B_UAV_01_backpack_F {
 		displayName = "NLD Desert Carryall UAV";
-		picture = "\NLD Infantry Units\Units\Desert\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Desert\Data\Camo.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
 
 		class TransportMagazines
 		{
@@ -2366,32 +2366,32 @@ class CfgVehicles {
 	
 	class NLD_WLD_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Woodland Carryall UAV";
-		picture = "\NLD Infantry Units\Units\Woodland\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV-Dark.paa"};
 	};
 
 	class NLD_NFPT_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD NFP-Tan Carryall UAV";
-		picture = "\NLD Infantry Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
 	};
 
 	class NLD_NFPG_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD NFP-Green Carryall UAV";
-		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_oli_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack-UAV-Green.paa"};
 	};
 
 	class NLD_WTR_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Winter Carryall UAV";
-		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_rgr_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Woodland\Data\Backpack-UAV-Dark.paa"};
 	};
 
 	class NLD_JGL_Carryall_UAV : NLD_DST_Carryall_UAV {
 		displayName = "NLD Jungle Carryall UAV";
-		picture = "\NLD Infantry Units\Units\Jungle\Data\uim\Backpack.jpg";
-		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Jungle\Data\Backpack.paa"};
+		picture = "\A3\Drones_F\Weapons_F_Gamma\ammoboxes\bags\data\ui\icon_B_C_UAV_cbr_ca";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Tan\Data\Backpack-UAV-Tan.paa"};
 	};
 
 	class NLD_DST_Carryall_JTAC : B_Carryall_oli {
@@ -2597,6 +2597,12 @@ class CfgVehicles {
 		displayName = "NLD NFP-Green Carryall MMG";
 		picture = "\NLD Infantry Units\Units\NFP-Green\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
+	class NLD_WTR_Carryall_MMG : NLD_DST_Carryall_MMG {
+		displayName = "NLD Winter Carryall MMG";
+		picture = "\NLD Infantry Units\Units\Winter\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD Infantry Units\Units\Winter\Data\Backpack.paa"};
 	};
 
 	class NLD_JGL_Carryall_MMG : NLD_DST_Carryall_MMG {
