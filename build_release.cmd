@@ -25,6 +25,21 @@ DEL /S /Q %DEST%\*.md %DEST%\*.cmd %DEST%\*.gitignore
 RD /S /Q %DEST%\NLD_Units_Showcase.VR
 
 
+REM Compile all the .cpps
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Grouped_Units\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Grouped_Units\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\Units\Beret\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\Units\Beret\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Grouped_Units\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\Units\Beret\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.cpp
+
+
 REM Build all the directories and then remove them
 FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO %AddB% "C:\BUILD\@NLD_Units\Addons\%%D" C:\BUILD\@NLD_Units\Addons\ -packonly -sign=C:\BUILD\@NLD_Units\Keys\LowTac.biprivatekey
 FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO RD /S /Q "C:\BUILD\@NLD_Units\Addons\%%D"
