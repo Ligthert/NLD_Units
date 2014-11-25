@@ -11,7 +11,7 @@ class CfgFactionClasses
 	class NLD_Units
 	{
 		displayName="NLD Armed Forces";
-		icon="\NLD Infantry Units\Icon\Icon.jpg";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
 	};
@@ -40,7 +40,7 @@ class CfgVehicles
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Air\Data\MH65.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MH65.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -106,7 +106,7 @@ class CfgVehicles
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\NLD Vehicle Units\Air\Data\MH65.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MH65.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -172,7 +172,7 @@ class CfgVehicles
 		faction = "NLD_Units";
 		vehicleClass = Air;
 	    hiddenSelections[]= {"camo1","camo2","camo3"};
-	    hiddenSelectionsTextures[]= {"\NLD Vehicle Units\Air\Data\NH90_1.paa","\NLD Vehicle Units\Air\Data\NH90_2.paa","\NLD Vehicle Units\Air\Data\NH90_3.paa"};
+	    hiddenSelectionsTextures[]= {"\NLD_Vehicle_Units\Air\Data\NH90_1.paa","\NLD_Vehicle_Units\Air\Data\NH90_2.paa","\NLD_Vehicle_Units\Air\Data\NH90_3.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
