@@ -7,8 +7,11 @@ A collection of units mirroring elements of the Royal Netherlands Army for ArmA 
 * Sacha Ligthert
 * Smootch
 
+## Known issues
+* Operator looses his pistol and reverts to the default when used in combination with AGM.
+
 ## Classes
-See the Wiki
+See classes.txt
 
 ## Credits
-See the Wiki
+See credits.txt
