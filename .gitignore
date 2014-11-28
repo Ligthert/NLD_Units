@@ -6,3 +6,5 @@ Addons/NLD Grouped Units.pbo
 Addons/NLD Grouped Units/config.bin
 *.biprivatekey
 *.cpp
+*.pbo
+*.bisign
