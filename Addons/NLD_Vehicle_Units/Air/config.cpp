@@ -59,7 +59,7 @@ class CfgVehicles
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
-				count=50;
+				count=5;
 			};
 			class _xx_SmokeShell
 			{
@@ -125,7 +125,7 @@ class CfgVehicles
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
-				count=50;
+				count=5;
 			};
 			class _xx_SmokeShell
 			{
@@ -191,7 +191,7 @@ class CfgVehicles
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
-				count=50;
+				count=5;
 			};
 			class _xx_SmokeShell
 			{
