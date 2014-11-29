@@ -1,0 +1,1 @@
+_this setVariable ["TargetMode",0];

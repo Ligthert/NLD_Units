@@ -111,6 +111,8 @@ Vehicles:
 		NLD_MH65
 		NLD_MH65_Armed
 		NLD_NH90
+		NLD_AH64
+		NLD_CH47F
 	Armor:
 		NLD_WLD_Leo2
 		NLD_DST_Leo2

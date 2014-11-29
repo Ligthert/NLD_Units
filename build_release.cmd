@@ -32,12 +32,25 @@ REM Compile all the .cpps
 %CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.cpp
 %CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.cpp
 %CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.bin C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.cpp
+
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\hafm_arma2_helis\config.bin C:\BUILD\\@NLD_Units\Addons\hafm_arma2_helis\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\US_helos_HMDs_Kimi\config.bin C:\BUILD\\@NLD_Units\Addons\US_helos_HMDs_Kimi\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI\config.bin C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI_OPT\config.bin C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI_OPT\config.cpp
+%CfgC% -bin -dst C:\BUILD\\@NLD_Units\Addons\US_helos_weapons_Kimi\config.bin C:\BUILD\\@NLD_Units\Addons\US_helos_weapons_Kimi\config.cpp
+
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Grouped_Units\config.cpp
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\config.cpp
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Infantry_Units\Units\Beret\config.cpp
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Air\config.cpp
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Armored\config.cpp
 DEL /S /Q C:\BUILD\\@NLD_Units\Addons\NLD_Vehicle_Units\Wheeled\config.cpp
+
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\hafm_arma2_helis\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\US_helos_HMDs_Kimi\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\US_helos_Kimi_UI_OPT\config.cpp
+DEL /S /Q C:\BUILD\\@NLD_Units\Addons\US_helos_weapons_Kimi\config.cpp
 
 
 REM Build all the directories and then remove them

@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=US_helos_HMDs_Kimi
+Pbo Type is: Arma Addon
+Sha: '6F75CBF8E466DC5C69B6485B861A84B01850B56F'
+//////</HEADER>//////
