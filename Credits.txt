@@ -11,3 +11,5 @@ NH-90 skin	: JW (@MARSOF)
 MH-65 skin	: JW (@MARSOF)
 Uniforms	: Craig (@SP_Pack/NED_Pack)
 AH-64 + CH-47F	: geraldbolso1899/Kimi + 87th_Neptune + CptDavo + LordJarhead + Shadow_FO
+Fennek skin	: [KGB] Cartman
+Leopard skin	: [KGB] Cartman
