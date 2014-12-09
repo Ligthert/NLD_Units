@@ -31,6 +31,7 @@ FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO RD /S /Q "C:\BU
 REM Now sign the stuff
 cd C:\BUILD\@NLD_Units\Addons\
 FOR /F %%G in ('dir /b /o:n C:\BUILD\@NLD_Units\Addons\') do "C:\Users\Sacha Ligthert\Desktop\DSUtils2\DSSignFile.exe" C:\BUILD\@NLD_Units\Keys\LowTac.biprivatekey %%G
+cd C:\
 
 REM Remove our private key
 DEL /S /Q %DEST%\Keys\*.biprivatekey
@@ -42,5 +43,3 @@ REM Compress through 7zip
 
 REM Remove our working directory
 RD /S /Q C:\BUILD\@NLD_Units
-
-pause

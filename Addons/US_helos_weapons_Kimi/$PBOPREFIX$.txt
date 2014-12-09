@@ -1,5 +1,0 @@
-///////<HEADER>///////
-prefix=US_helos_weapons_Kimi
-Pbo Type is: Arma Addon
-Sha: 'BFBC16FC9022FB367CB403BA6606DDA09B336FD0'
-//////</HEADER>//////
