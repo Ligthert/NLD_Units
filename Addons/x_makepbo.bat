@@ -19,11 +19,11 @@ REM Compiling @NLD_Units
 
 
 REM Compiling US Helos
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP hafm_arma2_helis
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_HMDs_Kimi
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI_OPT
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_weapons_Kimi
+REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP hafm_arma2_helis
+REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_HMDs_Kimi
+REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI
+REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI_OPT
+REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_weapons_Kimi
 
 
 rem pause
