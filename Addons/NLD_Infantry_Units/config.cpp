@@ -108,6 +108,7 @@ class CfgVehicles {
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_WLD_Carryall_Medic";
 		icon = "iconManMedic";
+		attendant = 1;
 	};
 
 	class NLD_WLD_GL: NLD_WLD_rifleman
@@ -301,6 +302,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_Desert";
 		backpack = "NLD_DST_Carryall_Medic";
 		uniformClass = "NLD_DST_Camo";
+		attendant = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_DST_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -522,6 +524,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_NFPTAN";
 		backpack = "NLD_NFPT_Carryall_Medic";
 		uniformClass = "NLD_NFPT_Camo";
+		attendant = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -742,6 +745,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_NFPGREEN";
 		backpack = "NLD_NFPG_Carryall_Medic";
 		uniformClass = "NLD_NFPG_Camo";
+		attendant = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -963,6 +967,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_WINTER";
 		backpack = "NLD_WTR_Carryall_Medic";
 		uniformClass = "NLD_WTR_Camo";
+		attendant = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WTR_Vest", "NLD_WTR_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WTR_Vest", "NLD_WTR_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -1183,6 +1188,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_JUNGLE";
 		backpack = "NLD_JGL_Carryall_Medic";
 		uniformClass = "NLD_JGL_Camo";
+		attendant = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_JGL_Vest", "NLD_JGL_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_JGL_Vest", "NLD_JGL_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -1394,6 +1400,7 @@ class CfgVehicles {
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_SF_Carryall_Medic";
 		icon = "iconManMedic";
+		attendant = 1;
 	};
 
 	class NLD_SF_COMSPEC: NLD_SF_Operator
@@ -1481,6 +1488,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_SFMTP";
 		backpack = "NLD_MTP_Carryall_Medic";
 		uniformClass = "NLD_MTP_Camo";
+		attendant = 1;
 		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 	};
