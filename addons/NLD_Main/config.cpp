@@ -9,6 +9,7 @@ class CfgPatches {
 
 class CfgFactionClasses
 {
+
 	class NLD_Units
 	{
 		displayName="NLD Armed Forces";
@@ -16,6 +17,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_WLD
 	{
 		displayName="NLD Armed Forces (Woodland)";
@@ -23,6 +25,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_DST
 	{
 		displayName="NLD Armed Forces (Desert)";
@@ -30,6 +33,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_WTR
 	{
 		displayName="NLD Armed Forces (WTR)";
@@ -37,6 +41,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_NFPG
 	{
 		displayName="NLD Armed Forces (NFP-Green)";
@@ -44,6 +49,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_NFPT
 	{
 		displayName="NLD Armed Forces (NFP-Tan)";
@@ -51,6 +57,7 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+
 	class NLD_Units_JGL
 	{
 		displayName="NLD Armed Forces (Jungle)";
@@ -58,4 +65,5 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+	
 };
