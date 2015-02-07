@@ -19,7 +19,7 @@ xcopy *.* %DEST% /E
 
 
 REM Delete what we didn't need
-DEL /S /Q %DEST%\*.md %DEST%\*.cmd %DEST%\*.gitignore %DEST%\Addons\x_makepbo.bat
+DEL /S /Q %DEST%\*.md %DEST%\*.cmd %DEST%\*.gitignore %DEST%\Addons\x_makepbo.bat %DEST%\.synqinfo
 RD /S /Q %DEST%\NLD_Units_Showcase.VR
 
 
