@@ -14,8 +14,17 @@ REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP CUP_Weapons_W
 
 REM Compiling @NLD_Units
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Grouped_Units
+
+REM pause
+
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Infantry_Units
+
+REM pause
+
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Vehicle_Units
+
+REM pause
+
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Main
 
-pause
+REM pause
