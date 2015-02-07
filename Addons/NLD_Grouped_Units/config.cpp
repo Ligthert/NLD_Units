@@ -1,5 +1,5 @@
  class CfgPatches {
-	class NLD_Units {
+	class NLD_Units_Groups {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;

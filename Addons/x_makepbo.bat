@@ -16,14 +16,6 @@ REM Compiling @NLD_Units
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Grouped_Units
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Infantry_Units
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Vehicle_Units
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Main
 
-
-REM Compiling US Helos
-REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP hafm_arma2_helis
-REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_HMDs_Kimi
-REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI
-REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_Kimi_UI_OPT
-REM "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP US_helos_weapons_Kimi
-
-
-rem pause
+pause
