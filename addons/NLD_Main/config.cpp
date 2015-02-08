@@ -18,6 +18,7 @@ class CfgFactionClasses
 		side=1;
 	};
 
+/*
 	class NLD_Units_WLD
 	{
 		displayName="NLD Armed Forces (Woodland)";
@@ -65,5 +66,6 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+*/
 	
 };
