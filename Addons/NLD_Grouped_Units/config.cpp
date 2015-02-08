@@ -2816,7 +2816,7 @@ class CfgGroups
 				};
 			};
 		};
-
+/*
 		class NLD_Units_WLD
 		{
 			name = "NLD Units (Woodland)";
@@ -4770,6 +4770,7 @@ class CfgGroups
 				};
 			};
 		};
-
+*/
+		
 	};
 };
