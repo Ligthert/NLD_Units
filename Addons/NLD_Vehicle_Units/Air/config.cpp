@@ -31,6 +31,8 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MH65.paa"};
+		AGM_FastRoping = 1;
+		AGM_FastRoping_Positions[] = {{1.4, 1.4, 0.05}, {-1.4, 1.4, 0.05}};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -97,6 +99,8 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MH65.paa"};
+		AGM_FastRoping = 1;
+		AGM_FastRoping_Positions[] = {{1.4, 1.4, 0.05}, {-1.4, 1.4, 0.05}};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -163,6 +167,8 @@ class CfgVehicles
 		vehicleClass = Air;
 	    hiddenSelections[]= {"camo1","camo2","camo3"};
 	    hiddenSelectionsTextures[]= {"\NLD_Vehicle_Units\Air\Data\NH90_1.paa","\NLD_Vehicle_Units\Air\Data\NH90_2.paa","\NLD_Vehicle_Units\Air\Data\NH90_3.paa"};
+	    AGM_FastRoping = 1;
+		AGM_FastRoping_Positions[] = {{1.4, -2.5, 0.}, {-1.4, -2.5, 0}};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
