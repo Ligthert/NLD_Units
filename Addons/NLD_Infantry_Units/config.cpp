@@ -1400,8 +1400,8 @@ class CfgVehicles {
 		hasDriver = 1;
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
@@ -1418,8 +1418,8 @@ class CfgVehicles {
 	class NLD_SF_COMSPEC: NLD_SF_Operator
 	{
 		displayName = "ComSpec";
-		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_SF_Carryall_ComSpec";
 	};
 
@@ -1437,8 +1437,8 @@ class CfgVehicles {
 		displayName = "Team Leader";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		icon = "iconManLeader";
-		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"}; 
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_SF_Carryall_ComSpec";
 	};
 
@@ -1448,8 +1448,8 @@ class CfgVehicles {
 		backpack = "NLD_SF_Carryall_SLA";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"srifle_EBR_ARCO_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"srifle_EBR_ARCO_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
+		weapons[] = {"srifle_EBR_ARCO_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"srifle_EBR_ARCO_pointer_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
@@ -1459,8 +1459,8 @@ class CfgVehicles {
 		displayName = "Operator (AT)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AT";
-		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"}; 
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_short_F"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "launch_B_Titan_short_F"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "launch_B_Titan_short_F"};
 	};
 
 	class NLD_SF_AA: NLD_SF_Operator
@@ -1468,8 +1468,8 @@ class CfgVehicles {
 		displayName = "Operator (AA)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AA";
-		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"}; 
-		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_snds_F", "Throw", "Put", "launch_B_Titan_F"};
+		weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "launch_B_Titan_F"}; 
+		respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F", "hgun_P07_F", "Throw", "Put", "launch_B_Titan_F"};
 	};
 
 	class NLD_SF_AR: NLD_SF_Operator
@@ -1479,8 +1479,8 @@ class CfgVehicles {
 		backpack = "NLD_SF_Carryall_AR";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_snds_F", "Throw", "Put", "Rangefinder"}; 
+		weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
@@ -2762,6 +2762,11 @@ class CfgVehicles {
 				name="muzzle_snds_H";
 				count = 1;
 			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2814,6 +2819,11 @@ class CfgVehicles {
 			class _xx_muzzle_snds_H 
 			{
 				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
 				count = 1;
 			};
 			class _xx_NLD_NVGoggles {
@@ -2880,6 +2890,11 @@ class CfgVehicles {
 				name="muzzle_snds_H";
 				count = 1;
 			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -2941,6 +2956,11 @@ class CfgVehicles {
 			class _xx_muzzle_snds_H 
 			{
 				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
 				count = 1;
 			};
 			class _xx_NLD_NVGoggles {
@@ -3011,6 +3031,11 @@ class CfgVehicles {
 				name="muzzle_snds_H";
 				count = 1;
 			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
 			class _xx_NLD_NVGoggles {
 				name = "NLD_NVGoggles";
 				count = 1;
@@ -3067,6 +3092,11 @@ class CfgVehicles {
 			class _xx_muzzle_snds_H 
 			{
 				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
 				count = 1;
 			};
 			class _xx_NLD_NVGoggles {
@@ -3136,6 +3166,11 @@ class CfgVehicles {
 				name="muzzle_snds_B";
 				count=1;
 			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
 		};
 	};
 
@@ -3188,6 +3223,11 @@ class CfgVehicles {
 			{
 				name="muzzle_snds_H_MG";
 				count=1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
 			};
 		};
 	};
