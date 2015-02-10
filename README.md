@@ -7,11 +7,11 @@ A collection of units mirroring elements of the Royal Netherlands Army for ArmA 
 * Sacha Ligthert
 * Smootch
 * Outlaw28
+* Crielaard
 
 ## Known issues
-* Operator looses his pistol and reverts to the default when used in combination with AGM.
-* The Operators revert back to the default NATO pistol instead of the one assigned when this mod is used in conjunction with AGM.
-* Doesn't work with Zeus (yet)
+- Changing Backpacks in VAS/Arsenal may give you all the gear in the backpack (again)
+- MH65 pilots sometimes stand in their seats. This is a rare occurrence, but this is with BIS (I think).
 
 ## Classes
 See classes.txt
