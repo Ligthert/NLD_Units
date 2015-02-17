@@ -19,12 +19,18 @@ REM pause
 
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Infantry_Units
 
-REM pause
+rem pause
 
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Vehicle_Units
 
 REM pause
 
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Main
+
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Weapons
+
+rem pause
+
+copy ..\External_Addons\*.pbo .
 
 REM pause

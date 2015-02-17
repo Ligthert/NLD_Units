@@ -27,10 +27,13 @@ REM Build all the directories and then remove them
 FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP "C:\BUILD\@NLD_Units\Addons\%%D"
 FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO RD /S /Q "C:\BUILD\@NLD_Units\Addons\%%D"
 
+move C:\BUILD\@NLD_Units\External_Addons\*.pbo C:\BUILD\@NLD_Units\Addons\
+RD /S /Q C:\BUILD\@NLD_Units\External_Addons
 
 REM Now sign the stuff
 cd C:\BUILD\@NLD_Units\Addons\
 FOR /F %%G in ('dir /b /o:n C:\BUILD\@NLD_Units\Addons\') do "C:\Users\Sacha Ligthert\Desktop\DSUtils2\DSSignFile.exe" C:\BUILD\@NLD_Units\Keys\LowTac.biprivatekey %%G
+
 cd C:\
 
 REM Remove our private key
