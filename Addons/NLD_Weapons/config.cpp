@@ -31,7 +31,7 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "acc_pointer_IR";
 			};
 		};
 	};
@@ -51,7 +51,7 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "acc_pointer_IR";
 			};
 		};
 	};
@@ -71,7 +71,7 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot = "CUP_PicatinnySideMountM249";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "acc_pointer_IR";
 			};
 		};
 	};
@@ -97,7 +97,7 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot = "CUP_PicatinnySideMountM240";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "acc_pointer_IR";
 			};
 		};
 	};
