@@ -3273,8 +3273,8 @@ class cfgWeapons {
 			mass = 1;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 			modelSides[] = {3, 1};
-			armor = 3*0.5;
-			passThrough = 0.7;
+			armor = 6;
+			passThrough = 0.5;
 			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
 			hiddenSelections[] = {"camo"};
 		};
@@ -3293,7 +3293,7 @@ class cfgWeapons {
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\common\capb";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
+			armor = "0.5";
 			passThrough = 0.95;
             hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BaseballCap.paa"};
             hiddenSelections[] = {"Camo"};
@@ -3313,7 +3313,7 @@ class cfgWeapons {
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\Common\booniehat";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
+			armor = "0.5";
 			passThrough = 0.95;
             hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BoonieHat.paa"};
             hiddenSelections[] = {"Camo"};
@@ -3445,8 +3445,8 @@ class cfgWeapons {
 			mass = 1;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 			modelSides[] = {3, 1};
-			armor = 3*0.5;
-			passThrough = 0.7;
+			armor = 6;
+			passThrough = 0.5;
                         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
 			hiddenSelections[] = {"camo"};
 		};
@@ -3489,7 +3489,7 @@ class cfgWeapons {
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\common\capb";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
+			armor = "0.5";
 			passThrough = 0.95;
             hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
             hiddenSelections[] = {"Camo"};
@@ -3527,7 +3527,7 @@ class cfgWeapons {
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\Common\booniehat";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
+			armor = "0.5";
 			passThrough = 0.95;
             hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BoonieHat.paa"};
             hiddenSelections[] = {"Camo"};
@@ -3563,8 +3563,8 @@ class cfgWeapons {
 			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 			containerClass = "Supply120";
 			mass = 1;
-			armor = 5*0.5;
-			passThrough = 0.7;
+			armor = 30;
+			passThrough = 0.5;
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -3612,7 +3612,7 @@ class cfgWeapons {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\PlateCarrier.paa"};
 		scope = 2;
 		class ItemInfo: ItemInfo {
-			armor = 20;
+			armor = 40;
 			containerclass = "Supply120";
 			mass = 60;
 			passthrough = 0.5;
@@ -3636,7 +3636,7 @@ class cfgWeapons {
 		scope = 2;
 		weaponpoolavailable = 1;
 		class ItemInfo: HeadgearItem {
-			armor = 4;
+			armor = 6;
 			hiddenselections[] = {"camo"};
 			mass = 40;
 			modelsides[] = {3, 1};
