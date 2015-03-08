@@ -31,6 +31,8 @@ REM pause
 
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Backpacks
 
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Gear
+
 pause
 
 copy ..\External_Addons\*.pbo .
