@@ -33,7 +33,7 @@ REM pause
 
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Gear
 
-pause
+REM pause
 
 copy ..\External_Addons\*.pbo .
 
