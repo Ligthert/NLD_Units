@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"NLD_Units_Infantry"};
+		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
 };
 
