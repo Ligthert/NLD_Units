@@ -29,6 +29,7 @@ FOR /F %%D in ('dir /b /o:n /ad C:\BUILD\@NLD_Units\Addons\') DO RD /S /Q "C:\BU
 
 move C:\BUILD\@NLD_Units\External_Addons\*.pbo C:\BUILD\@NLD_Units\Addons\
 RD /S /Q C:\BUILD\@NLD_Units\External_Addons
+RD /S /Q C:\BUILD\@NLD_Units\WIP
 
 REM Now sign the stuff
 cd C:\BUILD\@NLD_Units\Addons\
