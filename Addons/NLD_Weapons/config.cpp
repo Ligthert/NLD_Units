@@ -15,6 +15,7 @@ class CfgWeapons {
 	class CUP_arifle_M4A1_BUIS_GL;
 	class CUP_lmg_M249_para;
 	class CUP_lmg_m240;
+	class CUP_srifle_M107_Base;
 
 	// Dimaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {

@@ -1177,7 +1177,7 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H 
+			class _xx_muzzle_snds_H
 			{
 				name="muzzle_snds_H";
 				count = 1;
@@ -1486,9 +1486,9 @@ class CfgVehicles {
 
 		class TransportMagazines
 		{
-			class _xx_CUP_Stinger_M
+			class _xx_Titan_AT
 			{
-				magazine="CUP_Stinger_M";
+				magazine="Titan_AA";
 				count=2;
 			};
 			class _xx_HandGrenade
@@ -1581,10 +1581,10 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-			class _xx_muzzle_snds_B
+			class _xx_CUP_muzzle_snds_AWM 
 			{
-				name="muzzle_snds_B";
-				count=1;
+				name="CUP_muzzle_snds_AWM";
+				count = 1;
 			};
 			class _xx_muzzle_snds_L 
 			{
@@ -1622,6 +1622,11 @@ class CfgVehicles {
 				magazine="SmokeShellGreen";
 				count=1;
 			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=4;
+			};
 		};
 		class TransportItems
 		{
@@ -1637,11 +1642,6 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Commandos
 			{
 				name="Dutch_Beret_Commandos";
-				count=1;
-			};
-			class _xx_muzzle_snds_H_MG
-			{
-				name="muzzle_snds_H_MG";
 				count=1;
 			};
 			class _xx_muzzle_snds_L 
