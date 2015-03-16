@@ -47,7 +47,6 @@ class CfgVehicles {
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Backpack.paa"};
 	};
-
 	
 	class NLD_DST_Carryall_B : B_Carryall_oli {
 		displayName = "NLD Desert Carryall";
@@ -234,6 +233,21 @@ class CfgVehicles {
 			{
 				magazine="SmokeShellGreen";
 				count=2;
+			};
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=1;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=1;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=1;
 			};
 		};
 		class TransportItems
