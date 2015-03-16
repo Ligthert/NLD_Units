@@ -12,6 +12,42 @@ class CfgVehicles {
 	class B_Carryall_oli;	// External class reference
 	class B_UAV_01_backpack_F;	// External class reference
 
+	class NLD_DST_Carryall_Empty: B_Carryall_oli {
+		displayName = "NLD Desert Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Backpack.paa"};
+	};
+
+	class NLD_WLD_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD Woodland Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\Backpack.paa"};
+	};
+
+	class NLD_NFPT_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD NFP-Tan Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Backpack.paa"};
+	};
+
+	class NLD_NFPG_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD NFP-Green Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Backpack.paa"};
+	};
+
+	class NLD_WTR_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD Winter Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Backpack.paa"};
+	};	
+
+	class NLD_JGL_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD Jungle Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Backpack.paa"};
+	};
+
 	
 	class NLD_DST_Carryall_B : B_Carryall_oli {
 		displayName = "NLD Desert Carryall";
@@ -1103,6 +1139,18 @@ class CfgVehicles {
 
 
 // SF Backpacks
+
+	class NLD_SF_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD Black Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
+	};
+
+	class NLD_MTP_Carryall_Empty : B_Carryall_oli {
+		displayName = "NLD MTP Carryall (empty)";
+		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
 
 	class NLD_SF_Carryall_B : B_Carryall_oli {
 		displayName = "NLD Black Carryall";
