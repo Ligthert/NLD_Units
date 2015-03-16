@@ -22,6 +22,8 @@ class CfgWeapons {
 		displayName="Dimaco C8";
 		author="Lowlands Tactical";
 		scope=2;
+		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
+		descriptionShort = "Dimaco C8"; //$STR_DSS_M16A2;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -39,9 +41,11 @@ class CfgWeapons {
 
 	// Dimaco C8 GL
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
-		displayName="Dimaco C8";
+		displayName="Dimaco C8 GL";
 		author="Lowlands Tactical";
 		scope=2;
+		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
+		descriptionShort = "Dimaco C8 GL"; //$STR_DSS_M16A2;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
