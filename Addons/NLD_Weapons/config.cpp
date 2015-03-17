@@ -1,7 +1,7 @@
 class CfgPatches {
 	class NLD_Units_Weapons {
 		units[] = {};
-		weapons[] = {};
+		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"NLD_Units_Infantry"};
 	};
