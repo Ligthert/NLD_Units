@@ -17,9 +17,9 @@ class CfgWeapons {
 	class CUP_lmg_m240;
 	class CUP_srifle_M107_Base;
 
-	// Dimaco C8
+	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
-		displayName="Dimaco C8";
+		displayName="Diemaco C8";
 		author="Lowlands Tactical";
 		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
@@ -39,9 +39,9 @@ class CfgWeapons {
 		};
 	};
 
-	// Dimaco C8 GL
+	// Diemaco C8 GL
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
-		displayName="Dimaco C8 GL";
+		displayName="Diemaco C8 GL";
 		author="Lowlands Tactical";
 		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
