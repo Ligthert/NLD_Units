@@ -111,8 +111,7 @@ Vehicles:
 		NLD_MH65
 		NLD_MH65_Armed
 		NLD_NH90
-		NLD_AH64
-		NLD_CH47F
+		LLW_Apache_RNLAF
 	Armor:
 		NLD_WLD_Leo2
 		NLD_DST_Leo2
@@ -303,6 +302,7 @@ Infantry:
 
 
 BackPacks:
+	NLD_DST_Carryall_Empty
 	NLD_DST_Carryall_AA
 	NLD_DST_Carryall_AAR
 	NLD_DST_Carryall_Ammo
@@ -318,6 +318,7 @@ BackPacks:
 	NLD_DST_Carryall_MMG
 	NLD_DST_Carryall_TL
 	NLD_DST_Carryall_UAV
+	NLD_JGL_Carryall_Empty
 	NLD_JGL_Carryall_AA
 	NLD_JGL_Carryall_AAR
 	NLD_JGL_Carryall_Ammo
@@ -333,6 +334,7 @@ BackPacks:
 	NLD_JGL_Carryall_MMG
 	NLD_JGL_Carryall_TL
 	NLD_JGL_Carryall_UAV
+	NLD_MTP_Carryall_Empty
 	NLD_MTP_Carryall_AA
 	NLD_MTP_Carryall_AR
 	NLD_MTP_Carryall_AT
@@ -341,6 +343,7 @@ BackPacks:
 	NLD_MTP_Carryall_Expl
 	NLD_MTP_Carryall_Medic
 	NLD_MTP_Carryall_SLA
+	NLD_NFGG_Carryall_Empty
 	NLD_NFPG_Carryall_AA
 	NLD_NFPG_Carryall_AAR
 	NLD_NFPG_Carryall_Ammo
@@ -356,6 +359,7 @@ BackPacks:
 	NLD_NFPG_Carryall_MMG
 	NLD_NFPG_Carryall_TL
 	NLD_NFPG_Carryall_UAV
+	NLD_NFPT_Carryall_Empty
 	NLD_NFPT_Carryall_AA
 	NLD_NFPT_Carryall_AAR
 	NLD_NFPT_Carryall_Ammo
@@ -371,6 +375,7 @@ BackPacks:
 	NLD_NFPT_Carryall_MMG
 	NLD_NFPT_Carryall_TL
 	NLD_NFPT_Carryall_UAV
+	NLD_SF_Carryall_Empty
 	NLD_SF_Carryall_AA
 	NLD_SF_Carryall_AR
 	NLD_SF_Carryall_AT
@@ -379,6 +384,7 @@ BackPacks:
 	NLD_SF_Carryall_Expl
 	NLD_SF_Carryall_Medic
 	NLD_SF_Carryall_SLA
+	NLD_WLD_Carryall_Empty
 	NLD_WLD_Carryall_AA
 	NLD_WLD_Carryall_AAR
 	NLD_WLD_Carryall_Ammo
@@ -393,6 +399,7 @@ BackPacks:
 	NLD_WLD_Carryall_MMG
 	NLD_WLD_Carryall_TL
 	NLD_WLD_Carryall_UAV
+	NLD_WTR_Carryall_Empty
 	NLD_WTR_Carryall_AA
 	NLD_WTR_Carryall_AAR
 	NLD_WTR_Carryall_Ammo
@@ -436,3 +443,19 @@ Items:
 	NLD_WTR_Helmet
 	NLD_WTR_Helmet
 	NLD_WTR_Vest
+
+Weapons:
+	With the exception of the weapons described below, most of the classes can be found here: http://friedenhq.org/tmp/CUP_Class%20List/classlist.html
+	NLD_blk_C8
+	NLD_blk_C8GL
+	NLD_Minimi
+	NLD_MAG
+
+Magazines:
+	The NLD_Mag has access to a 200-round magazine
+	NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+
+Insignia:
+	Use this with: [this,"$INSIGNIA-NAME"] call BIS_fnc_setUnitInsignia;
+	NLD_11AMB
+	NLD_KCT
