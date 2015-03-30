@@ -155,6 +155,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
+	/*
     class NLD_NH90 : Heli_Transport_02_base_F
     {
 		author = "Lowlands Tactical";
@@ -222,4 +223,6 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
+	*/
+	
 };
