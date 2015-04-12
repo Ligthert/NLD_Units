@@ -13,3 +13,4 @@ Uniforms	: Craig (@SP_Pack/NED_Pack)
 Fennek skin	: [KGB] Cartman
 Leopard skin	: [KGB] Cartman
 Weapons		: Community Upgrade Project
+NH90		: Aplion
