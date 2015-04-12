@@ -459,3 +459,9 @@ Insignia:
 	Use this with: [this,"$INSIGNIA-NAME"] call BIS_fnc_setUnitInsignia;
 	NLD_11AMB
 	NLD_KCT
+
+Ammoboxes:
+	NLD_box_ammo
+	NLD_box_grenades
+	NLD_box_launchers
+	NLD_box_weapons
