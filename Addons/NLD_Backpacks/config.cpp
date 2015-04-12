@@ -249,6 +249,16 @@ class CfgVehicles {
 				magazine="SmokeShellYellow";
 				count=1;
 			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=4;
+			};
 		};
 		class TransportItems
 		{
