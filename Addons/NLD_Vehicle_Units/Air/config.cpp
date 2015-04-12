@@ -19,7 +19,7 @@ class CfgVehicles
 	class O_Heli_Light_02_unarmed_F;
 	class Heli_Transport_02_base_F;
 	class LLW_Apache_RNLAF;
-	class NH90Marine;
+	class NH90;
 
 	class NLD_AH64D: LLW_Apache_RNLAF
 	{
@@ -168,7 +168,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLD_NH90: NH90Marine
+	class NLD_NH90: NH90
 	{
 		author = "Aplion";
 		scope = 2;
