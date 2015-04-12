@@ -11,13 +11,26 @@ class WeaponFireGun ;
 class WeaponCloudsGun ;
 class WeaponFireMGun ;
 class WeaponCloudsMGun ;
-class RCWSOptics ;
+class RCWSOptics;
 
 class CfgVehicles 
 {
 	class O_Heli_Light_02_F;
 	class O_Heli_Light_02_unarmed_F;
 	class Heli_Transport_02_base_F;
+	class LLW_Apache_RNLAF;
+	class NH90Marine;
+
+	class NLD_AH64D: LLW_Apache_RNLAF
+	{
+		author = "Lowlands Warrior";
+		scope = 2;
+		_generalMacro = "LLW_Apache_RNLAF";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+	};
 
 	class NLD_MH65 : O_Heli_Light_02_unarmed_F
 	{
@@ -155,6 +168,20 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
+	class NLD_NH90: NH90Marine
+	{
+		author = "Aplion";
+		scope = 2;
+		_generalMacro = "NH90Marine";
+		displayName = "NH-90";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\NH90\outerhaul_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\upperTail_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\misc_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\doors_co.paa"};
+	};
+
 	/*
     class NLD_NH90 : Heli_Transport_02_base_F
     {
