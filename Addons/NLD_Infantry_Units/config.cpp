@@ -1409,6 +1409,7 @@ class CfgVehicles {
     class NLD_SF_Operator_MP5: NLD_SF_Operator
     {
     	displayName="Operator (MP5)";
+    	backpack = "NLD_SF_Carryall_MP5";
     	weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -1511,7 +1512,7 @@ class CfgVehicles {
     	vehicleClass = "Infantry_SFMTP";
     	displayName="Operator (MP5)";
     	uniformClass = "NLD_MTP_Camo";
-    	backpack = "NLD_MTP_Carryall_B";
+    	backpack = "NLD_MTP_Carryall_MP5";
     	weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
