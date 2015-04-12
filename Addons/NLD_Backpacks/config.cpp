@@ -1671,4 +1671,63 @@ class CfgVehicles {
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.jpg";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
+
+	class NLD_SF_Carryall_MP5 : B_Carryall_oli {
+		displayName = "NLD Black Carryall AR";
+		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_Commandos
+			{
+				name="Dutch_Beret_Commandos";
+				count=1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+		};
+	};
+
+	class NLD_MTP_Carryall_MP5 : NLD_SF_Carryall_MP5 {
+		displayName = "NLD MTP Carryall MP5";
+		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.jpg";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
+
 };
