@@ -171,8 +171,8 @@ class CfgVehicles {
 		displayName = "Squad Leader";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
-		weapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
+		weapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
 		backpack = "NLD_WLD_Carryall_TL";
 		icon = "iconManLeader";
 	};
@@ -182,8 +182,8 @@ class CfgVehicles {
 		displayName = "Team Leader";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio","Rangefinder"};
-		weapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
+		weapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		backpack = "NLD_WLD_Carryall_TL";
 		icon = "iconManLeader";
