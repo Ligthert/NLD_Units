@@ -11,5 +11,6 @@ DEL /S /Q *.pbo
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Backpacks
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Gear
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Insignia
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_F-16
 
 copy ..\External_Addons\*.pbo .
