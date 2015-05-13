@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"NLD_Infantry_Units"};
+		requiredAddons[] = {"NLD_Units_Infantry"};
 	};
 };
 
@@ -71,5 +71,47 @@ class CfgUnitInsignia
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\RLJ.paa";
         textureVehicle = "\NLD_Infantry_Units\Badges\RLJ.paa";
+    };
+    class NLD_Pathfinders
+    {
+        displayName = "Pathfinders";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\Pathfinders.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\Pathfinders.paa";
+    };
+    class NLD_EOD
+    {
+        displayName = "EOD";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\EOD.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\EOD.paa";
+    };
+    class NLD_FlagNLD
+    {
+        displayName = "FlagNLD";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\FlagNLD.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\FlagNLD.paa";
+    };
+    class NLD_MedicTan
+    {
+        displayName = "MedicTan";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\MedicTan.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\MedicTan.paa";
+    };
+    class NLD_MedicGreen
+    {
+        displayName = "MedicGreen";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\MedicGreen.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\MedicGreen.paa";
+    };
+    class NLD_MedicRound
+    {
+        displayName = "MedicRound";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\MedicRound.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\MedicRound.paa";
     };
 };
