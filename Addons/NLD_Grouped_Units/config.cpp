@@ -60,21 +60,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfSquad
@@ -95,49 +95,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_WLD_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_WLD_InfCmdr
@@ -158,21 +158,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfAtTeam
@@ -193,21 +193,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfAaTeam
@@ -228,21 +228,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfLMGTeam
@@ -263,21 +263,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfMMGTeam
@@ -298,21 +298,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfSentry
@@ -354,21 +354,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfSquad
@@ -389,49 +389,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_DST_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_DST_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_DST_InfCmdr
@@ -452,21 +452,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfAtTeam
@@ -487,21 +487,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfAaTeam
@@ -522,21 +522,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfLMGTeam
@@ -557,21 +557,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfMMGTeam
@@ -592,21 +592,609 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfSentry
+				{
+					name = "Sentry (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "NLD_UN_DST_GL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "NLD_UN_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+				};
+				class NLD_UN_DST_InfTeam
+				{
+					name = "Team (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_LAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfSquad
+				{
+					name = "Squad (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_SL";
+						rank = "CORPORAL";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_LAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AR";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AR";
+						rank = "PRIVATE";
+						position[] = {7.5,-7.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_GL";
+						rank = "PRIVATE";
+						position[] = {-7.5,-7.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AMMO";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class NLD_UN_DST_InfCmdr
+				{
+					name = "Platoon Command (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_OFF";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfAtTeam
+				{
+					name = "Anti-armor Team (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_MAT";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_MAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AMAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfAaTeam
+				{
+					name = "Anti-air Team (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AA";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AA";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AAA";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfLMGTeam
+				{
+					name = "LMG Team (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AR";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AAR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfMMGTeam
+				{
+					name = "MMG Team (UN Desert)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_MMG";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_MMG";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_AMMG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfSentry
+				{
+					name = "Sentry (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "NLD_UN_WLD_GL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "NLD_UN_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+				};
+				class NLD_UN_WLD_InfTeam
+				{
+					name = "Team (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfSquad
+				{
+					name = "Squad (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_SL";
+						rank = "CORPORAL";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {7.5,-7.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_GL";
+						rank = "PRIVATE";
+						position[] = {-7.5,-7.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AMMO";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class NLD_UN_WLD_InfCmdr
+				{
+					name = "Platoon Command (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_OFF";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfAtTeam
+				{
+					name = "Anti-armor Team (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_MAT";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_MAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AMAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfAaTeam
+				{
+					name = "Anti-air Team (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AA";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AA";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AAA";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfLMGTeam
+				{
+					name = "LMG Team (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AAR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfMMGTeam
+				{
+					name = "MMG Team (UN Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_MMG";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_MMG";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_AMMG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfSentry
@@ -648,21 +1236,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfSquad
@@ -683,49 +1271,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_WTR_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_WTR_InfCmdr
@@ -746,21 +1334,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfAtTeam
@@ -781,21 +1369,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfAaTeam
@@ -816,21 +1404,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfLMGTeam
@@ -851,21 +1439,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfMMGTeam
@@ -886,21 +1474,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfSentry
@@ -942,21 +1530,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfSquad
@@ -977,49 +1565,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_NFPT_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_NFPT_InfCmdr
@@ -1040,21 +1628,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfAtTeam
@@ -1075,21 +1663,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfAaTeam
@@ -1110,21 +1698,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfLMGTeam
@@ -1145,21 +1733,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfMMGTeam
@@ -1180,21 +1768,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfSentry
@@ -1236,21 +1824,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfSquad
@@ -1271,49 +1859,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_NFPG_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_NFPG_InfCmdr
@@ -1334,21 +1922,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfAtTeam
@@ -1369,21 +1957,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfAaTeam
@@ -1404,21 +1992,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfLMGTeam
@@ -1439,21 +2027,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfMMGTeam
@@ -1474,21 +2062,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfSentry
@@ -1530,21 +2118,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfSquad
@@ -1565,49 +2153,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_JGL_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_JGL_InfCmdr
@@ -1628,21 +2216,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfAtTeam
@@ -1663,21 +2251,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfAaTeam
@@ -1698,21 +2286,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfLMGTeam
@@ -1733,21 +2321,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfMMGTeam
@@ -1768,21 +2356,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -1811,7 +2399,7 @@ class CfgGroups
 						vehicle = "NLD_SF_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
@@ -1819,7 +2407,7 @@ class CfgGroups
 						vehicle = "NLD_SF_MEDIC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
@@ -1827,7 +2415,7 @@ class CfgGroups
 						vehicle = "NLD_SF_AT";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
@@ -1835,7 +2423,7 @@ class CfgGroups
 						vehicle = "NLD_SF_SLA";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
@@ -1843,7 +2431,7 @@ class CfgGroups
 						vehicle = "NLD_SF_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
@@ -1851,7 +2439,7 @@ class CfgGroups
 						vehicle = "NLD_SF_COMSPEC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
@@ -1859,7 +2447,7 @@ class CfgGroups
 						vehicle = "NLD_SF_DEMSPEC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_SF_InfReconPatrol
@@ -1882,7 +2470,7 @@ class CfgGroups
 						vehicle = "NLD_SF_MEDIC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
@@ -1890,7 +2478,7 @@ class CfgGroups
 						vehicle = "NLD_SF_AT";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
@@ -1898,7 +2486,7 @@ class CfgGroups
 						vehicle = "NLD_SF_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_SF_InfReconSentry
@@ -1921,7 +2509,7 @@ class CfgGroups
 						vehicle = "NLD_SF_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 				};
 				class NLD_MTP_InfReconTeam
@@ -1944,7 +2532,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
@@ -1952,7 +2540,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_MEDIC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
@@ -1960,7 +2548,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_AT";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
@@ -1968,7 +2556,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_SLA";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
@@ -1976,7 +2564,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
@@ -1984,7 +2572,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_COMSPEC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
@@ -1992,7 +2580,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_DEMSPEC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_MTP_InfReconPatrol
@@ -2015,7 +2603,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_MEDIC";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
@@ -2023,7 +2611,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_AT";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
@@ -2031,7 +2619,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_MTP_InfReconSentry
@@ -2054,7 +2642,7 @@ class CfgGroups
 						vehicle = "NLD_MTP_AR";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 				};
 			};
@@ -2081,21 +2669,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfEngTeam
@@ -2116,21 +2704,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfExplTeam
@@ -2151,21 +2739,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfClsTeam
@@ -2186,21 +2774,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfEngTeam
@@ -2221,21 +2809,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfExplTeam
@@ -2256,21 +2844,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfClsTeam
@@ -2291,21 +2879,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfEngTeam
@@ -2326,21 +2914,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfExplTeam
@@ -2361,21 +2949,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfClsTeam
@@ -2396,21 +2984,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfEngTeam
@@ -2431,21 +3019,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfExplTeam
@@ -2466,21 +3054,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfClsTeam
@@ -2501,21 +3089,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfEngTeam
@@ -2536,21 +3124,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfExplTeam
@@ -2571,21 +3159,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfClsTeam
@@ -2606,21 +3194,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfEngTeam
@@ -2641,21 +3229,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_Engi";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_Engi";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfExplTeam
@@ -2676,21 +3264,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_Expl";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_Expl";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -2717,21 +3305,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 				};
 
@@ -2753,7 +3341,7 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 				};
 
@@ -2775,21 +3363,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 				};
 				
@@ -2811,7 +3399,7 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 				};
 			};
@@ -2864,21 +3452,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfSquad
@@ -2899,49 +3487,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_WLD_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_WLD_InfCmdr
@@ -2962,21 +3550,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfAtTeam
@@ -2997,21 +3585,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfAaTeam
@@ -3032,21 +3620,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfLMGTeam
@@ -3067,21 +3655,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WLD_InfMMGTeam
@@ -3102,21 +3690,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};				
 			};
@@ -3142,21 +3730,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 				};
 				class NLD_WLD_LeoSection
@@ -3177,7 +3765,7 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WLD_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 				};
 			};
@@ -3230,21 +3818,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfSquad
@@ -3265,49 +3853,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_DST_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_DST_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_DST_InfCmdr
@@ -3328,21 +3916,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfAtTeam
@@ -3363,21 +3951,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfAaTeam
@@ -3398,21 +3986,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfLMGTeam
@@ -3433,21 +4021,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_DST_InfMMGTeam
@@ -3468,21 +4056,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -3509,21 +4097,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 				};
 
@@ -3545,7 +4133,7 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_DST_Leo2";
 						rank = "LIEUTENANT";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 				};
 			};
@@ -3598,21 +4186,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfSquad
@@ -3633,49 +4221,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_WTR_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_WTR_InfCmdr
@@ -3696,21 +4284,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfAtTeam
@@ -3731,21 +4319,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfAaTeam
@@ -3766,21 +4354,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfLMGTeam
@@ -3801,21 +4389,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_WTR_InfMMGTeam
@@ -3836,21 +4424,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_WTR_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_WTR_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_WTR_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -3903,21 +4491,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfSquad
@@ -3938,49 +4526,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_NFPT_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_NFPT_InfCmdr
@@ -4001,21 +4589,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfAtTeam
@@ -4036,21 +4624,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfAaTeam
@@ -4071,21 +4659,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfLMGTeam
@@ -4106,21 +4694,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPT_InfMMGTeam
@@ -4141,21 +4729,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPT_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPT_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPT_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -4208,21 +4796,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfSquad
@@ -4243,49 +4831,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_NFPG_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_NFPG_InfCmdr
@@ -4306,21 +4894,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfAtTeam
@@ -4341,21 +4929,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfAaTeam
@@ -4376,21 +4964,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfLMGTeam
@@ -4411,21 +4999,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_NFPG_InfMMGTeam
@@ -4446,21 +5034,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_NFPG_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_NFPG_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_NFPG_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
@@ -4513,21 +5101,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_LAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfSquad
@@ -4548,49 +5136,49 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_SL";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_LAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {20,0,0};
+						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {25,0,0};
+						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
 						vehicle="NLD_JGL_GL";
 						rank = "PRIVATE";
-						position[] = {30,0,0};
+						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMMO";
 						rank = "PRIVATE";
-						position[] = {35,0,0};
+						position[] = {10,-10,0};
 					};
 				};
 				class NLD_JGL_InfCmdr
@@ -4611,21 +5199,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_TL";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_CLS";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_Rifleman";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfAtTeam
@@ -4646,21 +5234,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_MAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_MAT";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfAaTeam
@@ -4681,21 +5269,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_AA";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AA";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AAA";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfLMGTeam
@@ -4716,21 +5304,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_AR";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AAR";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 				class NLD_JGL_InfMMGTeam
@@ -4751,21 +5339,21 @@ class CfgGroups
 						side = 1;
 						vehicle="NLD_JGL_MMG";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
 						vehicle="NLD_JGL_MMG";
 						rank = "PRIVATE";
-						position[] = {10,0,0};
+						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
 						vehicle="NLD_JGL_AMMG";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {5,-5,0};
 					};
 				};
 			};
