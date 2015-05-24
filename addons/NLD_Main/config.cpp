@@ -35,6 +35,22 @@ class CfgFactionClasses
 		side=1;
 	};
 
+	class NLD_Units_UN_DST
+	{
+		displayName="NLD Armed Forces (UN Desert)";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
+	class NLD_Units_UN_WLD
+	{
+		displayName="NLD Armed Forces (UN Woodland)";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
 	class NLD_Units_WTR
 	{
 		displayName="NLD Armed Forces (WTR)";

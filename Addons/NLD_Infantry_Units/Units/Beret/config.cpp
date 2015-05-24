@@ -1,29 +1,3 @@
-#define ReadAndWrite		0
-#define ReadAndCreate		1
-#define ReadOnly			2
-#define ReadOnlyVerified	3
-
-#define true				1
-#define false				0
-
-#define VSoft				0
-#define VArmor				1
-#define VAir				2
-
-#define TEast				0
-#define TWest				1
-#define TGuerrila			2
-#define TCivilian			3
-#define TSideUnknown		4
-#define TEnemy				5
-#define TFriendly			6
-#define TLogic				7
-
-#define private				0
-#define protected			1
-#define public				2 
-
-
 class CfgPatches
 {
 	class NL_Infantry_Units_Berets
@@ -53,7 +27,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "NLD Koninklijke Marine";
+		displayName = "NLD Beret (Koninklijke Marine)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\RoyalMarines.paa";
 		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\RoyalMarines.paa"};
@@ -75,7 +49,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "NLD Korps Commandotroepen";
+		displayName = "NLD Beret (Korps Commandotroepen)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\Commandos.paa";
 		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\Commandos.paa"};
@@ -97,7 +71,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "NLD Luchtmobiele Brigade";
+		displayName = "NLD Beret (Luchtmobiele Brigade)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\11AirManoeuvreBrigade.paa";
 		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\11AirManoeuvreBrigade.paa"};
