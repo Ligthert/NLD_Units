@@ -284,19 +284,16 @@ Infantry:
 		NLD_SF_Operator
 		NLD_SF_SLA
 		NLD_SF_TL
-		NLD_SF_Vest
 
 	MTP:
 		NLD_MTP_AA
 		NLD_MTP_AR
 		NLD_MTP_AT
-		NLD_MTP_CAMO
 		NLD_MTP_COMSPEC
 		NLD_MTP_DEMSPEC
 		NLD_MTP_ECH
 		NLD_MTP_MEDIC
 		NLD_MTP_Operator
-		NLD_MTP_PlateCarrier
 		NLD_MTP_SLA
 		NLD_MTP_TL
 
@@ -436,6 +433,8 @@ Items:
 	NLD_SF_BaseballCap
 	NLD_SF_BoonieHat
 	NLD_SF_PlateCarrier
+	NLD_UN_Helmet
+	NLD_UN_Vest
 	NLD_WLD_BaseballCap
 	NLD_WLD_BoonieHat
 	NLD_WLD_Helmet
@@ -458,7 +457,20 @@ Magazines:
 Insignia:
 	Use this with: [this,"$INSIGNIA-NAME"] call BIS_fnc_setUnitInsignia;
 	NLD_11AMB
+	NLD_11AMB_Green
 	NLD_KCT
+	NLD_UIM
+	NLD_RNLMC
+	NLD_KM
+	NLD_TF55
+	NLD_TF55G
+	NLD_RLJ
+	NLD_Pathfinders
+	NLD_EOD
+	NLD_FlagNLD
+	NLD_MedicTan
+	NLD_MedicGreen
+	NLD_MedicRound
 
 Ammoboxes:
 	NLD_box_ammo

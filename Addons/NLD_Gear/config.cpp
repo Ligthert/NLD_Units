@@ -253,6 +253,12 @@ class cfgWeapons {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Helmet.paa"};		
 	};
 
+	class NLD_UN_Helmet : NLD_WLD_Helmet {
+		displayName = "NLD UN Helmet";
+		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\UN\Data\Helmet.paa"};		
+	};
+
 	class NLD_WLD_BaseballCap: ItemCore{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -379,6 +385,23 @@ class cfgWeapons {
 		displayName = "NLD Jungle Vest";
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Vest.paa"};
+	};
+
+	class NLD_UN_Vest : Vest_Camo_Base {
+		scope = 2;
+		displayName = "NLD UN Vest";
+		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Vest.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\UN\Data\Vest.paa"};
+		
+		class ItemInfo : VestItem {
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+			containerClass = "Supply120";
+			mass = 1;
+			armor = 30;
+			passThrough = 0.5;
+			hiddenSelections[] = {"camo"};
+		};
 	};
 
 	class NLD_SF_PlateCarrier : V_PlateCarrier1_blk
