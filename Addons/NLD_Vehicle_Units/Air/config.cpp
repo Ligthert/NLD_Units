@@ -42,7 +42,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
 		
 		class TransportItems {
@@ -108,7 +108,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
 		
 		class TransportItems {
