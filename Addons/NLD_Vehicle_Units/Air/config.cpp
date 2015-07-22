@@ -20,6 +20,58 @@ class CfgVehicles
 	class Heli_Transport_02_base_F;
 	class LLW_Apache_RNLAF;
 	class NH90;
+	class EC635_Unarmed;
+	class C_man_pilot_F;
+	
+	class EC635_NLD_Police: EC635_Unarmed
+	{
+		author = "Lowlands Tactical";
+		displayName = "EC135 (Police)";
+		scope = 2;
+		side = 3;
+		faction = "NLD_Units";
+		crew = "NLD_Police_F";
+		typicalCargo[] = {"NLD_Police_F","NLD_Police_F"};
+		vehicleClass = "Air";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\ec635\OuterHaul_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\UpperParts_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\Tail_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\Bawl_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\SideDoors_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\CargoDoors_co.paa"};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+	};
+	class EC635_NLD_Lifeliner: EC635_Unarmed
+	{
+		author = "Lowlands Tactical";
+		displayName = "EC135 (Lifeliner 2)";
+		scope = 2;
+		side = 3;
+		faction = "NLD_Units";
+		crew = "NLD_Lifeliner_F";
+		typicalCargo[] = {"NLD_Lifeliner_F","NLD_Lifeliner_F"};
+		vehicleClass = "Air";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\OuterHaul_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\UpperParts_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\Tail_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\Bawl_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\SideDoors_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\CargoDoors_co.paa"};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name = "FirstAidKit";
+				count = 10;
+			};
+			class _xx_MediKit
+			{
+				name = "MediKit";
+				count = 2;
+			};
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+	};
 
 	class NLD_AH64D: LLW_Apache_RNLAF
 	{

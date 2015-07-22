@@ -21,7 +21,8 @@ class cfgWeapons {
 	class U_I_CombatUniform;	// External class reference
 	class U_B_HeliPilotCoveralls;	// External class reference
 	class V_PlateCarrier1_blk;
-	class H_HelmetB;
+	class UniformItem;
+	class H_HelmetB
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
@@ -100,7 +101,7 @@ class cfgWeapons {
 	 class NLD_NVGoggles : NVGoggles_OPFOR {
 		modelOptics = "\A3\weapons_f\reticle\optics_night";
 		model = "\A3\Weapons_f\binocular\nvg_proxy";
-		displayName = "NV Goggles (NLD)";
+		displayName = "[NLD] NV Goggles";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"a3\characters_f\common\data\nvg_opfor_co.paa"};
   
@@ -454,7 +455,7 @@ class cfgWeapons {
 
 	class NLD_Helipilot_base : U_B_HeliPilotCoveralls {
 		scope = 2;
-		displayName = "NLD HeliPilot Coveralls";
+		displayName = "[NLD] HeliPilot Coveralls";
 		genericNames = "NLD_Units";
 		picture = "\A3\characters_f\data\ui\icon_U_B_coveralls_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
@@ -506,6 +507,93 @@ class cfgWeapons {
 			uniformClass = "NLD_Crew_MLRS";
 			containerClass = "Supply90";
 			mass = 40;
+		};
+	};
+	class NLD_Police_Uniform: U_B_HeliPilotCoveralls
+	{
+		scope = 2;
+		displayName = "[NLD] Police Pilot Uniform ";
+		picture = "\NLD_Vehicle_Units\Air\Data\police\pilots\ui\police_pilot.paa";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Police_F";
+			containerClass = "Supply80";
+			mass = 20;
+		};
+	};
+	class NLD_Lifeliner_Uniform: U_B_HeliPilotCoveralls
+	{
+		scope = 2;
+		displayName = "[NLD] Lifeliner Pilot Uniform ";
+		picture = "\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\ui\lifeliner_pilot.paa";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Lifeliner_F";
+			containerClass = "Supply80";
+			mass = 20;
+		};
+	};
+	class NLD_Police_Helmet: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Police Helmet";
+		picture = "\NLD_Vehicle_Units\Air\Data\police\pilots\ui\police_helmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_helmet.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_helmet.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+	class NLD_Lifeliner_Helmet: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Lifeliner Helmet";
+		picture = "\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\ui\lifeliner_helmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+	class NLD_Police_belt: Vest_Camo_Base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "[NLD] police Belt";
+		picture = "\A3\Characters_F\data\ui\icon_V_Belt_CA.paa";
+		model = "\A3\Characters_F\BLUFOR\equip_b_belt";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_blk_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_belt";
+			containerClass = "Supply80";
+			mass = 20;
+			armor = "5*0.2";
+			passThrough = 0.8;
+			hiddenSelections[] = {"camo"};
 		};
 	};
 };

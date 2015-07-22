@@ -1165,19 +1165,19 @@ class CfgVehicles {
 // SF Backpacks
 
 	class NLD_SF_Carryall_Empty : B_Carryall_oli {
-		displayName = "NLD Black Carryall (empty)";
+		displayName = "[NLD] Black Carryall (empty)";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 	};
 
 	class NLD_MTP_Carryall_Empty : B_Carryall_oli {
-		displayName = "NLD MTP Carryall (empty)";
+		displayName = "[NLD] MTP Carryall (empty)";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_B : B_Carryall_oli {
-		displayName = "NLD Black Carryall";
+		displayName = "[NLD] Black Carryall";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1230,13 +1230,13 @@ class CfgVehicles {
 
 	class NLD_MTP_Carryall_B : NLD_SF_Carryall_B
 	{
-		displayName = "NLD MTP Carryall";
+		displayName = "[NLD] MTP Carryall";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_Medic : B_Carryall_oli {
-		displayName = "NLD Black Carryall Medic";
+		displayName = "[NLD] Black Carryall Medic";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1294,13 +1294,13 @@ class CfgVehicles {
 
 	class NLD_MTP_Carryall_Medic : NLD_SF_Carryall_Medic
 	{
-		displayName = "NLD MTP Carryall Medic";
+		displayName = "[NLD] MTP Carryall Medic";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_ComSpec : B_Carryall_oli {
-		displayName = "NLD Black Carryall ComSpec";
+		displayName = "[NLD] Black Carryall ComSpec";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1357,13 +1357,13 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_ComSpec : NLD_SF_Carryall_ComSpec {
-		displayName = "NLD MTP Carryall ComSpec";
+		displayName = "[NLD] MTP Carryall ComSpec";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_Expl : B_Carryall_oli {
-		displayName = "NLD Black Carryall Expl";
+		displayName = "[NLD] Black Carryall Expl";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1435,13 +1435,13 @@ class CfgVehicles {
 	};	
 
 	class NLD_MTP_Carryall_Expl : NLD_SF_Carryall_Expl {
-		displayName = "NLD MTP Carryall Expl";
+		displayName = "[NLD] MTP Carryall Expl";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_AT : B_Carryall_oli {
-		displayName = "NLD Black Carryall AT";
+		displayName = "[NLD] Black Carryall AT";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1498,13 +1498,13 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_AT : NLD_SF_Carryall_AT {
-		displayName = "NLD MTP Carryall AT";
+		displayName = "[NLD] MTP Carryall AT";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_AA : B_Carryall_oli {
-		displayName = "NLD Black Carryall AA";
+		displayName = "[NLD] Black Carryall AA";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1561,13 +1561,13 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_AA : NLD_SF_Carryall_AA {
-		displayName = "NLD MTP Carryall AA";
+		displayName = "[NLD] MTP Carryall AA";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_SLA : B_Carryall_oli {
-		displayName = "NLD Black Carryall Sharpshooter";
+		displayName = "[NLD] Black Carryall Sharpshooter";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1619,13 +1619,13 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_SLA : NLD_SF_Carryall_SLA {
-		displayName = "NLD MTP Carryall Sharpshooter";
+		displayName = "[NLD] MTP Carryall Sharpshooter";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_AR : B_Carryall_oli {
-		displayName = "NLD Black Carryall AR";
+		displayName = "[NLD] Black Carryall AR";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1677,13 +1677,13 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_AR : NLD_SF_Carryall_AR {
-		displayName = "NLD MTP Carryall AR";
+		displayName = "[NLD] MTP Carryall AR";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_MP5 : B_Carryall_oli {
-		displayName = "NLD Black Carryall AR";
+		displayName = "[NLD] Black Carryall AR";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
 
@@ -1735,7 +1735,7 @@ class CfgVehicles {
 	};
 
 	class NLD_MTP_Carryall_MP5 : NLD_SF_Carryall_MP5 {
-		displayName = "NLD MTP Carryall MP5";
+		displayName = "[NLD] MTP Carryall MP5";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
