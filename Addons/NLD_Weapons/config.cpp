@@ -19,7 +19,7 @@ class CfgWeapons {
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
-		displayName="Diemaco C8";
+		displayName="[NLD] Diemaco C8";
 		author="Lowlands Tactical";
 		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
@@ -41,7 +41,7 @@ class CfgWeapons {
 
 	// Diemaco C8 GL
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
-		displayName="Diemaco C8 GL";
+		displayName="[NLD] Diemaco C8 GL";
 		author="Lowlands Tactical";
 		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
@@ -63,7 +63,7 @@ class CfgWeapons {
 
 	// Minimi
 	class NLD_Minimi: CUP_lmg_M249_para {
-		displayName="FN Minimi";
+		displayName="[NLD] FN Minimi";
 		author="Lowlands Tactical";
 		scope=2;
 		class LinkedItems
@@ -83,7 +83,7 @@ class CfgWeapons {
 
 	// Mag
 	class NLD_MAG: CUP_lmg_M240 {
-		displayName="FN MAG";
+		displayName="[NLD] FN MAG";
 		author="Lowlands Tactical";
 		scope=2;
 		magazines[] =
@@ -118,7 +118,7 @@ class CfgMagazines {
 	class NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M {
 		author = "CUP";
 		scope = 2;
-		displayName = "7.62x51mm 200 Rnd 240 Belt (red tracers)";
+		displayName = "[NLD] 7.62x51mm 200 Rnd 240 Belt (red tracers)";
 		picture = "\A3\Weapons_F\Data\UI\M_200Rnd_65x39_CA.paa";
 		model = "\A3\weapons_F\ammo\mag_univ.p3d";
 		count = 200;
@@ -146,7 +146,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Ammo [NLD]";
+		displayName = "[NLD] Ammo";
 
 		class TransportItems {
 			
@@ -195,7 +195,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Grenades [NLD]";
+		displayName = "[NLD] Grenades";
 
 		class TransportItems 
 		{
@@ -244,7 +244,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Launchers [NLD]";
+		displayName = "[NLD] Launchers";
 
 		class TransportItems 
 		{
@@ -287,7 +287,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Weapons [NLD]";
+		displayName = "[NLD] Weapons";
 
 		class TransportItems 
 		{

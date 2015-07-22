@@ -2069,6 +2069,10 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\pilotcoveralls_co.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 	};
 
 	class NLD_Helicrew: B_Helipilot_F
@@ -2086,9 +2090,13 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\coveralls_co.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 	};
 
-	class NLD_Crew: B_Helipilot_F
+	class NLD_Crew: B_Soldier_base_F
 	{
 		author = "Lowlands Tactical";
 		side = 1;
@@ -2099,12 +2107,39 @@ class CfgVehicles {
 		vehicleClass = "Infantry_Support";
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 		uniformAccessories[] = {};
-		uniformClass = "NLD_Helicrew_base";
+		uniformClass = "NLD_Crew_base";
 		hiddenSelections[] = {"Camo", "insignia"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\coveralls_co.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\coveralls_co.paa", ""};
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 		respawnLinkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+	};
+
+	class NLD_Crew_MLRS: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Crew MLRS";
+		faction = "NLD_Units";
+		genericNames = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_Crew_MLRS_base";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\coveralls_co.paa", "\NLD_Infantry_Units\Badges\109MLRS.paa"};
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		respawnLinkedItems[] = {"V_Chestrig_oli", "H_HelmetCrew_I", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 	};
 };
 
