@@ -62,6 +62,7 @@ class CfgVehicles {
 	class B_sniper_F;
 	class B_pilot_F;
 	class B_Spotter_F;
+	class C_man_pilot_F;
 
 
 // Woodland Units
@@ -2140,6 +2141,52 @@ class CfgVehicles {
 		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+	};
+	class NLD_Police_F: C_man_pilot_F
+	{
+		author = "Lowlands Tactical";
+		side = 3;
+		scope = 2;
+		faction = "NLD_Units";
+		displayName = "Police Pilot";
+		backpack = "";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_Police_Uniform";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_pilot.paa","\NLD_Vehicle_Units\Air\Data\police\pilots\Embleem EC-135_klpd.paa"};
+		hasDriver = 1;
+		linkedItems[] = {"NLD_Police_Helmet","NLD_Police_belt","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLD_Police_Helmet","NLD_Police_belt","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		Items[] = {"FirstAidKit","FirstAidKit"};
+		respawnItems[] = {"FirstAidKit","FirstAidKit"};
+		weapons[] = {"hgun_P07_F","Throw","Put"};
+		respawnWeapons[] = {"hgun_P07_F","Throw","Put"};
+		magazines[] = {"Chemlight_Red","Chemlight_Red","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
+		respawnMagazines[] = {"Chemlight_Red","Chemlight_Red","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
+	};
+	class NLD_Lifeliner_F: C_man_pilot_F
+	{
+		author = "Lowlands Tactical";
+		side = 3;
+		scope = 2;
+		faction = "NLD_Units";
+		displayName = "Lifeliner Pilot";
+		backpack = "";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_Lifeliner_Uniform";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_pilot.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\Lifeliner 2 badge.paa"};
+		hasDriver = 1;
+		linkedItems[] = {"NLD_Lifeliner_Helmet","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"NLD_Lifeliner_Helmet_Helmet","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		Items[] = {"FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
+		respawnItems[] = {"FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit","FirstAidKit"};
+		weapons[] = {"Throw","Put"};
+		respawnWeapons[] = {"Throw","Put"};
+		magazines[] = {"Chemlight_Yellow","Chemlight_Yellow"};
+		respawnMagazines[] = {"Chemlight_Yellow","Chemlight_Yellow"};
 	};
 };
 

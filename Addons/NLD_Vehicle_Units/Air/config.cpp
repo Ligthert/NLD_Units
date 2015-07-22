@@ -33,7 +33,7 @@ class CfgVehicles
 		crew = "NLD_Police_F";
 		typicalCargo[] = {"NLD_Police_F","NLD_Police_F"};
 		vehicleClass = "Air";
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\ec635\OuterHaul_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\UpperParts_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\Tail_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\Bawl_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\SideDoors_co.paa","Dutch_Aviation_Emergency_Services\data\police\ec635\CargoDoors_co.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\ec635\OuterHaul_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\UpperParts_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\Tail_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\Bawl_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\SideDoors_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\CargoDoors_co.paa"};
 		class TransportItems
 		{
 			class _xx_FirstAidKit
@@ -55,7 +55,7 @@ class CfgVehicles
 		crew = "NLD_Lifeliner_F";
 		typicalCargo[] = {"NLD_Lifeliner_F","NLD_Lifeliner_F"};
 		vehicleClass = "Air";
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\OuterHaul_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\UpperParts_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\Tail_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\Bawl_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\SideDoors_co.paa","Dutch_Aviation_Emergency_Services\data\lifeliner\ec635\CargoDoors_co.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\OuterHaul_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\UpperParts_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\Tail_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\Bawl_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\SideDoors_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\CargoDoors_co.paa"};
 		class TransportItems
 		{
 			class _xx_FirstAidKit

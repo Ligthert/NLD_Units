@@ -11,18 +11,17 @@ class cfgWeapons {
 	class Uniform_Base;	// External class reference
 	class UniformItem;	// External class reference
 	class U_B_GhillieSuit;	// External class reference
+	class U_I_CombatUniform;	// External class reference
+	class U_B_HeliPilotCoveralls;	// External class reference
+	class ItemInfo;	// External class reference
 	class ItemCore;		// External class reference
 	class HeadgearItem;	// External class reference
 	class H_HelmetIA;	// External class reference
+	class H_HelmetB;
 	class NVGoggles_OPFOR;	// External class reference
-	class ItemInfo;	// External class reference
 	class Vest_Camo_Base;	// External class reference
 	class VestItem;	// External class reference
-	class U_I_CombatUniform;	// External class reference
-	class U_B_HeliPilotCoveralls;	// External class reference
 	class V_PlateCarrier1_blk;
-	class UniformItem;
-	class H_HelmetB
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
