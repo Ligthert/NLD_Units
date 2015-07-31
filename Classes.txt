@@ -124,13 +124,20 @@ Groups:
 
 Vehicles:
 	Air:
-		NLD_MH65
-		NLD_MH65_Armed
 		NLD_NH90
-		LLW_Apache_RNLAF
+		NLD_AH64D
+		NLD_F16C_AA
+		NLD_F16C_CAS
+		NLD_F16C_CASAI
+		NLD_Lynx
+		NLD_Lynx_Armed
+		EC635_NLD_Police
+		EC635_NLD_Lifeliner
 	Armor:
 		NLD_WLD_Leo2
 		NLD_DST_Leo2
+		NLD_WLD_M270MLRS
+		NLD_WLD_PzH2000NL
 	Car:
 		NLD_DST_Fennek
 		NLD_DST_Fennek_HMG
@@ -148,6 +155,8 @@ Infantry:
 		NLD_Crew
 		NLD_Helicrew
 		NLD_Helipilot
+		NLD_Lifeliner_F
+		NLD_Police_F
 
 	Desert:
 		NLD_DST_AA
@@ -313,7 +322,7 @@ Infantry:
 		NLD_MTP_SLA
 		NLD_MTP_TL
 	
-	UN Woodland	
+	UN Woodland:	
 		NLD_UN_WLD_rifleman
 		NLD_UN_WLD_AR
 		NLD_UN_WLD_LAT
@@ -336,7 +345,7 @@ Infantry:
 		NLD_UN_WLD_AA
 		NLD_UN_WLD_AAA
 		
-	UN Desert	
+	UN Desert:	
 		NLD_UN_DST_rifleman
 		NLD_UN_DST_AR
 		NLD_UN_DST_LAT
