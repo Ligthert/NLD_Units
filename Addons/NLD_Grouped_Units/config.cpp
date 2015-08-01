@@ -2756,6 +2756,111 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
+				class NLD_UN_WLD_InfClsTeam
+				{
+					name = "Medic Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfEngTeam
+				{
+					name = "Engineering Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Engi";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Engi";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_WLD_InfExplTeam
+				{
+					name = "EOD Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Expl";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Expl";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_WLD_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
 				class NLD_DST_InfClsTeam
 				{
 					name = "Medic Team (Desert)";
@@ -2857,6 +2962,111 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle="NLD_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfClsTeam
+				{
+					name = "Medic Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfEngTeam
+				{
+					name = "Engineering Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Engi";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Engi";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_UN_DST_InfExplTeam
+				{
+					name = "EOD Team (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_TL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Expl";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Expl";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_UN_DST_Rifleman";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
@@ -3398,6 +3608,120 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle="NLD_DST_Leo2";
+						rank = "LIEUTENANT";
+						position[] = {-2.5,-2.5,0};
+					};
+				};
+				class NLD_WLD_PzhPlt
+				{
+					name = "PzH 2000 NL Platoon (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "LIEUTENANT";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "LIEUTENANT";
+						position[] = {-5,-5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "LIEUTENANT";
+						position[] = {-7.5,-7.5,0};
+					};
+				};
+
+				class NLD_WLD_PzhSection
+				{
+					name = "PzH 2000 NL Section (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_PzH2000NL";
+						rank = "LIEUTENANT";
+						position[] = {-2.5,-2.5,0};
+					};
+				};
+				class NLD_WLD_MLRSPlt
+				{
+					name = "MLRS Platoon (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
+						rank = "LIEUTENANT";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
+						rank = "LIEUTENANT";
+						position[] = {-5,-5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
+						rank = "LIEUTENANT";
+						position[] = {-7.5,-7.5,0};
+					};
+				};
+
+				class NLD_WLD_MLRSSection
+				{
+					name = "MLRS Section (Woodland)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_M270MLRS";
 						rank = "LIEUTENANT";
 						position[] = {-2.5,-2.5,0};
 					};

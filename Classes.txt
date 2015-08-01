@@ -103,6 +103,12 @@ Groups:
 		NLD_DST_InfClsTeam
 		NLD_DST_InfEngTeam
 		NLD_DST_InfExplTeam
+		NLD_UN_WLD_InfClsTeam
+		NLD_UN_WLD_InfEngTeam
+		NLD_UN_WLD_InfExplTeam
+		NLD_UN_DST_InfClsTeam
+		NLD_UN_DST_InfEngTeam
+		NLD_UN_DST_InfExplTeam
 		NLD_WTR_InfClsTeam
 		NLD_WTR_InfEngTeam
 		NLD_WTR_InfExplTeam
@@ -121,6 +127,10 @@ Groups:
 		 NLD_WLD_LeoSection
 		 NLD_DST_ArmorPlt
 		 NLD_DST_LeoSection
+		 NLD_WLD_PzhPlt
+		 NLD_WLD_PzhSection
+		 NLD_WLD_MLRSPlt
+		 NLD_WLD_MLRSSection
 
 Vehicles:
 	Air:

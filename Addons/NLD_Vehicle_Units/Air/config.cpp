@@ -89,7 +89,7 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "I_Heli_light_03_unarmed_F";
-		displayName = "Lynx";
+		displayName = "SH-14D Lynx";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -150,12 +150,12 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLD_MH65_Armed : I_Heli_light_03_F
+	class NLD_Lynx_Armed : I_Heli_light_03_F
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
 		_generalMacro = "I_Heli_light_03_F";
-		displayName = "Lynx (Armed)";
+		displayName = "SH-14D Lynx (Armed)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
