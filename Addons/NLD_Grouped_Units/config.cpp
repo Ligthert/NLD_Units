@@ -51,7 +51,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -86,14 +86,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WLD_SL";
+						vehicle="NLD_WLD_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -156,7 +156,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -184,7 +184,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -219,7 +219,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -254,7 +254,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -289,7 +289,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -345,7 +345,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -380,14 +380,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_DST_SL";
+						vehicle="NLD_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -450,7 +450,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -478,7 +478,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -513,7 +513,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -548,7 +548,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -583,7 +583,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -639,7 +639,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -674,14 +674,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_SL";
+						vehicle="NLD_UN_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -744,7 +744,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -772,7 +772,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -807,7 +807,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -842,7 +842,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -877,7 +877,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -933,7 +933,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -968,14 +968,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_SL";
+						vehicle="NLD_UN_WLDaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1038,7 +1038,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1066,7 +1066,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1101,7 +1101,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1136,7 +1136,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1171,7 +1171,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1227,7 +1227,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1262,14 +1262,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WTR_SL";
+						vehicle="NLD_WTRaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1332,7 +1332,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1360,7 +1360,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1395,7 +1395,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1430,7 +1430,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1465,7 +1465,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1521,7 +1521,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1556,14 +1556,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_NFPTaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1626,7 +1626,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1654,7 +1654,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1689,7 +1689,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1724,7 +1724,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1759,7 +1759,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1815,7 +1815,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1850,14 +1850,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPG_SL";
+						vehicle="NLD_NFPGaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1920,7 +1920,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -1948,7 +1948,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -1983,7 +1983,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2018,7 +2018,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2053,7 +2053,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2109,7 +2109,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2144,14 +2144,14 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_JGL_SL";
+						vehicle="NLD_JGLaa_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -2214,7 +2214,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -2242,7 +2242,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2277,7 +2277,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2312,7 +2312,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2347,7 +2347,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -2388,7 +2388,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_SF_TL";
+						vehicle = "NLD_SF_SL";
 						faction = "NLD_Units";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
@@ -2396,7 +2396,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle = "NLD_SF_TL";
+						vehicle = "NLD_SFaa_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
@@ -2459,7 +2459,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_SF_TL";
+						vehicle = "NLD_SF_SL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
@@ -2521,7 +2521,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_MTP_TL";
+						vehicle = "NLD_MTP_SL";
 						faction = "NLD_Units";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
@@ -2529,7 +2529,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle = "NLD_MTP_TL";
+						vehicle = "NLD_MTPaa_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
@@ -2592,7 +2592,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_MTP_TL";
+						vehicle = "NLD_MTP_SL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
@@ -2660,7 +2660,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLDaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2695,7 +2695,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLDaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2730,7 +2730,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLDaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2765,7 +2765,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2800,7 +2800,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLD_SL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2835,7 +2835,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_WLD_TL";
+						vehicle="NLD_UN_WLDaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2870,7 +2870,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2905,7 +2905,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2940,7 +2940,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2975,7 +2975,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3010,7 +3010,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3045,7 +3045,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_UN_DST_TL";
+						vehicle="NLD_UN_DSTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3080,7 +3080,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTRaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3115,7 +3115,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTRaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3150,7 +3150,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTRaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3185,7 +3185,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3220,7 +3220,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3255,7 +3255,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPTaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3290,7 +3290,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPGaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3325,7 +3325,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPGaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3360,7 +3360,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPGaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3395,7 +3395,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGLaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3430,7 +3430,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGLaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3465,7 +3465,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGLaa_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -3767,7 +3767,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -3802,7 +3802,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -3872,7 +3872,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -3900,7 +3900,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -3935,7 +3935,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -3970,7 +3970,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4005,7 +4005,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_TL";
+						vehicle="NLD_WLD_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4133,7 +4133,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4168,7 +4168,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4238,7 +4238,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -4266,7 +4266,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4301,7 +4301,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4336,7 +4336,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4371,7 +4371,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DST_TL";
+						vehicle="NLD_DST_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4501,7 +4501,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4536,7 +4536,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4606,7 +4606,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -4634,7 +4634,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4669,7 +4669,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4704,7 +4704,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4739,7 +4739,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WTR_TL";
+						vehicle="NLD_WTR_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4806,7 +4806,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4841,7 +4841,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4911,7 +4911,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -4939,7 +4939,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -4974,7 +4974,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5009,7 +5009,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5044,7 +5044,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_NFPT_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5111,7 +5111,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5146,7 +5146,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5216,7 +5216,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -5244,7 +5244,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5279,7 +5279,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5314,7 +5314,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5349,7 +5349,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPG_TL";
+						vehicle="NLD_NFPG_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5416,7 +5416,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5451,7 +5451,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5521,7 +5521,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
@@ -5549,7 +5549,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5584,7 +5584,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5619,7 +5619,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -5654,7 +5654,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_JGL_TL";
+						vehicle="NLD_JGL_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
