@@ -387,7 +387,7 @@ class CfgGroups
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_DSTaa_TL";
+						vehicle="NLD_DST_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
@@ -2870,7 +2870,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DSTaa_TL";
+						vehicle="NLD_DST_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2905,7 +2905,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DSTaa_TL";
+						vehicle="NLD_DST_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -2940,7 +2940,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_DSTaa_TL";
+						vehicle="NLD_DST_TL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
