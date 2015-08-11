@@ -7,11 +7,12 @@ A collection of units mirroring elements of the Royal Netherlands Army for ArmA 
 * Sacha Ligthert
 * Smootch
 * Outlaw28
-* Crielaard
+* ShiftySean
 
 ## Known issues
-- Changing Backpacks in VAS/Arsenal may give you all the gear in the backpack (again)
-- MH65 pilots sometimes stand in their seats. This is a rare occurrence, but this is with BIS (I think).
+- Rebranded CUP weapons still show their original version in the arsenal
+- SF (black) COMSPEC doesn't have a UAV table (like it should)
+- Nose of unarmed Lynx stays vanilla color in first person
 
 ## Classes
 See classes.txt
