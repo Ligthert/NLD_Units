@@ -1,10 +1,9 @@
 @NLD_units: Credits
 __________________________________________
 
-Textures: 	Smootch & Outlaw28
+Textures: 	Smootch, Outlaw28 & ShiftySean
 config.cpp:	Sacha Ligthert & Smootch
 Models:		Bohemia Interactive
-AH-64D		Crielaard (LowLands Warrior)
 
 __________________________________________
 
@@ -14,3 +13,6 @@ Fennek skin	: [KGB] Cartman
 Leopard skin	: [KGB] Cartman
 Weapons		: Community Upgrade Project
 NH90		: Aplion
+AH-64D		: Crielaard (LowLands Warrior)
+F16C		: Firewill
+EC135		: Aplion
