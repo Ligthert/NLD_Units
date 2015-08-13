@@ -1,7 +1,7 @@
 class CfgPatches {
 	class NLD_Units_Weapons {
 		units[] = {};
-		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG"};
+		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG","NLD_AWM","NLD_AT4"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"NLD_Units_Infantry"};
 	};
@@ -16,6 +16,8 @@ class CfgWeapons {
 	class CUP_lmg_M249_para;
 	class CUP_lmg_m240;
 	class CUP_srifle_M107_Base;
+	class CUP_srifle_AWM_wdl;
+	class CUP_launch_M136;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -80,6 +82,27 @@ class CfgWeapons {
 			};
 		};
 	};
+	
+	//AWM
+	class NLD_AWM: CUP_srifle_AWM_wdl
+	{
+		displayName="[NLD] AWM";
+		author="Lowlands Tactical";
+		scope=2;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountAWM";
+				item = "optic_LRPS";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "CUP_PicatinnyUnderMountAWM";
+				item = "bipod_01_F_blk";
+			};
+		};
+	};
 
 	// Mag
 	class NLD_MAG: CUP_lmg_M240 {
@@ -104,6 +127,17 @@ class CfgWeapons {
 				slot = "CUP_PicatinnySideMountM240";
 				item = "acc_pointer_IR";
 			};
+		};
+	};
+	
+	//AT4
+	class NLD_AT4: CUP_launch_M136 {
+		displayName="[NLD] AT4";
+		author="Lowlands Tactical";
+		scope=2;
+		magazines[] =
+		{
+			"CUP_M136_M"
 		};
 	};
 };

@@ -107,8 +107,8 @@ class CfgVehicles {
 		displayName = "Rifleman (LAT)";
 		icon = "iconManAT";
 		backpack = "NLD_WLD_Carryall_AT";
-		weapons[] = {"NLD_blk_C8", "CUP_launch_M136", "CUP_hgun_Glock17", "Throw", "Put"}; 
-		respawnWeapons[] = {"NLD_blk_C8", "CUP_launch_M136", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		weapons[] = {"NLD_blk_C8", "NLD_AT4", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"NLD_blk_C8", "NLD_AT4", "CUP_hgun_Glock17", "Throw", "Put"}; 
 	};
 
 	class NLD_WLD_CLS: NLD_WLD_rifleman
@@ -203,8 +203,8 @@ class CfgVehicles {
 		displayName = "Designated Marksman";
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"CUP_srifle_AWM_wdl_SBPMII", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
-		respawnWeapons[] = {"CUP_srifle_AWM_wdl_SBPMII", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
+		weapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"};
 		magazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17"};
 		respawnMagazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17"};
 	};
@@ -1468,8 +1468,8 @@ class CfgVehicles {
 		backpack = "NLD_SF_Carryall_SLA";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"CUP_srifle_AWM_wdl_SBPMII", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"CUP_srifle_AWM_wdl_SBPMII", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		weapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		magazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
