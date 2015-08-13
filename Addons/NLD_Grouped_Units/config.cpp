@@ -2388,7 +2388,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_SF_SL";
+						vehicle = "NLD_SF_TL";
 						faction = "NLD_Units";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
@@ -2420,7 +2420,7 @@ class CfgGroups
 					class unit4
 					{
 						side = 1;
-						vehicle = "NLD_SF_SLA";
+						vehicle = "NLD_SF_TLA";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
@@ -2459,7 +2459,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_SF_SL";
+						vehicle = "NLD_SF_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
@@ -2521,7 +2521,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_MTP_SL";
+						vehicle = "NLD_MTP_TL";
 						faction = "NLD_Units";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
@@ -2553,7 +2553,7 @@ class CfgGroups
 					class unit4
 					{
 						side = 1;
-						vehicle = "NLD_MTP_SLA";
+						vehicle = "NLD_MTP_TLA";
 						faction = "NLD_Units";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
@@ -2592,7 +2592,7 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle = "NLD_MTP_SL";
+						vehicle = "NLD_MTP_TL";
 						faction = "NLD_Units";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
