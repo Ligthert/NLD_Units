@@ -530,6 +530,8 @@ Weapons:
 	NLD_blk_C8GL
 	NLD_Minimi
 	NLD_MAG
+	NLD_AT4
+	NLD_AWM
 
 Magazines:
 	The NLD_Mag has access to a 200-round magazine
