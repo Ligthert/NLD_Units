@@ -53,6 +53,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (SF MTP)";
 	};
+	class Infantry_Diver
+	{
+		displayName="Men (Diver)";
+	};
 };
 class CfgVehicles {
 	class B_Soldier_base_F;	
@@ -63,6 +67,7 @@ class CfgVehicles {
 	class B_pilot_F;
 	class B_Spotter_F;
 	class C_man_pilot_F;
+	class B_diver_F;
 
 
 // Woodland Units

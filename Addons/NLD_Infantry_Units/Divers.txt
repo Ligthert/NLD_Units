@@ -1,0 +1,85 @@
+
+	class NLD_Diver_Operator: B_diver_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Operator (Diver)";
+		genericNames = "NLD_Units";
+		faction = "NLD_Units";
+		vehicleClass = "Infantry_Diver";
+		backpack = "NLD_SF_Carryall_B";
+		model = "\A3\characters_F\Common\diver_slotable";
+		hasDriver = 1;
+		linkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_blk_C8", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+	};
+
+	class NLD_Diver_MEDIC: NLD_Diver_Operator
+	{
+		displayName = "Medic";
+		model = "\A3\characters_F\Common\diver_slotable";
+		backpack = "NLD_SF_Carryall_Medic";
+		icon = "iconManMedic";
+		attendant = 1;
+	};
+
+	class NLD_Diver_COMSPEC: NLD_Diver_Operator
+	{
+		displayName = "ComSpec";
+		model = "\A3\characters_F\Common\diver_slotable";
+		weapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
+		respawnWeapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
+		backpack = "NLD_SF_Carryall_ComSpec";
+	};
+
+	class NLD_Diver_DEMSPEC: NLD_Diver_Operator
+	{
+		displayName = "DemSpec";
+		model = "\A3\characters_F\Common\diver_slotable";
+		icon = "iconManExplosive";
+		backpack = "NLD_SF_Carryall_Expl";
+		canDeactivateMines = 1;
+		engineer = 1;
+	};
+
+	class NLD_Diver_TL: NLD_Diver_Operator
+	{
+		displayName = "Team Leader";
+		model = "\A3\characters_F\Common\diver_slotable";
+		icon = "iconManLeader";
+		weapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"NLD_blk_C8GL", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"};
+		backpack = "NLD_SF_Carryall_ComSpec";
+	};
+
+	class NLD_Diver_SLA: NLD_Diver_Operator
+	{
+		displayName = "Sharpshooter";
+		model = "\A3\characters_F\Common\diver_slotable";
+		backpack = "NLD_SF_Carryall_SLA";
+		linkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
+		respawnLinkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_AWM", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+	};
+
+	class NLD_Diver_AR: NLD_Diver_Operator
+	{
+		displayName = "Machinegunner";
+		model = "\A3\characters_F\Common\diver_slotable";
+		icon = "iconManMG";
+		backpack = "NLD_SF_Carryall_AR";
+		linkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_RebreatherB", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"NLD_Minimi", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_Minimi", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+	};
