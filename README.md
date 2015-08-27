@@ -1,4 +1,4 @@
-# @NLD_Units - An ArmA 3 mod!
+# @NLD_Units - Dutch Units in ArmA 3
 
 ## Description
 A collection of units mirroring elements of the Royal Netherlands Army for ArmA 3 in one nifty mod.
