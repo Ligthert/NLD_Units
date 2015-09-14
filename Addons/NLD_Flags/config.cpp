@@ -27,7 +27,7 @@ class CfgVehicles
 
 };
 	};
-	class Netherlands_RoyalAirForce_Flag: FlagPole_F
+	class NLD_LowlansTactical_Flag: FlagPole_F
 	{
 		scope = 2;
 		accuracy = 10000;
@@ -35,7 +35,7 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\LT_Flag.paa"""
+			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\LT_Flag.paa""";
 
 		};
 	};

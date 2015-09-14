@@ -290,9 +290,9 @@ class CfgVehicles
 
 		class TransportWeapons
 		{
-			class _xx_CUP_launch_M136
+			class _xx_NLD_AT4
 			{
-				weapon = "CUP_launch_M136";
+				weapon = "NLD_AT4";
 				count = 4;
 			};
 			class _xx_CUP_launch_FIM92Stinger
@@ -362,9 +362,9 @@ class CfgVehicles
 				weapon = "NLD_MAG";
 				count = 2;
 			};
-			class _xx_CUP_srifle_AWM_wdl_SBPMII
+			class _xx_NLD_AWM
 			{
-				weapon = "CUP_srifle_AWM_wdl_SBPMII";
+				weapon = "NLD_AWM";
 				count = 1;
 			};
 			class _xx_CUP_hgun_Glock17
