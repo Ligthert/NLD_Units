@@ -14,6 +14,10 @@ class CfgVehicles {
 	class I_MBT_03_BASE_F;
 	class B_MBT_01_arty_F;
 	class B_MBT_01_mlrs_F;
+	class I_APC_tracked_03_cannon_F;
+	class B_APC_Tracked_01_rcws_F;
+	class B_APC_Tracked_01_CRV_F;
+	class B_APC_Tracked_01_AA_F;
 
 
 // Leopard2 - Woodland
@@ -29,7 +33,7 @@ class CfgVehicles {
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Leopard_2.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_2.paa"};
 
 		class EventHandlers {
 			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
@@ -102,7 +106,7 @@ class CfgVehicles {
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Leopard_2.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_2.paa"};
 
 		class EventHandlers {
 			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
@@ -122,7 +126,7 @@ class CfgVehicles {
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\mbt_body_co.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\pzh2000_turret_co.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\mbt_turret_co.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000body.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000turret.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000comgun.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -189,7 +193,342 @@ class CfgVehicles {
 		crew = "NLD_Crew_MLRS";
 		typicalCargo[] = {"NLD_Crew_MLRS"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\M270MLRS\woodland\mbt_body_mlrs_co.paa", "\NLD_Vehicle_Units\Armored\M270MLRS\woodland\mlrs_turret_co.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\M270MLRS\woodland\Data\mlrsbody.paa", "\NLD_Vehicle_Units\Armored\M270MLRS\woodland\Data\mlrsturret.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// CV9035NL - Woodland
+	class NLD_WLD_CV9035NL : I_APC_tracked_03_cannon_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CV9035NL (Woodland)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// YPR-765 - Woodland
+	class NLD_WLD_YPR : B_APC_Tracked_01_rcws_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "YPR-765 (Woodland)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\YPR\woodland\Data\YPRbodyup.paa", "\NLD_Vehicle_Units\Armored\YPR\woodland\Data\YPRbodylow.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000comgun.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// KMAR YPR-765 - Woodland
+	class NLD_WLD_KMAR_YPR : B_APC_Tracked_01_rcws_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "YPR-765 (KMAR)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodyup.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodylow.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRcomgun.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// Leopard 2 Bergingstank - Woodland
+	class NLD_WLD_Buffel : B_APC_Tracked_01_CRV_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Leopard 2 Bergingstank (Buffel)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "camo3", "camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Buffel\woodland\Data\BUFFELbodyup.paa", "\NLD_Vehicle_Units\Armored\Buffel\woodland\Data\BUFFELbodylow.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000comgun.paa", "\NLD_Vehicle_Units\Armored\Buffel\woodland\Data\BUFFELcrv.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// Cheetah PRTL - Woodland
+	class NLD_WLD_PRTL : B_APC_Tracked_01_AA_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Cheetah PRTL (Woodland)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\PRTL\woodland\Data\PRTLbodyup.paa", "\NLD_Vehicle_Units\Armored\PRTL\woodland\Data\PRTLbodylow.paa", "\NLD_Vehicle_Units\Armored\PRTL\woodland\Data\PRTLturret.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
