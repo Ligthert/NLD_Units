@@ -119,7 +119,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "PzH2000NL (Woodland)";
+		displayName = "PzH2000NL";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -186,7 +186,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "M270 MLRS (Woodland)";
+		displayName = "M270 MLRS";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -253,7 +253,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "CV9035NL (Woodland)";
+		displayName = "CV9035NL";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -320,7 +320,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "YPR-765 (Woodland)";
+		displayName = "YPR-765";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -454,7 +454,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard 2 Bergingstank (Buffel)";
+		displayName = "Leopard 2 Bergingstank";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -521,7 +521,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Cheetah PRTL (Woodland)";
+		displayName = "Cheetah PRTL";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
