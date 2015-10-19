@@ -22,6 +22,7 @@ class cfgWeapons {
 	class Vest_Camo_Base;	// External class reference
 	class VestItem;	// External class reference
 	class V_PlateCarrier1_blk;
+	class H_HelmetCrew_B;
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
@@ -593,6 +594,90 @@ class cfgWeapons {
 			armor = "5*0.2";
 			passThrough = 0.8;
 			hiddenSelections[] = {"camo"};
+		};
+	};
+
+	class NLD_KMAR_Camo : Uniform_Base {
+		scope = 2;
+		displayName = "[NLD] KMAR Camo";
+		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Police";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
+	class NLD_KMAR_Camo2 : Uniform_Base {
+		scope = 2;
+		displayName = "[NLD] KMAR Camo2";
+		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Police2";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
+	class NLD_KMAR_Crew_Camo : Uniform_Base {
+		scope = 2;
+		displayName = "[NLD] KMAR Crew Camo";
+		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem {
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Crew";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+
+    class NLDO_KMAR_Vest: V_PlateCarrier1_blk
+	{
+		scope = 2;
+		displayName = "[NLD] KMAR Vest";
+		picture="\A3\Characters_F_EPC\Data\UI\icon_V_PressVest_CA.paa";
+		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Vest.paa"};
+                
+                  
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 50;
+			armor = 60;
+			passThrough = 0.30;
+		};
+	};
+	class NLD_KMAR_Helmet: H_HelmetCrew_B
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] KMAR Helmet";
+		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_Helmet.paa";
+		model="\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel="\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
+			hiddenSelections[] = {"Camo"};
 		};
 	};
 };

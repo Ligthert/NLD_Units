@@ -382,7 +382,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 // KMAR YPR-765 - Woodland
-	class NLD_WLD_KMAR_YPR : B_APC_Tracked_01_rcws_F
+	class NLD_KMAR_YPR : B_APC_Tracked_01_rcws_F
 	{
 
 		author = "Lowlands Tactical";
@@ -391,10 +391,77 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
-		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		crew = "NLD_KMAR_Crew";
+		typicalCargo[] = {"NLD_KMAR_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodyup.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodylow.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRcomgun.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+// Leopard 2 Bergingstank - KMAR
+	class NLD_KMAR_Buffel : B_APC_Tracked_01_CRV_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Leopard 2 Bergingstank (KMAR)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_KMAR_Crew";
+		typicalCargo[] = {"NLD_KMAR_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "camo3", "camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodyup.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRbodylow.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRcomgun.paa", "\NLD_Vehicle_Units\Armored\KMAR-YPR\Blue\Data\KMARYPRcrv.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {

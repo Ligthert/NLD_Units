@@ -67,6 +67,28 @@ class cfgWeapons
 		};
 	};
 
+	class Dutch_Beret_KMAR: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Beret (Koninklijke Marechaussee)";
+		picture = "\NLD_Infantry_Units\Units\Beret\uim\KMAR.paa";
+		model = "\A3\Characters_F\Common\headgear_beret01";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\KMAR.paa"};
+		hiddenSelections[] = {"Camo"};
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "\A3\Characters_F\Common\headgear_beret01";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\KMAR.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class Dutch_Beret_Luchtmobiele_Brigade: ItemCore
 	{
 		scope = 2;

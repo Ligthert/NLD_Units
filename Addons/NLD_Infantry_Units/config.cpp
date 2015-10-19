@@ -2147,6 +2147,76 @@ class CfgVehicles {
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 	};
+
+	class NLD_KMAR_Crew: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Kmar Crew";
+		faction = "NLD_Units";
+		genericNames = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F\Common\coveralls.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_KMAR_Crew_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\kmar_coveralls.paa", ""};
+		faceType = "Man_A3";
+		linkedItems[] = {"NLD_Police_belt", "NLD_KMAR_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		respawnLinkedItems[] = {"NLD_Police_belt", "NLD_KMAR_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+	};
+
+	class NLD_KMAR_Police: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Kmar Police";
+		faction = "NLD_Units";
+		genericNames = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model="\A3\Characters_F\Civil\c_poloshirtpants.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_KMAR_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\kmar.paa", ""};
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		respawnLinkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+	};
+
+	class NLD_KMAR_Police2: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "Kmar Police 2";
+		faction = "NLD_Units";
+		genericNames = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_KMAR_Camo2";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Uniform.paa", ""};
+		faceType = "Man_A3";
+		linkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		respawnLinkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
+		weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put"}; 
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+	};
+	
 	class NLD_Police_F: C_man_pilot_F
 	{
 		author = "Lowlands Tactical";
