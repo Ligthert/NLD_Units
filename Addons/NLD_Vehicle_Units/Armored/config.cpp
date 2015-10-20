@@ -253,7 +253,7 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "CV9035NL";
+		displayName = "CV-9035NL";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;

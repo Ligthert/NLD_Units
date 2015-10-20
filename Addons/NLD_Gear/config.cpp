@@ -366,6 +366,7 @@ class cfgWeapons {
 	};
 
 	class NLD_DST_Vest : NLD_WLD_Vest {
+		scope = 1;
 		displayName = "[NLD] Desert Vest";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Vest.paa"};
 	};
@@ -497,7 +498,7 @@ class cfgWeapons {
 	};
 	
 	class NLD_Crew_MLRS_base : Uniform_Base {
-		scope = 2;
+		scope = 1;
 		displayName = "[NLD] Crew MLRS Coveralls";
 		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\WorkUniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";

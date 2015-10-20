@@ -1,30 +1,33 @@
 Changelog:
 
+v201510205
 - Added APC's (YPR, Buffel, CV9035NL, Cheetha PRTL, KMAR YPR, KMAR Buffel).
-- Changed Textures of MLRS & PzH2000
+- Added KMAR Units.
+- Changed Textures of MLRS & PzH2000.
+- http://imgur.com/a/xVaKa
 
 v201508154
-- Fixxed errors
-- Updated Cup Weapons to 1.2.1
+- Fixxed errors.
+- Updated Cup Weapons to 1.2.1.
 
 v201508023
--Added F16C (CAS and AA variants)
--Added UN infantry (Desert and Woodland variants)
--Added MLRS and PzH2000 (reskin of the M5 Sandstorm and the M4 Scorcher)
--Added Lynx helicopter (Armed and Unarmed)
--Added Dutch Aviation Emergency Services (EC135 Police and Lifeliner versions)
--Added insignias
--Removed MH65
--Changed images of gear in inventory
+-Added F16C (CAS and AA variants).
+-Added UN infantry (Desert and Woodland variants).
+-Added MLRS and PzH2000 (reskin of the M5 Sandstorm and the M4 Scorcher).
+-Added Lynx helicopter (Armed and Unarmed).
+-Added Dutch Aviation Emergency Services (EC135 Police and Lifeliner versions).
+-Added insignias.
+-Removed MH65.
+-Changed images of gear in inventory.
 
 v20150412
-- Added Crielaards Apach AH-64D 
+- Added Crielaards Apach AH-64D .
 - Included Aplion's HAFM NH-90 and added a custom skin.
-- Added boxes for Ammo, Weapons, Grenades and Launchers
-- Squad and Team Leaders now have an UGL
-- SF MP5 now carry their own backpacks
-- Added 11AMB and KCT as insignia (should be selectable now in the Arsenal)
-- Minor fixes
+- Added boxes for Ammo, Weapons, Grenades and Launchers.
+- Squad and Team Leaders now have an UGL.
+- SF MP5 now carry their own backpacks.
+- Added 11AMB and KCT as insignia (should be selectable now in the Arsenal).
+- Minor fixes.
 - Due to the inclusion of CUP Weapons, the Apache and the NH90 as untouched PBOs I've changed the version to the release date. Updates to the dependencies shouldn't give us a headache about the version number which is now virtually meaningless.
 
 v0.1.7
@@ -35,14 +38,14 @@ v0.1.7
 - Also SF forces have a unit with an MP5 for your CQB action!
 
 v0.1.5
-- Clean-up of the config
-- Zeus support (thanks to a clean-up of the config)
-- AGM fast-roping support for the MH65 and the NH90
-- SF units now have a regular pistol, but a silencer in the backpack (due to AGM)
-- Medics now Medic
-- Engineers now Engineer
-- Explosive Specialists now Deactivate
-- Haters now hate
+- Clean-up of the config.
+- Zeus support (thanks to a clean-up of the config).
+- AGM fast-roping support for the MH65 and the NH90.
+- SF units now have a regular pistol, but a silencer in the backpack (due to AGM).
+- Medics now Medic.
+- Engineers now Engineer.
+- Explosive Specialists now Deactivate.
+- Haters now hate.
 
 v0.1
-- first release
+- first release.
