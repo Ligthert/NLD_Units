@@ -148,6 +148,11 @@ Vehicles:
 		NLD_DST_Leo2
 		NLD_WLD_M270MLRS
 		NLD_WLD_PzH2000NL
+		NLD_WLD_YPR
+		NLD_WLD_Buffel
+		NLD_KMAR_YPR
+		NLD_KMAR_Buffel
+		NLD_WLD_PRTL
 	Car:
 		NLD_DST_Fennek
 		NLD_DST_Fennek_HMG
@@ -167,6 +172,9 @@ Infantry:
 		NLD_Helipilot
 		NLD_Lifeliner_F
 		NLD_Police_F
+		NLD_KMAR_Crew
+		NLD_KMAR_Police
+		NLD_KMAR_Police2
 
 	Desert:
 		NLD_DST_AA
