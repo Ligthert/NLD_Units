@@ -23,7 +23,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\Recon\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\Recon\turret.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -89,7 +89,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\HMG\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\HMG\turret.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -155,7 +155,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\GMG\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\GMG\turret.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -217,21 +217,21 @@ class CfgVehicles {
 		displayName = "Fennek (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\turret.paa"};
 	};
 
 	class NLD_WLD_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\turret.paa"};
 	};
 
 	class NLD_WLD_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Woodland)";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
 	};
 
 
@@ -240,21 +240,21 @@ class CfgVehicles {
 		displayName = "Fennek (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
 	};
 
 	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
 	};
 
 	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
 	};
 
 };
