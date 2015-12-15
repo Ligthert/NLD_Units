@@ -23,7 +23,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -89,7 +89,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -155,7 +155,7 @@ class CfgVehicles {
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\Turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\fennekdesert.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\rcwsdesert.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {

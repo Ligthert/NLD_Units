@@ -1,5 +1,12 @@
 Changelog:
 
+v6
+- Added Korps Mariniers Units
+- Added 2 types of MX camo
+- Added 2 types of Chinooks
+- Changed Textures Fenneks
+- Changed Berets
+
 v201510205
 - Added APC's (YPR, Buffel, CV9035NL, Cheetha PRTL, KMAR YPR, KMAR Buffel).
 - Added KMAR Units.

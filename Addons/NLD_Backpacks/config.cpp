@@ -10,6 +10,7 @@ class CfgPatches {
 class CfgVehicles {
 // Backpacks
 	class B_Carryall_oli;	// External class reference
+	class B_AssaultPack_blk;
 	class B_UAV_01_backpack_F;	// External class reference
 
 	class NLD_DST_Carryall_Empty: B_Carryall_oli {
@@ -1264,6 +1265,11 @@ class CfgVehicles {
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
+	class NLD_KM_Carryall_Empty : B_Carryall_oli {
+		displayName = "[NLD] KM Carryall";
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
 
 	class NLD_SF_Carryall_B : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall (basic)";
@@ -1316,6 +1322,14 @@ class CfgVehicles {
 				count=1;
 			};
 		};
+	};
+
+	class NLD_KM_Carryall_B : NLD_SF_Carryall_B
+	{
+		displayName = "[NLD] KM Carryall (basic)";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
 	};
 
 	class NLD_MTP_Carryall_B : NLD_SF_Carryall_B
@@ -1392,6 +1406,14 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
+	class NLD_KM_Carryall_Medic : NLD_SF_Carryall_Medic
+	{
+		displayName = "[NLD] KM Carryall (Medic)";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
+
 	class NLD_SF_Carryall_ComSpec : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall ComSpec";
         scope = 1;
@@ -1456,6 +1478,13 @@ class CfgVehicles {
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
+
+	class NLD_KM_Carryall_ComSpec : NLD_SF_Carryall_ComSpec {
+		displayName = "[NLD] KM Carryall ComSpec";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};	
 
 	class NLD_SF_Carryall_Expl : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall Expl";
@@ -1537,6 +1566,13 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
+	class NLD_KM_Carryall_Expl : NLD_SF_Carryall_Expl {
+		displayName = "[NLD] KM Carryall Expl";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
+
 	class NLD_SF_Carryall_AT : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall AT";
         scope = 1;
@@ -1600,6 +1636,13 @@ class CfgVehicles {
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
+
+	class NLD_KM_Carryall_AT : NLD_SF_Carryall_AT {
+		displayName = "[NLD] KM Carryall AT";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_AA : B_Carryall_oli {
@@ -1667,6 +1710,13 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
+	class NLD_KM_Carryall_AA : NLD_SF_Carryall_AA {
+		displayName = "[NLD] KM Carryall AA";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
+
 	class NLD_SF_Carryall_SLA : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall Sharpshooter";
         scope = 1;
@@ -1725,6 +1775,13 @@ class CfgVehicles {
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
+
+	class NLD_KM_Carryall_SLA : NLD_SF_Carryall_SLA {
+		displayName = "[NLD] KM Carryall Sharpshooter";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
 	};
 
 	class NLD_SF_Carryall_AR : B_Carryall_oli {
@@ -1787,6 +1844,13 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
+	class NLD_KM_Carryall_AR : NLD_SF_Carryall_AR {
+		displayName = "[NLD] KM Carryall AR";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
+
 	class NLD_SF_Carryall_MP5 : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall AR";
         scope = 1;
@@ -1845,6 +1909,20 @@ class CfgVehicles {
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
+
+	class NLD_KM_Carryall_MP5 : NLD_SF_Carryall_MP5 {
+		displayName = "[NLD] KM Carryall MP5";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+	};
+
+	class NLD_Spongebob_Tactical : B_AssaultPack_blk {
+		displayName = "[NLD] SpongeBob Tacticalpack";
+        scope = 2;
+		picture = "\NLD_Backpacks\Spongebob\Data\uim\Spongebobsquarebag.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Spongebobsquarebag.paa"};
 	};
 
 };

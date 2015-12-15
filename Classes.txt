@@ -9,10 +9,13 @@ The regular infantry come with the following cammo-types:
 	WTR		Winter
 	NFPT	NFP-Tan
 	NFPG	NFP-Green
+	UN_DST	UN Desert
+	UN_WLD	UN Woodland
 
-The special forces come in two types of cammo:
+The special forces come in three types of cammo:
 	SF		Black
-	MTP		MTP
+	MTP		Korps Commando Troepen
+	KM		Korps Mariniers
 
 So you'll see this return in the units
 
@@ -95,6 +98,9 @@ Groups:
 		NLD_MTP_InfReconTeam
 		NLD_MTP_InfReconPatrol
 		NLD_MTP_InfReconSentry
+		NLD_KM_InfReconTeam
+		NLD_KM_InfReconPatrol
+		NLD_KM_InfReconSentry
 
 	Support
 		NLD_WLD_InfClsTeam
@@ -339,6 +345,18 @@ Infantry:
 		NLD_MTP_Operator
 		NLD_MTP_SLA
 		NLD_MTP_TL
+		
+	KM:
+		NLD_KM_AA
+		NLD_KM_AR
+		NLD_KM_AT
+		NLD_KM_COMSPEC
+		NLD_KM_DEMSPEC
+		NLD_KM_ECH
+		NLD_KM_MEDIC
+		NLD_KM_Operator
+		NLD_KM_SLA
+		NLD_KM_TL
 	
 	UN Woodland:	
 		NLD_UN_WLD_rifleman
@@ -429,6 +447,15 @@ BackPacks:
 	NLD_MTP_Carryall_Expl
 	NLD_MTP_Carryall_Medic
 	NLD_MTP_Carryall_SLA
+	NLD_KM_Carryall_Empty
+	NLD_KM_Carryall_AA
+	NLD_KM_Carryall_AR
+	NLD_KM_Carryall_AT
+	NLD_KM_Carryall_B
+	NLD_KM_Carryall_ComSpec
+	NLD_KM_Carryall_Expl
+	NLD_KM_Carryall_Medic
+	NLD_KM_Carryall_SLA
 	NLD_NFGG_Carryall_Empty
 	NLD_NFPG_Carryall_AA
 	NLD_NFPG_Carryall_AAR
@@ -522,6 +549,7 @@ Items:
 	NLD_SF_BaseballCap
 	NLD_SF_BoonieHat
 	NLD_SF_PlateCarrier
+	NLD_KM_Helmet
 	NLD_UN_Helmet
 	NLD_UN_Vest
 	NLD_WLD_BaseballCap
@@ -540,6 +568,28 @@ Weapons:
 	NLD_MAG
 	NLD_AT4
 	NLD_AWM
+	
+	NLD_MX_C
+	NLD_MX_C_SF
+	NLD_MX
+	NLD_MX_SF
+	NLD_MX_GL
+	NLD_MX_GL_SF
+	NLD_MX_SW
+	NLD_MX_SW_SF
+	NLD_MX_DMR
+	NLD_MX_DMR_SF
+	
+	NLD_MX_C_W
+	NLD_MX_C_Winter
+	NLD_MX_W
+	NLD_MX_Winter
+	NLD_MX_GL_W
+	NLD_MX_GL_Winter
+	NLD_MX_SW_W
+	NLD_MX_SW_Winter
+	NLD_MX_DMR_W
+	NLD_MX_DMR_Winter
 
 Magazines:
 	The NLD_Mag has access to a 200-round magazine
@@ -553,6 +603,7 @@ Insignia:
 	NLD_UIM
 	NLD_RNLMC
 	NLD_KM
+	NLD_KM2
 	NLD_TF55
 	NLD_TF55G
 	NLD_RLJ

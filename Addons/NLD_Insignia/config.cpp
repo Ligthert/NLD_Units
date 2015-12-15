@@ -7,7 +7,7 @@ class CfgPatches {
 	};
 };
 
-class CfgUnitInsignia
+class CfgUnitInsignia 
 {
     class NLD_11AMB
     {
@@ -50,6 +50,13 @@ class CfgUnitInsignia
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\Korps Mariniers.paa";
         textureVehicle = "\NLD_Infantry_Units\Badges\Korps Mariniers.paa";
+    };
+    class NLD_KM2
+    {
+        displayName = "[NLD] Korps Mariniers2";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Infantry_Units\Badges\KM-Badge.paa";
+        textureVehicle = "\NLD_Infantry_Units\Badges\KM-Badge.paa";
     };
     class NLD_TF55
     {

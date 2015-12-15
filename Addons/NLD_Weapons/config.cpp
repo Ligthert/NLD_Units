@@ -18,6 +18,11 @@ class CfgWeapons {
 	class CUP_srifle_M107_Base;
 	class CUP_srifle_AWM_wdl;
 	class CUP_launch_M136;
+	class arifle_MXC_F;
+	class arifle_MX_F;
+	class arifle_MX_GL_F;
+	class arifle_MX_SW_F;
+	class arifle_MXM_F;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -138,6 +143,360 @@ class CfgWeapons {
 		magazines[] =
 		{
 			"CUP_M136_M"
+		};
+	};
+	
+	//MX SF
+	class NLD_MX_C: arifle_MXC_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX C [SF]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\UIM\UI\MX_C_SF.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\UIM\MX_C_SF.paa"
+		};
+	};
+	class NLD_MX: arifle_MX_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX [SF]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SF.paa";
+		hiddenselections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\UIM\MX_SF.paa",			
+			"\NLD_Weapons\MX series\UIM\MX_C_SF.paa"
+		};
+	};
+	class NLD_MX_GL: arifle_MX_GL_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX GL [SF]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\UIM\UI\MX_GL_SF.paa";
+		hiddenselections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\UIM\MX_SF.paa";		
+			"\NLD_Weapons\MX series\UIM\MX_GL_SF.paa"
+		};
+	};
+	class NLD_MX_SW: arifle_MX_SW_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX SW [SF]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SW_SF.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\UIM\MX_SW_SF.paa";
+		};
+	};
+	class NLD_MX_DMR: arifle_MXM_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX DMR [SF]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\UIM\UI\MX_DMR_SF.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\UIM\MX_DMR_SF.paa";
+		};
+	};
+	
+	class NLD_MX_C_SF: NLD_MX_C
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_SF: NLD_MX
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_GL_SF: NLD_MX_GL
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_SW_SF: NLD_MX_SW
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_tan";
+			};
+		};
+	};
+	class NLD_MX_DMR_SF: NLD_MX_DMR
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_DMS";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_tan";
+			};
+		};
+	};
+	
+	//MX Winter
+	class NLD_MX_C_W: arifle_MXC_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX C [Winter]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\Winter\UI\MX_C_Winter.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\Winter\MX_C_Winter.paa"
+		};
+	};
+	class NLD_MX_W: arifle_MX_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX [Winter]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\Winter\UI\MX_Winter.paa";
+		hiddenselections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\Winter\MX_Winter.paa",			
+			"\NLD_Weapons\MX series\Winter\MX_C_Winter.paa"
+		};
+	};
+	class NLD_MX_GL_W: arifle_MX_GL_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX GL [Winter]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\Winter\UI\MX_GL_Winter.paa";
+		hiddenselections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\Winter\MX_Winter.paa";		
+			"\NLD_Weapons\MX series\Winter\MX_GL_Winter.paa"
+		};
+	};
+	class NLD_MX_SW_W: arifle_MX_SW_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX SW [Winter]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\Winter\UI\MX_SW_Winter.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\Winter\MX_SW_Winter.paa";
+		};
+	};
+	class NLD_MX_DMR_W: arifle_MXM_F
+	{
+		author="Lowlands Tactical";
+		displayName="[NLD] MX DMR [Winter]";
+		Scope=2;
+		weaponPoolAvailable=1;
+		picture = "\NLD_Weapons\MX series\Winter\UI\MX_DMR_Winter.paa";
+		hiddenselections[]=
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\NLD_Weapons\MX series\Winter\MX_DMR_Winter.paa";
+		};
+	};
+	
+	class NLD_MX_C_Winter: NLD_MX_C_W
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_Winter: NLD_MX_W
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_GL_Winter: NLD_MX_GL_W
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_MX_SW_Winter: NLD_MX_SW_W
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
+		};
+	};
+	class NLD_MX_DMR_Winter: NLD_MX_DMR_W
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_DMS";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
 		};
 	};
 };
@@ -373,7 +732,5 @@ class CfgVehicles
 				count = 5;
 			};
 		};
-
 	};
-
 };
