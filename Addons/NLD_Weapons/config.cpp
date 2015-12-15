@@ -195,7 +195,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\UIM\MX_SF.paa";		
+			"\NLD_Weapons\MX series\UIM\MX_SF.paa",	
 			"\NLD_Weapons\MX series\UIM\MX_GL_SF.paa"
 		};
 	};
@@ -372,7 +372,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\Winter\MX_Winter.paa";		
+			"\NLD_Weapons\MX series\Winter\MX_Winter.paa",
 			"\NLD_Weapons\MX series\Winter\MX_GL_Winter.paa"
 		};
 	};
