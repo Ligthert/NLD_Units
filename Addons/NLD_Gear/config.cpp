@@ -209,34 +209,6 @@ class cfgWeapons {
 			mass = 1;
 		};
 	};
-	class NLD_KM_Camo : Uniform_Base 
-	{
-		scope = 2;
-		displayName = "[NLD] KM Camo";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_KM_Operator";
-			containerClass = "Supply60";
-			mass = 1;
-		};	
-	};
-	class NLD_KM_Camo2 : Uniform_Base 
-	{
-		scope = 2;
-		displayName = "[NLD] KM Camo2";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_KM_Operator_MP5";
-			containerClass = "Supply60";
-			mass = 1;
-		};	
-	};
 
 	class NLD_WLD_Helmet : H_HelmetIA {
 		scope = 2;
@@ -274,12 +246,6 @@ class cfgWeapons {
 		displayName = "[NLD] Winter Helmet";
 		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Helmet.paa"};		
-	};
-
-	class NLD_KM_Helmet : NLD_WLD_Helmet {
-		displayName = "[NLD] KM Helmet";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Helmet.paa"};		
 	};
 
 	class NLD_JGL_Helmet : NLD_WLD_Helmet {

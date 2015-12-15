@@ -27,16 +27,16 @@ class cfgWeapons
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[NLD] Beret (Korps Mariniers)";
+		displayName = "[NLD] Beret (Koninklijke Marine)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\RoyalMarines.paa";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\RoyalMarines.paa"};
 		hiddenSelections[] = {"Camo"};
          
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
-			uniformmodel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			uniformmodel = "\A3\Characters_F\Common\headgear_beret01";
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
@@ -51,14 +51,14 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Korps Commandotroepen)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\Commandos.paa";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\Commandos.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
-			uniformmodel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			uniformmodel = "\A3\Characters_F\Common\headgear_beret01";
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
@@ -73,14 +73,14 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Koninklijke Marechaussee)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\KMAR.paa";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\KMAR.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
-			uniformmodel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			uniformmodel = "\A3\Characters_F\Common\headgear_beret01";
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
@@ -95,14 +95,14 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Luchtmobiele Brigade)";
 		picture = "\NLD_Infantry_Units\Units\Beret\uim\11AirManoeuvreBrigade.paa";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		model = "\A3\Characters_F\Common\headgear_beret01";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\11AirManoeuvreBrigade.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;
-			uniformmodel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			uniformmodel = "\A3\Characters_F\Common\headgear_beret01";
 			modelSides[] = {3,1};
 			armor = "3*0.5";
 			passThrough = 0.95;
