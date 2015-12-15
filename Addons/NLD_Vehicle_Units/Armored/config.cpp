@@ -36,7 +36,7 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_2.paa"};
 
 		class EventHandlers {
-			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
 		
 		class TransportItems {
