@@ -150,7 +150,7 @@ class CfgWeapons {
 	class NLD_MX_C: arifle_MXC_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX C [SF]";
+		displayName="[NLD] MX C SF";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_C_SF.paa";
@@ -166,7 +166,7 @@ class CfgWeapons {
 	class NLD_MX: arifle_MX_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX [SF]";
+		displayName="[NLD] MX SF";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SF.paa";
@@ -184,7 +184,7 @@ class CfgWeapons {
 	class NLD_MX_GL: arifle_MX_GL_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX GL [SF]";
+		displayName="[NLD] MX GL SF";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_GL_SF.paa";
@@ -202,7 +202,7 @@ class CfgWeapons {
 	class NLD_MX_SW: arifle_MX_SW_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX SW [SF]";
+		displayName="[NLD] MX SW SF";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SW_SF.paa";
@@ -218,7 +218,7 @@ class CfgWeapons {
 	class NLD_MX_DMR: arifle_MXM_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX DMR [SF]";
+		displayName="[NLD] MX DMR SF";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_DMR_SF.paa";
@@ -327,7 +327,7 @@ class CfgWeapons {
 	class NLD_MX_C_W: arifle_MXC_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX C [Winter]";
+		displayName="[NLD] MX C Winter";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_C_Winter.paa";
@@ -343,7 +343,7 @@ class CfgWeapons {
 	class NLD_MX_W: arifle_MX_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX [Winter]";
+		displayName="[NLD] MX Winter";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_Winter.paa";
@@ -361,7 +361,7 @@ class CfgWeapons {
 	class NLD_MX_GL_W: arifle_MX_GL_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX GL [Winter]";
+		displayName="[NLD] MX GL Winter";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_GL_Winter.paa";
@@ -379,7 +379,7 @@ class CfgWeapons {
 	class NLD_MX_SW_W: arifle_MX_SW_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX SW [Winter]";
+		displayName="[NLD] MX SW Winter";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_SW_Winter.paa";
@@ -395,7 +395,7 @@ class CfgWeapons {
 	class NLD_MX_DMR_W: arifle_MXM_F
 	{
 		author="Lowlands Tactical";
-		displayName="[NLD] MX DMR [Winter]";
+		displayName="[NLD] MX DMR Winter";
 		Scope=2;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_DMR_Winter.paa";

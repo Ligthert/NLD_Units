@@ -23,6 +23,7 @@ class cfgWeapons {
 	class VestItem;	// External class reference
 	class V_PlateCarrier1_blk;
 	class H_HelmetCrew_B;
+	class V_PlateCarrierIA2_dgtl;
 	
 	class NLD_DST_Camo : Uniform_Base {
 		scope = 2;
@@ -251,8 +252,6 @@ class cfgWeapons {
 			mass = 1;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 			modelSides[] = {3, 1};
-			armor = 6;
-			passThrough = 0.5;
                         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
 			hiddenSelections[] = {"camo"};
 		};
@@ -370,7 +369,7 @@ class cfgWeapons {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\BoonieHat.paa"};
 	};
 
-	class NLD_WLD_Vest : Vest_Camo_Base {
+	class NLD_WLD_Vest : V_PlateCarrierIA2_dgtl {
 		scope = 2;
 		displayName = "[NLD] Woodland Vest";
 		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Vest.paa";
@@ -381,8 +380,6 @@ class cfgWeapons {
 			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 			containerClass = "Supply120";
 			mass = 1;
-			armor = 30;
-			passThrough = 0.5;
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -606,8 +603,6 @@ class cfgWeapons {
 			mass = 5;
 			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
-			passThrough = 0.95;
 			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -626,8 +621,6 @@ class cfgWeapons {
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_belt";
 			containerClass = "Supply80";
 			mass = 20;
-			armor = "5*0.2";
-			passThrough = 0.8;
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -691,8 +684,6 @@ class cfgWeapons {
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 50;
-			armor = 60;
-			passThrough = 0.30;
 		};
 	};
 	class NLD_KMAR_Helmet: H_HelmetCrew_B
@@ -709,8 +700,6 @@ class cfgWeapons {
 			mass = 5;
 			uniformModel="\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
 			modelSides[] = {3,1};
-			armor = "3*0.5";
-			passThrough = 0.95;
 			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
