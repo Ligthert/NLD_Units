@@ -1519,8 +1519,8 @@ class CfgVehicles {
 		backpack = "NLD_SF_Carryall_Medic";
 		icon = "iconManMedic";
 		attendant = 1;
-		weapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
-		respawnWeapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
+		weapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
+		respawnWeapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
 	};
 
 	class NLD_SF_COMSPEC: NLD_SF_Operator
@@ -1567,8 +1567,8 @@ class CfgVehicles {
 		displayName = "Operator (AT)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AT";
-		weapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_short_F"}; 
-		respawnWeapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_short_F"};
+		weapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"};
 	};
 
 	class NLD_SF_AA: NLD_SF_Operator
@@ -1576,8 +1576,8 @@ class CfgVehicles {
 		displayName = "Operator (AA)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AA";
-		weapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_F"}; 
-		respawnWeapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_F"};
+		weapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_MX_C_SF", "CUP_hgun_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"};
 	};
 
 	class NLD_SF_AR: NLD_SF_Operator

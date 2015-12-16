@@ -297,7 +297,7 @@ class CfgWeapons {
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_tan";
+				item = "bipod_01_F_snd";
 			};
 		};
 	};
@@ -318,7 +318,7 @@ class CfgWeapons {
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_tan";
+				item = "bipod_01_F_snd";
 			};
 		};
 	};

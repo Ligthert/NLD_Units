@@ -1324,12 +1324,58 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_KM_Carryall_B : NLD_SF_Carryall_B
+	class NLD_KM_Carryall_B : B_Carryall_oli
 	{
 		displayName = "[NLD] KM Carryall (basic)";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};
 
 	class NLD_MTP_Carryall_B : NLD_SF_Carryall_B
@@ -1406,12 +1452,63 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_Medic : NLD_SF_Carryall_Medic
+	class NLD_KM_Carryall_Medic : B_Carryall_oli
 	{
 		displayName = "[NLD] KM Carryall (Medic)";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_MediKit
+			{
+				name="MediKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_ComSpec : B_Carryall_oli {
@@ -1479,11 +1576,62 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_ComSpec : NLD_SF_Carryall_ComSpec {
+	class NLD_KM_Carryall_ComSpec : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall ComSpec";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_Laserbatteries
+			{
+				magazine="Laserbatteries";
+				count=1;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};	
 
 	class NLD_SF_Carryall_Expl : B_Carryall_oli {
@@ -1566,11 +1714,77 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_Expl : NLD_SF_Carryall_Expl {
+	class NLD_KM_Carryall_Expl : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall Expl";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=3;
+			};
+			class _xx_SatchelCharge_Remote_Mag 
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=1;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_AT : B_Carryall_oli {
@@ -1638,11 +1852,62 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_AT : NLD_SF_Carryall_AT {
+	class NLD_KM_Carryall_AT : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall AT";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_AA : B_Carryall_oli {
@@ -1710,11 +1975,62 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_AA : NLD_SF_Carryall_AA {
+	class NLD_KM_Carryall_AA : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall AA";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AA";
+				count=2;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_muzzle_snds_H 
+			{
+				name="muzzle_snds_H";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_SLA : B_Carryall_oli {
@@ -1777,11 +2093,57 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_SLA : NLD_SF_Carryall_SLA {
+	class NLD_KM_Carryall_SLA : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall Sharpshooter";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_snds_AWM 
+			{
+				name="CUP_muzzle_snds_AWM";
+				count = 1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_AR : B_Carryall_oli {
@@ -1844,11 +2206,57 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_AR : NLD_SF_Carryall_AR {
+	class NLD_KM_Carryall_AR : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall AR";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=4;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+		};
 	};
 
 	class NLD_SF_Carryall_MP5 : B_Carryall_oli {
@@ -1911,11 +2319,57 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
-	class NLD_KM_Carryall_MP5 : NLD_SF_Carryall_MP5 {
+	class NLD_KM_Carryall_MP5 : B_Carryall_oli {
 		displayName = "[NLD] KM Carryall MP5";
         scope = 1;
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_muzzle_snds_L 
+			{
+				name="muzzle_snds_L";
+				count = 1;
+			};
+		};
 	};
 
 	class NLD_Spongebob_Tactical : B_AssaultPack_blk {

@@ -235,7 +235,7 @@ class CfgVehicles
 	class NLD_CH47_Armed: B_Heli_Transport_03_F
 	{
 		crew = "NLD_HeliPilot";
-		displayName = "CH-47K (Armed)";
+		displayName = "CH-47D (Armed)";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen1.paa"};
 		faction = "NLD_Units";
 		vehicleClass = Air;
@@ -265,7 +265,7 @@ class CfgVehicles
 	class NLD_CH47_Unarmed: B_Heli_Transport_03_unarmed_F
 	{
 		crew = "NLD_HeliPilot";
-		displayName = "CH-47K (Unarmed)";
+		displayName = "CH-47F (Unarmed)";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey1.paa"};
 		faction = "NLD_Units";
 		vehicleClass = Air;
