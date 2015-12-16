@@ -212,7 +212,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\UIM\MX_SW_SF.paa";
+			"\NLD_Weapons\MX series\UIM\MX_SW_SF.paa"
 		};
 	};
 	class NLD_MX_DMR: arifle_MXM_F
@@ -228,7 +228,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\UIM\MX_DMR_SF.paa";
+			"\NLD_Weapons\MX series\UIM\MX_DMR_SF.paa"
 		};
 	};
 	
@@ -389,7 +389,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\Winter\MX_SW_Winter.paa";
+			"\NLD_Weapons\MX series\Winter\MX_SW_Winter.paa"
 		};
 	};
 	class NLD_MX_DMR_W: arifle_MXM_F
@@ -405,7 +405,7 @@ class CfgWeapons {
 		};
 		hiddenselectionstextures[]=
 		{
-			"\NLD_Weapons\MX series\Winter\MX_DMR_Winter.paa";
+			"\NLD_Weapons\MX series\Winter\MX_DMR_Winter.paa"
 		};
 	};
 	
