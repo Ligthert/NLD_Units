@@ -24,6 +24,7 @@ class CfgVehicles
 	class C_man_pilot_F;
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
+	class DEGA_US_CH47F_M134_M240;
 	
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -232,6 +233,34 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\NH90\outerhaul_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\upperTail_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\misc_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\doors_co.paa"};
 	};
 	
+	class NLD_CH47D_Armed: DEGA_US_CH47F_M134_M240
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CH-47D (Armed)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
+	};
+	
+	class NLD_CH47F_Armed: DEGA_US_CH47F_M134_M240
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CH-47F (Armed)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
+	};
+
+/*
+
 	class NLD_CH47_Armed: B_Heli_Transport_03_F
 	{
 		crew = "NLD_HeliPilot";
@@ -291,4 +320,5 @@ class CfgVehicles
 			};
 		};
 	};
+*/
 };

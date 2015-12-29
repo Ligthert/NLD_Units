@@ -1,6 +1,6 @@
 Changelog:
 
-v6
+v2015121706
 - Added Korps Mariniers Units
 - Added 2 types of MX camo
 - Added 2 types of Chinooks

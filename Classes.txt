@@ -9,6 +9,7 @@ The regular infantry come with the following cammo-types:
 	WTR		Winter
 	NFPT	NFP-Tan
 	NFPG	NFP-Green
+	JGL		Jungle
 	UN_DST	UN Desert
 	UN_WLD	UN Woodland
 
