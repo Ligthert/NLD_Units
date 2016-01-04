@@ -1512,7 +1512,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
     };
 
-	class NLD_SF_MEDIC: NLD_SF_Operator
+	class NLD_SF_MEDIC: NLD_SF_Operator_MP5
 	{
 		displayName = "Medic";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
@@ -1526,8 +1526,10 @@ class CfgVehicles {
 	class NLD_SF_COMSPEC: NLD_SF_Operator
 	{
 		displayName = "ComSpec";
-		weapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
-		respawnWeapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator","B_UavTerminal"};
+		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch","B_UavTerminal", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch","B_UavTerminal", "ItemRadio"};
+		weapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"};
+		respawnWeapons[] = {"NLD_MX_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_SF_Carryall_ComSpec";
 	};
 

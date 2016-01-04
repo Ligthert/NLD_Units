@@ -1194,7 +1194,7 @@ class CfgVehicles {
 			class _xx_CUP_Stinger_M
 			{
 				magazine="CUP_Stinger_M";
-				count=2;
+				count=1;
 			};
 		};
 		class TransportItems

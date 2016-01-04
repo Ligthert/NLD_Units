@@ -240,6 +240,7 @@ class CfgVehicles
 		displayName = "CH-47D (Armed)";
 		side = 1;
 		crew = "NLD_HeliPilot";
+		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
@@ -253,6 +254,7 @@ class CfgVehicles
 		displayName = "CH-47F (Armed)";
 		side = 1;
 		crew = "NLD_HeliPilot";
+		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};

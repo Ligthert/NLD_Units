@@ -1,9 +1,17 @@
 class CfgPatches {
 	class NLD_Units_Weapons {
 		units[] = {};
-		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG","NLD_AWM","NLD_AT4"};
+		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG","NLD_AWM","NLD_AT4","NLD_Ammo_Crate"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"NLD_Units_Infantry"};
+	};
+};
+
+class CfgVehicleClasses
+{
+	class NLD_Ammo_Crates
+	{
+		displayName="[NLD] Ammo_Crates";
 	};
 };
 
@@ -528,208 +536,216 @@ class CfgMagazines {
 // Ammo Boxes
 class CfgVehicles
 {
-
-	// ext class ref
-	class Box_NATO_Ammo_F;
-	class Box_NATO_Grenades_F;
-	class Box_NATO_WpsLaunch_F;
-	class Box_NATO_Wps_F;
-
-	class NLD_box_ammo: Box_NATO_Ammo_F
+	class Box_NATO_AmmoVeh_F;
+	
+	class NLD_Ammo_Crate_Medisch : Box_NATO_AmmoVeh_F
 	{
-		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] Ammo";
-
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		displayname = "Ammocrate Medisch";
+		vehicleclass = "NLD_Ammo_Crates";
+		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammomed_f_ca.paa";
+		transportMaxWeapons=1000;
+		transportMaxMagazines=1000;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_medisch.paa"};
 		class TransportItems {
 			
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
-				count = 5;
+				count = 100;
+			};
+			class _xx_Medikit {
+				name = "Medikit";
+				count = 100;
 			};
 
 		};
-
+	};
+	
+	class NLD_Ammo_Crate_Munitie : Box_NATO_AmmoVeh_F
+	{
+		scope = 2;
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		displayname = "Ammocrate Munitie";
+		vehicleclass = "NLD_Ammo_Crates";
+		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammobox_f_ca.paa";
+		transportMaxWeapons=1000;
+		transportMaxMagazines=1000;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_munitie.paa"};
 		class TransportMagazines
 		{
 			class _xx_CUP_30Rnd_556x45_Stanag
 			{
 				magazine = "CUP_30Rnd_556x45_Stanag";
-				count = 60;
+				count = 100;
 			};
 
 			class _xx_CUP_17Rnd_9x19_glock17
 			{
 				magazine = "CUP_17Rnd_9x19_glock17";
-				count = 16;
+				count = 50;
 			};
 
 			class _xx_CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
 				magazine = "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count = "8";
+				count = "50";
 			};
 
 			class _xx_CUP_5Rnd_86x70_L115A1
 			{
 				magazine = "CUP_5Rnd_86x70_L115A1";
-				count = 15;
+				count = 50;
 			};
 
 			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine = "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count = 8;
+				count = 50;
 			};
-		};
-	};
-
-	class NLD_box_grenades: Box_NATO_Grenades_F
-	{
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Grenades";
-
-		class TransportItems 
-		{
-			class _xx_FirstAidKit {
-				name = "FirstAidKit";
-				count = 5;
-			};
-		};
-
-		class TransportMagazines
-		{
 			class _xx_HandGrenade
 			{
 				magazine = "HandGrenade";
-				count = 20;
+				count = 50;
 			};
 			class _xx_SmokeShell
 			{
 				magazine = "SmokeShell";
-				count = 20;
+				count = 50;
 			};
 			class _xx_SmokeShellGreen
 			{
 				magazine = "SmokeShellGreen";
-				count = 20;
+				count = 50;
 			};
 			class _xx_CUP_1Rnd_HE_M203
 			{
 				magazine = "CUP_1Rnd_HE_M203";
-				count = 20;
+				count = 50;
 			};
 			class _xx_1Rnd_Smoke_Grenade_shell
 			{
 				magazine = "1Rnd_Smoke_Grenade_shell";
-				count = 20;
+				count = 50;
 			};
 			class _xx_1Rnd_SmokeRed_Grenade_shell
 			{
 				magazine = "1Rnd_SmokeRed_Grenade_shell";
-				count = 20;
+				count = 50;
 			};
 		};
 	};
-
-	class NLD_box_launchers: Box_NATO_WpsLaunch_F
+	
+	class NLD_Ammo_Crate_Explosieven : Box_NATO_AmmoVeh_F
 	{
-		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] Launchers";
-
-		class TransportItems 
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		displayname = "Ammocrate Explosieven";
+		vehicleclass = "NLD_Ammo_Crates";
+		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammoord_f_ca.paa";
+		transportMaxWeapons=1000;
+		transportMaxMagazines=1000;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_explosieven.paa"};
+		class TransportMagazines
 		{
-			class _xx_FirstAidKit {
-				name = "FirstAidKit";
-				count = 5;
+			class _xx_ATMine_Range_Mag
+			{
+				magazine="ATMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=10;
+			};
+			class _xx_SLAMDirectionalMine_Wire_Mag
+			{
+				magazine="SLAMDirectionalMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_ClaymoreDirectionalMine_Remote_Mag
+			{
+				magazine="ClaymoreDirectionalMine_Remote_Mag";
+				count=10;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=10;
 			};
 		};
-
+	};
+	
+	class NLD_Ammo_Crate_Wapens : Box_NATO_AmmoVeh_F
+	{
+		scope = 2;
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		displayname = "Ammocrate Wapens";
+		vehicleclass = "NLD_Ammo_Crates";
+		icon="\NLD_Weapons\AmmoCrates\data\ui\map_wpnsbox_f_ca.paa";
+		transportMaxWeapons=1000;
+		transportMaxMagazines=1000;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_wapens.paa"};
 		class TransportWeapons
 		{
 			class _xx_NLD_AT4
 			{
 				weapon = "NLD_AT4";
-				count = 4;
+				count = 5;
 			};
 			class _xx_CUP_launch_FIM92Stinger
 			{
 				weapon = "CUP_launch_FIM92Stinger";
-				count = 1;
-			};
-		};
-
-		class TransportMagazines
-		{
-			class _xx_CUP_M136_M
-			{
-				magazine = "CUP_M136_M";
-				count = 8;
-			};
-			class _xx_CUP_Stinger_M
-			{
-				magazine = "CUP_Stinger_M";
-				count = 2;
-			};
-		};
-	};
-
-	class NLD_box_weapons: Box_NATO_Wps_F
-	{
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Weapons";
-
-		class TransportItems 
-		{
-			class _xx_FirstAidKit {
-				name = "FirstAidKit";
 				count = 5;
 			};
-		};
-
-		class TransportMagazines
-		{
-			class _xx_CUP_30Rnd_556x45_Stanag
-			{
-				magazine = "CUP_30Rnd_556x45_Stanag";
-				count = 10;
-			};
-		};
-
-		class TransportWeapons
-		{
 			class _xx_NLD_blk_C8
 			{
 				weapon = "NLD_blk_C8";
-				count = 18;
+				count = 20;
 			};
 			class _xx_NLD_blk_C8GL
 			{
 				weapon = "NLD_blk_C8GL";
-				count = 6;
+				count = 10;
 			};
 			class _xx_NLD_Minimi
 			{
 				weapon = "NLD_Minimi";
-				count = 4;
+				count = 10;
 			};
 			class _xx_NLD_MAG
 			{
 				weapon = "NLD_MAG";
-				count = 2;
+				count = 10;
 			};
 			class _xx_NLD_AWM
 			{
 				weapon = "NLD_AWM";
-				count = 1;
+				count = 10;
 			};
 			class _xx_CUP_hgun_Glock17
 			{
 				weapon = "CUP_hgun_Glock17";
-				count = 5;
+				count = 10;
 			};
 		};
 	};

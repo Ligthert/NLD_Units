@@ -23,7 +23,7 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\NL_Flag.paa""";
+			init = "(_this select 0) setFlagTexture ""NLD_Flags\Flags\NL_Flag.paa""";
 
 };
 	};
@@ -35,7 +35,7 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\LT_Flag.paa""";
+			init = "(_this select 0) setFlagTexture ""NLD_Flags\Flags\LT_Flag.paa""";
 
 		};
 	};
