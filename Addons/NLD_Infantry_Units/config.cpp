@@ -1549,7 +1549,7 @@ class CfgVehicles {
 		icon = "iconManLeader";
 		weapons[] = {"NLD_MX_GL_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"}; 
 		respawnWeapons[] = {"NLD_MX_GL_SF", "CUP_hgun_Glock17", "Throw", "Put", "Laserdesignator"};
-		backpack = "NLD_SF_Carryall_ComSpec";
+		backpack = "NLD_SF_Carryall_TL";
 	};
 
 	class NLD_SF_SLA: NLD_SF_Operator
@@ -1654,7 +1654,7 @@ class CfgVehicles {
 	class NLD_MTP_TL: NLD_SF_TL
 	{
 		vehicleClass = "Infantry_SFMTP";
-		backpack = "NLD_MTP_Carryall_ComSpec";
+		backpack = "NLD_MTP_Carryall_TL";
 		uniformClass = "NLD_MTP_Camo";
 		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -1706,8 +1706,8 @@ class CfgVehicles {
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Uniform.paa", "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\KM-Badge.paa"};
 		hiddenSelectionsMaterials[] = {"NLD_Infantry_Units\Units\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
-		linkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 	};
 
     class NLD_KM_Operator_MP5: NLD_SF_Operator
@@ -1760,7 +1760,7 @@ class CfgVehicles {
 	class NLD_KM_TL: NLD_SF_TL
 	{
 		vehicleClass = "Infantry_KM";
-		backpack = "NLD_KM_Carryall_ComSpec";
+		backpack = "NLD_KM_Carryall_TL";
 		uniformClass = "NLD_KM_Camo";
 		linkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};

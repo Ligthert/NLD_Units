@@ -1386,6 +1386,139 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 
+	class NLD_SF_Carryall_TL : B_Carryall_oli {
+		displayName = "[NLD] Black Carryall TL";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=1;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=1;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=1;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=4;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+
+	class NLD_MTP_Carryall_TL : NLD_SF_Carryall_TL
+	{
+		displayName = "[NLD] MTP Carryall (TL)";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
+	};
+
+	class NLD_KM_Carryall_TL : NLD_SF_Carryall_TL {
+		displayName = "[NLD] Black Carryall TL";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=1;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=1;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=1;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=4;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+		};
+	};
+
 	class NLD_SF_Carryall_Medic : B_Carryall_oli {
 		displayName = "[NLD] Black Carryall Medic";
         scope = 1;
