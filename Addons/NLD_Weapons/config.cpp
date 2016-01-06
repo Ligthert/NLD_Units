@@ -541,7 +541,7 @@ class CfgVehicles
 	class NLD_Ammo_Crate_Medisch : Box_NATO_AmmoVeh_F
 	{
 		scope = 2;
-		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Medisch";
 		vehicleclass = "NLD_Ammo_Crates";
 		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammomed_f_ca.paa";
@@ -566,7 +566,7 @@ class CfgVehicles
 	class NLD_Ammo_Crate_Munitie : Box_NATO_AmmoVeh_F
 	{
 		scope = 2;
-		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Munitie";
 		vehicleclass = "NLD_Ammo_Crates";
 		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammobox_f_ca.paa";
@@ -641,7 +641,7 @@ class CfgVehicles
 	class NLD_Ammo_Crate_Explosieven : Box_NATO_AmmoVeh_F
 	{
 		scope = 2;
-		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Explosieven";
 		vehicleclass = "NLD_Ammo_Crates";
 		icon="\NLD_Weapons\AmmoCrates\data\ui\map_ammoord_f_ca.paa";
@@ -697,7 +697,7 @@ class CfgVehicles
 	class NLD_Ammo_Crate_Wapens : Box_NATO_AmmoVeh_F
 	{
 		scope = 2;
-		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d"
+		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Wapens";
 		vehicleclass = "NLD_Ammo_Crates";
 		icon="\NLD_Weapons\AmmoCrates\data\ui\map_wpnsbox_f_ca.paa";
