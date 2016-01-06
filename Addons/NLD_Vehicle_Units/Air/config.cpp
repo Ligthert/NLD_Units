@@ -245,6 +245,7 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
+		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\randomize.sqf'"; };
 	};
 	
 	class NLD_CH47F_Armed: DEGA_US_CH47F_M134_M240
@@ -259,6 +260,7 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
+		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\randomize.sqf'"; };
 	};
 
 /*
