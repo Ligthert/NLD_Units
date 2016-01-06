@@ -1602,7 +1602,9 @@ class CfgVehicles {
 		vehicleClass = "Infantry_SFMTP";
 		backpack = "NLD_MTP_Carryall_B";
 		uniformClass = "NLD_MTP_Camo";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\KCT.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Infantry_Units\Units\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
 		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
@@ -1611,7 +1613,10 @@ class CfgVehicles {
     {
     	vehicleClass = "Infantry_SFMTP";
     	displayName="Operator (MP5)";
-    	uniformClass = "NLD_MTP_Camo";
+    	uniformClass = "NLD_MTP_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\KCT.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Infantry_Units\Units\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
     	backpack = "NLD_MTP_Carryall_MP5";
     	weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
 		respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17", "Throw", "Put", "Rangefinder"}; 
