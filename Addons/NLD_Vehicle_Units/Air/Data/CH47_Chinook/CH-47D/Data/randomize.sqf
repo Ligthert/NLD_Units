@@ -1,0 +1,5 @@
+if (local _this) then {
+	private ["_camo"];
+	_camo = ["\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt101.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt102.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt103.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt106.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt661.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt662.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt663.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt664.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt665.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt666.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47Dtxt667.paa"];
+	_this setObjectTextureGlobal[2,_camo call bis_fnc_selectRandom];
+};
