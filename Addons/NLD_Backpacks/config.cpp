@@ -1435,9 +1435,9 @@ class CfgVehicles {
 				magazine="1Rnd_SmokeRed_Grenade_shell";
 				count=4;
 			};
-			class _xx_CUP_1Rnd_HE_M203
+			class _xx_1Rnd_HE_Grenade_shell
 			{
-				magazine="CUP_1Rnd_HE_M203";
+				magazine="1Rnd_HE_Grenade_shell";
 				count=10;
 			};
 		};
@@ -1504,9 +1504,9 @@ class CfgVehicles {
 				magazine="1Rnd_SmokeRed_Grenade_shell";
 				count=4;
 			};
-			class _xx_CUP_1Rnd_HE_M203
+			class _xx_1Rnd_HE_Grenade_shell
 			{
-				magazine="CUP_1Rnd_HE_M203";
+				magazine="1Rnd_HE_Grenade_shell";
 				count=10;
 			};
 		};
@@ -1572,9 +1572,9 @@ class CfgVehicles {
 				magazine="1Rnd_SmokeRed_Grenade_shell";
 				count=4;
 			};
-			class _xx_CUP_1Rnd_HE_M203
+			class _xx_1Rnd_HE_Grenade_shell
 			{
-				magazine="CUP_1Rnd_HE_M203";
+				magazine="1Rnd_HE_Grenade_shell";
 				count=10;
 			};
 		};

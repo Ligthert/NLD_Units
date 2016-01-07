@@ -148,6 +148,8 @@ Vehicles:
 		NLD_F16C_CASAI
 		NLD_Lynx
 		NLD_Lynx_Armed
+		NLD_CH47D_Armed
+		NLD_CH47F_Armed
 		EC635_NLD_Police
 		EC635_NLD_Lifeliner
 	Armor:
@@ -448,6 +450,7 @@ BackPacks:
 	NLD_MTP_Carryall_Expl
 	NLD_MTP_Carryall_Medic
 	NLD_MTP_Carryall_SLA
+	NLD_MTP_Carryall_TL
 	NLD_KM_Carryall_Empty
 	NLD_KM_Carryall_AA
 	NLD_KM_Carryall_AR
@@ -457,6 +460,7 @@ BackPacks:
 	NLD_KM_Carryall_Expl
 	NLD_KM_Carryall_Medic
 	NLD_KM_Carryall_SLA
+	NLD_KM_Carryall_TL
 	NLD_NFGG_Carryall_Empty
 	NLD_NFPG_Carryall_AA
 	NLD_NFPG_Carryall_AAR
@@ -498,6 +502,7 @@ BackPacks:
 	NLD_SF_Carryall_Expl
 	NLD_SF_Carryall_Medic
 	NLD_SF_Carryall_SLA
+	NLD_SF_Carryall_TL
 	NLD_WLD_Carryall_Empty
 	NLD_WLD_Carryall_AA
 	NLD_WLD_Carryall_AAR
@@ -620,3 +625,8 @@ Ammoboxes:
 	NLD_box_grenades
 	NLD_box_launchers
 	NLD_box_weapons
+	NLD_Ammo_Crate_Medisch
+	NLD_Ammo_Crate_Munitie
+	NLD_Ammo_Crate_Explosieven
+	NLD_Ammo_Crate_Wapens
+	
