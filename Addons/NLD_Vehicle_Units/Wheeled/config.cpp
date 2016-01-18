@@ -273,7 +273,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front1_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -337,7 +337,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front2_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -392,7 +392,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLD_DAF_Transport_Fuel: I_Truck_02_fuel_F
+	class NLD_DAF_Fuel: I_Truck_02_fuel_F
 	{
 		author="Lowlands Tactical";
 		displayName="DAF 4442 (Fuel)";
@@ -401,7 +401,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442fuel.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front3_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442fuel.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -456,7 +456,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLD_DAF_Transport_repair: I_Truck_02_box_F
+	class NLD_DAF_repair: I_Truck_02_box_F
 	{
 		author="Lowlands Tactical";
 		displayName="DAF 4442 (repair)";
@@ -465,7 +465,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442repair.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front4_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442repair.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -520,16 +520,16 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLD_DAF_Transport_ammo: I_Truck_02_ammo_F
+	class NLD_DAF_ammo: I_Truck_02_ammo_F
 	{
 		author="Lowlands Tactical";
-		displayName="DAF 4442 (Ammo)";
+		displayName="DAF 2300 (Ammo)";
 		side=1;
 		scope=2;
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442repair.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300_front_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300ammo.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -584,7 +584,7 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	class NLD_DAF_Transport_medical: I_Truck_02_medical_F
+	class NLD_DAF_medical: I_Truck_02_medical_F
 	{
 		author="Lowlands Tactical";
 		displayName="DAF 4442 (Medical)";
@@ -593,7 +593,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_CLS";
 		typicalCargo[] = {"NLD_WLD_CLS"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442front.paa","\NLD_Vehicle_Units\Wheeled\Daf 4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front5_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
