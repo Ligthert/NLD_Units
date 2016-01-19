@@ -26,14 +26,14 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard2A8 (Woodland)";
+		displayName = "Leopard 2 Revolution (Woodland)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leopard_2.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobodywdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobody1wdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leorcwswdl.paa"};
 
 		class EventHandlers {
 			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
@@ -99,17 +99,38 @@ class CfgVehicles {
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard2A8 (Desert)";
+		displayName = "Leopard 2 Revolution (Desert)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\orange\Data\leobodyoranje.paa", "\NLD_Vehicle_Units\Armored\Leopard2\orange\Data\leobody1oranje.paa", "\NLD_Vehicle_Units\Armored\Leopard2\orange\Data\leorcwsoranje.paa"};
+
+		class EventHandlers {
+			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+		};
+
+	};
+	
+	// Leopard2 - Orange
+	class NLD_ORANGE_Leo2 : NLD_WLD_Leo2
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Leopard 2 Revolution (Orange)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_0.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_1.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\Leopard_2.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobodytan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobody1tan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leorcwstan.paa"};
 
 		class EventHandlers {
-			init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
+			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
 
 	};
