@@ -93,13 +93,13 @@ class CfgVehicles {
 	};
 
 
-// Leopard2 - Desert
-	class NLD_DST_Leo2 : NLD_WLD_Leo2
+// Leopard2 - Orange
+	class NLD_ORANGE_Leo2 : NLD_WLD_Leo2
 	{
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard 2 Revolution (Desert)";
+		displayName = "Leopard 2 Revolution (Orange)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -114,13 +114,13 @@ class CfgVehicles {
 
 	};
 	
-	// Leopard2 - Orange
-	class NLD_ORANGE_Leo2 : NLD_WLD_Leo2
+	// Leopard2 - Desert
+	class NLD_DST_Leo2 : NLD_WLD_Leo2
 	{
 
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "Leopard 2 Revolution (Orange)";
+		displayName = "Leopard 2 Revolution (Desert)";
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
@@ -334,6 +334,25 @@ class CfgVehicles {
 			};
 		};
 		class TransportWeapons {};
+	};
+	
+// CV9035NL - Desert
+	class NLD_DST_CV9035NL : I_APC_tracked_03_cannon_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CV-9035NL (Desert)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		crew = "NLD_DST_rifleman";
+		typicalCargo[] = {"NLD_DST_OFF"};
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa"};
+
+		};
+
 	};
 // YPR-765 - Woodland
 	class NLD_WLD_YPR : B_APC_Tracked_01_rcws_F
