@@ -351,8 +351,6 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa"};
 
-		};
-
 	};
 // YPR-765 - Woodland
 	class NLD_WLD_YPR : B_APC_Tracked_01_rcws_F
