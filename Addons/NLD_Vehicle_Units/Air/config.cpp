@@ -87,11 +87,10 @@ class CfgVehicles
 		vehicleClass = Air;
 	};
 
-	class NLD_Lynx : I_Heli_light_03_unarmed_F
+	class NLD_Lynx : DEGA_Wildcat_Unarmed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		_generalMacro = "I_Heli_light_03_unarmed_F";
 		displayName = "SH-14D Lynx";
 		side = 1;
 		crew = "NLD_HeliPilot";
@@ -153,12 +152,76 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLD_Lynx_Armed : I_Heli_light_03_F
+	class NLD_Lynx_Hellfire : DEGA_Wildcat_Hellfire_Armed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		_generalMacro = "I_Heli_light_03_F";
-		displayName = "SH-14D Lynx (Armed)";
+		displayName = "SH-14D Lynx (Hellfire)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_Lynx_Cannon : DEGA_Wildcat_Cannon_Armed_Digital_AAF
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "SH-14D Lynx (Cannon)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
