@@ -1,7 +1,7 @@
 _mover = _this select 0;
 _id = _this select 2;
-_module = _this select 3 select 0;
-_attachpoints = _this select 3 select 1;
+_module = _this select 3;
+_attachpoints = [0,-1.95,0.55];
 _atz = _attachpoints select 2;
 
 _module attachto [_mover, [0,-2.7,_atz]];
@@ -36,4 +36,5 @@ detach _module;
 _module setVelocity [0, 0, -0.1];
 _module enableRopeAttach true;
 _mover removeAction _id;
-_mover addaction ["Load", "hemtt\load.sqf", [0,-1.95,0.55]];
+
+_mover remoteExec ["NLD_fnc_load",0,true];
