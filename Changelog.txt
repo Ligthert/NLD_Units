@@ -3,12 +3,12 @@ Changelog:
 v7
 - Added Chinnook (CH47D & CH47F) with script to randomize serialnumbers
 - Added custom ammocrates (medisch, munitie, wapens & explosieven)
+- Added DAF-4442 trucks (transport and support versions)
+- Added a tan cv9035nl
 - Changed MTP Uniform
+- Changed Leopard 2 Revolutions have been reskinned
 - Fixxed multiple errors in loadout & configs
 - Removed old CH-47K's
-- Added DAF-4442 trucks (transport and support versions)
-- Leopard 2 Revolutions have been reskinned
-- Added a tan cv9035nl
 
 v2015121706
 - Added Korps Mariniers Units
