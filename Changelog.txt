@@ -7,6 +7,7 @@ v7
 - Added a tan cv9035nl
 - Changed MTP Uniform
 - Changed Leopard 2 Revolutions have been reskinned
+- Changed Fennek winter reskin
 - Fixxed multiple errors in loadout & configs
 - Removed old CH-47K's
 
