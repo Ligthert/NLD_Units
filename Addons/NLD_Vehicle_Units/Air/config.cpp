@@ -15,8 +15,6 @@ class RCWSOptics;
 
 class CfgVehicles 
 {
-	class I_Heli_light_03_F;
-	class I_Heli_light_03_unarmed_F;
 	class Heli_Transport_02_base_F;
 	class LLW_Apache_RNLAF;
 	class NH90;
@@ -25,7 +23,9 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class DEGA_US_CH47F_M134_M240;
-	
+	class DEGA_Wildcat_Unarmed_Digital_AAF;
+	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF
+	class DEGA_Wildcat_Cannon_Armed_Digital_AAF
 	class EC635_NLD_Police: EC635_Unarmed
 	{
 		author = "Lowlands Tactical";
