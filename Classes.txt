@@ -155,6 +155,9 @@ Vehicles:
 	Armor:
 		NLD_WLD_Leo2
 		NLD_DST_Leo2
+                NLD_ORANGE_Leo2
+                NLD_WLD_CV9035NL
+                NLD_DST_CV9035NL
 		NLD_WLD_M270MLRS
 		NLD_WLD_PzH2000NL
 		NLD_WLD_YPR
@@ -172,6 +175,13 @@ Vehicles:
 		NLD_WTR_Fennek
 		NLD_WTR_Fennek_HMG
 		NLD_WTR_Fennek_GMG
+                NLD_DAF_Transport
+                NLD_DAF_Transport_Covered
+                NLD_DAF_Fuel
+                NLD_DAF_repair
+                NLD_DAF_ammo
+                NLD_DAF_medical
+		
 
 Infantry:
 
