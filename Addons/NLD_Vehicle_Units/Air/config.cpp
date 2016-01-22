@@ -26,7 +26,8 @@ class CfgVehicles
 	class DEGA_Wildcat_Unarmed_Digital_AAF;
 	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
 	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
-	class EC635_NLD_Police: EC635_Unarmed;
+
+	class EC635_NLD_Police: EC635_Unarmed
 	{
 		author = "Lowlands Tactical";
 		displayName = "EC135 (Police)";
