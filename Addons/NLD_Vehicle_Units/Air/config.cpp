@@ -24,9 +24,9 @@ class CfgVehicles
 	class B_Heli_Transport_03_unarmed_F;
 	class DEGA_US_CH47F_M134_M240;
 	class DEGA_Wildcat_Unarmed_Digital_AAF;
-	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF
-	class DEGA_Wildcat_Cannon_Armed_Digital_AAF
-	class EC635_NLD_Police: EC635_Unarmed
+	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
+	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
+	class EC635_NLD_Police: EC635_Unarmed;
 	{
 		author = "Lowlands Tactical";
 		displayName = "EC135 (Police)";
@@ -98,9 +98,10 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
-		class TransportItems {
-			class _xx_FirstAidKit {
+		class TransportItems 
+		{
+			class _xx_FirstAidKit
+			{
 				name = "FirstAidKit";
 				count = 10;
 			};
@@ -163,9 +164,9 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
-		class TransportItems {
-			class _xx_FirstAidKit {
+		{
+			class _xx_FirstAidKit
+			{
 				name = "FirstAidKit";
 				count = 10;
 			};
@@ -228,9 +229,9 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
-		class TransportItems {
-			class _xx_FirstAidKit {
+		{
+			class _xx_FirstAidKit
+			{
 				name = "FirstAidKit";
 				count = 10;
 			};
