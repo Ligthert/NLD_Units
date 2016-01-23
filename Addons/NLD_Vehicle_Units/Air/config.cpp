@@ -99,10 +99,9 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		class TransportItems 
-		{
-			class _xx_FirstAidKit
-			{
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
@@ -165,9 +164,9 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		{
-			class _xx_FirstAidKit
-			{
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
@@ -230,9 +229,9 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		{
-			class _xx_FirstAidKit
-			{
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
