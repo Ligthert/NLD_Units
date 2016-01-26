@@ -147,7 +147,8 @@ Vehicles:
 		NLD_F16C_CAS
 		NLD_F16C_CASAI
 		NLD_Lynx
-		NLD_Lynx_Armed
+		NLD_Lynx_Hellfire
+		NLD_Lynx_Cannon
 		NLD_CH47D_Armed
 		NLD_CH47F_Armed
 		EC635_NLD_Police

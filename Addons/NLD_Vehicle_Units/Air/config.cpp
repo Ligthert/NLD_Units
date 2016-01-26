@@ -15,8 +15,6 @@ class RCWSOptics;
 
 class CfgVehicles 
 {
-	class I_Heli_light_03_F;
-	class I_Heli_light_03_unarmed_F;
 	class Heli_Transport_02_base_F;
 	class LLW_Apache_RNLAF;
 	class NH90;
@@ -25,7 +23,10 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class DEGA_US_CH47F_M134_M240;
-	
+	class DEGA_Wildcat_Unarmed_Digital_AAF;
+	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
+	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
+
 	class EC635_NLD_Police: EC635_Unarmed
 	{
 		author = "Lowlands Tactical";
@@ -87,17 +88,16 @@ class CfgVehicles
 		vehicleClass = Air;
 	};
 
-	class NLD_Lynx : I_Heli_light_03_unarmed_F
+	class NLD_Lynx : DEGA_Wildcat_Unarmed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		_generalMacro = "I_Heli_light_03_unarmed_F";
 		displayName = "SH-14D Lynx";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
 		
 		class TransportItems {
@@ -153,17 +153,81 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 	
-	class NLD_Lynx_Armed : I_Heli_light_03_F
+	class NLD_Lynx_Hellfire : DEGA_Wildcat_Hellfire_Armed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		_generalMacro = "I_Heli_light_03_F";
-		displayName = "SH-14D Lynx (Armed)";
+		displayName = "SH-14D Lynx (Hellfire)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_Lynx_Cannon : DEGA_Wildcat_Cannon_Armed_Digital_AAF
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "SH-14D Lynx (Cannon)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
 		
 		class TransportItems {

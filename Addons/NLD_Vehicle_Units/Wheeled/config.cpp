@@ -247,23 +247,24 @@ class CfgVehicles {
 		displayName = "Fennek (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\turret.paa"};
 	};
 
 	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\turret.paa"};
 	};
 
 	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\turret.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\turret.paa"};
 	};
 
+// DAF-4442 - Woodland	
 	class NLD_DAF_Transport: I_Truck_02_transport_F
 	{
 		author="Lowlands Tactical";
