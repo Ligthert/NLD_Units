@@ -15,6 +15,8 @@ class RCWSOptics;
 
 class CfgVehicles 
 {
+	class I_Heli_light_03_F;
+	class I_Heli_light_03_unarmed_F;
 	class Heli_Transport_02_base_F;
 	class LLW_Apache_RNLAF;
 	class NH90;
@@ -87,12 +89,78 @@ class CfgVehicles
 		faction = "NLD_Units";
 		vehicleClass = Air;
 	};
-
+	
+	class NLD_Lynx_Armed : I_Heli_light_03_F
+	{
+		author = "Lowlands Tactical";
+		scope = 1;
+		_generalMacro = "I_Heli_light_03_F";
+		displayName = "SH-14D Lynx (Armed)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
 	class NLD_Lynx : DEGA_Wildcat_Unarmed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "SH-14D Lynx";
+		displayName = "SH-14D SeaLynx";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -157,7 +225,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "SH-14D Lynx (Hellfire)";
+		displayName = "SH-14D SeaLynx (Hellfire)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -222,7 +290,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "SH-14D Lynx (Cannon)";
+		displayName = "SH-14D SeaLynx (Cannon)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -325,5 +393,63 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
 		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\randomize.sqf'"; };
+	};
+	
+	class NLD_CH47_Armed: B_Heli_Transport_03_F
+	{
+		crew = "NLD_HeliPilot";
+		scope=1;
+		displayName = "CH-47K (Armed)";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen1.paa"};
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		textureList[] = {"NLD_CH47_Green", 1};
+		class textureSources
+		{
+			class NLD_CH47_Green
+			{
+				displayName = "Grey, Green";
+				author = Lowlands Tactical;
+				textures[] =
+				{
+					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen.paa",
+					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen1.paa"
+				};
+				materials[] = {}; 
+				factions[] = 
+				{
+					"BLU_F"
+				};
+			};
+		};
+	};
+	
+	class NLD_CH47_Unarmed: B_Heli_Transport_03_unarmed_F
+	{
+		crew = "NLD_HeliPilot";
+		scope=1;
+		displayName = "CH-47K (Unarmed)";
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey1.paa"};
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		textureList[] = {"NLD_CH47_Grey", 1};
+		class textureSources
+		{
+			class NLD_CH47_Green
+			{
+				displayName = "Grey, Grey";
+				author = Lowlands Tactical;
+				textures[] =
+				{
+					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey.paa",
+					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgrey1.paa"
+				};
+				materials[] = {}; 
+				factions[] = 
+				{
+					"BLU_F"
+				};
+			};
+		};
 	};
 };
