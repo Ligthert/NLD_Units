@@ -585,6 +585,7 @@ Weapons:
 	NLD_MAG
 	NLD_AT4
 	NLD_AWM
+	NLD_Glock17
 	
 	NLD_MX_C
 	NLD_MX_C_SF
