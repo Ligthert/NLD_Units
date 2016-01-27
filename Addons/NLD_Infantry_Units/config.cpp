@@ -1512,7 +1512,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
     };
 
-	class NLD_SF_MEDIC: NLD_SF_Operator_MP5
+	class NLD_SF_MEDIC: NLD_SF_Operator
 	{
 		displayName = "Medic";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
