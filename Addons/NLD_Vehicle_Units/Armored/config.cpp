@@ -98,7 +98,7 @@ class CfgVehicles {
 	{
 
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 0;
 		displayName = "Leopard 2 Revolution (Orange)";
 		side = 1;
 		vehicleClass = Armored;
