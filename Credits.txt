@@ -10,7 +10,6 @@ __________________________________________
 Uniforms		: Craig (@SP_Pack/NED_Pack)
 Uniforms 		: teriyaki (TRYK's Multi-Play Uniforms)
 Weapons			: Community Upgrade Project
-NH90			: Aplion
 AH-64D			: Crielaard (LowLands Warrior)
 F16C			: Firewill
 EC135			: Aplion

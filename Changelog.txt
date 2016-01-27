@@ -3,15 +3,15 @@ Changelog:
 v7
 - Added Deltagamers Chinook (CH47D & CH47F) with script to randomize serialnumbers
 - Added custom ammocrates (medisch, munitie, wapens & explosieven)
-- Added DAF-4442 trucks (transport and support versions)
+- Added DAF-4442/DAF-2300 trucks (transport and support versions)
 - Added a tan cv9035nl
 - Changed MTP Uniform
-- Changed vanilla Lynxes with Deltagamers Wildcats
-- Changed Leopard 2 Revolutions have been reskinned (Added a bright orange one as a prop with "proud of our men" in dutch, unfortunatly the text 
-  is mirrored on the other side)
+- Changed vanilla Lynxes with Deltagamers Wildcats (old data remains for backwards compatibility)
+- Changed Leopard 2 Revolutions have been reskinned 
 - Changed Fennek winter reskin
+- Changed Pistols on units as AI were too fond of the G17's even at long ranges
 - Fixxed multiple errors in loadout & configs
-- Removed old CH-47K's
+- Removed old CH-47K's from the editor/zeus (data remains for backwards compatibility)
 
 v2015121706
 - Added Korps Mariniers Units
