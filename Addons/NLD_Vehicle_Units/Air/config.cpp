@@ -399,6 +399,7 @@ class CfgVehicles
 	{
 		crew = "NLD_HeliPilot";
 		scope=1;
+		scopeCurator = 0;
 		displayName = "CH-47K (Armed)";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen1.paa"};
 		faction = "NLD_Units";
@@ -428,6 +429,7 @@ class CfgVehicles
 	{
 		crew = "NLD_HeliPilot";
 		scope=1;
+		scopeCurator = 0;
 		displayName = "CH-47K (Unarmed)";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey.paa","\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey1.paa"};
 		faction = "NLD_Units";
