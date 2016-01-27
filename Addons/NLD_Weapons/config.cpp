@@ -507,6 +507,30 @@ class CfgWeapons {
 			};
 		};
 	};
+
+
+	class  hgun_Rook40_F;
+	class NLD_Glock17: hgun_Rook40_F
+	{
+		scope=2;
+		displayName="[NLD] Glock17";
+	};
+
+/*
+	class CUP_hgun_Glock17;
+	class NLD_Glock17: CUP_hgun_Glock17
+	{
+		scope=2;
+		displayName="[NLD] Glock17";
+		minRange=0;
+		minRangeProbab=1;
+		midRange=25;
+		midRangeProbab=1;
+		maxRange=50;
+		maxRangeProbab=1;
+	};
+*/
+
 };
 
 // Magazines
@@ -582,9 +606,9 @@ class CfgVehicles
 				count = 100;
 			};
 
-			class _xx_CUP_17Rnd_9x19_glock17
+			class _xx_16Rnd_9x21_Mag
 			{
-				magazine = "CUP_17Rnd_9x19_glock17";
+				magazine = "16Rnd_9x21_Mag";
 				count = 50;
 			};
 
@@ -742,9 +766,9 @@ class CfgVehicles
 				weapon = "NLD_AWM";
 				count = 10;
 			};
-			class _xx_CUP_hgun_Glock17
+			class _xx_NLD_Glock17
 			{
-				weapon = "CUP_hgun_Glock17";
+				weapon = "NLD_Glock17";
 				count = 10;
 			};
 		};
