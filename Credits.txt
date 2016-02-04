@@ -7,11 +7,10 @@ Models			:	Bohemia Interactive
 
 __________________________________________
 
-Uniforms		: Craig (@SP_Pack/NED_Pack)
-Uniforms 		: teriyaki (TRYK's Multi-Play Uniforms)
-Weapons			: Community Upgrade Project
-AH-64D			: Crielaard (LowLands Warrior)
-F16C			: Firewill
-EC135			: Aplion
-NH90 			: Aplion
-Chinooks + Lynxes	: Deltagamer
+Uniforms		   : Craig (@SP_Pack/NED_Pack)
+Uniforms 		   : teriyaki (TRYK's Multi-Play Uniforms)
+Weapons			   : Community Upgrade Project
+F16C			   : Firewill
+EC135			   : Aplion
+NH90 			   : Aplion
+Chinooks + Lynxes + Apache : Deltagamer

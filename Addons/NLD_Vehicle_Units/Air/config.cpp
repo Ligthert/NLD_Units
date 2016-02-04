@@ -29,13 +29,6 @@ class CfgVehicles
 	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
 	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
 	class DEGA_Apache_AH64D_Block_II_USA;
-	{
-	public:
-		 DEGA_Apache_AH64D_Block_II_USA(arguments);
-		~ DEGA_Apache_AH64D_Block_II_USA();
-	
-		/* data */
-	};
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -90,14 +83,14 @@ class CfgVehicles
 	class NLD_AH64D : DEGA_Apache_AH64D_Block_II_USA
 	{
 		author = "Lowlands Tactical";
-		scope = 1;
+		scope = 2;
 		displayName = "AH64D";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_details_co.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
