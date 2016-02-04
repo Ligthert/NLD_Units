@@ -28,6 +28,14 @@ class CfgVehicles
 	class DEGA_Wildcat_Unarmed_Digital_AAF;
 	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
 	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
+	class DEGA_Apache_AH64D_Block_II_USA;
+	{
+	public:
+		 DEGA_Apache_AH64D_Block_II_USA(arguments);
+		~ DEGA_Apache_AH64D_Block_II_USA();
+	
+		/* data */
+	};
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -78,16 +86,70 @@ class CfgVehicles
 		class TransportMagazines{};
 		class TransportWeapons{};
 	};
-
-	class NLD_AH64D: LLW_Apache_RNLAF
+	
+	class NLD_AH64D : DEGA_Apache_AH64D_Block_II_USA
 	{
-		author = "Lowlands Warrior";
-		scope = 2;
-		_generalMacro = "LLW_Apache_RNLAF";
+		author = "Lowlands Tactical";
+		scope = 1;
+		displayName = "AH64D";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=10;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
 	};
 	
 	class NLD_Lynx_Armed : I_Heli_light_03_F
