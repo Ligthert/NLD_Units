@@ -18,7 +18,6 @@ class CfgVehicles
 	class I_Heli_light_03_F;
 	class I_Heli_light_03_unarmed_F;
 	class Heli_Transport_02_base_F;
-	class LLW_Apache_RNLAF;
 	class NH90;
 	class EC635_Unarmed;
 	class C_man_pilot_F;
