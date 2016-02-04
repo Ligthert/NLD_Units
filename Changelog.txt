@@ -1,7 +1,9 @@
 Changelog:
 
-v7
+v201602047
 - Added Deltagamers Chinook (CH47D & CH47F) with script to randomize serialnumbers
+- Added Deltagamers Apache as a temporary placeholder 
+  (The Apache from Lowlands Warrior will be now be maintained by Criellaard while we work on our own version, as to prevent errors given to people using both our mods)
 - Added custom ammocrates (medisch, munitie, wapens & explosieven)
 - Added DAF-4442/DAF-2300 trucks (transport and support versions)
 - Added a tan cv9035nl
