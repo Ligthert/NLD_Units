@@ -254,6 +254,15 @@ class cfgWeapons {
 			modelSides[] = {3, 1};
                         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
 			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 
@@ -381,6 +390,38 @@ class cfgWeapons {
 			containerClass = "Supply120";
 			mass = 1;
 			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 		};
 	};
 
@@ -434,6 +475,38 @@ class cfgWeapons {
 			armor = 30;
 			passThrough = 0.5;
 			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
 		};
 	};
 
@@ -450,6 +523,32 @@ class cfgWeapons {
 			mass = 60;
 			passthrough = 0.5;
 			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=20;
+					PassThrough=0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=20;
+					PassThrough=0.2;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=20;
+					passThrough=0.2;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.2;
+				};
+			};
 		};
 	};
 
@@ -684,6 +783,32 @@ class cfgWeapons {
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=20;
+					PassThrough=0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=20;
+					PassThrough=0.2;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=20;
+					passThrough=0.2;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.2;
+				};
+			};
 		};
 	};
 	class NLD_KMAR_Helmet: H_HelmetCrew_B
