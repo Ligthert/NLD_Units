@@ -1,5 +1,8 @@
 Changelog:
 
+V201622028
+-Added armor values to vests and helmets
+
 v201602047
 - Added Deltagamers Chinook (CH47D & CH47F) with script to randomize serialnumbers
 - Added Deltagamers Apache as a temporary placeholder 
