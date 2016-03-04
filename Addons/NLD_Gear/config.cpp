@@ -56,6 +56,15 @@ class cfgWeapons {
 			passThrough = 0.5;
 			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
 			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 
@@ -574,6 +583,15 @@ class cfgWeapons {
 			modelsides[] = {3, 1};
 			passthrough = 0.5;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 
@@ -686,6 +704,15 @@ class cfgWeapons {
 			passThrough = 0.95;
 			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_helmet.paa"};
 			hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 	class NLD_Lifeliner_Helmet: ItemCore
@@ -704,6 +731,15 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
 			hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 	class NLD_Police_belt: Vest_Camo_Base
@@ -827,6 +863,15 @@ class cfgWeapons {
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
 			hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 };
