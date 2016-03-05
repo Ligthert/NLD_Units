@@ -27,6 +27,7 @@ class cfgWeapons {
 	
 	class NLD_DST_Camo : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Desert Camo";
 		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Uniform.paa";
@@ -42,6 +43,7 @@ class cfgWeapons {
 	
 	class NLD_DST_Helmet : H_HelmetIA {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Desert Helmet";
@@ -72,6 +74,7 @@ class cfgWeapons {
 
 	class NLD_DST_BaseballCap: ItemCore{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Desert Baseball Cap";
@@ -93,6 +96,7 @@ class cfgWeapons {
 
 	class NLD_DST_BoonieHat: ItemCore{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Desert Boonie Hat";
@@ -114,6 +118,7 @@ class cfgWeapons {
 	
 	 class NLD_NVGoggles : NVGoggles_OPFOR {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		modelOptics = "\A3\weapons_f\reticle\optics_night";
 		model = "\A3\Weapons_f\binocular\nvg_proxy";
 		displayName = "[NLD] NV Goggles";
@@ -129,6 +134,7 @@ class cfgWeapons {
 
 	class NLD_WLD_Camo : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Woodland Camo";
 		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Uniform.paa";
@@ -144,6 +150,7 @@ class cfgWeapons {
 	
 	class NLD_NFPT_Camo : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] NFP-Tan Camo";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Uniform.paa";
@@ -159,6 +166,7 @@ class cfgWeapons {
 
 	class NLD_NFPG_Camo : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] NFP-Green Camo";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Uniform.paa";
@@ -174,6 +182,7 @@ class cfgWeapons {
 
 	class NLD_WTR_Camo : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Winter Camo";
 		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Uniform.paa";
@@ -189,6 +198,7 @@ class cfgWeapons {
 
 	class NLD_SF_CAMO : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Black Camo";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Uniform.paa";
@@ -204,6 +214,7 @@ class cfgWeapons {
 
 	class NLD_MTP_CAMO : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] MTP Camo";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Uniform.paa";
@@ -219,6 +230,7 @@ class cfgWeapons {
 
 	class NLD_JGL_Camo : NLD_WLD_Camo {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Jungle Camo";
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Uniform.paa";
@@ -234,6 +246,7 @@ class cfgWeapons {
 	class NLD_KM_Camo : Uniform_Base 
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KM Camo";
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
@@ -249,6 +262,7 @@ class cfgWeapons {
 	class NLD_KM_Camo2 : Uniform_Base 
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KM Camo2";
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
@@ -264,6 +278,7 @@ class cfgWeapons {
 
 	class NLD_WLD_Helmet : H_HelmetIA {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Woodland Helmet";
@@ -292,6 +307,7 @@ class cfgWeapons {
 
 	class NLD_NFPT_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Tan Helmet";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Helmet.paa"};		
@@ -299,6 +315,7 @@ class cfgWeapons {
 
 	class NLD_NFPG_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Green Helmet";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Helmet.paa"};		
@@ -306,6 +323,7 @@ class cfgWeapons {
 
 	class NLD_WTR_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Winter Helmet";
 		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Helmet.paa"};		
@@ -313,6 +331,7 @@ class cfgWeapons {
 
 	class NLD_KM_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] KM Helmet";
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Helmet.paa"};		
@@ -320,6 +339,7 @@ class cfgWeapons {
 
 	class NLD_JGL_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Jungle Helmet";
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Helmet.paa"};		
@@ -327,6 +347,7 @@ class cfgWeapons {
 
 	class NLD_UN_Helmet : NLD_WLD_Helmet {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] UN Helmet";
 		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\UN\Data\Helmet.paa"};		
@@ -334,6 +355,7 @@ class cfgWeapons {
 
 	class NLD_WLD_BaseballCap: ItemCore{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Woodland Baseball Cap";
@@ -355,6 +377,7 @@ class cfgWeapons {
 
 	class NLD_NFPT_BaseballCap : NLD_WLD_BaseballCap {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Tan Baseball Cap";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\BaseballCap.paa";
         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\BaseballCap.paa"};
@@ -362,6 +385,7 @@ class cfgWeapons {
 
 	class NLD_NFPG_BaseballCap : NLD_WLD_BaseballCap {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Green Baseball Cap";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\BaseballCap.paa";
         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\BaseballCap.paa"};
@@ -369,6 +393,7 @@ class cfgWeapons {
 
 	class NLD_SF_BaseballCap : NLD_WLD_BaseballCap {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Black Baseball Cap";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\BaseballCap.paa";
         hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\BaseballCap.paa"};
@@ -376,6 +401,7 @@ class cfgWeapons {
 
 	class NLD_WLD_BoonieHat: ItemCore{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Woodland Boonie Hat";
@@ -397,6 +423,7 @@ class cfgWeapons {
 	
 	class NLD_NFPT_BoonieHat : NLD_WLD_BoonieHat {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Tan Boonie Hat";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\BoonieHat.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\BoonieHat.paa"};
@@ -404,6 +431,7 @@ class cfgWeapons {
 
 	class NLD_NFPG_BoonieHat : NLD_WLD_BoonieHat {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Green Boonie Hat";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\BoonieHat.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\BoonieHat.paa"};
@@ -411,6 +439,7 @@ class cfgWeapons {
 
 	class NLD_SF_BoonieHat : NLD_WLD_BoonieHat {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Black Boonie Hat";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\BoonieHat.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\BoonieHat.paa"};
@@ -418,6 +447,7 @@ class cfgWeapons {
 
 	class NLD_WLD_Vest : V_PlateCarrierIA2_dgtl {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Woodland Vest";
 		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Vest.paa";
@@ -466,6 +496,7 @@ class cfgWeapons {
 
 	class NLD_NFPT_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Tan Vest";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Vest.paa"};
@@ -473,6 +504,7 @@ class cfgWeapons {
 
 	class NLD_NFPG_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Green Vest";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Vest.paa"};
@@ -480,6 +512,7 @@ class cfgWeapons {
 
 	class NLD_DST_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 1;
 		displayName = "[NLD] Desert Vest";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Vest.paa"};
@@ -487,6 +520,7 @@ class cfgWeapons {
 
 	class NLD_WTR_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Winter Vest";
 		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Vest.paa"};
@@ -494,6 +528,7 @@ class cfgWeapons {
 
 	class NLD_SF_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Black Vest";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Vest.paa"};
@@ -501,6 +536,7 @@ class cfgWeapons {
 
 	class NLD_JGL_Vest : NLD_WLD_Vest {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Jungle Vest";
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Vest.paa"};
@@ -508,6 +544,7 @@ class cfgWeapons {
 
 	class NLD_UN_Vest : Vest_Camo_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] UN Vest";
 		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Vest.paa";
@@ -559,6 +596,7 @@ class cfgWeapons {
 	class NLD_SF_PlateCarrier : V_PlateCarrier1_blk
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Black Plate Carrier";
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\PlateCarrier.paa";
@@ -602,6 +640,7 @@ class cfgWeapons {
 	class NLD_MTP_PlateCarrier : NLD_SF_PlateCarrier
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] MTP Plate Carrier";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\PlateCarrier.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\PlateCarrier.paa"};
@@ -609,6 +648,7 @@ class cfgWeapons {
 
 	class NLD_SF_ECH: H_HelmetB {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayname = "[NLD] Black ECH";
 		hiddenselections[] = {"camo"};
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
@@ -638,6 +678,7 @@ class cfgWeapons {
 	class NLD_MTP_ECH : NLD_SF_ECH
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] MTP ECH";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\ECH.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\ECH.paa"};
@@ -645,6 +686,7 @@ class cfgWeapons {
 
 	class NLD_Helipilot_base : U_B_HeliPilotCoveralls {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] HeliPilot Coveralls";
 		genericNames = "NLD_Units";
@@ -661,6 +703,7 @@ class cfgWeapons {
 	
 	class NLD_Helicrew_base : U_B_HeliPilotCoveralls {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] HeliCrew Coveralls";
 		picture = "\A3\characters_f\data\ui\icon_U_B_coveralls_ca.paa";
@@ -676,6 +719,7 @@ class cfgWeapons {
 	
 	class NLD_Crew_base : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Crew Coveralls";
 		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\WorkUniform.paa";
@@ -691,6 +735,7 @@ class cfgWeapons {
 	
 	class NLD_Crew_MLRS_base : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 1;
 		displayName = "[NLD] Crew MLRS Coveralls";
 		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\WorkUniform.paa";
@@ -706,6 +751,7 @@ class cfgWeapons {
 	class NLD_Police_Uniform: U_B_HeliPilotCoveralls
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Police Pilot Uniform ";
 		picture = "\NLD_Vehicle_Units\Air\Data\police\pilots\ui\police_pilot.paa";
@@ -721,6 +767,7 @@ class cfgWeapons {
 	class NLD_Lifeliner_Uniform: U_B_HeliPilotCoveralls
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Lifeliner Pilot Uniform ";
 		picture = "\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\ui\lifeliner_pilot.paa";
@@ -736,6 +783,7 @@ class cfgWeapons {
 	class NLD_Police_Helmet: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Police Helmet";
@@ -766,6 +814,7 @@ class cfgWeapons {
 	class NLD_Lifeliner_Helmet: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Lifeliner Helmet";
@@ -794,6 +843,7 @@ class cfgWeapons {
 	class NLD_Police_belt: Vest_Camo_Base
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "[NLD] police Belt";
@@ -812,6 +862,7 @@ class cfgWeapons {
 
 	class NLD_KMAR_Camo : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KMAR Camo";
 		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR.paa";
@@ -827,6 +878,7 @@ class cfgWeapons {
 
 	class NLD_KMAR_Camo2 : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KMAR Camo2";
 		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
@@ -842,6 +894,7 @@ class cfgWeapons {
 
 	class NLD_KMAR_Crew_Camo : Uniform_Base {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KMAR Crew Camo";
 		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
@@ -858,6 +911,7 @@ class cfgWeapons {
     class NLDO_KMAR_Vest: V_PlateCarrier1_blk
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KMAR Vest";
 		picture="\A3\Characters_F_EPC\Data\UI\icon_V_PressVest_CA.paa";
@@ -904,6 +958,7 @@ class cfgWeapons {
 	class NLD_KMAR_Helmet: H_HelmetCrew_B
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] KMAR Helmet";

@@ -16,6 +16,7 @@ class CfgVehicles {
 
 	class NLD_DST_Carryall_Empty: B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Desert Carryall";
 		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Backpack.paa"};
@@ -23,6 +24,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Woodland Carryall";
 		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\Backpack.paa"};
@@ -30,6 +32,7 @@ class CfgVehicles {
 
 	class NLD_NFPT_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Tan Carryall";
 		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Backpack.paa"};
@@ -37,6 +40,7 @@ class CfgVehicles {
 
 	class NLD_NFPG_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] NFP-Green Carryall";
 		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Backpack.paa"};
@@ -44,6 +48,7 @@ class CfgVehicles {
 
 	class NLD_WTR_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Winter Carryall";
 		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Backpack.paa"};
@@ -51,6 +56,7 @@ class CfgVehicles {
 
 	class NLD_JGL_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Jungle Carryall";
 		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Backpack.paa"};
@@ -1263,6 +1269,7 @@ class CfgVehicles {
 
 	class NLD_SF_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] Black Carryall";
 		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Backpack.paa"};
@@ -1270,12 +1277,14 @@ class CfgVehicles {
 
 	class NLD_MTP_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] MTP Carryall";
 		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\Backpack.paa"};
 	};
 	class NLD_KM_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] KM Carryall";
 		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Backpack.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Backpack.paa"};
@@ -2589,6 +2598,7 @@ class CfgVehicles {
 
 	class NLD_Spongebob_Tactical : B_AssaultPack_blk {
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		displayName = "[NLD] SpongeBob Tacticalpack";
         scope = 2;
 		picture = "\NLD_Backpacks\Spongebob\Data\uim\Spongebobsquarebag.paa";

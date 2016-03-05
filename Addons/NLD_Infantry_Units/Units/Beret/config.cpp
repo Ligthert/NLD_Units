@@ -26,6 +26,7 @@ class cfgWeapons
 	class Dutch_Beret_RoyalMarines: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Korps Mariniers)";
@@ -49,6 +50,7 @@ class cfgWeapons
 	class Dutch_Beret_Commandos: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Korps Commandotroepen)";
@@ -72,6 +74,7 @@ class cfgWeapons
 	class Dutch_Beret_KMAR: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Koninklijke Marechaussee)";
@@ -95,6 +98,7 @@ class cfgWeapons
 	class Dutch_Beret_Luchtmobiele_Brigade: ItemCore
 	{
 		dlc="NLD_Units";
+		author="Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] Beret (Luchtmobiele Brigade)";
