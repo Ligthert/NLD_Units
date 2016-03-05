@@ -11,6 +11,7 @@ class CfgUnitInsignia
 {
     class NLD_11AMB
     {
+        dlc="NLD_Units";
         displayName = "[NLD] AMB";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\LMB.paa";
@@ -18,6 +19,7 @@ class CfgUnitInsignia
     };
     class NLD_11AMB_Green
     {
+        dlc="NLD_Units";
         displayName = "[NLD] AMB (Green)";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\11LMB.paa";
@@ -25,6 +27,7 @@ class CfgUnitInsignia
     };
     class NLD_KCT
     {
+        dlc="NLD_Units";
     	displayName = "[NLD] KCT";
     	author = "Lowlands Tactical";
     	texture = "\NLD_Infantry_Units\Badges\KCT.paa";
@@ -32,6 +35,7 @@ class CfgUnitInsignia
     };
     class NLD_UIM
     {
+        dlc="NLD_Units";
         displayName = "[NLD] UIM";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\UIM.paa";
@@ -39,6 +43,7 @@ class CfgUnitInsignia
     };
     class NLD_RNLMC
     {
+        dlc="NLD_Units";
         displayName = "[NLD] RNLMC";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\RNLMC.paa";
@@ -46,6 +51,7 @@ class CfgUnitInsignia
     };
     class NLD_KM
     {
+        dlc="NLD_Units";
         displayName = "[NLD] Korps Mariniers";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\Korps Mariniers.paa";
@@ -53,6 +59,7 @@ class CfgUnitInsignia
     };
     class NLD_KM2
     {
+        dlc="NLD_Units";
         displayName = "[NLD] Korps Mariniers2";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\KM-Badge.paa";
@@ -60,6 +67,7 @@ class CfgUnitInsignia
     };
     class NLD_TF55
     {
+        dlc="NLD_Units";
         displayName = "[NLD] TF55";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\TF55.paa";
@@ -67,6 +75,7 @@ class CfgUnitInsignia
     };
     class NLD_TF55G
     {
+        dlc="NLD_Units";
         displayName = "[NLD] TF55 (Green)";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\TF55 Green.paa";
@@ -74,6 +83,7 @@ class CfgUnitInsignia
     };
     class NLD_RLJ
     {
+        dlc="NLD_Units";
         displayName = "[NLD] RLJ";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\RLJ.paa";
@@ -81,6 +91,7 @@ class CfgUnitInsignia
     };
     class NLD_Pathfinders
     {
+        dlc="NLD_Units";
         displayName = "[NLD] Pathfinders";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\Pathfinders.paa";
@@ -88,6 +99,7 @@ class CfgUnitInsignia
     };
     class NLD_EOD
     {
+        dlc="NLD_Units";
         displayName = "[NLD] EOD";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\EOD.paa";
@@ -95,6 +107,7 @@ class CfgUnitInsignia
     };
     class NLD_FlagNLD
     {
+        dlc="NLD_Units";
         displayName = "[NLD] FlagNLD";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\FlagNLD.paa";
@@ -102,6 +115,7 @@ class CfgUnitInsignia
     };
     class NLD_MedicTan
     {
+        dlc="NLD_Units";
         displayName = "[NLD] MedicTan";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\MedicTan.paa";
@@ -109,6 +123,7 @@ class CfgUnitInsignia
     };
     class NLD_MedicGreen
     {
+        dlc="NLD_Units";
         displayName = "[NLD] MedicGreen";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\MedicGreen.paa";
@@ -116,6 +131,7 @@ class CfgUnitInsignia
     };
     class NLD_MedicRound
     {
+        dlc="NLD_Units";
         displayName = "[NLD] MedicRound";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\MedicRound.paa";
@@ -123,6 +139,7 @@ class CfgUnitInsignia
     };
     class NLD_109MLRS
     {
+        dlc="NLD_Units";
         displayName = "[NLD] 109 MLRS";
         author = "Lowlands Tactical";
         texture = "\NLD_Infantry_Units\Badges\109MLRS.paa";

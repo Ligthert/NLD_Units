@@ -34,6 +34,7 @@ class CfgWeapons {
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
+		dlc="NLD_Units";
 		displayName="[NLD] Diemaco C8";
 		author="Lowlands Tactical";
 		scope=2;
@@ -56,6 +57,7 @@ class CfgWeapons {
 
 	// Diemaco C8 GL
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
+		dlc="NLD_Units";
 		displayName="[NLD] Diemaco C8 GL";
 		author="Lowlands Tactical";
 		scope=2;
@@ -78,6 +80,7 @@ class CfgWeapons {
 
 	// Minimi
 	class NLD_Minimi: CUP_lmg_M249_para {
+		dlc="NLD_Units";
 		displayName="[NLD] FN Minimi";
 		author="Lowlands Tactical";
 		scope=2;
@@ -99,6 +102,7 @@ class CfgWeapons {
 	//AWM
 	class NLD_AWM: CUP_srifle_AWM_wdl
 	{
+		dlc="NLD_Units";
 		displayName="[NLD] AWM";
 		author="Lowlands Tactical";
 		scope=2;
@@ -119,6 +123,7 @@ class CfgWeapons {
 
 	// Mag
 	class NLD_MAG: CUP_lmg_M240 {
+		dlc="NLD_Units";
 		displayName="[NLD] FN MAG";
 		author="Lowlands Tactical";
 		scope=2;
@@ -145,6 +150,7 @@ class CfgWeapons {
 	
 	//AT4
 	class NLD_AT4: CUP_launch_M136 {
+		dlc="NLD_Units";
 		displayName="[NLD] AT4";
 		author="Lowlands Tactical";
 		scope=2;
@@ -157,6 +163,7 @@ class CfgWeapons {
 	//MX SF
 	class NLD_MX_C: arifle_MXC_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX C SF";
 		Scope=2;
@@ -173,6 +180,7 @@ class CfgWeapons {
 	};
 	class NLD_MX: arifle_MX_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SF";
 		Scope=2;
@@ -191,6 +199,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_GL: arifle_MX_GL_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX GL SF";
 		Scope=2;
@@ -209,6 +218,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_SW: arifle_MX_SW_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SW SF";
 		Scope=2;
@@ -225,6 +235,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_DMR: arifle_MXM_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX DMR SF";
 		Scope=2;
@@ -242,6 +253,7 @@ class CfgWeapons {
 	
 	class NLD_MX_C_SF: NLD_MX_C
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -258,6 +270,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_SF: NLD_MX
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -274,6 +287,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_GL_SF: NLD_MX_GL
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -290,6 +304,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_SW_SF: NLD_MX_SW
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -311,6 +326,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_DMR_SF: NLD_MX_DMR
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -334,6 +350,7 @@ class CfgWeapons {
 	//MX Winter
 	class NLD_MX_C_W: arifle_MXC_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX C Winter";
 		Scope=2;
@@ -350,6 +367,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_W: arifle_MX_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX Winter";
 		Scope=2;
@@ -368,6 +386,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_GL_W: arifle_MX_GL_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX GL Winter";
 		Scope=2;
@@ -386,6 +405,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_SW_W: arifle_MX_SW_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SW Winter";
 		Scope=2;
@@ -402,6 +422,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_DMR_W: arifle_MXM_F
 	{
+		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] MX DMR Winter";
 		Scope=2;
@@ -419,6 +440,7 @@ class CfgWeapons {
 	
 	class NLD_MX_C_Winter: NLD_MX_C_W
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -435,6 +457,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_Winter: NLD_MX_W
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -451,6 +474,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_GL_Winter: NLD_MX_GL_W
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -467,6 +491,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_SW_Winter: NLD_MX_SW_W
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -488,6 +513,7 @@ class CfgWeapons {
 	};
 	class NLD_MX_DMR_Winter: NLD_MX_DMR_W
 	{
+		dlc="NLD_Units";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -512,6 +538,7 @@ class CfgWeapons {
 	class  hgun_Rook40_F;
 	class NLD_Glock17: hgun_Rook40_F
 	{
+		dlc="NLD_Units";
 		scope=2;
 		displayName="[NLD] Glock17";
 	};
@@ -541,6 +568,7 @@ class CfgMagazines {
 
 	// 200rnd belt
 	class NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M {
+		dlc="NLD_Units";
 		author = "CUP";
 		scope = 2;
 		displayName = "[NLD] 7.62x51mm 200 Rnd 240 Belt (red tracers)";
@@ -564,6 +592,7 @@ class CfgVehicles
 	
 	class NLD_Ammo_Crate_Medisch : Box_NATO_AmmoVeh_F
 	{
+		dlc="NLD_Units";
 		scope = 2;
 		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Medisch";
@@ -589,6 +618,7 @@ class CfgVehicles
 	
 	class NLD_Ammo_Crate_Munitie : Box_NATO_AmmoVeh_F
 	{
+		dlc="NLD_Units";
 		scope = 2;
 		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Munitie";
@@ -664,6 +694,7 @@ class CfgVehicles
 	
 	class NLD_Ammo_Crate_Explosieven : Box_NATO_AmmoVeh_F
 	{
+		dlc="NLD_Units";
 		scope = 2;
 		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Explosieven";
@@ -720,6 +751,7 @@ class CfgVehicles
 	
 	class NLD_Ammo_Crate_Wapens : Box_NATO_AmmoVeh_F
 	{
+		dlc="NLD_Units";
 		scope = 2;
 		model = "\NLD_Weapons\AmmoCrates\AmmoCrates.p3d";
 		displayname = "Ammocrate Wapens";

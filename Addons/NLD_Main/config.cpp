@@ -6,6 +6,41 @@ class CfgPatches {
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
 };
+class CfgMods
+{
+	class Mod_Base;
+	class NLD_Units: Mod_Base
+	{
+		action="http://lowtac.nl";
+		author="Lowlands Tactical";
+		dir="NLD_Units";
+		dlcColor[]={0,0,0,1};
+		fieldManualTopicAndHint[]={};
+		hideName=1;
+		hidePicture=0;
+		logo="\NLD_Main\logo\NLD_Units.paa";
+		logoOver="\NLD_Main\logo\NLD_Units_Overlay.paa";
+		name="NLD Units: Dutch Units for ArmA 3.";
+		overview="NLD Units: Dutch Units for ArmA 3.";
+		picture="\NLD_Main\logo\NLD_Units.paa";
+		tooltip="NLD_Units";
+		tooltipOwned="NLD_Units";
+	};
+};
+class CfgMarkers
+{
+	class flag_USA;
+	class NLD_Units_Marker: flag_USA
+	{
+		name="[NLD] NLD_Units";
+		icon="\NLD_Main\logo\NLD_Units.paa";
+	};
+	class NLD_LowTac_Marker: flag_USA
+	{
+		name="[NLD] Lowlands Tactical";
+		icon="\NLD_Main\logo\LT-Square.paa";
+	};
+};
 
 class CfgFactionClasses
 {
