@@ -40,37 +40,6 @@ class cfgWeapons {
 			mass = 1;
 		};
 	};
-	
-	class NLD_DST_Helmet : H_HelmetIA {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Desert Helmet";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Helmet.paa";
-		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
-		
-		class ItemInfo : HeadgearItem {
-			mass = 1;
-			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-			modelSides[] = {3, 1};
-			armor = 6;
-			passThrough = 0.5;
-			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
 
 	class NLD_DST_BaseballCap: ItemCore{
 		dlc="NLD_Units";
@@ -291,7 +260,7 @@ class cfgWeapons {
 			mass = 1;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 			modelSides[] = {3, 1};
-                        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
+            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
@@ -303,6 +272,14 @@ class cfgWeapons {
 				};
 			};
 		};
+	};
+	
+	class NLD_DST_Helmet : NLD_WLD_Helmet {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Desert Helmet";
+		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
 	};
 
 	class NLD_NFPT_Helmet : NLD_WLD_Helmet {
@@ -657,18 +634,15 @@ class cfgWeapons {
 		scope = 2;
 		weaponpoolavailable = 1;
 		class ItemInfo: HeadgearItem {
-			armor = 6;
-			hiddenselections[] = {"camo"};
 			mass = 40;
 			modelsides[] = {3, 1};
-			passthrough = 0.5;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			class HitpointsProtectionInfo
 			{
 				class Head
 				{
 					hitpointName="HitHead";
-					armor=6;
+					armor=10;
 					passThrough=0.5;
 				};
 			};
