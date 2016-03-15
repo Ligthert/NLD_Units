@@ -506,10 +506,10 @@ class CfgVehicles {
 
 		class TransportMagazines
 		{
-			class _xx_CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
-				magazine="CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=6;
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=4;
 			};
 			class _xx_HandGrenade
 			{
@@ -677,9 +677,9 @@ class CfgVehicles {
 				magazine="CUP_30Rnd_556x45_Stanag";
 				count=10;
 			};
-			class _xx_CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
-				magazine="CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=2;
 			};
 		};
@@ -994,10 +994,10 @@ class CfgVehicles {
 
 		class TransportMagazines
 		{
-			class _xx_CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
-				magazine="CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=12;
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=8;
 			};
 		};
 		class TransportItems

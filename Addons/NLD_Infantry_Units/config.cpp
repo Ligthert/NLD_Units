@@ -112,8 +112,8 @@ class CfgVehicles {
 		icon = "iconManMG";
 		weapons[] = {"NLD_Minimi", "NLD_Glock17", "Throw", "Put"};
 		respawnWeapons[] = {"NLD_Minimi", "NLD_Glock17", "Throw", "Put"};
-		magazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen"};
-		respawnMagazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen"};
+		magazines[] = {"CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","SmokeShell","SmokeShellGreen"};
 	};
 
 	class NLD_WLD_LAT: NLD_WLD_rifleman

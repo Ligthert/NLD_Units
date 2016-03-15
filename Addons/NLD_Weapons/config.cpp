@@ -21,7 +21,7 @@ class CfgWeapons {
 	// ext class ref
 	class CUP_arifle_M4A1_black;
 	class CUP_arifle_M4A1_BUIS_GL;
-	class CUP_lmg_M249_para;
+	class CUP_lmg_minimipara;
 	class CUP_lmg_m240;
 	class CUP_srifle_M107_Base;
 	class CUP_srifle_AWM_wdl;
@@ -79,7 +79,7 @@ class CfgWeapons {
 	};
 
 	// Minimi
-	class NLD_Minimi: CUP_lmg_M249_para {
+	class NLD_Minimi: CUP_lmg_minimipara {
 		dlc="NLD_Units";
 		displayName="[NLD] FN Minimi";
 		author="Lowlands Tactical";
