@@ -1,4 +1,9 @@
 Changelog:
+V9
+- Added hitpoints to helmets
+- Changed Configs
+- Changed minimi & ammo
+
 
 V201622028
 -Added armor values to vests and helmets
