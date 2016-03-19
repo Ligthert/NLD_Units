@@ -642,9 +642,9 @@ class CfgVehicles
 				count = 50;
 			};
 
-			class _xx_CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
-				magazine = "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine = "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count = "50";
 			};
 
