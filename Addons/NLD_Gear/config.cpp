@@ -244,6 +244,36 @@ class cfgWeapons {
 			mass = 1;
 		};	
 	};
+	
+	class NLD_WLD_Helmet_Camo : H_HelmetB 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Woodland Helmet Camo";
+		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Helmet.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+		hiddenSelections[] = {"camo","camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\HelmetCamo.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
+		
+		class ItemInfo : HeadgearItem {
+			mass = 1;
+			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+			modelSides[] = {3, 1};
+			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\HelmetCamo.paa"};
+			hiddenSelections[] = {"camo1","camo2"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
 
 	class NLD_WLD_Helmet : H_HelmetIA {
 		dlc="NLD_Units";

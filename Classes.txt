@@ -572,6 +572,7 @@ Items:
 	NLD_WLD_BaseballCap
 	NLD_WLD_BoonieHat
 	NLD_WLD_Helmet
+	NLD_WLD_Helmet_Camo
 	NLD_WLD_Vest
 	NLD_WTR_Helmet
 	NLD_WTR_Helmet

@@ -1,8 +1,9 @@
 Changelog:
 V9
-- Added hitpoints to helmets
-- Changed Configs
-- Changed minimi & ammo
+- Added hitpoints to helmets.
+- Added Woodland Helmet Camo.
+- Changed Configs.
+- Changed minimi & ammo.
 
 
 V201622028
