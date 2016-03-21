@@ -509,17 +509,17 @@ class CfgVehicles {
 			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=4;
+				count=2;
 			};
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
-				count=5;
+				count=2;
 			};
 			class _xx_SmokeShell
 			{
 				magazine="SmokeShell";
-				count=5;
+				count=2;
 			};
 			class _xx_SmokeShellGreen
 			{
@@ -997,7 +997,7 @@ class CfgVehicles {
 			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=8;
+				count=2;
 			};
 		};
 		class TransportItems
