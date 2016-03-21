@@ -509,7 +509,7 @@ class CfgVehicles {
 			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=2;
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -544,6 +544,13 @@ class CfgVehicles {
 				count=1;
 			};
 		};
+	};
+	
+	class NLD_WLD_Carryall_AR : NLD_DST_Carryall_AR {
+		displayName = "[NLD] Woodland Carryall AR";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\Backpack.paa"};
 	};
 
 	class NLD_NFPT_Carryall_AR : NLD_DST_Carryall_AR {
@@ -997,7 +1004,7 @@ class CfgVehicles {
 			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
 			{
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
-				count=2;
+				count=3;
 			};
 		};
 		class TransportItems
