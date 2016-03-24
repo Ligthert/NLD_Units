@@ -2,6 +2,7 @@ Changelog:
 V9
 - Added hitpoints to helmets.
 - Added Woodland Helmet Camo.
+- Added TFAR Radio backpacks (4 camo's)
 - Changed Configs.
 - Changed minimi & ammo.
 

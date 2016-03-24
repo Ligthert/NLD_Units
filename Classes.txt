@@ -420,6 +420,11 @@ Infantry:
 
 
 BackPacks:
+	NLD_rt1523g_Desert
+	NLD_rt1523g_KM
+	NLD_rt1523g_MTP
+	NLD_rt1523g_Woodland
+	
 	NLD_DST_Carryall_Empty
 	NLD_DST_Carryall_AA
 	NLD_DST_Carryall_AAR
