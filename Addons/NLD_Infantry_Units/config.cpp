@@ -1839,7 +1839,7 @@ class CfgVehicles {
 	class NLD_UN_WLD_AR: NLD_WLD_AR
 	{
 		vehicleClass = "Infantry_UN_Woodland";
-		backpack = "NLD_WLD_Carryall_B";
+		backpack = "NLD_WLD_Carryall_AR";
 		uniformClass = "NLD_WLD_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_UN_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -2063,7 +2063,7 @@ class CfgVehicles {
 	class NLD_UN_DST_AR: NLD_WLD_AR
 	{
 		vehicleClass = "Infantry_UN_Desert";
-		backpack = "NLD_DST_Carryall_B";
+		backpack = "NLD_DST_Carryall_AR";
 		uniformClass = "NLD_DST_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Uniform.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_UN_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
