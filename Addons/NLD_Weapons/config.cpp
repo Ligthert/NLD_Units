@@ -31,6 +31,7 @@ class CfgWeapons {
 	class arifle_MX_GL_F;
 	class arifle_MX_SW_F;
 	class arifle_MXM_F;
+	class CUP_srifle_M14;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -530,6 +531,20 @@ class CfgWeapons {
 			{
 				slot = "UnderBarrelSlot";
 				item = "bipod_01_F_blk";
+			};
+		};
+	};
+	
+	class NLD_M14_Aim: CUP_srifle_M14
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CUP_PicatinnyTopMountM14";
+				item="optic_DMS";
 			};
 		};
 	};

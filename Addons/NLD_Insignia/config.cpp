@@ -145,4 +145,16 @@ class CfgUnitInsignia
         texture = "\NLD_Infantry_Units\Badges\109MLRS.paa";
         textureVehicle = "\NLD_Infantry_Units\Badges\109MLRS.paa";
     };
+    class NLD_Units_Insignia_80
+    {
+        dlc="NLD_Units";
+        author="Lowlands Tactical";
+        displayName="[NLD] 80's Landmacht";
+        texture="\NLD_Infantry_Units\Badges\NLD_Badge_80.paa";
+    };
+    class NLD_Units_Insignia_NH
+    {
+        displayName="[NLD] 80's NORTHAG";
+        texture="\NLD_Infantry_Units\Badges\NORTHAG.paa";
+    };
 };

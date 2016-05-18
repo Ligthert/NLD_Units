@@ -24,6 +24,7 @@ class cfgWeapons {
 	class V_PlateCarrier1_blk;
 	class H_HelmetCrew_B;
 	class V_PlateCarrierIA2_dgtl;
+	class V_Chestrig_oli;
 	
 	class NLD_DST_Camo : Uniform_Base {
 		dlc="NLD_Units";
@@ -984,6 +985,135 @@ class cfgWeapons {
 					hitpointName="HitHead";
 					armor=6;
 					passThrough=0.5;
+				};
+			};
+		};
+	};
+
+	class NLD_Units_80_Camo : Uniform_Base 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Uniform";
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_rifleman";
+			containerClass = "Supply80";
+			mass = 1;
+		};
+	};	
+		
+	class NLD_Units_80_Camo2 : Uniform_Base 
+	{	
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Pullover";
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Pullover.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_CLS";
+			containerClass = "Supply80";
+			mass = 1;
+		};	
+	};
+		
+	class NLD_Units_80_Camo3 : Uniform_Base 
+	{	
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Uniform Short";
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		
+		class ItemInfo : UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_MMG";
+			containerClass = "Supply80";
+			mass = 1;
+		};	
+	};
+	
+        class NLD_M1Helmet_Green: ItemCore
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] 80's M1 Helmet";
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\M1_Helmet.paa";
+		model = "\SP_Pack\Models\M1Helmet";
+        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+        hiddenSelections[] = {"Camo","Camo1"};
+                
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\SP_Pack\Models\M1Helmet";
+			modelSides[] = {3,1};
+            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+            hiddenSelections[] = {"Camo","Camo1"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+
+	class NLD_80_Chestrig : V_Chestrig_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Chestrig";
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Chestrig.paa";
+		model="\A3\Characters_F\Common\equip_chestrig";
+		
+		class ItemInfo : VestItem 
+		{
+			uniformModel="\A3\Characters_F\Common\equip_chestrig.p3d";
+			containerClass="Supply140";
+			mass=20;
+			hiddenSelections[]={"Camo1","Camo2"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=6;
+					passThrough=0.65;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=6;
+					passThrough=0.65;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=6;
+					passThrough=0.65;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.65;
 				};
 			};
 		};

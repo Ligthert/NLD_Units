@@ -12,6 +12,7 @@ class CfgVehicles {
 	class B_Carryall_oli;	// External class reference
 	class B_AssaultPack_blk;
 	class B_UAV_01_backpack_F;	// External class reference
+	class B_FieldPack_oli;
 
 
 	class NLD_DST_Carryall_Empty: B_Carryall_oli {
@@ -2610,6 +2611,26 @@ class CfgVehicles {
         scope = 2;
 		picture = "\NLD_Backpacks\Spongebob\Data\uim\Spongebobsquarebag.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Spongebobsquarebag.paa"};
+	};
+
+	class NLD_80_Fieldpack_Empty : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack";
+        scope = 2;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+	};
+
+	class NLD_80_Fieldpack_Medic : NLD_80_Fieldpack_Empty
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack Medic";
+        scope = 1;
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\80s\Data\fieldpack_medic_oli.paa"};
 	};
 
 };

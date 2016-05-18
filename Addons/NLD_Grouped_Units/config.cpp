@@ -2373,6 +2373,265 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
+				class NLD_Units_80_InfSentry
+				{
+					name = "Sentry (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "NLD_Units_80_rifleman";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "NLD_Units_80_ENG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_Units_80_InfTeam
+				{
+					name = "Team (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_LAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_Units_80_InfSquad
+				{
+					name = "Squad (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_SL";
+						rank = "CORPORAL";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_LAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {7.5,-7.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_Units_80_grenadier";
+						rank = "PRIVATE";
+						position[] = {-7.5,-7.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_Units_80_ENG";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class NLD_Units_80_InfCmdr
+				{
+					name = "Platoon Command (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_SL";
+						rank = "SERGEANT";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_RS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_Units_80_InfAtTeam
+				{
+					name = "Anti-armor Team (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MAT";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_LAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_Units_80_InfAaTeam
+				{
+					name = "Anti-air Team (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_AA";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_AA";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_AA";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_Units_80_InfMMGTeam
+				{
+					name = "MMG Team (80's)";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Units_80_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_Units_80_MMG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
 			};
 
 			class SpecOps
