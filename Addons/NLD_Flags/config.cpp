@@ -19,11 +19,11 @@ class CfgVehicles
 	{
 		scope = 2;
 		accuracy = 10000;
-		displayName = "Flag(Netherlands)";
+		displayName = "Flag (Netherlands)";
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""NLD_Flags\Flags\NL_Flag.paa""";
+			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\NL_Flag.paa""";
 
 };
 	};
@@ -31,11 +31,11 @@ class CfgVehicles
 	{
 		scope = 2;
 		accuracy = 10000;
-		displayName = "Flag(Lowlands Tactical)";
+		displayName = "Flag (Lowlands Tactical)";
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""NLD_Flags\Flags\LT_Flag.paa""";
+			init = "(_this select 0) setFlagTexture ""\NLD_Flags\Flags\LT_Flag.paa""";
 
 		};
 	};
