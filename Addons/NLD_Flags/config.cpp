@@ -27,7 +27,7 @@ class CfgVehicles
 
 };
 	};
-	class NLD_LowlansTactical_Flag: FlagPole_F
+	class NLD_LowlandsTactical_Flag: FlagPole_F
 	{
 		scope = 2;
 		accuracy = 10000;

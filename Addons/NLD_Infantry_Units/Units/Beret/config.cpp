@@ -95,6 +95,30 @@ class cfgWeapons
 		};
 	};
 
+	class Dutch_Beret_80: ItemCore
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Beret (80's)";
+		picture = "\NLD_Infantry_Units\Units\Beret\uim\80s.paa";
+		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\80s.paa"};
+		hiddenSelections[] = {"Camo"};
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Beret\80s.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class Dutch_Beret_Luchtmobiele_Brigade: ItemCore
 	{
 		dlc="NLD_Units";

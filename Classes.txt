@@ -12,6 +12,7 @@ The regular infantry come with the following cammo-types:
 	JGL		Jungle
 	UN_DST	UN Desert
 	UN_WLD	UN Woodland
+	80      80's
 
 The special forces come in three types of cammo:
 	SF		Black
@@ -91,6 +92,13 @@ Groups:
 		NLD_UN_WLD_InfAaTeam
 		NLD_UN_WLD_InfLMGTeam
 		NLD_UN_WLD_InfMMGTeam
+		NLD_Units_80_InfSentry
+		NLD_Units_80_InfTeam
+		NLD_Units_80_InfSquad
+		NLD_Units_80_InfCmdr
+		NLD_Units_80_InfAtTeam
+		NLD_Units_80_InfAaTeam
+		NLD_Units_80_InfMMGTeam
 		
 	SpecOps
 		NLD_SF_InfReconTeam
@@ -418,6 +426,23 @@ Infantry:
 		NLD_UN_DST_AA
 		NLD_UN_DST_AAA
 
+	80's
+		NLD_Units_80_rifleman
+		NLD_Units_80_ammo
+		NLD_Units_80_LAT
+		NLD_Units_80_grenadier
+		NLD_Units_80_CLS
+		NLD_Units_80_ENG
+		NLD_Units_80_SLA
+		NLD_Units_80_TL
+		NLD_Units_80_SL
+		NLD_Units_80_Crew
+		NLD_Units_80_MMG
+		NLD_Units_80_MAT
+		NLD_Units_80_AA
+		NLD_Units_80_Expl
+		NLD_Units_80_Helip'ilot
+
 
 BackPacks:
 	NLD_rt1523g_Desert
@@ -549,11 +574,25 @@ BackPacks:
 	NLD_WTR_Carryall_Medic
 	NLD_WTR_Carryall_TL
 	NLD_WTR_Carryall_UAV
+	NLD_80_Fieldpack_Empty
+	NLD_80_Fieldpack_B
+	NLD_80_Fieldpack_Medic
+	NLD_80_Fieldpack_GL
+	NLD_80_Fieldpack_AMMO
+	NLD_80_Fieldpack_TL
+	NLD_80_Fieldpack_SLA
+	NLD_80_Fieldpack_Expl
+	NLD_80_Fieldpack_ENG
+	NLD_80_Fieldpack_LAT
+	NLD_80_Fieldpack_MAT
+	NLD_80_Fieldpack_MMG
+	NLD_80_Fieldpack_AA
 
 Items:
 	Dutch_Beret_RoyalArmy
 	Dutch_Beret_Commandos
 	Dutch_Beret_Luchtmobiele_Brigade
+	Dutch_Beret_80
 	NLD_NVGoggles
 	NLD_DST_BaseballCap
 	NLD_DST_BoonieHat
@@ -623,6 +662,8 @@ Insignia:
 	Use this with: [this,"$INSIGNIA-NAME"] call BIS_fnc_setUnitInsignia;
 	NLD_11AMB
 	NLD_11AMB_Green
+	NLD_Units_Insignia_80
+	NLD_Units_Insignia_NH
 	NLD_KCT
 	NLD_UIM
 	NLD_RNLMC

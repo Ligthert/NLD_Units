@@ -2524,7 +2524,34 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		backpack = "NLD_80_Fieldpack_B";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_Units_80_Camo";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"NLD_Infantry_Units\Units\80s\Data\Uniform.paa","NLD_Infantry_Units\Badges\NLD_Badge_80.paa"};
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
+        weapons[] = {"CUP_arifle_FNFAL","put","throw"};
+        respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
+        magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+        respawnmagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+	};
+
+	class NLD_Units_80_ammo: O_Soldier_base_F
+	{
+		dlc="NLD_Units";
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2; 
+		displayName = "(80's) Ammo Bearer";
+		genericNames = "NLD_Units";
+		faction = "NLD_Units";
+		vehicleClass = "NLD_Units_80s_Infantry";
+		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
+		backpack = "NLD_80_Fieldpack_AMMO";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo";
@@ -2551,7 +2578,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		backpack = "NLD_80_Fieldpack_LAT";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo";
@@ -2578,7 +2605,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		backpack = "NLD_80_Fieldpack_GL";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo";
@@ -2590,8 +2617,8 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
         weapons[] = {"CUP_glaunch_M79","hgun_Rook40_F","put","throw"};
         respawnweapons[] = {"CUP_glaunch_M79","hgun_Rook40_F","put","throw"};
-        magazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
-        respawnmagazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+        magazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
+        respawnmagazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"};
 	};
 		
 	class NLD_Units_80_CLS: O_Soldier_base_F
@@ -2632,7 +2659,8 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		canDeactivateMines=1;
+		backpack = "NLD_80_Fieldpack_ENG";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo2";
@@ -2644,8 +2672,8 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
         weapons[] = {"CUP_sgun_M1014","put","throw"};
         respawnweapons[] = {"CUP_sgun_M1014","put","throw"};
-        magazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
-        respawnmagazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
+        magazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
+        respawnmagazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
 	};
 		
 	class NLD_Units_80_SLA: O_Soldier_base_F
@@ -2659,7 +2687,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		backpack = "NLD_80_Fieldpack_SLA";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo2";
@@ -2686,7 +2714,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_TL";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo2";
@@ -2694,8 +2722,8 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"NLD_Infantry_Units\Units\80s\Data\Uniform.paa","NLD_Infantry_Units\Badges\NLD_Badge_80.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
         weapons[] = {"CUP_arifle_FNFAL","put","throw"};
         respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
         magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
@@ -2713,7 +2741,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_TL";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo2";
@@ -2721,8 +2749,8 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"NLD_Infantry_Units\Units\80s\Data\Uniform.paa","NLD_Infantry_Units\Badges\NLD_Badge_80.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
         weapons[] = {"CUP_arifle_FNFAL","put","throw"};
         respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
         magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
@@ -2740,7 +2768,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_TL";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo2";
@@ -2748,8 +2776,8 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"NLD_Infantry_Units\Units\80s\Data\Pullover.paa","NLD_Infantry_Units\Badges\NLD_Badge_80.paa"};
 		hasDriver = 1;
 		faceType = "Man_A3";
-		linkedItems[] = {"V_Chestrig_oli","H_HelmetCrew_I","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_oli","H_HelmetCrew_I","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","H_HelmetCrew_I","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_HelmetCrew_I","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
         weapons[] = {"CUP_arifle_FNFAL","put","throw"};
         respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
         magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
@@ -2767,7 +2795,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_MMG";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo3";
@@ -2794,7 +2822,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_MAT";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo3";
@@ -2806,8 +2834,8 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
         weapons[] = {"CUP_arifle_FNFAL","CUP_launch_M47","put","throw"};
         respawnweapons[] = {"CUP_arifle_FNFAL","CUP_launch_M47","put","throw"};
-        magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
-        respawnmagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+        magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+        respawnmagazines[] = {i"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
 	};
 		
 	class NLD_Units_80_AA: O_Soldier_base_F
@@ -2821,7 +2849,7 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";	
+		backpack = "NLD_80_Fieldpack_AA";	
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo3";
@@ -2837,18 +2865,19 @@ class CfgVehicles {
         respawnmagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
 	};
 		
-	class NLD_Units_80_RS: O_Soldier_base_F
+	class NLD_Units_80_Expl: O_Soldier_base_F
 	{
 		dlc="NLD_Units";
 		author = "Lowlands Tactical";
 		side = 1;
 		scope = 2; 
-		displayName = "(80's) Radio Specialist";
+		displayName = "(80's) Explosive Expert";
 		genericNames = "NLD_Units";
 		faction = "NLD_Units";
 		vehicleClass = "NLD_Units_80s_Infantry";
 		identityTypes[]={"LanguageENG_F","Head_NATO","G_NATO_default"};
-		backpack = "NLD_80_Fieldpack_Empty";
+		canDeactivateMines=1;
+		backpack = "NLD_80_Fieldpack_Expl";
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
 		uniformAccessories[] = {};
 		uniformClass = "NLD_Units_80_Camo3";
@@ -2858,11 +2887,12 @@ class CfgVehicles {
 		faceType = "Man_A3";
 		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap", "ItemCompass", "ItemWatch"};
-        weapons[] = {"CUP_arifle_FNFAL","put","throw"};
-        respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
-        magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
-        respawnmagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+        weapons[] = {"CUP_sgun_M1014","put","throw"};
+        respawnweapons[] = {"CUP_sgun_M1014","put","throw"};
+        magazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
+        respawnmagazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets"};
 	};
+
 	class NLD_80_Helipilot: B_Helipilot_F
 	{
 		dlc="NLD_Units";
@@ -2880,8 +2910,8 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo", "insignia"};
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\pilotcoveralls_co.paa", "\NLD_Infantry_Units\Badges\11LMB.paa"};
 		faceType = "Man_A3";
-		linkedItems[] = {"V_Chestrig_oli","H_PilotHelmetHeli_O","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_oli","H_PilotHelmetHeli_O","ItemMap", "ItemCompass", "ItemWatch", "Binocular", "ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","H_PilotHelmetHeli_O","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_PilotHelmetHeli_O","ItemMap", "ItemCompass", "ItemWatch", "Binoculars", "ItemRadio"};
         weapons[] = {"CUP_arifle_FNFAL","put","throw"};
         respawnweapons[] = {"CUP_arifle_FNFAL","put","throw"};
         magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};

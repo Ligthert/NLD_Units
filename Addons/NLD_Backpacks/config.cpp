@@ -2631,6 +2631,544 @@ class CfgVehicles {
 		displayName = "[NLD] 80's Fieldpack Medic";
         scope = 1;
 		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\80s\Data\fieldpack_medic_oli.paa"};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MediKit
+			{
+				name="MediKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
 	};
 
+	class NLD_80_Fieldpack_B : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_GL : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack GL";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_CUP_1Rnd_HE_M203
+			{
+				magazine="CUP_1Rnd_HE_M203";
+				count=15;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class _xx_1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_AMMO : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack AMMO";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_CUP_1Rnd_HE_M203
+			{
+				magazine="CUP_1Rnd_HE_M203";
+				count=5;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
+				count=2;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_TL : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack TL";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=5;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_SLA : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack SLA";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_Expl : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack Expl";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=3;
+			};
+			class _xx_SatchelCharge_Remote_Mag 
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=1;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=3;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=3;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=3;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_ENG : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack ENG";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=3;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=3;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=3;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_LAT : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack LAT";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+
+		class TransportMagazines
+		{
+			class _xx_CUP_MAAWS_HEDP_M
+			{
+				magazine="CUP_MAAWS_HEDP_M";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_MAT : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack MAT";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+
+		class TransportMagazines
+		{
+			class _xx_CUP_Dragon_EP1_M
+			{
+				magazine="CUP_Dragon_EP1_M";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_MMG : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack MMG";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+
+		class TransportMagazines
+		{
+			class _xx_CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_80_Fieldpack_AA : B_FieldPack_oli 
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] 80's Fieldpack AA";
+        scope = 1;
+		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\fieldpack.paa";
+		maximumLoad=320;
+		mass=30;
+
+
+		class TransportMagazines
+		{
+			class _xx_CUP_Stinger_M
+			{
+				magazine="CUP_Stinger_M";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_80
+			{
+				name="Dutch_Beret_80";
+				count=1;
+			};
+		};
+	};
 };

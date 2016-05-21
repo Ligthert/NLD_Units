@@ -3,6 +3,9 @@ V9
 - Added hitpoints to helmets.
 - Added Woodland Helmet Camo.
 - Added TFAR Radio backpacks (4 camo's)
+- Added 80's units
+- Added custom markers
+- Added flags
 - Changed Configs.
 - Changed minimi & ammo.
 
