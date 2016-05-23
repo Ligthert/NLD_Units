@@ -18,6 +18,7 @@ class cfgWeapons {
 	class HeadgearItem;	// External class reference
 	class H_HelmetIA;	// External class reference
 	class H_HelmetB;
+	class InventoryItem_Base_F;
 	class NVGoggles_OPFOR;	// External class reference
 	class Vest_Camo_Base;	// External class reference
 	class VestItem;	// External class reference
@@ -25,6 +26,99 @@ class cfgWeapons {
 	class H_HelmetCrew_B;
 	class V_PlateCarrierIA2_dgtl;
 	class V_Chestrig_oli;
+	
+	class NLD_ProTecHelmet_Black: ItemCore
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] ProTec Helmet (Black)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Black.paa";
+		model = "\SP_Pack\Models\ProTecHelmet";
+        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
+        hiddenSelections[] = {"Camo"};
+		
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
+			modelSides[] = {3,1};
+            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
+            hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	
+	class NLD_ProTecHelmet_Green: ItemCore
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] ProTec Helmet (Green)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Green.paa";
+		model = "\SP_Pack\Models\ProTecHelmet";
+        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
+        hiddenSelections[] = {"Camo"};
+		
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
+			modelSides[] = {3,1};
+            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
+            hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	
+	class NLD_ProTecHelmet_Tan: ItemCore
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] ProTec Helmet (Tan)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Tan.paa";
+		model = "\SP_Pack\Models\ProTecHelmet";
+        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
+        hiddenSelections[] = {"Camo"};
+		
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
+			modelSides[] = {3,1};
+            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
+            hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
 	
 	class NLD_DST_Camo : Uniform_Base {
 		dlc="NLD_Units";
