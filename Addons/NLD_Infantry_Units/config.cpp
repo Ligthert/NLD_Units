@@ -1498,10 +1498,10 @@ class CfgVehicles {
 		hasDriver = 1;
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
-		magazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
 
     class NLD_SF_Operator_MP5: NLD_SF_Operator
@@ -1521,8 +1521,8 @@ class CfgVehicles {
 		backpack = "NLD_SF_Carryall_Medic";
 		icon = "iconManMedic";
 		attendant = 1;
-		weapons[] = {"NLD_MX_C_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
-		respawnWeapons[] = {"NLD_MX_C_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Rangefinder","B_UavTerminal"};
 	};
 
 	class NLD_SF_COMSPEC: NLD_SF_Operator
@@ -1530,8 +1530,8 @@ class CfgVehicles {
 		displayName = "ComSpec";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch","B_UavTerminal", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch","B_UavTerminal", "ItemRadio"};
-		weapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
-		respawnWeapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_SF_Carryall_ComSpec";
 	};
 
@@ -1549,21 +1549,21 @@ class CfgVehicles {
 		displayName = "Team Leader";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02";
 		icon = "iconManLeader";
-		weapons[] = {"NLD_MX_GL_SF", "NLD_Glock17", "Throw", "Put", "Laserdesignator"}; 
-		respawnWeapons[] = {"NLD_MX_GL_SF", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
+		weapons[] = {"NLD_HK416_GL", "NLD_Glock17", "Throw", "Put", "Laserdesignator"}; 
+		respawnWeapons[] = {"NLD_HK416_GL", "NLD_Glock17", "Throw", "Put", "Laserdesignator"};
 		backpack = "NLD_SF_Carryall_TL";
 	};
 
 	class NLD_SF_SLA: NLD_SF_Operator
 	{
-		displayName = "Sharpshooter";
+		displayName = "Marksman";
 		backpack = "NLD_SF_Carryall_SLA";
 		linkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio" };
 		respawnLinkedItems[] = {"NLD_SF_PlateCarrier", "NLD_SF_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"NLD_AWM", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_AWM", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
-		magazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1","CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "CUP_5Rnd_86x70_L115A1", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		weapons[] = {"NLD_HK417", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_HK417", "NLD_Glock17", "Throw", "Put", "Rangefinder"}; 
+		magazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
 
 	class NLD_SF_AT: NLD_SF_Operator
@@ -1571,8 +1571,8 @@ class CfgVehicles {
 		displayName = "Operator (AT)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AT";
-		weapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_MX_SF", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_short_F", "Rangefinder"};
 	};
 
 	class NLD_SF_AA: NLD_SF_Operator
@@ -1580,8 +1580,8 @@ class CfgVehicles {
 		displayName = "Operator (AA)";
 		icon = "iconManAT";
 		backpack = "NLD_SF_Carryall_AA";
-		weapons[] = {"NLD_MX_C_SF", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"}; 
-		respawnWeapons[] = {"NLD_MX_C_SF", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"}; 
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17", "Throw", "Put", "launch_B_Titan_F", "Rangefinder"};
 	};
 
 	class NLD_SF_AR: NLD_SF_Operator
@@ -1824,6 +1824,7 @@ class CfgVehicles {
 		magazines[] = {"100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag","100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag","100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
+
 
 // UN Woodland Units
 

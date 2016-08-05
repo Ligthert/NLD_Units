@@ -32,6 +32,9 @@ class CfgWeapons {
 	class arifle_MX_SW_F;
 	class arifle_MXM_F;
 	class CUP_srifle_M14;
+	class arifle_SPAR_01_blk_F;
+	class arifle_SPAR_01_GL_blk_F; 
+	class arifle_SPAR_03_blk_F;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -534,6 +537,77 @@ class CfgWeapons {
 			};
 		};
 	};
+	
+	//HK416
+	class NLD_HK416: arifle_SPAR_01_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK416";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_blk_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_HK416_GL: arifle_SPAR_01_GL_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK416 GL";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_blk_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_HK417: arifle_SPAR_03_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK417";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_blk_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
+		};
+	};
+
 	
 	class NLD_M14_Aim: CUP_srifle_M14
 	{
