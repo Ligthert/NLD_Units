@@ -3826,7 +3826,7 @@ class CfgGroups
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_Units_80_RS";
+						vehicle="NLD_Units_80_rifleman";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
