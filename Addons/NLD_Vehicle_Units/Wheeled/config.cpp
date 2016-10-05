@@ -3,14 +3,14 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
+		requiredAddons[] = {"NLD_Units_Infantry","NLD_Units_Insignia"};
 	};
 };
 
 class CfgVehicles {
-	class MRAP_03_base_F;		// External class reference
-	class MRAP_03_hmg_base_F;	// External class reference
-	class MRAP_03_gmg_base_F;	// External class reference
+	class MRAP_03_base_F;
+	class MRAP_03_hmg_base_F;
+	class MRAP_03_gmg_base_F;
 	class I_Truck_02_transport_F;
 	class I_Truck_02_covered_F;
 	class I_Truck_02_fuel_F;
@@ -18,7 +18,7 @@ class CfgVehicles {
 	class I_Truck_02_medical_F;
 	class I_Truck_02_ammo_F;
 
-	
+
 // Fennek - Desert
 	class NLD_DST_Fennek : MRAP_03_base_F {
 		author = "Lowlands Tactical";
@@ -26,19 +26,19 @@ class CfgVehicles {
 		displayName = "Fennek (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = NLD_Units;
+		faction = "NLD_Units_DST";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\Recon\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\Recon\turret.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -95,26 +95,26 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-	
+
 	class NLD_DST_Fennek_HMG : MRAP_03_hmg_base_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "Fennek HMG (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = NLD_Units;
+		faction = "NLD_Units_DST";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\HMG\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\HMG\turret.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -170,27 +170,27 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
-	
-	
+
+
 	class NLD_DST_Fennek_GMG : MRAP_03_gmg_base_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "Fennek GMG (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = NLD_Units;
+		faction = "NLD_Units_DST";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\desert\GMG\fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\desert\GMG\turret.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -252,6 +252,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Woodland)";
+		faction = "NLD_Units_WLD";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\turret.paa"};
@@ -259,6 +260,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Woodland)";
+		faction = "NLD_Units_WLD";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\turret.paa"};
@@ -266,6 +268,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Woodland)";
+		faction = "NLD_Units_WLD";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
@@ -275,6 +278,7 @@ class CfgVehicles {
 // Fennek - Winter
 	class NLD_WTR_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Winter)";
+		faction = "NLD_Units_WTR";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\turret.paa"};
@@ -282,6 +286,7 @@ class CfgVehicles {
 
 	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
+		faction = "NLD_Units_WTR";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\turret.paa"};
@@ -289,12 +294,13 @@ class CfgVehicles {
 
 	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
+		faction = "NLD_Units_WTR";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\turret.paa"};
 	};
 
-// DAF-4442 - Woodland	
+// DAF-4442 - Woodland
 	class NLD_DAF_Transport: I_Truck_02_transport_F
 	{
 		author="Lowlands Tactical";
@@ -305,14 +311,14 @@ class CfgVehicles {
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front1_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -379,14 +385,14 @@ class CfgVehicles {
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front2_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -453,14 +459,14 @@ class CfgVehicles {
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front3_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442fuel.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -527,14 +533,14 @@ class CfgVehicles {
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front4_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442repair.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -601,14 +607,14 @@ class CfgVehicles {
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300_front_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300ammo.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -675,14 +681,14 @@ class CfgVehicles {
 		crew="NLD_WLD_CLS";
 		typicalCargo[] = {"NLD_WLD_CLS"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front5_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell

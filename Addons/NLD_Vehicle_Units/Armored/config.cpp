@@ -29,7 +29,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Revolution (Woodland)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -38,14 +38,14 @@ class CfgVehicles {
 		class EventHandlers {
 			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -123,7 +123,7 @@ class CfgVehicles {
 		};
 
 	};
-	
+
 	// Leopard2 - Desert
 	class NLD_DST_Leo2 : NLD_WLD_Leo2
 	{
@@ -133,7 +133,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Revolution (Desert)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_DST";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -165,7 +165,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -242,7 +242,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -307,7 +307,7 @@ class CfgVehicles {
 		displayName = "CV-9035NL";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -319,7 +319,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -375,7 +375,7 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
-	
+
 // CV9035NL - Desert
 	class NLD_DST_CV9035NL : I_APC_tracked_03_cannon_F
 	{
@@ -385,7 +385,7 @@ class CfgVehicles {
 		displayName = "CV-9035NL (Desert)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_DST";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -401,7 +401,7 @@ class CfgVehicles {
 		displayName = "YPR-765";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
@@ -413,7 +413,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -485,7 +485,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -562,7 +562,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -627,7 +627,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Bergingstank";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3", "camo4"};
@@ -639,7 +639,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -704,7 +704,7 @@ class CfgVehicles {
 		displayName = "Cheetah PRTL";
 		side = 1;
 		vehicleClass = Armored;
-		faction = NLD_Units;
+		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
@@ -716,7 +716,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell

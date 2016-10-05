@@ -1,846 +1,412 @@
-class CfgPatches {
-	class NLD_Units_Gear {
-		units[] = {};
-		weapons[] = {};
+enum {
+	StabilizedInAxesNone = 0,
+	StabilizedInAxisX = 1,
+	StabilizedInAxisY = 2,
+	StabilizedInAxesBoth = 3,
+	StabilizedInAxesXYZ = 4,
+	destructengine = 2,
+	destructdefault = 6,
+	destructwreck = 7,
+	destructtree = 3,
+	destructtent = 4,
+	stabilizedinaxisx = 1,
+	stabilizedinaxesxyz = 4,
+	stabilizedinaxisy = 2,
+	stabilizedinaxesboth = 3,
+	destructno = 0,
+	stabilizedinaxesnone = 0,
+	destructman = 5,
+	OrdinalEnum = 2,
+	destructbuilding = 1
+};
+
+//Class NLD_Gear : config.bin{
+class CfgPatches
+{
+	class NLD_Units_Gear
+	{
+		units[] = {"NLD_WLD_rifleman","NLD_DST_rifleman","NLD_NFPT_rifleman","NLD_NFPG_rifleman","NLD_WTR_rifleman","NLD_JGL_rifleman","NLD_UN_WLD_rifleman","NLD_UN_DST_rifleman","NLD_Units_80_rifleman","NLD_SF_Operator","NLD_MTP_Operator","NLD_KM_Operator"};
+		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_JGL_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_Units_80_Camo","NLD_Units_80_Camo2","NLD_Units_80_Camo3","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_JGL_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_80_Chestrig","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_JGL_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_ProTecHelmet_Black","NLD_ProTecHelmet_Green","NLD_ProTecHelmet_Tan","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
 };
-
-class cfgWeapons {
-	class Uniform_Base;	// External class reference
-	class UniformItem;	// External class reference
-	class U_B_GhillieSuit;	// External class reference
-	class U_I_CombatUniform;	// External class reference
-	class U_B_HeliPilotCoveralls;	// External class reference
-	class ItemInfo;	// External class reference
-	class ItemCore;		// External class reference
-	class HeadgearItem;	// External class reference
-	class H_HelmetIA;	// External class reference
-	class H_HelmetB;
+class CfgVehicles
+{
+	class B_Soldier_base_F;
+	class O_officer_F;
+	class B_Recon_F;
+	class B_diver_F;
+	class B_Lifeboat;
+	class B_Boat_Transport_01_F;
+	class B_Boat_Armed_01_minigun_F;
+	class NLD_WLD_rifleman: B_Soldier_base_F
+	{
+		side = 1;
+		scope = 2;
+		displayName = "[NLD] Woodland Rifleman";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformClass = "NLD_WLD_Camo";
+		hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Uniform.paa",""};
+		hasDriver = 1;
+		linkedItems[] = {"NLD_WLD_Vest","NLD_WLD_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_WLD_Vest","NLD_WLD_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_DST_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] Desert Rifleman";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_DST_Vest","NLD_DST_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_DST_Vest","NLD_DST_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_NFPT_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] NFP Tan Rifleman";
+		uniformClass = "NLD_NFPT_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_NFPT_Vest","NLD_NFPT_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPT_Vest","NLD_NFPT_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_NFPG_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] NFP Green Rifleman";
+		uniformClass = "NLD_NFPG_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_NFPG_Vest","NLD_NFPG_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_NFPG_Vest","NLD_NFPG_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_WTR_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] Winter Rifleman";
+		uniformClass = "NLD_WTR_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_WTR_Vest","NLD_WTR_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_WTR_Vest","NLD_WTR_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_JGL_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] Jungel Rifleman";
+		uniformClass = "NLD_JGL_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_JGL_Vest","NLD_JGL_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_JGL_Vest","NLD_JGL_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_UN_WLD_rifleman: NLD_WLD_rifleman
+	{
+		vehicleClass = "Infantry_UN_Woodland";
+		uniformClass = "NLD_WLD_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Uniform.paa","\NLD_Infantry_Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_UN_DST_rifleman: NLD_WLD_rifleman
+	{
+		vehicleClass = "Infantry_UN_Desert";
+		uniformClass = "NLD_DST_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa","\NLD_Infantry_Units\Badges\11LMB.paa"};
+		linkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_Units_80_rifleman: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] 80's Rifleman";
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
+		uniformClass = "NLD_Units_80_Camo";
+		hiddenSelectionsTextures[] = {"NLD_Gear\80s\Data\Uniform.paa",""};
+		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class NLD_SF_Operator: NLD_WLD_rifleman
+	{
+		displayName = "[NLD] Black Operator";
+		vehicleClass = "Infantry_SF";
+		uniformClass = "NLD_SF_Camo";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Uniform.paa",""};
+		linkedItems[] = {"NLD_SF_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_SF_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemGPS","ItemRadio"};
+	};
+	class NLD_MTP_Operator: NLD_SF_Operator
+	{
+		displayName = "[NLD] MTP Operator";
+		uniformClass = "NLD_MTP_Camo";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa","\NLD_Infantry_Units\Badges\KCT.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		linkedItems[] = {"NLD_MTP_PlateCarrier","NLD_MTP_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_MTP_PlateCarrier","NLD_MTP_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class NLD_KM_Operator: NLD_SF_Operator
+	{
+		displayName = "[NLD] KM Operator";
+		uniformClass = "NLD_KM_Camo";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa","\NLD_Infantry_Units\Badges\KCT.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		linkedItems[] = {"NLD_KM_PlateCarrier","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_KM_PlateCarrier","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+};
+class cfgWeapons
+{
 	class InventoryItem_Base_F;
-	class NVGoggles_OPFOR;	// External class reference
-	class Vest_Camo_Base;	// External class reference
-	class VestItem;	// External class reference
-	class V_PlateCarrier1_blk;
+	class UniformItem: InventoryItem_Base_F
+	{
+		type = 801;
+	};
+	class ItemCore;
+	class HeadgearItem;
+	class H_HelmetB;
+	class H_HelmetIA;
+	class H_Booniehat_khk;
+	class H_MilCap_mcamo;
+	class H_HelmetB_plain_mcamo;
 	class H_HelmetCrew_B;
+	class Uniform_Base;
+	class U_B_HeliPilotCoveralls;
+	class VestItem;
+	class V_PlateCarrier1_blk;
 	class V_PlateCarrierIA2_dgtl;
 	class V_Chestrig_oli;
-	
-	class NLD_ProTecHelmet_Black: ItemCore
+	class NVGoggles_OPFOR;
+
+	class NLD_WLD_Camo: Uniform_Base
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] ProTec Helmet (Black)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Black.paa";
-		model = "\SP_Pack\Models\ProTecHelmet";
-        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
-        hiddenSelections[] = {"Camo"};
-		
-		class ItemInfo: HeadgearItem
-		{
-			mass = 60;
-			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
-			modelSides[] = {3,1};
-            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
-            hiddenSelections[] = {"Camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-	
-	class NLD_ProTecHelmet_Green: ItemCore
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] ProTec Helmet (Green)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Green.paa";
-		model = "\SP_Pack\Models\ProTecHelmet";
-        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
-        hiddenSelections[] = {"Camo"};
-		
-		class ItemInfo: HeadgearItem
-		{
-			mass = 60;
-			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
-			modelSides[] = {3,1};
-            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
-            hiddenSelections[] = {"Camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-	
-	class NLD_ProTecHelmet_Tan: ItemCore
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] ProTec Helmet (Tan)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Tan.paa";
-		model = "\SP_Pack\Models\ProTecHelmet";
-        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
-        hiddenSelections[] = {"Camo"};
-		
-		class ItemInfo: HeadgearItem
-		{
-			mass = 60;
-			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
-			modelSides[] = {3,1};
-            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
-            hiddenSelections[] = {"Camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-	
-	class NLD_DST_Camo : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Desert Camo";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_DST_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-	class NLD_DST_BaseballCap: ItemCore{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Desert Baseball Cap";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\BaseballCap.paa";
-		model = "\A3\Characters_F\common\capb";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BaseballCap.paa"};
-        hiddenSelections[] = {"Camo"};
-                
-		class ItemInfo: HeadgearItem{
-			mass = 1;
-			uniformmodel = "\A3\Characters_F\common\capb";
-			modelSides[] = {3,1};
-			armor = "0.5";
-			passThrough = 0.95;
-            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BaseballCap.paa"};
-            hiddenSelections[] = {"Camo"};
-		};
-	};
-
-	class NLD_DST_BoonieHat: ItemCore{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Desert Boonie Hat";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\BoonieHat.paa";
-		model = "\A3\Characters_F\Common\booniehat";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BoonieHat.paa"};
-        hiddenSelections[] = {"Camo"};      
-
-		class ItemInfo: HeadgearItem{
-			mass = 1;
-			uniformmodel = "\A3\Characters_F\Common\booniehat";
-			modelSides[] = {3,1};
-			armor = "0.5";
-			passThrough = 0.95;
-            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\BoonieHat.paa"};
-            hiddenSelections[] = {"Camo"};
-		};
-	};
-	
-	 class NLD_NVGoggles : NVGoggles_OPFOR {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		modelOptics = "\A3\weapons_f\reticle\optics_night";
-		model = "\A3\Weapons_f\binocular\nvg_proxy";
-		displayName = "[NLD] NV Goggles";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"a3\characters_f\common\data\nvg_opfor_co.paa"};
-  
-		class ItemInfo : ItemInfo {
-			uniformModel = "A3\weapons_f\binocular\nvg_proxy.p3d";
-			modelOff = "A3\weapons_f\binocular\NVG_proxy_off.p3d";
-			hiddenSelections[] = {"camo"};
-		};
-	};
-
-	class NLD_WLD_Camo : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Woodland Camo";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\Woodland\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_WLD_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
 	};
-	
-	class NLD_NFPT_Camo : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+
+	class NLD_DST_Camo: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Desert Camo";
+		picture = "\NLD_Gear\Desert\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_DST_rifleman";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_NFPT_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] NFP-Tan Camo";
-		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_NFPT_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
 	};
-
-	class NLD_NFPG_Camo : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_NFPG_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] NFP-Green Camo";
-		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_NFPG_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
 	};
-
-	class NLD_WTR_Camo : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_WTR_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Winter Camo";
-		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\Winter\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_WTR_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
 	};
-
-	class NLD_SF_CAMO : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Black Camo";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_SF_Operator";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-	class NLD_MTP_CAMO : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] MTP Camo";
-		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_MTP_Operator";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-	class NLD_JGL_Camo : NLD_WLD_Camo {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_JGL_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Jungle Camo";
-		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\Jungle\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_JGL_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
 	};
-	class NLD_KM_Camo : Uniform_Base 
+	class NLD_SF_CAMO: NLD_WLD_Camo
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Black Camo";
+		picture = "\NLD_Gear\SF\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_SF_Operator";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_MTP_CAMO: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] MTP Camo";
+		picture = "\NLD_Gear\MTP\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_MTP_Operator";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_MTP_CAMO2: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] MTP Camo2";
+		picture = "\NLD_Gear\MTP\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_MTP_Operator";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_KM_Camo: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KM Camo";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_KM_Operator";
 			containerClass = "Supply60";
 			mass = 1;
-		};	
+		};
 	};
-	class NLD_KM_Camo2 : Uniform_Base 
+	class NLD_KM_Camo2: Uniform_Base
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] KM Camo2";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Uniform.paa";
+		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_KM_Operator_MP5";
 			containerClass = "Supply60";
 			mass = 1;
-		};	
+		};
 	};
-	
-	class NLD_WLD_Helmet_Camo : H_HelmetB 
+	class NLD_Helipilot_base: U_B_HeliPilotCoveralls
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Woodland Helmet Camo";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Helmet.paa";
-		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
-		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\HelmetCamo.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
-		
-		class ItemInfo : HeadgearItem {
-			mass = 1;
-			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
-			modelSides[] = {3, 1};
-			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\HelmetCamo.paa"};
-			hiddenSelections[] = {"camo1","camo2"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-
-	class NLD_WLD_Helmet : H_HelmetIA {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Woodland Helmet";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\Helmet.paa";
-		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\Helmet.paa"};
-		
-		class ItemInfo : HeadgearItem {
-			mass = 1;
-			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-			modelSides[] = {3, 1};
-            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-	
-	class NLD_DST_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Desert Helmet";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Helmet.paa"};
-	};
-
-	class NLD_NFPT_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Tan Helmet";
-		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Helmet.paa"};		
-	};
-
-	class NLD_NFPG_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Green Helmet";
-		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Helmet.paa"};		
-	};
-
-	class NLD_WTR_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Winter Helmet";
-		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Helmet.paa"};		
-	};
-
-	class NLD_KM_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] KM Helmet";
-		picture = "\NLD_Infantry_Units\Units\Korps_Mariniers\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Korps_Mariniers\Data\Helmet.paa"};		
-	};
-
-	class NLD_JGL_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Jungle Helmet";
-		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Helmet.paa"};		
-	};
-
-	class NLD_UN_Helmet : NLD_WLD_Helmet {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] UN Helmet";
-		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\UN\Data\Helmet.paa"};		
-	};
-
-	class NLD_WLD_BaseballCap: ItemCore{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Woodland Baseball Cap";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\BaseballCap.paa";
-		model = "\A3\Characters_F\common\capb";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
-        hiddenSelections[] = {"Camo"};
-                
-		class ItemInfo: HeadgearItem{
-			mass = 1;
-			uniformmodel = "\A3\Characters_F\common\capb";
-			modelSides[] = {3,1};
-			armor = "0.5";
-			passThrough = 0.95;
-            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BaseballCap.paa"};
-            hiddenSelections[] = {"Camo"};
-		};
-	};
-
-	class NLD_NFPT_BaseballCap : NLD_WLD_BaseballCap {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Tan Baseball Cap";
-		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\BaseballCap.paa";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\BaseballCap.paa"};
-	};
-
-	class NLD_NFPG_BaseballCap : NLD_WLD_BaseballCap {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Green Baseball Cap";
-		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\BaseballCap.paa";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\BaseballCap.paa"};
-	};
-
-	class NLD_SF_BaseballCap : NLD_WLD_BaseballCap {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Black Baseball Cap";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\BaseballCap.paa";
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\BaseballCap.paa"};
-	};	
-
-	class NLD_WLD_BoonieHat: ItemCore{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Woodland Boonie Hat";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\BoonieHat.paa";
-		model = "\A3\Characters_F\Common\booniehat";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BoonieHat.paa"};
-		hiddenSelections[] = {"Camo"};
-
-		class ItemInfo: HeadgearItem{
-			mass = 1;
-			uniformmodel = "\A3\Characters_F\Common\booniehat";
-			modelSides[] = {3,1};
-			armor = "0.5";
-			passThrough = 0.95;
-            hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Woodland\Data\BoonieHat.paa"};
-            hiddenSelections[] = {"Camo"};
-		};
-	};
-	
-	class NLD_NFPT_BoonieHat : NLD_WLD_BoonieHat {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Tan Boonie Hat";
-		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\BoonieHat.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\BoonieHat.paa"};
-	};
-
-	class NLD_NFPG_BoonieHat : NLD_WLD_BoonieHat {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Green Boonie Hat";
-		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\BoonieHat.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\BoonieHat.paa"};
-	};
-
-	class NLD_SF_BoonieHat : NLD_WLD_BoonieHat {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Black Boonie Hat";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\BoonieHat.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\BoonieHat.paa"};
-	};
-
-	class NLD_WLD_Vest : V_PlateCarrierIA2_dgtl {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Woodland Vest";
-		picture = "\NLD_Infantry_Units\Units\Desert\Data\uim\Vest.paa";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Vest.paa"};
-		
-		class ItemInfo : VestItem {
-			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
-			containerClass = "Supply120";
-			mass = 1;
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
-
-	class NLD_NFPT_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Tan Vest";
-		picture = "\NLD_Infantry_Units\Units\NFP-Tan\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Tan\Data\Vest.paa"};
-	};
-
-	class NLD_NFPG_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] NFP-Green Vest";
-		picture = "\NLD_Infantry_Units\Units\NFP-Green\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\NFP-Green\Data\Vest.paa"};
-	};
-
-	class NLD_DST_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 1;
-		displayName = "[NLD] Desert Vest";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Desert\Data\Vest.paa"};
-	};
-
-	class NLD_WTR_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Winter Vest";
-		picture = "\NLD_Infantry_Units\Units\Winter\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Winter\Data\Vest.paa"};
-	};
-
-	class NLD_SF_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Black Vest";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\Vest.paa"};
-	};
-
-	class NLD_JGL_Vest : NLD_WLD_Vest {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Jungle Vest";
-		picture = "\NLD_Infantry_Units\Units\Jungle\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Jungle\Data\Vest.paa"};
-	};
-
-	class NLD_UN_Vest : Vest_Camo_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] UN Vest";
-		picture = "\NLD_Infantry_Units\Units\UN\Data\uim\Vest.paa";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\UN\Data\Vest.paa"};
-		
-		class ItemInfo : VestItem {
-			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
-			containerClass = "Supply120";
-			mass = 1;
-			armor = 30;
-			passThrough = 0.5;
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=16;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
-
-	class NLD_SF_PlateCarrier : V_PlateCarrier1_blk
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Black Plate Carrier";
-		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\PlateCarrier.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\PlateCarrier.paa"};
-		scope = 2;
-		class ItemInfo: ItemInfo {
-			armor = 40;
-			containerclass = "Supply120";
-			mass = 60;
-			passthrough = 0.5;
-			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName="HitChest";
-					armor=20;
-					PassThrough=0.2;
-				};
-				class Diaphragm
-				{
-					HitpointName="HitDiaphragm";
-					armor=20;
-					PassThrough=0.2;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.2;
-				};
-			};
-		};
-	};
-
-	class NLD_MTP_PlateCarrier : NLD_SF_PlateCarrier
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] MTP Plate Carrier";
-		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\PlateCarrier.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\PlateCarrier.paa"};
-	};
-
-	class NLD_SF_ECH: H_HelmetB {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayname = "[NLD] Black ECH";
-		hiddenselections[] = {"camo"};
-		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
-		picture = "\NLD_Infantry_Units\Units\SF\Data\uim\ECH.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\SF\Data\ECH.paa"};
-		scope = 2;
-		weaponpoolavailable = 1;
-		class ItemInfo: HeadgearItem {
-			mass = 40;
-			modelsides[] = {3, 1};
-			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=10;
-					passThrough=0.5;
-				};
-			};
-		};
-	};
-
-	class NLD_MTP_ECH : NLD_SF_ECH
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] MTP ECH";
-		picture = "\NLD_Infantry_Units\Units\MTP\Data\uim\ECH.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\MTP\Data\ECH.paa"};
-	};
-
-	class NLD_Helipilot_base : U_B_HeliPilotCoveralls {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] HeliPilot Coveralls";
 		genericNames = "NLD_Units";
 		picture = "\A3\characters_f\data\ui\icon_U_B_coveralls_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_Helipilot";
 			containerClass = "Supply90";
 			mass = 40;
 		};
 	};
-	
-	class NLD_Helicrew_base : U_B_HeliPilotCoveralls {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_Helicrew_base: U_B_HeliPilotCoveralls
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] HeliCrew Coveralls";
 		picture = "\A3\characters_f\data\ui\icon_U_B_coveralls_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_Helicrew";
 			containerClass = "Supply90";
 			mass = 40;
 		};
 	};
-	
-	class NLD_Crew_base : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_Crew_base: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Crew Coveralls";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\WorkUniform.paa";
+		picture = "\NLD_Gear\Woodland\Data\uim\WorkUniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_Crew";
 			containerClass = "Supply90";
 			mass = 40;
 		};
 	};
-	
-	class NLD_Crew_MLRS_base : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+	class NLD_Crew_MLRS_base: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 1;
 		displayName = "[NLD] Crew MLRS Coveralls";
-		picture = "\NLD_Infantry_Units\Units\Woodland\Data\uim\WorkUniform.paa";
+		picture = "\NLD_Gear\Woodland\Data\uim\WorkUniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
+		class ItemInfo: UniformItem
+		{
 			uniformModel = "-";
 			uniformClass = "NLD_Crew_MLRS";
 			containerClass = "Supply90";
@@ -849,11 +415,11 @@ class cfgWeapons {
 	};
 	class NLD_Police_Uniform: U_B_HeliPilotCoveralls
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Police Pilot Uniform ";
-		picture = "\NLD_Vehicle_Units\Air\Data\police\pilots\ui\police_pilot.paa";
+		picture = "\NLD_Gear\police\pilots\ui\police_pilot.paa";
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -865,11 +431,11 @@ class cfgWeapons {
 	};
 	class NLD_Lifeliner_Uniform: U_B_HeliPilotCoveralls
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "[NLD] Lifeliner Pilot Uniform ";
-		picture = "\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\ui\lifeliner_pilot.paa";
+		picture = "\NLD_Gear\lifeliner\pilots\ui\lifeliner_pilot.paa";
 		model = "\A3\Characters_F\Common\coveralls.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -879,70 +445,394 @@ class cfgWeapons {
 			mass = 20;
 		};
 	};
-	class NLD_Police_Helmet: ItemCore
+	class NLD_KMAR_Camo: Uniform_Base
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Police Helmet";
-		picture = "\NLD_Vehicle_Units\Air\Data\police\pilots\ui\police_helmet.paa";
-		model = "A3\Characters_F\Common\headgear_helmet_heli";
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_helmet.paa"};
-		hiddenSelections[] = {"Camo"};
-		class ItemInfo: HeadgearItem
+		displayName = "[NLD] KMAR Camo";
+		picture = "\NLD_Gear\Support\Data\uim\KMAR.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
 		{
-			mass = 5;
-			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
-			modelSides[] = {3,1};
-			armor = "3*0.5";
-			passThrough = 0.95;
-			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\pilots\police_helmet.paa"};
-			hiddenSelections[] = {"Camo"};
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Police";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_KMAR_Camo2: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] KMAR Camo2";
+		picture = "\NLD_Gear\Support\Data\uim\KMAR_coveralls.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Police2";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_KMAR_Crew_Camo: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] KMAR Crew Camo";
+		picture = "\NLD_Gear\Support\Data\uim\KMAR_coveralls.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_KMAR_Crew";
+			containerClass = "Supply60";
+			mass = 1;
+		};
+	};
+	class NLD_Units_80_Camo: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Uniform";
+		picture = "\NLD_Gear\80s\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_rifleman";
+			containerClass = "Supply80";
+			mass = 1;
+		};
+	};
+	class NLD_Units_80_Camo2: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Pullover";
+		picture = "\NLD_Gear\80s\Data\uim\Pullover.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_CLS";
+			containerClass = "Supply80";
+			mass = 1;
+		};
+	};
+	class NLD_Units_80_Camo3: Uniform_Base
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Uniform Short";
+		picture = "\NLD_Gear\80s\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Units_80_MMG";
+			containerClass = "Supply80";
+			mass = 1;
+		};
+	};
+	class NLD_WLD_Vest: V_PlateCarrierIA2_dgtl
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Woodland Vest";
+		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+		class ItemInfo: VestItem
+		{
+			mass = 20;
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+			containerClass = "Supply120";
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
+			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
-				class Head
+				class Chest
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
 				};
 			};
 		};
 	};
-	class NLD_Lifeliner_Helmet: ItemCore
+	class NLD_NFPT_Vest: NLD_WLD_Vest
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Tan Vest";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\Vest.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Vest.paa"};
+	};
+	class NLD_NFPG_Vest: NLD_WLD_Vest
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Green Vest";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\Vest.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Vest.paa"};
+	};
+	class NLD_DST_Vest: NLD_WLD_Vest
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 1;
+		displayName = "[NLD] Desert Vest";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
+	};
+	class NLD_WTR_Vest: NLD_WLD_Vest
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Winter Vest";
+		picture = "\NLD_Gear\Winter\Data\uim\Vest.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Vest.paa"};
+	};
+	class NLD_SF_Vest: NLD_WLD_Vest
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Black Vest";
+		picture = "\NLD_Gear\SF\Data\uim\Vest.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Vest.paa"};
+	};
+	class NLD_JGL_Vest: NLD_WLD_Vest
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Jungle Vest";
+		picture = "\NLD_Gear\Jungle\Data\uim\Vest.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Vest.paa"};
+	};
+	class NLD_UN_Vest: V_PlateCarrierIA2_dgtl
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] Lifeliner Helmet";
-		picture = "\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\ui\lifeliner_helmet.paa";
-		model = "A3\Characters_F\Common\headgear_helmet_heli";
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
-		hiddenSelections[] = {"Camo"};
-		class ItemInfo: HeadgearItem
+		displayName = "[NLD] UN Vest";
+		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\UN\Data\Vest.paa"};
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+		class ItemInfo: VestItem
 		{
-			mass = 5;
-			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
-			modelSides[] = {3,1};
-			hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\pilots\lifeliner_helmet.paa"};
-			hiddenSelections[] = {"Camo"};
+			mass = 20;
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+			containerClass = "Supply120";
+			hiddenSelectionsTextures[] = {"\NLD_Gear\UN\Data\Vest.paa"};
+			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
-				class Head
+				class Chest
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
 				};
 			};
 		};
 	};
-	class NLD_Police_belt: Vest_Camo_Base
+	class NLD_SF_PlateCarrier: V_PlateCarrier1_blk
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Black Plate Carrier";
+		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\PlateCarrier.paa"};
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		class ItemInfo: VestItem
+		{
+			mass = 20;
+			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			containerClass = "Supply120";
+			hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\PlateCarrier.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class NLD_MTP_PlateCarrier: NLD_SF_PlateCarrier
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] MTP Plate Carrier";
+		picture = "\NLD_Gear\MTP\Data\uim\PlateCarrier.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\PlateCarrier.paa"};
+	};
+	class NLDO_KMAR_Vest: V_PlateCarrier1_blk
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] KMAR Vest";
+		picture = "\A3\Characters_F_EPC\Data\UI\icon_V_PressVest_CA.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Vest.paa"};
+		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+		class ItemInfo: VestItem
+		{
+			mass = 20;
+			uniformModel = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
+			containerClass = "Supply120";
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Vest.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class NLD_80_Chestrig: V_Chestrig_oli
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] 80's Chestrig";
+		model = "\A3\Characters_F\Common\equip_chestrig";
+		class ItemInfo: VestItem
+		{
+			mass = 20;
+			uniformModel = "\A3\Characters_F\Common\equip_chestrig.p3d";
+			containerClass = "Supply120";
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 6;
+					passThrough = 0.65;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 6;
+					passThrough = 0.65;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 6;
+					passThrough = 0.65;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.65;
+				};
+			};
+		};
+	};
+	class NLD_Police_belt: V_PlateCarrier1_blk
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "[NLD] police Belt";
@@ -958,258 +848,454 @@ class cfgWeapons {
 			hiddenSelections[] = {"camo"};
 		};
 	};
-
-	class NLD_KMAR_Camo : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] KMAR Camo";
-		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_KMAR_Police";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-	class NLD_KMAR_Camo2 : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] KMAR Camo2";
-		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_KMAR_Police2";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-	class NLD_KMAR_Crew_Camo : Uniform_Base {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] KMAR Crew Camo";
-		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_coveralls.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem {
-			uniformModel = "-";
-			uniformClass = "NLD_KMAR_Crew";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-
-    class NLDO_KMAR_Vest: V_PlateCarrier1_blk
+	class NLD_WLD_Helmet: H_HelmetIA
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] KMAR Vest";
-		picture="\A3\Characters_F_EPC\Data\UI\icon_V_PressVest_CA.paa";
-		model = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
-        hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Vest.paa"};
-                
-                  
-
-		class ItemInfo: VestItem
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Woodland Helmet";
+		picture = "\NLD_Gear\Woodland\Data\uim\Helmet.paa";
+		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Helmet.paa"};
+		class ItemInfo: HeadgearItem
 		{
-			uniformModel = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
-			containerClass = "Supply120";
+			mass = 10;
+			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Helmet.paa"};
 			hiddenSelections[] = {"camo"};
-			mass = 50;
 			class HitpointsProtectionInfo
 			{
-				class Chest
+				class Head
 				{
-					HitpointName="HitChest";
-					armor=20;
-					PassThrough=0.2;
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
-				class Diaphragm
+			};
+		};
+	};
+	class NLD_DST_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Desert Helmet";
+		picture = "\NLD_Gear\Desert\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Helmet.paa"};
+	};
+	class NLD_NFPT_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Tan Helmet";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
+	};
+	class NLD_NFPG_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Green Helmet";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Helmet.paa"};
+	};
+	class NLD_WTR_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Winter Helmet";
+		picture = "\NLD_Gear\Winter\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Helmet.paa"};
+	};
+	class NLD_KM_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] KM Helmet";
+		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\Helmet.paa"};
+	};
+	class NLD_JGL_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Jungle Helmet";
+		picture = "\NLD_Gear\Jungle\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Helmet.paa"};
+	};
+	class NLD_UN_Helmet: NLD_WLD_Helmet
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] UN Helmet";
+		picture = "\NLD_Gear\UN\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\UN\Data\Helmet.paa"};
+	};
+	class NLD_WLD_Helmet_Camo: H_HelmetB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Woodland Helmet Camo";
+		picture = "\NLD_Gear\Woodland\Data\uim\Helmet.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+		hiddenSelections[] = {"camo","camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\HelmetCamo.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\HelmetCamo.paa"};
+			hiddenSelections[] = {"camo1","camo2"};
+			class HitpointsProtectionInfo
+			{
+				class Head
 				{
-					HitpointName="HitDiaphragm";
-					armor=20;
-					PassThrough=0.2;
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
-				class Abdomen
+			};
+		};
+	};
+	class NLD_SF_ECH: H_HelmetB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayname = "[NLD] Black ECH";
+		picture = "\NLD_Gear\SF\Data\uim\ECH.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\ECH.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\ECH.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
 				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.2;
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
 				};
-				class Body
+			};
+		};
+	};
+	class NLD_MTP_ECH: H_HelmetB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayname = "[NLD] MTP ECH";
+		picture = "\NLD_Gear\SF\Data\uim\ECH.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\ECH.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\ECH.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
 				{
-					hitpointName="HitBody";
-					passThrough=0.2;
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class NLD_Police_Helmet: ItemCore
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Police Helmet";
+		picture = "\NLD_Gear\police\pilots\ui\police_helmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\police\pilots\police_helmet.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[] = {3,1};
+			armor = "3*0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Gear\police\pilots\police_helmet.paa"};
+			hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class NLD_Lifeliner_Helmet: ItemCore
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Lifeliner Helmet";
+		picture = "\NLD_Gear\lifeliner\pilots\ui\lifeliner_helmet.paa";
+		model = "A3\Characters_F\Common\headgear_helmet_heli";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\lifeliner\pilots\lifeliner_helmet.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\lifeliner\pilots\lifeliner_helmet.paa"};
+			hiddenSelections[] = {"Camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
 			};
 		};
 	};
 	class NLD_KMAR_Helmet: H_HelmetCrew_B
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] KMAR Helmet";
-		picture = "\NLD_Infantry_Units\Units\Support\Data\uim\KMAR_Helmet.paa";
-		model="\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
-		hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
+		picture = "\NLD_Gear\Support\Data\uim\KMAR_Helmet.paa";
+		model = "\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Helmet.paa"};
 		hiddenSelections[] = {"Camo"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 5;
-			uniformModel="\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
+			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
 			modelSides[] = {3,1};
-			hiddenSelectionsTextures[] = {"\NLD_Infantry_Units\Units\Support\Data\KMAR_Helmet.paa"};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Helmet.paa"};
 			hiddenSelections[] = {"Camo"};
 			class HitpointsProtectionInfo
 			{
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
 			};
 		};
 	};
-
-	class NLD_Units_80_Camo : Uniform_Base 
+	class NLD_M1Helmet_Green: ItemCore
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Uniform";
-		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem 
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_rifleman";
-			containerClass = "Supply80";
-			mass = 1;
-		};
-	};	
-		
-	class NLD_Units_80_Camo2 : Uniform_Base 
-	{	
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Pullover";
-		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Pullover.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem 
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_CLS";
-			containerClass = "Supply80";
-			mass = 1;
-		};	
-	};
-		
-	class NLD_Units_80_Camo3 : Uniform_Base 
-	{	
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Uniform Short";
-		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		
-		class ItemInfo : UniformItem 
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_MMG";
-			containerClass = "Supply80";
-			mass = 1;
-		};	
-	};
-	
-        class NLD_M1Helmet_Green: ItemCore
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] 80's M1 Helmet";
-		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\M1_Helmet.paa";
+		picture = "\NLD_Gear\80s\Data\uim\M1_Helmet.paa";
 		model = "\SP_Pack\Models\M1Helmet";
-        hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
-        hiddenSelections[] = {"Camo","Camo1"};
-                
+		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+		hiddenSelections[] = {"Camo","Camo1"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
 			uniformmodel = "\SP_Pack\Models\M1Helmet";
 			modelSides[] = {3,1};
-            hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
-            hiddenSelections[] = {"Camo","Camo1"};
+			hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
+			hiddenSelections[] = {"Camo","Camo1"};
 			class HitpointsProtectionInfo
 			{
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
 			};
 		};
 	};
-
-	class NLD_80_Chestrig : V_Chestrig_oli 
+	class NLD_ProTecHelmet_Black: ItemCore
 	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] 80's Chestrig";
-		picture = "\NLD_Infantry_Units\Units\80s\Data\uim\Chestrig.paa";
-		model="\A3\Characters_F\Common\equip_chestrig";
-		
-		class ItemInfo : VestItem 
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] ProTec Helmet (Black)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Black.paa";
+		model = "\SP_Pack\Models\ProTecHelmet";
+		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
 		{
-			uniformModel="\A3\Characters_F\Common\equip_chestrig.p3d";
-			containerClass="Supply140";
-			mass=20;
-			hiddenSelections[]={"Camo1","Camo2"};
+			mass = 60;
+			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
+			hiddenSelections[] = {"Camo"};
 			class HitpointsProtectionInfo
 			{
-				class Chest
+				class Head
 				{
-					hitpointName="HitChest";
-					armor=6;
-					passThrough=0.65;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=6;
-					passThrough=0.65;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=6;
-					passThrough=0.65;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.65;
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
 			};
 		};
 	};
+	class NLD_ProTecHelmet_Green: NLD_ProTecHelmet_Black
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] ProTec Helmet (Green)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Green.paa";
+		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
+	};
+	class NLD_ProTecHelmet_Tan: NLD_ProTecHelmet_Black
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] ProTec Helmet (Tan)";
+		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Tan.paa";
+		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
+	};
+	class NLD_WLD_BoonieHat: ItemCore
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Woodland Boonie Hat";
+		picture = "\NLD_Gear\Woodland\Data\uim\BoonieHat.paa";
+		model = "\A3\Characters_F\Common\booniehat";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\BoonieHat.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "\A3\Characters_F\Common\booniehat";
+			modelSides[] = {3,1};
+			armor = "0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\BoonieHat.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+	class NLD_DST_BoonieHat: NLD_WLD_BoonieHat
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Desert Boonie Hat";
+		picture = "\NLD_Gear\Desert\Data\uim\BoonieHat.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\BoonieHat.paa"};
+	};
+	class NLD_NFPT_BoonieHat: NLD_WLD_BoonieHat
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Tan Boonie Hat";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\BoonieHat.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\BoonieHat.paa"};
+	};
+	class NLD_NFPG_BoonieHat: NLD_WLD_BoonieHat
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Green Boonie Hat";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\BoonieHat.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\BoonieHat.paa"};
+	};
+	class NLD_SF_BoonieHat: NLD_WLD_BoonieHat
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Black Boonie Hat";
+		picture = "\NLD_Gear\SF\Data\uim\BoonieHat.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\BoonieHat.paa"};
+	};
+	class NLD_WLD_BaseballCap: ItemCore
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] Woodland Baseball Cap";
+		picture = "\NLD_Gear\Woodland\Data\uim\BaseballCap.paa";
+		model = "\A3\Characters_F\common\capb";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\BaseballCap.paa"};
+		hiddenSelections[] = {"Camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 1;
+			uniformmodel = "\A3\Characters_F\common\capb";
+			modelSides[] = {3,1};
+			armor = "0.5";
+			passThrough = 0.95;
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\BaseballCap.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+	class NLD_DST_BaseballCap: NLD_WLD_BaseballCap
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Desert Baseball Cap";
+		picture = "\NLD_Gear\Desert\Data\uim\BaseballCap.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\BaseballCap.paa"};
+	};
+	class NLD_NFPT_BaseballCap: NLD_WLD_BaseballCap
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Tan Baseball Cap";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\BaseballCap.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\BaseballCap.paa"};
+	};
+	class NLD_NFPG_BaseballCap: NLD_WLD_BaseballCap
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NFP-Green Baseball Cap";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\BaseballCap.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\BaseballCap.paa"};
+	};
+	class NLD_SF_BaseballCap: NLD_WLD_BaseballCap
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Black Baseball Cap";
+		picture = "\NLD_Gear\SF\Data\uim\BaseballCap.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\BaseballCap.paa"};
+	};
+	class NLD_NVGoggles: NVGoggles_OPFOR
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] NV Goggles";
+	};
 };
+//};

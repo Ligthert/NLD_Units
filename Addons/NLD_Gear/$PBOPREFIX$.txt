@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=NLD_Gear
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '0DEC00B1D92FEDC166987D01FC23A2BC1B8C7356'
+//////</HEADER>//////

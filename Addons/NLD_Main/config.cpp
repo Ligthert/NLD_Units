@@ -1,70 +1,78 @@
+// Obligatory CfgPatches
 class CfgPatches {
-	class NLD_Units_Main {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-	};
+  class NLD_Units_Main {
+    units[] = {};
+    weapons[] = {};
+    requiredVersion = 0.1;
+    requiredAddons[] = {"A3_Characters_F_BLUFOR"};
+    authors[] = {"Sacha Ligthert","Smootch","ShiftySean"};
+    url = "http://lowtac.nl/";
+  };
 };
+
+
+// I like my mods
 class CfgMods
 {
-	class Mod_Base;
-	class NLD_Units: Mod_Base
-	{
-		action="http://lowtac.nl";
-		author="Lowlands Tactical";
-		dir="NLD_Units";
-		dlcColor[]={0,0,0,1};
-		fieldManualTopicAndHint[]={};
-		hideName=1;
-		hidePicture=0;
-		logo="\NLD_Main\logo\NLD_Units.paa";
-		logoOver="\NLD_Main\logo\NLD_Units_Overlay.paa";
-		name="NLD Units: Dutch Units for ArmA 3.";
-		overview="NLD Units: Dutch Units for ArmA 3.";
-		picture="\NLD_Main\logo\NLD_Units.paa";
-		tooltip="NLD_Units";
-		tooltipOwned="NLD_Units";
-	};
+  class Mod_Base;
+  class NLD_Units: Mod_Base
+  {
+    action="http://lowtac.nl/";
+    author="Lowlands Tactical";
+    dir="NLD_Units";
+    dlcColor[]={0,0,0,1};
+    fieldManualTopicAndHint[]={};
+    hideName=1;
+    hidePicture=0;
+    logo="\NLD_Main\logo\NLD_Units.paa";
+    logoOver="\NLD_Main\logo\NLD_Units_Overlay.paa";
+    name="NLD Units: Dutch Units for ArmA 3.";
+    overview="NLD Units: Dutch Units for ArmA 3.";
+    picture="\NLD_Main\logo\NLD_Units.paa";
+    tooltip="NLD_Units";
+    tooltipOwned="NLD_Units";
+  };
 };
+
+
+// Beautiful Markers!
 class CfgMarkers
 {
-	class flag_USA;
-	class NLD_Units_Marker: flag_USA
-	{
-		name="[NLD] NLD_Units";
-		icon="\NLD_Main\logo\NLD_Units.paa";
-	};
-	class NLD_LowTac_Marker: flag_USA
-	{
-		name="[NLD] Lowlands Tactical";
-		icon="\NLD_Main\logo\LT-Square.paa";
-	};
+  class flag_USA;
+  class NLD_Units_Marker: flag_USA
+  {
+    name="[NLD] NLD_Units";
+    icon="\NLD_Main\logo\NLD_Units.paa";
+  };
+  class NLD_LowTac_Marker: flag_USA
+  {
+    name="[NLD] Lowlands Tactical";
+    icon="\NLD_Main\logo\LT-Square.paa";
+  };
 };
 
+// Obligatory Markers
 class CfgFactionClasses
 {
-
 	class NLD_Units
 	{
-		displayName="NLD Armed Forces";
-		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+    displayName="NLD Armed Forces";
+		icon="\NLD_Main\Icon\Icon.jpg";
 		priority=1;
 		side=1;
-	};
+  };
 
-/*
-	class NLD_Units_WLD
-	{
-		displayName="NLD Armed Forces (Woodland)";
-		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+  class NLD_Units_WLD
+  {
+    displayName="[NLD] Woodland";
+		icon="\NLD_Main\Icon\Icon.jpg";
 		priority=1;
 		side=1;
-	};
+  };
 
-	class NLD_Units_DST
+  class NLD_Units_DST
 	{
-		displayName="NLD Armed Forces (Desert)";
+		displayName="[NLD] Desert";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -72,7 +80,7 @@ class CfgFactionClasses
 
 	class NLD_Units_UN_DST
 	{
-		displayName="NLD Armed Forces (UN Desert)";
+		displayName="[NLD] UN Desert";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -80,7 +88,7 @@ class CfgFactionClasses
 
 	class NLD_Units_UN_WLD
 	{
-		displayName="NLD Armed Forces (UN Woodland)";
+		displayName="[NLD] UN Woodland";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -88,7 +96,7 @@ class CfgFactionClasses
 
 	class NLD_Units_WTR
 	{
-		displayName="NLD Armed Forces (WTR)";
+		displayName="[NLD] Winter";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -96,7 +104,7 @@ class CfgFactionClasses
 
 	class NLD_Units_NFPG
 	{
-		displayName="NLD Armed Forces (NFP-Green)";
+		displayName="[NLD] NFP-Green";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -104,7 +112,7 @@ class CfgFactionClasses
 
 	class NLD_Units_NFPT
 	{
-		displayName="NLD Armed Forces (NFP-Tan)";
+		displayName="[NLD] NFP-Tan";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -112,11 +120,43 @@ class CfgFactionClasses
 
 	class NLD_Units_JGL
 	{
-		displayName="NLD Armed Forces (Jungle)";
+		displayName="[NLD] Jungle";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
 	};
-*/
-	
+
+  class NLD_Units_SF
+	{
+		displayName="[NLD] Special Forces (Black)";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
+  class NLD_Units_MTP
+	{
+		displayName="[NLD] Special Forces (MTP)";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
+  class NLD_Units_KM
+	{
+		displayName="[NLD] Special Forces (KM)";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
+  class NLD_Units_80s
+	{
+		displayName="[NLD] 80s Units";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+
+
 };
