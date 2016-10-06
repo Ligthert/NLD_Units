@@ -17,6 +17,10 @@ class CfgVehicles {
 	class I_Truck_02_box_F;
 	class I_Truck_02_medical_F;
 	class I_Truck_02_ammo_F;
+	class B_LSV_01_armed_olive_F;
+	class B_LSV_01_armed_sand_F;
+	class B_LSV_01_unarmed_olive_F;
+	class B_LSV_01_unarmed_sand_F;
 
 
 // Fennek - Desert
@@ -246,7 +250,151 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
+	
+		class NLD_DST_VECTOR_ARMED : B_LSV_01_armed_sand_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "VECTOR armed (Desert)";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units_NFPT";
+		crew = "NLD_NFPT_GL";
+		typicalCargo[] = {"NLD_NFPT_GL"};
 
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "VECTOR unarmed (Desert)";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units_NFPT";
+		crew = "NLD_NFPT_GL";
+		typicalCargo[] = {"NLD_NFPT_GL"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
 
 // Fennek - Woodland
 
@@ -272,6 +420,142 @@ class CfgVehicles {
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
+	};
+	
+	class NLD_WLD_VECTOR : B_LSV_01_unarmed_olive_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "VECTOR unarmed (Olive)";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units_SFMTP";
+		crew = "NLD_MTP_COMSPEC";
+		typicalCargo[] = {"NLD_MTP_TL"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_20Rnd_762x51_Mag
+			{
+				magazine="20Rnd_762x51_Mag";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_WLD_VECTOR_ARMED : B_LSV_01_armed_olive_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "VECTOR (Olive)";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units_SFMTP";
+		crew = "NLD_MTP_COMSPEC";
+		typicalCargo[] = {"NLD_MTP_TL"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_20Rnd_762x51_Mag
+			{
+				magazine="20Rnd_762x51_Mag";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
 	};
 
 
