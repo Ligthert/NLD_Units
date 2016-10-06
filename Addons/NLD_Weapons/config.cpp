@@ -38,6 +38,10 @@ class CfgWeapons {
 	class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_03_blk_F;
 	class arifle_SPAR_02_blk_F;
+	class arifle_SPAR_01_snd_F;
+	class arifle_SPAR_01_GL_snd_F;
+	class arifle_SPAR_03_snd_F;
+	class arifle_SPAR_02_snd_F;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -625,6 +629,100 @@ class CfgWeapons {
 		};
 	};
 
+	class NLD_HK416_SND: arifle_SPAR_01_snd_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK416 sand";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_snd_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_HK416_GL_SND: arifle_SPAR_01_GL_snd_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK416 GL sand";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_snd_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_HK417_SND: arifle_SPAR_03_snd_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK417 sand";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_snd_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_snd";
+			};
+		};
+	};
+	class NLD_HK_LSW_SND: arifle_SPAR_02_snd_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK LSW sand";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_snd_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_snd";
+			};
+		};
+	};
 
 	class NLD_M14_Aim: CUP_srifle_M14
 	{
