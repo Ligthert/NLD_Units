@@ -428,7 +428,7 @@ class CfgVehicles {
 		displayName = "VECTOR unarmed (Olive)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_SFMTP";
+		faction = "NLD_Units_MTP";
 		crew = "NLD_MTP_COMSPEC";
 		typicalCargo[] = {"NLD_MTP_TL"};
 
@@ -481,10 +481,10 @@ class CfgVehicles {
 				magazine="20Rnd_762x51_Mag";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_Titan_AT
 			{
-				magazine="CUP_M136_M";
-				count=5;
+				magazine="Titan_AT";
+				count=3;
 			};
 		};
 		class TransportWeapons {};
@@ -496,7 +496,7 @@ class CfgVehicles {
 		displayName = "VECTOR (Olive)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_SFMTP";
+		faction = "NLD_Units_MTP";
 		crew = "NLD_MTP_COMSPEC";
 		typicalCargo[] = {"NLD_MTP_TL"};
 
@@ -549,10 +549,10 @@ class CfgVehicles {
 				magazine="20Rnd_762x51_Mag";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_Titan_AT
 			{
-				magazine="CUP_M136_M";
-				count=5;
+				magazine="Titan_AT";
+				count=3;
 			};
 		};
 		class TransportWeapons {};
