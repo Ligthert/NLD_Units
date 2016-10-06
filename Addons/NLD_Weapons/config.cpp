@@ -37,6 +37,7 @@ class CfgWeapons {
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_03_blk_F;
+	class arifle_SPAR_02_blk_F;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -597,6 +598,33 @@ class CfgWeapons {
 			};
 		};
 	};
+	class NLD_HK_LSW: arifle_SPAR_02_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK LSW";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_ERCO_blk_F";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
+		};
+	};
+
 
 	class NLD_M14_Aim: CUP_srifle_M14
 	{
