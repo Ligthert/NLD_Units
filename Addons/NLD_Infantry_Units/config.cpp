@@ -1954,24 +1954,6 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 	};
 
-	class NLD_KM_LAR: NLD_SF_AR
-	{
-		displayName = "Light Automatic Rifleman";
-		vehicleClass = "Infantry_KM";
-		genericNames = "NLD_Units";
-		backpack = "NLD_KM_Carryall_B";
-		uniformClass = "NLD_KM_Camo2";
-		hasDriver = 1;
-		faction = "NLD_Units_KM";
-		linkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
-		weapons[] = {"NLD_MX_SW_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-		respawnWeapons[] = {"NLD_MX_SW_SF", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-		magazines[] = {"100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag","100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag","100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "100Rnd_65x39_caseless_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-	};
-
-
 // UN Woodland Units
 
 	class NLD_UN_WLD_rifleman: NLD_WLD_rifleman

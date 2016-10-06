@@ -1328,9 +1328,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1382,9 +1382,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1648,9 +1648,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1778,9 +1778,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1843,9 +1843,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1906,9 +1906,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -1986,9 +1986,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2054,9 +2054,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2119,9 +2119,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2177,9 +2177,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2242,9 +2242,9 @@ class CfgVehicles {
 		};
 		class TransportItems
 		{
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2309,9 +2309,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-			class _xx_CUP_muzzle_snds_AWM
+			class _xx_muzzle_snds_B
 			{
-				name="CUP_muzzle_snds_AWM";
+				name="muzzle_snds_B";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
@@ -2369,9 +2369,9 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
-			class _xx_CUP_muzzle_snds_AWM
+			class _xx_muzzle_snds_B
 			{
-				name="CUP_muzzle_snds_AWM";
+				name="muzzle_snds_B";
 				count = 1;
 			};
 			class _xx_muzzle_snds_L
