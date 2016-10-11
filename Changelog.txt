@@ -2,13 +2,14 @@ Changelog:
 v201610069
 - Added hitpoints to helmets.
 - Added Woodland Helmet Camo.
-- Added TFAR Radio backpacks (4 camo's)
-- Added 80's units
-- Added custom markers
-- Added flags
+- Added TFAR Radio backpacks (4 camo's).
+- Added 80's units.
+- Added Versatile Expeditionary Commando Tactical Off Road (or VECTOR).
+- Added custom markers.
+- Added flags.
 - Changed Configs.
 - Changed minimi & ammo.
-- Changed Special Forces Weapons
+- Changed Special Forces Weapons.
 
 
 V201622028

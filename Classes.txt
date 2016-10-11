@@ -190,7 +190,10 @@ Vehicles:
                 NLD_DAF_repair
                 NLD_DAF_ammo
                 NLD_DAF_medical
-		
+		NLD_DST_VECTOR_ARMED
+		NLD_DST_VECTOR
+		NLD_WLD_VECTOR
+		NLD_WLD_VECTOR_ARMED
 
 Infantry:
 
@@ -653,6 +656,14 @@ Weapons:
 	NLD_MX_SW_Winter
 	NLD_MX_DMR_W
 	NLD_MX_DMR_Winter
+	NLD_HK416_SND
+	NLD_HK416_GL_SND
+	NLD_HK417_SND
+	NLD_HK_LSW_SND
+	NLD_HK_LSW
+	NLD_HK416
+	NLD_HK416_GL
+	NLD_HK417
 
 Magazines:
 	The NLD_Mag has access to a 200-round magazine
