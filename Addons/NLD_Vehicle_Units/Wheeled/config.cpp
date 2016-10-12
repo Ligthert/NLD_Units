@@ -257,9 +257,9 @@ class CfgVehicles {
 		displayName = "VECTOR armed (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_NFPT";
-		crew = "NLD_NFPT_GL";
-		typicalCargo[] = {"NLD_NFPT_GL"};
+		faction = "NLD_Units_MTP";
+		crew = "NLD_MTP_Operator";
+		typicalCargo[] = {"NLD_MTP_Operator"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -329,9 +329,9 @@ class CfgVehicles {
 		displayName = "VECTOR unarmed (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_NFPT";
-		crew = "NLD_NFPT_GL";
-		typicalCargo[] = {"NLD_NFPT_GL"};
+		faction = "NLD_Units_MTP";
+		crew = "NLD_MTP_Operator";
+		typicalCargo[] = {"NLD_MTP_Operator"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -429,8 +429,8 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
-		crew = "NLD_MTP_COMSPEC";
-		typicalCargo[] = {"NLD_MTP_TL"};
+		crew = "NLD_MTP_Operator";
+		typicalCargo[] = {"NLD_MTP_Operator"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -497,8 +497,8 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
-		crew = "NLD_MTP_COMSPEC";
-		typicalCargo[] = {"NLD_MTP_TL"};
+		crew = "NLD_MTP_Operator";
+		typicalCargo[] = {"NLD_MTP_Operator"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {

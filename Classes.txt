@@ -137,6 +137,19 @@ Groups:
 		NLD_JGL_InfEngTeam
 		NLD_JGL_InfExplTeam
 
+	Motorised
+		NLD_WLD_MotTeam
+		NLD_WLD_MotTeamHMG
+		NLD_DST_MotTeamHMG
+		NLD_DST_MotTeam
+		NLD_MTP_MotTeamHMG_DST
+		NLD_MTP_MotTeam_DST
+		NLD_MTP_MotTeamHMG
+		NLD_MTP_MotTeam
+
+	Mechanized
+		NLD_WDL_MechSqd
+
 	Armored
 		 NLD_WLD_ArmorPlt
 		 NLD_WLD_LeoSection
