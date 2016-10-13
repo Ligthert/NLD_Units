@@ -1,30 +1,32 @@
 Changelog:
-v201610069
-- Added hitpoints to helmets.
-- Added Woodland Helmet Camo.
-- Added TFAR Radio backpacks (4 camo's).
-- Added 80's units.
-- Added Versatile Expeditionary Commando Tactical Off Road (or VECTOR).
-- Added custom markers.
-- Added flags.
-- Changed Configs.
-- Changed minimi & ammo.
-- Changed Special Forces Weapons.
 
+v2016101310
+- Fixed hitpoints on certain helmets
+- Removed itemScope error during startup
+- Added Woodland Helmet Camo
+- Added optional TFAR Radio backpacks (4 camo's)
+- Added 80's units
+- Added Versatile Expeditionary Commando Tactical Off Road (or VECTOR)
+- Added custom markers
+- Added Group Icons
+- Added flags
+- Changed MINIMI and Ammo
+- Added Special Forces Weapons (The APEX Expansion with this is now a dependency)
+- Update SP_Pack Helmets
 
 V201622028
 -Added armor values to vests and helmets
 
 v201602047
 - Added Deltagamers Chinook (CH47D & CH47F) with script to randomize serialnumbers
-- Added Deltagamers Apache as a temporary placeholder 
+- Added Deltagamers Apache as a temporary placeholder
   (The Apache from Lowlands Warrior will be now be maintained by Criellaard while we work on our own version, as to prevent errors given to people using both our mods)
 - Added custom ammocrates (medisch, munitie, wapens & explosieven)
 - Added DAF-4442/DAF-2300 trucks (transport and support versions)
 - Added a tan cv9035nl
 - Changed MTP Uniform
 - Changed vanilla Lynxes with Deltagamers Wildcats (old data remains for backwards compatibility)
-- Changed Leopard 2 Revolutions have been reskinned 
+- Changed Leopard 2 Revolutions have been reskinned
 - Changed Fennek winter reskin
 - Changed Pistols on units as AI were too fond of the G17's even at long ranges
 - Fixxed multiple errors in loadout & configs
