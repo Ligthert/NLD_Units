@@ -17,7 +17,7 @@ class CfgVehicles {
 	class I_Truck_02_box_F;
 	class I_Truck_02_medical_F;
 	class I_Truck_02_ammo_F;
-	class B_LSV_01_armed_olive_F;
+	class B_T_LSV_01_armed_olive_F;
 	class B_LSV_01_armed_sand_F;
 	class B_LSV_01_unarmed_olive_F;
 	class B_LSV_01_unarmed_sand_F;
@@ -254,6 +254,7 @@ class CfgVehicles {
 		class NLD_DST_VECTOR_ARMED : B_LSV_01_armed_sand_F {
 		author = "Lowlands Tactical";
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "VECTOR armed (Desert)";
 		side = 1;
 		vehicleClass = Car;
@@ -326,6 +327,7 @@ class CfgVehicles {
 		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
 		author = "Lowlands Tactical";
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "VECTOR unarmed (Desert)";
 		side = 1;
 		vehicleClass = Car;
@@ -425,6 +427,7 @@ class CfgVehicles {
 	class NLD_WLD_VECTOR : B_LSV_01_unarmed_olive_F {
 		author = "Lowlands Tactical";
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "VECTOR unarmed (Olive)";
 		side = 1;
 		vehicleClass = Car;
@@ -490,9 +493,10 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 	
-	class NLD_WLD_VECTOR_ARMED : B_LSV_01_armed_olive_F {
+	class NLD_WLD_VECTOR_ARMED : B_T_LSV_01_armed_olive_F {
 		author = "Lowlands Tactical";
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "VECTOR (Olive)";
 		side = 1;
 		vehicleClass = Car;
