@@ -250,7 +250,7 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
-	
+
 		class NLD_DST_VECTOR_ARMED : B_LSV_01_armed_sand_F {
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -423,7 +423,7 @@ class CfgVehicles {
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
 	};
-	
+
 	class NLD_WLD_VECTOR : B_LSV_01_unarmed_olive_F {
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -492,7 +492,7 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_WLD_VECTOR_ARMED : B_T_LSV_01_armed_olive_F {
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -598,7 +598,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front1_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front1_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -672,7 +672,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front2_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front2_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -746,7 +746,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front3_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442fuel.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front3_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442fuel.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -820,7 +820,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front4_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442repair.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front4_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442repair.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -894,7 +894,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300_front_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300ammo.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300_front_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300ammo.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -968,7 +968,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_WLD_CLS";
 		typicalCargo[] = {"NLD_WLD_CLS"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front5_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front5_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
