@@ -1,5 +1,8 @@
 Changelog:
 
+v2017040412
+ - Added DAF 4t interior after ArmA3's last hotfix
+
 v2016101310
 - Fixed hitpoints on certain helmets
 - Removed itemScope error during startup
