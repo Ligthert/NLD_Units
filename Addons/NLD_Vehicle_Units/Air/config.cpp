@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F_BLUFOR","A3_Modules_F", "A3_Modules_F_Curator"};
+		requiredAddons[] = {"A3_Characters_F_BLUFOR","A3_Modules_F", "A3_Modules_F_Curator","CUP_AirVehicles_AH64"};
 	};
 };
 
@@ -13,7 +13,7 @@ class WeaponFireMGun ;
 class WeaponCloudsMGun ;
 class RCWSOptics;
 
-class CfgVehicles 
+class CfgVehicles
 {
 	class I_Heli_light_03_F;
 	class I_Heli_light_03_unarmed_F;
@@ -27,7 +27,7 @@ class CfgVehicles
 	class DEGA_Wildcat_Unarmed_Digital_AAF;
 	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
 	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
-	class DEGA_Apache_AH64D_Block_II_USA;
+	class CUP_B_AH64D_DL_USA;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -78,8 +78,8 @@ class CfgVehicles
 		class TransportMagazines{};
 		class TransportWeapons{};
 	};
-	
-	class NLD_AH64D : DEGA_Apache_AH64D_Block_II_USA
+
+	class NLD_AH64D : CUP_B_AH64D_DL_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -89,15 +89,15 @@ class CfgVehicles
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_details_co.paa"};
-		
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_adds_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_alfa_ca.paa"};
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -123,7 +123,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_Lynx_Armed : I_Heli_light_03_F
 	{
 		author = "Lowlands Tactical";
@@ -136,14 +136,14 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -199,7 +199,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_Lynx : DEGA_Wildcat_Unarmed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
@@ -211,14 +211,14 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -274,7 +274,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_Lynx_Hellfire : DEGA_Wildcat_Hellfire_Armed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
@@ -286,14 +286,14 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -349,7 +349,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_Lynx_Cannon : DEGA_Wildcat_Cannon_Armed_Digital_AAF
 	{
 		author = "Lowlands Tactical";
@@ -361,14 +361,14 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -424,7 +424,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_NH90: NH90
 	{
 		author = "Aplion";
@@ -437,14 +437,14 @@ class CfgVehicles
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\NH90\outerhaul_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\upperTail_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\misc_co.paa","\NLD_Vehicle_Units\Air\Data\NH90\doors_co.paa"};
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -500,7 +500,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_CH47D_Armed: DEGA_US_CH47F_M134_M240
 	{
 		author = "Lowlands Tactical";
@@ -514,14 +514,14 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
 		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\randomize.sqf'"; };
-	
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -577,7 +577,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_CH47F_Armed: DEGA_US_CH47F_M134_M240
 	{
 		author = "Lowlands Tactical";
@@ -591,14 +591,14 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
 		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\randomize.sqf'"; };
-		
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
 				count = 10;
 			};
 		};
-		
+
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -654,7 +654,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-	
+
 	class NLD_CH47_Armed: B_Heli_Transport_03_F
 	{
 		crew = "NLD_HeliPilot";
@@ -676,15 +676,15 @@ class CfgVehicles
 					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen.paa",
 					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgreen1.paa"
 				};
-				materials[] = {}; 
-				factions[] = 
+				materials[] = {};
+				factions[] =
 				{
 					"BLU_F"
 				};
 			};
 		};
 	};
-	
+
 	class NLD_CH47_Unarmed: B_Heli_Transport_03_unarmed_F
 	{
 		crew = "NLD_HeliPilot";
@@ -706,8 +706,8 @@ class CfgVehicles
 					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Grey\Chinookgrey.paa",
 					"\NLD_Vehicle_Units\Air\Data\CH47K Chinook\Green\Chinookgrey1.paa"
 				};
-				materials[] = {}; 
-				factions[] = 
+				materials[] = {};
+				factions[] =
 				{
 					"BLU_F"
 				};
