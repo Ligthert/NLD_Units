@@ -87,7 +87,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_adds_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_alfa_ca.paa"};
 
 		class TransportItems {
@@ -278,7 +278,7 @@ class CfgVehicles
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "SH-14D SeaLynx (Hellfire)";
+		displayName = "SH-14D SeaLynx (armed)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
@@ -352,7 +352,7 @@ class CfgVehicles
 	class NLD_Lynx_Cannon : CUP_B_AW159_GB
 	{
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "SH-14D SeaLynx (Cannon)";
 		side = 1;
 		crew = "NLD_HeliPilot";
