@@ -24,7 +24,6 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class CUP_B_CH47F_USA;
-	class CUP_AirVehicles_AW159;
 	class CUP_B_AH64D_DL_USA;
   class CUP_B_AW159_Unarmed_GB;
   class CUP_B_AW159_GB;
