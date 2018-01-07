@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F_BLUFOR","A3_Modules_F", "A3_Modules_F_Curator","CUP_AirVehicles_AH64"};
+		requiredAddons[] = {"A3_Characters_F_BLUFOR","A3_Modules_F", "A3_Modules_F_Curator"};
 	};
 };
 
@@ -23,11 +23,11 @@ class CfgVehicles
 	class C_man_pilot_F;
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
-	class DEGA_US_CH47F_M134_M240;
-	class DEGA_Wildcat_Unarmed_Digital_AAF;
-	class DEGA_Wildcat_Hellfire_Armed_Digital_AAF;
-	class DEGA_Wildcat_Cannon_Armed_Digital_AAF;
+	class CUP_B_CH47F_USA;
+	class CUP_AirVehicles_AW159;
 	class CUP_B_AH64D_DL_USA;
+  class CUP_B_AW159_Unarmed_GB;
+  class CUP_B_AW159_GB;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -200,7 +200,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_Lynx : DEGA_Wildcat_Unarmed_Digital_AAF
+	class NLD_Lynx : CUP_B_AW159_Unarmed_GB
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -275,7 +275,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_Lynx_Hellfire : DEGA_Wildcat_Hellfire_Armed_Digital_AAF
+	class NLD_Lynx_Hellfire : CUP_B_AW159_GB
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -350,7 +350,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_Lynx_Cannon : DEGA_Wildcat_Cannon_Armed_Digital_AAF
+	class NLD_Lynx_Cannon : CUP_B_AW159_GB
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -501,7 +501,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_CH47D_Armed: DEGA_US_CH47F_M134_M240
+	class NLD_CH47D_Armed: CUP_B_CH47F_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -578,7 +578,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_CH47F_Armed: DEGA_US_CH47F_M134_M240
+	class NLD_CH47F_Armed: CUP_B_CH47F_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
