@@ -26,7 +26,7 @@ class CfgVehicles
 	class CUP_B_CH47F_USA;
 	class CUP_B_AH64D_USA;
   class CUP_B_AW159_Unarmed_GB;
-  class CUP_B_AW159_GB;
+  class CUP_B_AW159_Hellfire_GB;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -273,7 +273,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_Lynx_Hellfire : CUP_B_AW159_GB
+	class NLD_Lynx_Hellfire : CUP_B_AW159_Hellfire_GB
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -348,7 +348,7 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 
-	class NLD_Lynx_Cannon : CUP_B_AW159_GB
+	class NLD_Lynx_Cannon : CUP_B_AW159_Hellfire_GB
 	{
 		author = "Lowlands Tactical";
 		scope = 1;
