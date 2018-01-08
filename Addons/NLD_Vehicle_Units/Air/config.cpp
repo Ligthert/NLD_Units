@@ -24,7 +24,7 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class CUP_B_CH47F_USA;
-	class CUP_B_AH64D_DL_USA;
+	class CUP_B_AH64D_USA;
   class CUP_B_AW159_Unarmed_GB;
   class CUP_B_AW159_GB;
 
@@ -78,7 +78,7 @@ class CfgVehicles
 		class TransportWeapons{};
 	};
 
-	class NLD_AH64D : CUP_B_AH64D_DL_USA
+	class NLD_AH64D : CUP_B_AH64D_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -96,7 +96,7 @@ class CfgVehicles
 				count = 10;
 			};
 		};
-
+		
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -120,7 +120,6 @@ class CfgVehicles
 				count=5;
 			};
 		};
-		class TransportWeapons {};
 	};
 
 	class NLD_Lynx_Armed : I_Heli_light_03_F
