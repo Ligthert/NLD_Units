@@ -29,6 +29,7 @@ class CfgVehicles
 	class CUP_B_AH64D_DL_USA;
 	class CUP_B_AW159_Unarmed_GB;
 	class CUP_B_AW159_Hellfire_GB;
+	class CUP_I_SA330_Puma_HC2_RACS;
 	class CUP_B_F35B_USMC;
 	class CUP_B_F35B_Stealth_USMC;
 	class CUP_B_C130J_USMC;
@@ -127,6 +128,7 @@ class CfgVehicles
 		};
 	};
 	
+	class NLD_Cougar : CUP_I_SA330_Puma_HC2_RACS
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -135,6 +137,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
+		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Cougar\Data\Cougar_body.paa"};
 
 		class TransportItems {
@@ -260,10 +263,12 @@ class CfgVehicles
 		scope = 2;
 		displayName = "F35";
 		side = 1;
+		crew = "B_Pilot_F";
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\F35\Data\F35.paa"};
+
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
@@ -301,6 +306,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "F35 (Stealth)";
 		side = 1;
+		crew = "B_Pilot_F";
 		faction = "NLD_Units";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1"};
