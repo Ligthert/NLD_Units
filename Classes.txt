@@ -179,6 +179,8 @@ Vehicles:
 		NLD_C130H_VIV
 		NLD_F35
 		NLD_F35_Stealth
+		NLD_CH47D_VIV
+		NLD_CH47F_VIV
 
 	Armor:
 		NLD_WLD_Leo2

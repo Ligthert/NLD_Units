@@ -34,6 +34,7 @@ class CfgVehicles
 	class CUP_B_F35B_Stealth_USMC;
 	class CUP_B_C130J_USMC;
 	class CUP_B_C130J_Cargo_USMC;
+	class CUP_CH47F_VIV_Base;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -797,6 +798,160 @@ class CfgVehicles
 		author = "Lowlands Tactical";
 		scope = 2;
 		displayName = "CH-47F (Armed)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
+		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\randomize.sqf'"; };
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_CH47D_VIV: CUP_CH47F_VIV_Base
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CH-47D (ViV)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
+		class eventHandlers { init="(_this select 0) execVM '\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\randomize.sqf'"; };
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+
+	class NLD_CH47F_ViV: CUP_CH47F_VIV_Base
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "CH-47F (ViV)";
 		side = 1;
 		crew = "NLD_HeliPilot";
 		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
