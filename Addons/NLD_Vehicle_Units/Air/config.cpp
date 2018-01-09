@@ -29,7 +29,7 @@ class CfgVehicles
 	class CUP_B_AH64D_DL_USA;
 	class CUP_B_AW159_Unarmed_GB;
 	class CUP_B_AW159_Hellfire_GB;
-	class CUP_I_SA330_Puma_HC2_RACS;
+	class CUP_B_SA330_Puma_HC2_BAF;
 	class CUP_B_F35B_USMC;
 	class CUP_B_F35B_Stealth_USMC;
 	class CUP_B_C130J_USMC;
@@ -128,7 +128,7 @@ class CfgVehicles
 		};
 	};
 	
-	class NLD_Cougar : CUP_I_SA330_Puma_HC2_RACS
+	class NLD_Cougar : CUP_B_SA330_Puma_HC2_BAF
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -137,7 +137,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		vehicleClass = Air;
-		hiddenSelections[] = {"camo"};
+		hiddenSelections[] = {"_OFrP_330_skin01"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Cougar\Data\Cougar_body.paa"};
 
 		class TransportItems {
@@ -148,11 +148,6 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
-			};
 			class _xx_HandGrenade
 			{
 				magazine="HandGrenade";
@@ -170,8 +165,8 @@ class CfgVehicles
 			};
 		};
 	};
-	
-		class NLD_C130H : CUP_B_C130J_USMC
+		
+	class NLD_C130H : CUP_B_C130J_USMC
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
