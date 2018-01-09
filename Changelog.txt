@@ -7,7 +7,10 @@ v2018xxxx13
  - Made CUP Vehicles a dependency
  - Made F-16 Fighting Falcon + deps a dependency
  - Moved all DeltaGamer helicopters to the CUP variants. This should remove the error on startup and it gives us access to the CUP ecosystem for future vehicles! :)
-
+ - Revised Chinook textures, using cup chinooks
+ - Added F35 and F35 stealth
+ - Added 2 C130 versions
+ - Added Cougar MK II
 
 v2017040412
  - Added DAF 4t interior after ArmA3's last hotfix

@@ -12,6 +12,8 @@ class WeaponCloudsGun ;
 class WeaponFireMGun ;
 class WeaponCloudsMGun ;
 class RCWSOptics;
+class Turrets;
+class MainTurret;
 
 class CfgVehicles
 {
@@ -24,9 +26,13 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class CUP_B_CH47F_USA;
-	class CUP_B_AH64D_USA;
-  class CUP_B_AW159_Unarmed_GB;
-  class CUP_B_AW159_Hellfire_GB;
+	class CUP_B_AH64D_DL_USA;
+	class CUP_B_AW159_Unarmed_GB;
+	class CUP_B_AW159_Hellfire_GB;
+	class CUP_B_F35B_USMC;
+	class CUP_B_F35B_Stealth_USMC;
+	class CUP_B_C130J_USMC;
+	class CUP_B_C130J_Cargo_USMC;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -78,7 +84,7 @@ class CfgVehicles
 		class TransportWeapons{};
 	};
 
-	class NLD_AH64D : CUP_B_AH64D_USA
+	class NLD_AH64D : CUP_B_AH64D_DL_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -96,7 +102,174 @@ class CfgVehicles
 				count = 10;
 			};
 		};
-		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Cougar MK.II";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Cougar\Data\Cougar_body.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
+		class NLD_C130H : CUP_B_C130J_USMC
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "C-130H Hercules";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1", "camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_body_co.paa", "\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_wings_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
+	class NLD_C130H_VIV : CUP_B_C130J_Cargo_USMC
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "C-130H Hercules (viv)";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1", "camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_body_co.paa", "\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_wings_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
+	class NLD_F35 : CUP_B_F35B_USMC
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "F35";
+		side = 1;
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\F35\Data\F35.paa"};
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
 		class TransportMagazines
 		{
 			class _xx_1Rnd_HE_Grenade_shell
@@ -122,6 +295,48 @@ class CfgVehicles
 		};
 	};
 
+	class NLD_F35_Stealth : CUP_B_F35B_Stealth_USMC
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "F35 (Stealth)";
+		side = 1;
+		faction = "NLD_Units";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\F35\Data\F35.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
 	class NLD_Lynx_Armed : I_Heli_light_03_F
 	{
 		author = "Lowlands Tactical";
