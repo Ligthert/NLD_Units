@@ -872,9 +872,9 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_munitie.paa"};
 		class TransportMagazines
 		{
-			class _xx_CUP_30Rnd_556x45_Stanag
+			class _xx_30Rnd_556x45_Stanag_noTracer
 			{
-				magazine = "CUP_30Rnd_556x45_Stanag";
+				magazine = "30Rnd_556x45_Stanag_noTracer";
 				count = 100;
 			};
 
