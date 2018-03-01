@@ -42,15 +42,12 @@ class CfgWeapons {
 	class arifle_SPAR_01_GL_snd_F;
 	class arifle_SPAR_03_snd_F;
 	class arifle_SPAR_02_snd_F;
-	class Weapon_C8NLD_nogrip;
-	class Weapon_C8NLD_BaseGL;
-	
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
 		displayName="[NLD] Diemaco C8";
 		author="Lowlands Tactical";
-		scope=1;
+		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
 		descriptionShort = "Dimaco C8"; //$STR_DSS_M16A2;
 		class LinkedItems
@@ -72,7 +69,7 @@ class CfgWeapons {
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
 		displayName="[NLD] Diemaco C8 GL";
 		author="Lowlands Tactical";
-		scope=1;
+		scope=2;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
 		descriptionShort = "Dimaco C8 GL"; //$STR_DSS_M16A2;
 		class LinkedItems
@@ -740,62 +737,28 @@ class CfgWeapons {
 		};
 	};
 
+
+	class  hgun_Rook40_F;
+	class NLD_Glock17: hgun_Rook40_F
+	{
+		scope=2;
+		displayName="[NLD] Glock17";
+	};
+
+/*
 	class CUP_hgun_Glock17;
 	class NLD_Glock17: CUP_hgun_Glock17
 	{
 		scope=2;
 		displayName="[NLD] Glock17";
+		minRange=0;
+		minRangeProbab=1;
+		midRange=25;
+		midRangeProbab=1;
+		maxRange=50;
+		maxRangeProbab=1;
 	};
-	
-	class NLD_C8NLD_grip: Weapon_C8NLD_nogrip
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName="[NLD] C8NLD";
-		Scope=2;
-		weaponPoolAvailable=1;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot="CowsSlot";
-				item="COLT_Scope_Down";
-			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="COLT_Laser_Pointer_Tan";
-			};
-			class LinkedItemsUnder
-			{
-				slot = "UnderBarrelSlot";
-				item = "COLT_Grip";
-			};
-		};
-	};
-	
-	class NLD_C8NLD_UGL: Weapon_C8NLD_BaseGL
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName="[NLD] C8NLD (UGL)";
-		Scope=2;
-		weaponPoolAvailable=1;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot="CowsSlot";
-				item="COLT_Scope_Down";
-			};
-			class LinkedItemsAcc
-			{
-				slot="PointerSlot";
-				item="COLT_Laser_Pointer_Tan";
-			};
-		};
-	};
-
+*/
 
 
 
@@ -878,9 +841,9 @@ class CfgVehicles
 				count = 100;
 			};
 
-			class _xx_CUP_17Rnd_9x19_glock17
+			class _xx_16Rnd_9x21_Mag
 			{
-				magazine = "CUP_17Rnd_9x19_glock17";
+				magazine = "16Rnd_9x21_Mag";
 				count = 50;
 			};
 
@@ -916,9 +879,9 @@ class CfgVehicles
 				magazine = "SmokeShellGreen";
 				count = 50;
 			};
-			class _xx_1Rnd_HE_Grenade_shell
+			class _xx_CUP_1Rnd_HE_M203
 			{
-				magazine = "1Rnd_HE_Grenade_shell";
+				magazine = "CUP_1Rnd_HE_M203";
 				count = 50;
 			};
 			class _xx_1Rnd_Smoke_Grenade_shell
@@ -1015,14 +978,14 @@ class CfgVehicles
 				weapon = "CUP_launch_FIM92Stinger";
 				count = 5;
 			};
-			class _xx_NLD_C8NLD_grip
+			class _xx_NLD_blk_C8
 			{
-				weapon = "NLD_C8NLD_grip";
+				weapon = "NLD_blk_C8";
 				count = 20;
 			};
-			class _xx_NLD_C8NLD_UGL
+			class _xx_NLD_blk_C8GL
 			{
-				weapon = "NLD_C8NLD_UGL";
+				weapon = "NLD_blk_C8GL";
 				count = 10;
 			};
 			class _xx_NLD_Minimi
