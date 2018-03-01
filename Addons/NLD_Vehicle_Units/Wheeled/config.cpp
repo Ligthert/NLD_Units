@@ -80,9 +80,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -156,9 +156,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -232,9 +232,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -306,9 +306,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -379,9 +379,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -644,9 +644,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -718,9 +718,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -792,9 +792,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -866,9 +866,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -940,9 +940,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
@@ -1014,9 +1014,9 @@ class CfgVehicles {
 				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
 				count=5;
 			};
-			class _xx_30Rnd_556x45_Stanag_noTracer
+			class _xx_CUP_30Rnd_556x45_Stanag
 			{
-				magazine="30Rnd_556x45_Stanag_noTracer";
+				magazine="CUP_30Rnd_556x45_Stanag";
 				count=15;
 			};
 			class _xx_CUP_5Rnd_86x70_L115A1
