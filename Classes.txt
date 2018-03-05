@@ -205,16 +205,19 @@ Vehicles:
 		NLD_WTR_Fennek
 		NLD_WTR_Fennek_HMG
 		NLD_WTR_Fennek_GMG
-    NLD_DAF_Transport
-    NLD_DAF_Transport_Covered
-    NLD_DAF_Fuel
-    NLD_DAF_repair
-    NLD_DAF_ammo
-    NLD_DAF_medical
+    		NLD_DAF_Transport
+   		NLD_DAF_Transport_Covered
+   		NLD_DAF_Fuel
+   		NLD_DAF_repair
+    		NLD_DAF_ammo
+    		NLD_DAF_medical
 		NLD_DST_VECTOR_ARMED
 		NLD_DST_VECTOR
 		NLD_WLD_VECTOR
 		NLD_WLD_VECTOR_ARMED
+		NLD_Boxer_m2
+		NLD_Boxer_mk19
+		NLD_Boxer_amb
 
 Infantry:
 

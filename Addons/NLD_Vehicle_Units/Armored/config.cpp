@@ -18,8 +18,277 @@ class CfgVehicles {
 	class B_APC_Tracked_01_rcws_F;
 	class B_APC_Tracked_01_CRV_F;
 	class B_APC_Tracked_01_AA_F;
+	class CUP_B_M113_USA;
+	class CUP_B_M113_Med_USA;
+	class CUP_B_M270_HE_USA;
+	class CUP_B_M270_DPICM_USA;
 
 
+// YPR_765
+	class NLD_YPR_765 : CUP_B_M113_USA
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "YPR-765 (M2)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = "NLD_Units_WLD";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\YPR_765\Armed\YPR.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+// YPR_765 Medevac
+	class NLD_YPR_765_AMB : CUP_B_M113_med_USA
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "YPR-765 Ambulance";
+		side = 1;
+		vehicleClass = Armored;
+		faction = "NLD_Units_WLD";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\YPR_765\Medevac\YPR.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 30;
+			};
+			class _xx_Medikit {
+				name = "Medikit";
+				count = 4;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=20;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=5;
+			};
+			
+		};
+		class TransportWeapons {};
+	};
+	
+// YPR_765 KMAR
+	class NLD_YPR_765_KMAR : CUP_B_M113_USA
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "YPR-765 KMAR";
+		side = 1;
+		vehicleClass = Armored;
+		faction = "NLD_Units";
+		crew = "NLD_KMAR_Crew";
+		typicalCargo[] = {"NLD_KMAR_Crew"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\YPR_765\Kmar\YPRkmar.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 30;
+			};
+			class _xx_Medikit {
+				name = "Medikit";
+				count = 4;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=20;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=20;
+			};
+			
+		};
+		class TransportWeapons {};
+	};
+	
+// M270 MLRS HE
+	class NLD_MLRS_M270_HE : CUP_B_M270_HE_USA
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "M270 MLRS (HE)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = "NLD_Units_WLD";
+		crew = "NLD_Crew_MLRS";
+		typicalCargo[] = {"NLD_Crew_MLRS"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\M270_MLRS\M270.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+
+// M270 MLRS DPICM
+	class NLD_MLRS_M270_DPICM : CUP_B_M270_DPICM_USA
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "M270 MLRS (DPICM)";
+		side = 1;
+		vehicleClass = Armored;
+		faction = "NLD_Units_WLD";
+		crew = "NLD_Crew_MLRS";
+		typicalCargo[] = {"NLD_Crew_MLRS"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\M270_MLRS\M270.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
 // Leopard2 - Woodland
 	class NLD_WLD_Leo2 : I_MBT_03_BASE_F
 	{
@@ -392,6 +661,7 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa"};
 
 	};
+	
 // YPR-765 - Woodland
 	class NLD_WLD_YPR : B_APC_Tracked_01_rcws_F
 	{
