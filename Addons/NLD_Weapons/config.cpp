@@ -42,6 +42,7 @@ class CfgWeapons {
 	class arifle_SPAR_01_GL_snd_F;
 	class arifle_SPAR_03_snd_F;
 	class arifle_SPAR_02_snd_F;
+	class CUP_hgun_Glock17;
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
@@ -737,32 +738,11 @@ class CfgWeapons {
 		};
 	};
 
-
-	class  hgun_Rook40_F;
-	class NLD_Glock17: hgun_Rook40_F
-	{
-		scope=2;
-		displayName="[NLD] Glock17";
-	};
-
-/*
-	class CUP_hgun_Glock17;
 	class NLD_Glock17: CUP_hgun_Glock17
 	{
 		scope=2;
 		displayName="[NLD] Glock17";
-		minRange=0;
-		minRangeProbab=1;
-		midRange=25;
-		midRangeProbab=1;
-		maxRange=50;
-		maxRangeProbab=1;
 	};
-*/
-
-
-
-
 };
 
 // Magazines

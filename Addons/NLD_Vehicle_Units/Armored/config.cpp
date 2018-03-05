@@ -226,7 +226,7 @@ class CfgVehicles {
 	{
 
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "M270 MLRS";
 		side = 1;
 		vehicleClass = Armored;
@@ -397,7 +397,7 @@ class CfgVehicles {
 	{
 
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "YPR-765";
 		side = 1;
 		vehicleClass = Armored;
@@ -469,7 +469,7 @@ class CfgVehicles {
 	{
 
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "YPR-765 (KMAR)";
 		side = 1;
 		vehicleClass = Armored;
@@ -546,7 +546,7 @@ class CfgVehicles {
 	{
 
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "Leopard 2 Bergingstank (KMAR)";
 		side = 1;
 		vehicleClass = Armored;

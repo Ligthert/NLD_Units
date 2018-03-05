@@ -21,8 +21,296 @@ class CfgVehicles {
 	class B_LSV_01_armed_sand_F;
 	class B_LSV_01_unarmed_olive_F;
 	class B_LSV_01_unarmed_sand_F;
+	class CUP_B_M1126_ICV_M2_Woodland;
+	class CUP_B_M1126_ICV_MK19_Woodland;
+	class CUP_B_M1133_MEV_Woodland;
 
 
+	
+// Boxer GNGP M2 - Woodland
+
+	class NLD_Boxer_m2: CUP_B_M1126_ICV_M2_Woodland
+	{
+		author="Lowlands Tactical";
+		displayName="Boxer MRAV GNGP (M2)";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_optics.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+			class _xx_Toolkit {
+				name = "Toolkit";
+				count = 4;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_ATMine_Range_Mag
+			{
+				magazine="ATMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=10;
+			};
+			class _xx_SLAMDirectionalMine_Wire_Mag
+			{
+				magazine="SLAMDirectionalMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_ClaymoreDirectionalMine_Remote_Mag
+			{
+				magazine="ClaymoreDirectionalMine_Remote_Mag";
+				count=10;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+// Boxer GNPG MK19 - Woodland
+	class NLD_Boxer_mk19: CUP_B_M1126_ICV_MK19_Woodland
+	{
+		author="Lowlands Tactical";
+		displayName="Boxer MRAV GNGP (MK19)";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_optics.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+			class _xx_Toolkit {
+				name = "Toolkit";
+				count = 4;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_ATMine_Range_Mag
+			{
+				magazine="ATMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=10;
+			};
+			class _xx_SLAMDirectionalMine_Wire_Mag
+			{
+				magazine="SLAMDirectionalMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_ClaymoreDirectionalMine_Remote_Mag
+			{
+				magazine="ClaymoreDirectionalMine_Remote_Mag";
+				count=10;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_CUP_M136_M
+			{
+				magazine="CUP_M136_M";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+// Boxer AMB - Woodland
+	class NLD_Boxer_amb: CUP_B_M1133_MEV_Woodland
+	{
+		author="Lowlands Tactical";
+		displayName="Boxer MRAV Ambulance";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_medic.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 30;
+			};
+			class _xx_Medikit {
+				name = "Medikit";
+				count = 4;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=20;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_SmokeShellYellow
+			{
+				magazine="SmokeShellYellow";
+				count=5;
+			};
+			
+		};
+		class TransportWeapons {};
+	};
+	
 // Fennek - Desert
 	class NLD_DST_Fennek : MRAP_03_base_F {
 		author = "Lowlands Tactical";
