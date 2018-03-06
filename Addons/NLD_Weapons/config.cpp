@@ -56,7 +56,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_ACOG";
+				item = "CUP_optic_Elcan_reflex";
 			};
 			class LinkedItemsAcc
 			{
@@ -78,7 +78,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_ACOG";
+				item = "CUP_optic_Elcan_reflex";
 			};
 			class LinkedItemsAcc
 			{
