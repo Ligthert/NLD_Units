@@ -438,7 +438,354 @@ class CfgGroups
 				};
       };
 
-      class Armored
+      class Mechanized
+			{
+				name = "Mechanized";
+
+				class NLD_WLD_Boxerinf_m2
+				{
+					name = "Boxer M2 engineer group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Boxer_m2";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_WLD_ENGI";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_WLD_ENGI";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_WLD_EXPL";
+						rank = "PRIVATE";
+						position[] = {17.5,-17.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_WLD_EXPL";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+					class unit8
+					{
+						side = 1;
+						vehicle="NLD_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				
+				class NLD_WLD_Boxerinf_mk19
+				{
+					name = "Boxer MK19 engineer group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Boxer_mk19";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_WLD_ENGI";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_WLD_ENGI";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_WLD_EXPL";
+						rank = "PRIVATE";
+						position[] = {17.5,-17.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_WLD_EXPL";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+					class unit8
+					{
+						side = 1;
+						vehicle="NLD_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+			
+				
+				class NLD_WLD_Boxerinf_amb
+				{
+					name = "Boxer medical group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Boxer_amb";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+				};
+				
+				class NLD_WLD_YPR_inf
+				{
+					name = "YPR-765 Rifle Group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_YPR_765";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_WLD_GL";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {17.5,-17.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+					class unit8
+					{
+						side = 1;
+						vehicle="NLD_WLD_Ammo";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				
+				class NLD_WLD_CV90inf
+				{
+					name = "CV90 rifle group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_WLD_CV9035NL";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_WLD_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_WLD_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_WLD_GL";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_WLD_CLS";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_WLD_AR";
+						rank = "PRIVATE";
+						position[] = {17.5,-17.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_WLD_LAT";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+					class unit8
+					{
+						side = 1;
+						vehicle="NLD_WLD_Ammo";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				
+			};
+				
+					  
+	  class Armored
 			{
 				name = "Armor";
 
@@ -560,9 +907,10 @@ class CfgGroups
 						position[] = {-12.5,-12.5,0};
 					};
 				};
-				class NLD_WLD_MLRSPlt
+				
+				class NLD_WLD_MLRSPlt_HE
 				{
-					name = "MLRS Platoon";
+					name = "MLRS Platoon HE";
 					side = 1;
 					faction = "NLD_Units";
 					rarityGroup = 0.3;
@@ -570,36 +918,36 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
 						rank = "LIEUTENANT";
 						position[] = {-12.5,-12.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
 						rank = "LIEUTENANT";
 						position[] = {-25,-25,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
 						rank = "LIEUTENANT";
 						position[] = {-37.5,-37.5,0};
 					};
 				};
 
-				class NLD_WLD_MLRSSection
+				class NLD_WLD_MLRSSection_HE
 				{
-					name = "MLRS Section";
+					name = "MLRS Section HE";
 					side = 1;
 					faction = "NLD_Units";
 					rarityGroup = 0.3;
@@ -607,14 +955,74 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
 						rank = "CAPTAIN";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_WLD_M270MLRS";
+						vehicle="NLD_MLRS_M270_HE";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+				};
+				
+				class NLD_WLD_MLRSPlt_DPICM
+				{
+					name = "MLRS Platoon DPICM";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_art.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
+						rank = "LIEUTENANT";
+						position[] = {-25,-25,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
+						rank = "LIEUTENANT";
+						position[] = {-37.5,-37.5,0};
+					};
+				};
+
+				class NLD_WLD_MLRSSection_DPICM
+				{
+					name = "MLRS Section DPICM";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_art.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_MLRS_M270_DPICM";
 						rank = "LIEUTENANT";
 						position[] = {-12.5,-12.5,0};
 					};

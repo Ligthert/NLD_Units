@@ -148,7 +148,11 @@ Groups:
 		NLD_MTP_MotTeam
 
 	Mechanized
-		NLD_WDL_MechSqd
+		NLD_WDL_CV90inf
+		NLD_WLD_Boxerinf_m2
+		NLD_WLD_Boxerinf_mk19
+		NLD_WLD_Boxerinf_amb
+		NLD_WLD_YPR_inf
 
 	Armored
 		 NLD_WLD_ArmorPlt
@@ -157,8 +161,10 @@ Groups:
 		 NLD_DST_LeoSection
 		 NLD_WLD_PzhPlt
 		 NLD_WLD_PzhSection
-		 NLD_WLD_MLRSPlt
-		 NLD_WLD_MLRSSection
+		 NLD_WLD_MLRSPlt_HE
+		 NLD_WLD_MLRSSection_HE
+		 NLD_WLD_MLRSPlt_DPICM
+		 NLD_WLD_MLRSSection_DPICM
 
 Vehicles:
 	Air:

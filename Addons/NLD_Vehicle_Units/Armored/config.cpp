@@ -113,7 +113,7 @@ class CfgVehicles {
 		vehicleClass = Armored;
 		faction = "NLD_Units_WLD";
 		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		typicalCargo[] = {};
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\YPR_765\Medevac\YPR.paa"};
 
