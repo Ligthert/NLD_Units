@@ -318,7 +318,7 @@ class CfgVehicles {
 		displayName = "Fennek (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_DST";
+		faction = "NLD_Units";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -394,7 +394,7 @@ class CfgVehicles {
 		displayName = "Fennek HMG (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_DST";
+		faction = "NLD_Units";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -470,7 +470,7 @@ class CfgVehicles {
 		displayName = "Fennek GMG (Desert)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_DST";
+		faction = "NLD_Units";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -690,7 +690,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Woodland)";
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\turret.paa"};
@@ -698,7 +698,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Woodland)";
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\turret.paa"};
@@ -706,7 +706,7 @@ class CfgVehicles {
 
 	class NLD_WLD_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Woodland)";
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
@@ -854,7 +854,7 @@ class CfgVehicles {
 // Fennek - Winter
 	class NLD_WTR_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Winter)";
-		faction = "NLD_Units_WTR";
+		faction = "NLD_Units";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\turret.paa"};
@@ -862,7 +862,7 @@ class CfgVehicles {
 
 	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
-		faction = "NLD_Units_WTR";
+		faction = "NLD_Units";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\turret.paa"};
@@ -870,7 +870,7 @@ class CfgVehicles {
 
 	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
-		faction = "NLD_Units_WTR";
+		faction = "NLD_Units";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\turret.paa"};

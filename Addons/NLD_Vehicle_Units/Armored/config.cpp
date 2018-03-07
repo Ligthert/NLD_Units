@@ -33,7 +33,7 @@ class CfgVehicles {
 		displayName = "YPR-765 (M2)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1"};
@@ -111,7 +111,7 @@ class CfgVehicles {
 		displayName = "YPR-765 Ambulance";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {};
 		hiddenSelections[] = {"Camo1"};
@@ -212,7 +212,7 @@ class CfgVehicles {
 		displayName = "M270 MLRS (HE)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew_MLRS";
 		typicalCargo[] = {"NLD_Crew_MLRS"};
 		hiddenSelections[] = {"Camo1"};
@@ -255,7 +255,7 @@ class CfgVehicles {
 		displayName = "M270 MLRS (DPICM)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew_MLRS";
 		typicalCargo[] = {"NLD_Crew_MLRS"};
 		hiddenSelections[] = {"Camo1"};
@@ -298,7 +298,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Revolution (Woodland)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -402,7 +402,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Revolution (Desert)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_DST";
+		faction = "NLD_Units";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -576,7 +576,7 @@ class CfgVehicles {
 		displayName = "CV-9035NL";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -654,7 +654,7 @@ class CfgVehicles {
 		displayName = "CV-9035NL (Desert)";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_DST";
+		faction = "NLD_Units";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -671,7 +671,7 @@ class CfgVehicles {
 		displayName = "YPR-765";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};
@@ -897,7 +897,7 @@ class CfgVehicles {
 		displayName = "Leopard 2 Bergingstank";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3", "camo4"};
@@ -974,7 +974,7 @@ class CfgVehicles {
 		displayName = "Cheetah PRTL";
 		side = 1;
 		vehicleClass = Armored;
-		faction = "NLD_Units_WLD";
+		faction = "NLD_Units";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};

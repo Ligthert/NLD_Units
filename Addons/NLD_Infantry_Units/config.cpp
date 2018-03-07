@@ -261,8 +261,8 @@ class CfgVehicles {
 		faction = "NLD_Units_WLD";
 		weapons[] = {"NLD_MAG", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
 		respawnWeapons[] = {"NLD_MAG", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-		magazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","HandGrenade","SmokeShell","SmokeShellGreen"};
-		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","HandGrenade","SmokeShell","SmokeShellGreen"};
+		magazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","HandGrenade","SmokeShell","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","HandGrenade","SmokeShell","SmokeShellGreen"};
 	};
 
 	class NLD_WLD_AMMG: NLD_WLD_rifleman

@@ -41,6 +41,8 @@ class CfgVehicles
 	class B_Boat_Transport_01_F;
 	class B_Boat_Armed_01_minigun_F;
 	class NLD_WLD_rifleman: B_Soldier_base_F
+	class CUP_H_USARMY_Helmet_M1_Olive
+	
 	{
 		side = 1;
 		scope = 2;
@@ -1109,7 +1111,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class NLD_M1Helmet_Green: ItemCore
+	class NLD_M1Helmet_Green: CUP_H_USARMY_Helmet_M1_Olive
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
@@ -1117,15 +1119,11 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "[NLD] 80's M1 Helmet";
 		picture = "\NLD_Gear\80s\Data\uim\M1_Helmet.paa";
-		model = "\SP_Pack\Models\M1Helmet";
-		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\SP_Pack\Models\M1Helmet";
 			modelSides[] = {3,1};
-			hiddenSelectionsTextures[] = {"\SP_Pack\Hats\M1Helmet\Green.paa","\SP_Pack\Hats\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1"};
 			class HitpointsProtectionInfo
 			{
@@ -1138,51 +1136,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class NLD_ProTecHelmet_Black: ItemCore
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] ProTec Helmet (Black)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Black.paa";
-		model = "\SP_Pack\Models\ProTecHelmet";
-		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
-		hiddenSelections[] = {"Camo"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 60;
-			uniformmodel = "\SP_Pack\Models\ProTecHelmet";
-			modelSides[] = {3,1};
-			hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Black.paa"};
-			hiddenSelections[] = {"Camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName = "HitHead";
-					armor = 6;
-					passThrough = 0.5;
-				};
-			};
-		};
-	};
-	class NLD_ProTecHelmet_Green: NLD_ProTecHelmet_Black
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] ProTec Helmet (Green)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Green.paa";
-		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Green.paa"};
-	};
-	class NLD_ProTecHelmet_Tan: NLD_ProTecHelmet_Black
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] ProTec Helmet (Tan)";
-		picture = "\SP_Pack\Hats\ProTecHelmet\ui\Tan.paa";
-		hiddenSelectionsTextures[] = {"\SP_Pack\Hats\ProTecHelmet\Tan.paa"};
-	};
+	
 	class NLD_WLD_BoonieHat: ItemCore
 	{
 		dlc = "NLD_Units";
