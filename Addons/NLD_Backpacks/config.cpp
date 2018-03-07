@@ -1077,7 +1077,7 @@ class CfgVehicles {
 			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count=6;
+				count=4;
 			};
 
 		};
