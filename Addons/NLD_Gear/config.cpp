@@ -26,7 +26,7 @@ class CfgPatches
 	class NLD_Units_Gear
 	{
 		units[] = {"NLD_WLD_rifleman","NLD_DST_rifleman","NLD_NFPT_rifleman","NLD_NFPG_rifleman","NLD_WTR_rifleman","NLD_JGL_rifleman","NLD_UN_WLD_rifleman","NLD_UN_DST_rifleman","NLD_Units_80_rifleman","NLD_SF_Operator","NLD_MTP_Operator","NLD_KM_Operator"};
-		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_JGL_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_Units_80_Camo","NLD_Units_80_Camo2","NLD_Units_80_Camo3","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_JGL_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_80_Chestrig","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_JGL_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_ProTecHelmet_Black","NLD_ProTecHelmet_Green","NLD_ProTecHelmet_Tan","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
+		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_JGL_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_Units_80_Camo","NLD_Units_80_Camo2","NLD_Units_80_Camo3","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_JGL_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_80_Chestrig","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_JGL_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
@@ -41,7 +41,6 @@ class CfgVehicles
 	class B_Boat_Transport_01_F;
 	class B_Boat_Armed_01_minigun_F;
 	class NLD_WLD_rifleman: B_Soldier_base_F
-	class CUP_H_USARMY_Helmet_M1_Olive
 	
 	{
 		side = 1;
@@ -172,6 +171,7 @@ class cfgWeapons
 	class V_PlateCarrierIA2_dgtl;
 	class V_Chestrig_oli;
 	class NVGoggles_OPFOR;
+	class CUP_H_USARMY_Helmet_M1_Olive;
 
 	class NLD_WLD_Camo: Uniform_Base
 	{
@@ -1111,6 +1111,7 @@ class cfgWeapons
 			};
 		};
 	};
+	
 	class NLD_M1Helmet_Green: CUP_H_USARMY_Helmet_M1_Olive
 	{
 		dlc = "NLD_Units";
