@@ -94,6 +94,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_AH64D.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_adds_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_alfa_ca.paa"};
@@ -137,6 +138,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Cougar.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"_OFrP_330_skin01"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Cougar\Data\Cougar_body.paa"};
@@ -175,6 +177,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_C130H.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_body_co.paa", "\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_wings_co.paa"};
@@ -218,6 +221,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_C130H_VIV.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_body_co.paa", "\NLD_Vehicle_Units\Air\Data\C130\Data\c130j_wings_co.paa"};
@@ -261,6 +265,7 @@ class CfgVehicles
 		side = 1;
 		crew = "B_Pilot_F";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_F35.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\F35\Data\F35.paa"};
@@ -304,6 +309,7 @@ class CfgVehicles
 		side = 1;
 		crew = "B_Pilot_F";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_F35_Stealth.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\F35\Data\F35.paa"};
@@ -423,6 +429,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Lynx.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
@@ -498,6 +505,7 @@ class CfgVehicles
 		side = 1;
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Lynx_Hellfire.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Lynx.paa"};
@@ -725,6 +733,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_CH47D_Armed.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
@@ -802,6 +811,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_CH47F_Armed.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};
@@ -879,6 +889,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_CH47D_VIV.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\CH-47D_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47D\Data\ch47d_nalepky_ca.paa"};
@@ -956,6 +967,7 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		typicalCargo[]={"NLD_Helicrew","NLD_Helicrew"};
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_CH47F_ViV.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\CH-47F_body2_co.paa","\NLD_Vehicle_Units\Air\Data\CH47_Chinook\CH-47F\Data\ch47f_nalepky_ca.paa"};

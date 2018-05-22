@@ -34,6 +34,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_YPR_765.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1"};
@@ -112,6 +113,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_YPR_765_AMB.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {};
 		hiddenSelections[] = {"Camo1"};
@@ -160,6 +162,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_YPR_765_KMAR.jpg";
 		crew = "NLD_KMAR_Crew";
 		typicalCargo[] = {"NLD_KMAR_Crew"};
 		hiddenSelections[] = {"Camo1"};
@@ -213,6 +216,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_MLRS_M270_HE.jpg";
 		crew = "NLD_Crew_MLRS";
 		typicalCargo[] = {"NLD_Crew_MLRS"};
 		hiddenSelections[] = {"Camo1"};
@@ -256,6 +260,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_MLRS_M270_DPICM.jpg";
 		crew = "NLD_Crew_MLRS";
 		typicalCargo[] = {"NLD_Crew_MLRS"};
 		hiddenSelections[] = {"Camo1"};
@@ -299,6 +304,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Leo2.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -403,6 +409,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_Leo2.jpg";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
@@ -423,6 +430,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = NLD_Units;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_PzH2000NL.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -577,6 +585,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_CV9035NL.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -655,6 +664,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_CV9035NL.jpg";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -898,6 +908,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Buffel.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3", "camo4"};
@@ -975,6 +986,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_PRTL.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "camo3"};

@@ -36,6 +36,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_m2.jpg";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_optics.paa"};
@@ -155,6 +156,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_mk19.jpg";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_optics.paa"};
@@ -274,6 +276,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_amb.jpg";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_med\Boxer_medic.paa"};
@@ -319,6 +322,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_Fennek.jpg";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -395,6 +399,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_Fennek_HMG.jpg";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -471,6 +476,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_Fennek_GMG.jpg";
 		crew = "NLD_DST_GL";
 		typicalCargo[] = {"NLD_DST_GL"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -547,6 +553,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_VECTOR_ARMED.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
 
@@ -620,6 +627,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_VECTOR.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
 
@@ -691,6 +699,7 @@ class CfgVehicles {
 	class NLD_WLD_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Woodland)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Fennek.jpg";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\Recon\turret.paa"};
@@ -699,6 +708,7 @@ class CfgVehicles {
 	class NLD_WLD_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Woodland)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Fennek_HMG.jpg";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\HMG\turret.paa"};
@@ -707,6 +717,7 @@ class CfgVehicles {
 	class NLD_WLD_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Woodland)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Fennek_GMG.jpg";
 		crew = "NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\woodland\GMG\turret.paa"};
@@ -720,6 +731,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_VECTOR.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
 
@@ -789,6 +801,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_VECTOR_ARMED.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
 
@@ -855,6 +868,7 @@ class CfgVehicles {
 	class NLD_WTR_Fennek : NLD_DST_Fennek {
 		displayName = "Fennek (Winter)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WTR_Fennek.jpg";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\Recon\turret.paa"};
@@ -863,6 +877,7 @@ class CfgVehicles {
 	class NLD_WTR_Fennek_HMG : NLD_DST_Fennek_HMG {
 		displayName = "Fennek HMG (Winter)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WTR_Fennek_HMG.jpg";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\HMG\turret.paa"};
@@ -871,6 +886,7 @@ class CfgVehicles {
 	class NLD_WTR_Fennek_GMG : NLD_DST_Fennek_GMG {
 		displayName = "Fennek GMG (Winter)";
 		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WTR_Fennek_GMG.jpg";
 		crew = "NLD_WTR_GL";
 		typicalCargo[] = {"NLD_WTR_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\Fennek.paa", "\NLD_Vehicle_Units\Wheeled\Fennek\winter\GMG\turret.paa"};
@@ -884,6 +900,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_Transport.jpg";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front1_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -958,6 +975,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_Transport_Covered.jpg";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front2_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1032,6 +1050,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_Fuel.jpg";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front3_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442fuel.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1106,6 +1125,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_Repair.jpg";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front4_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442repair.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1180,6 +1200,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_ammo.jpg";
 		crew="NLD_WLD_GL";
 		typicalCargo[] = {"NLD_WLD_GL"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300_front_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_2300\Data\daf2300ammo.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1254,6 +1275,7 @@ class CfgVehicles {
 		side=1;
 		scope=2;
 		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DAF_medical.jpg";
 		crew="NLD_WLD_CLS";
 		typicalCargo[] = {"NLD_WLD_CLS"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442_front5_co.paa","\NLD_Vehicle_Units\Wheeled\Daf_Truck\Daf_4442\Data\daf4442covered.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
