@@ -1,6 +1,6 @@
 Changelog:
 
-v2018xxxx13
+v2018052213
  - Made ADR-97 Weapon Pack a dependency
  - Made CUP Weapons a dependency
  - Made CUP Units a dependency
@@ -12,10 +12,15 @@ v2018xxxx13
  - Added 2 C130 versions
  - Added Cougar MK II
  - Added Boxer MRAV in 3 variants, M2 & MK19 armed and medevac (using cups strykers)
+ - Added previews for all units for Eden editor
  - Replaced YPR's with cups M113 model (both in armed army & kmar and medical variant)
  - Replaced MLRS's with cups MLRS's
  - Added some mechanized groups
  - Changed diemaco's standard scopes from ACOG to Elcan reflex sight (these allow NV zoomed in)
+ - Fixed group icon jungle anti armor team
+ - Fixed M1 helmet of the 80s units
+ - Fixed a few units weight by removing some ammo
+ 
 
 v2017040412
  - Added DAF 4t interior after ArmA3's last hotfix
