@@ -1112,32 +1112,6 @@ class cfgWeapons
 		};
 	};
 	
-	class NLD_M1Helmet_Green: CUP_H_USARMY_Helmet_M1_Olive
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "[NLD] 80's M1 Helmet";
-		picture = "\NLD_Gear\80s\Data\uim\M1_Helmet.paa";
-		hiddenSelections[] = {"Camo","Camo1"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 60;
-			modelSides[] = {3,1};
-			hiddenSelections[] = {"Camo","Camo1"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName = "HitHead";
-					armor = 6;
-					passThrough = 0.5;
-				};
-			};
-		};
-	};
-	
 	class NLD_WLD_BoonieHat: ItemCore
 	{
 		dlc = "NLD_Units";

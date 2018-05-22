@@ -11,9 +11,6 @@ A collection of units mirroring (former) elements of the Royal Netherlands Army 
 
 ## Known issues
 - Rebranded CUP weapons still show their original version in the arsenal
-- SF (black) COMSPEC doesn't have a UAV table (like it should)
-- Nose of unarmed Lynx stays vanilla color in first person
-- Units with the AT4 give errors on spawn, these come with CUP Weapons
 
 ## Classes
 See classes.txt
