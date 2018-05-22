@@ -3821,6 +3821,7 @@ class CfgGroups
 					side = 1;
 					faction = "NLD_Units";
 					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
 					class unit0
 					{
 						side = 1;
