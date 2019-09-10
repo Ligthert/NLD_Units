@@ -107,6 +107,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -203,6 +208,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};
@@ -303,6 +313,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -379,6 +394,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};
@@ -463,6 +483,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};
@@ -618,6 +643,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -711,6 +741,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -794,6 +829,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -870,6 +910,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};
@@ -960,6 +1005,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -1026,6 +1076,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};
@@ -1170,6 +1225,11 @@ class CfgVehicles {
 				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
+				count=1;
+			};
 		};
 	};
 
@@ -1236,6 +1296,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_Luchtmobiele_Brigade
 			{
 				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="Colt Suppressor";
 				count=1;
 			};
 		};

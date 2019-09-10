@@ -1,7 +1,7 @@
 class CfgPatches {
 	class NLD_Units_Weapons {
 		units[] = {};
-		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG","NLD_AWM","NLD_AT4","NLD_Ammo_Crate","NLD_HK416","NLD_HK416_GL","NLD_HK417"};
+		weapons[] = {"NLD_blk_C8","NLD_blk_C8GL","NLD_Minimi","NLD_MAG","NLD_AWM","NLD_AT4","NLD_Ammo_Crate","NLD_HK416","NLD_HK416_GL","NLD_HK417","NLD_MX_C","NLD_MX","NLD_MX_GL","NLD_MX_SW","NLD_MX_DMR","NLD_C7","NLD_C7_GL","NLD_C8","NLD_C8_GL","MX_C_SF","MX_SF","MX_SW_SF","MX_GL_SF","MX_DMR_SF"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"NLD_Units_Main"};
 		authors[]={"Sacha Ligthert","Smootch","ShiftySean"};
@@ -43,12 +43,115 @@ class CfgWeapons {
 	class arifle_SPAR_03_snd_F;
 	class arifle_SPAR_02_snd_F;
 	class CUP_hgun_Glock17;
+	class Weapon_C7NLD_nogrip;
+	class Weapon_C7NLD_BaseGL;
+	class Weapon_C8NLD_BaseGL;
+	class Weapon_C8NLD_nogrip;
+	
+	
+	class NLD_C7: Weapon_C7NLD_nogrip
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] Colt C7";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="COLT_Scope_Down";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="COLT_Laser_Pointer_Tan";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "COLT_Grip";
+			};
+		};
+	};
+	
+	class NLD_C7_GL: Weapon_C7NLD_BaseGL
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] Colt C7 M320";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="COLT_Scope_Down";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="COLT_Laser_Pointer_Tan";
+			};
+		};
+	};
+	
+	class NLD_C8: Weapon_C8NLD_nogrip
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] Colt C8";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="COLT_Scope_Down";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="COLT_Laser_Pointer_Tan";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "COLT_Grip";
+			};
+		};
+	};
+	
+	class NLD_C8_GL: Weapon_C8NLD_BaseGL
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] Colt C8 M320";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="COLT_Scope_Down";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="COLT_Laser_Pointer_Tan";
+			};
+		};
+	};
 
 	// Diemaco C8
 	class NLD_blk_C8: CUP_arifle_M4A1_black {
 		displayName="[NLD] Diemaco C8";
 		author="Lowlands Tactical";
-		scope=2;
+		scope=1;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
 		descriptionShort = "Dimaco C8"; //$STR_DSS_M16A2;
 		class LinkedItems
@@ -70,7 +173,7 @@ class CfgWeapons {
 	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
 		displayName="[NLD] Diemaco C8 GL";
 		author="Lowlands Tactical";
-		scope=2;
+		scope=1;
 		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
 		descriptionShort = "Dimaco C8 GL"; //$STR_DSS_M16A2;
 		class LinkedItems
@@ -353,7 +456,7 @@ class CfgWeapons {
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX C Winter";
-		Scope=2;
+		Scope=0;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_C_Winter.paa";
 		hiddenselections[]=
@@ -370,7 +473,7 @@ class CfgWeapons {
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX Winter";
-		Scope=2;
+		Scope=0;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_Winter.paa";
 		hiddenselections[]=
@@ -389,7 +492,7 @@ class CfgWeapons {
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX GL Winter";
-		Scope=2;
+		Scope=0;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_GL_Winter.paa";
 		hiddenselections[]=
@@ -408,7 +511,7 @@ class CfgWeapons {
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SW Winter";
-		Scope=2;
+		Scope=0;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_SW_Winter.paa";
 		hiddenselections[]=
@@ -425,7 +528,7 @@ class CfgWeapons {
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX DMR Winter";
-		Scope=2;
+		Scope=0;
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_DMR_Winter.paa";
 		hiddenselections[]=
