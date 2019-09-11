@@ -28,11 +28,11 @@ class CfgWeapons {
 	class CUP_srifle_M107_Base;
 	class CUP_srifle_AWM_wdl;
 	class CUP_launch_M136;
-	class arifle_MXC_F;
-	class arifle_MX_F;
-	class arifle_MX_GL_F;
-	class arifle_MX_SW_F;
-	class arifle_MXM_F;
+	class arifle_MXC_Black_F;
+	class arifle_MX_Black_F;
+	class arifle_MX_GL_Black_F;
+	class arifle_MX_SW_Black_F;
+	class arifle_MXM_Black_F;
 	class CUP_srifle_M14;
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_GL_blk_F;
@@ -272,11 +272,12 @@ class CfgWeapons {
 // Massive Paste Here
 
 	//MX SF Compact
-	class NLD_MX_C: arifle_MXC_F
+	class NLD_MX_C: arifle_MXC_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX C SF";
 		Scope=2;
+		baseWeapon = "NLD_MX_C";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_C_SF.paa";
 		hiddenselections[]= { "camo1" };
@@ -284,11 +285,12 @@ class CfgWeapons {
 	};
 
 	// NLD MX
-	class NLD_MX: arifle_MX_F
+	class NLD_MX: arifle_MX_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SF";
 		Scope=2;
+		baseWeapon = "NLD_MX";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SF.paa";
 		hiddenselections[]=
@@ -303,11 +305,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_GL: arifle_MX_GL_F
+	class NLD_MX_GL: arifle_MX_GL_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX GL SF";
 		Scope=2;
+		baseWeapon = "NLD_MX_GL";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_GL_SF.paa";
 		hiddenselections[]=
@@ -322,11 +325,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_SW: arifle_MX_SW_F
+	class NLD_MX_SW: arifle_MX_SW_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SW SF";
 		Scope=2;
+		baseWeapon = "NLD_MX_SW";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_SW_SF.paa";
 		hiddenselections[]=
@@ -339,11 +343,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_DMR: arifle_MXM_F
+	class NLD_MX_DMR: arifle_MXM_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX DMR SF";
 		Scope=2;
+		baseWeapon = "NLD_MX_DMR";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\UIM\UI\MX_DMR_SF.paa";
 		hiddenselections[]=
@@ -452,11 +457,12 @@ class CfgWeapons {
 	};
 
 	//MX Winter
-	class NLD_MX_C_W: arifle_MXC_F
+	class NLD_MX_C_W: arifle_MXC_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX C Winter";
-		Scope=0;
+		Scope=2;
+		baseWeapon = "NLD_MX_C_W";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_C_Winter.paa";
 		hiddenselections[]=
@@ -469,11 +475,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_W: arifle_MX_F
+	class NLD_MX_W: arifle_MX_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX Winter";
-		Scope=0;
+		Scope=2;
+		baseWeapon = "NLD_MX_W";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_Winter.paa";
 		hiddenselections[]=
@@ -488,11 +495,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_GL_W: arifle_MX_GL_F
+	class NLD_MX_GL_W: arifle_MX_GL_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX GL Winter";
-		Scope=0;
+		Scope=2;
+		baseWeapon = "NLD_MX_GL_W";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_GL_Winter.paa";
 		hiddenselections[]=
@@ -507,11 +515,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_SW_W: arifle_MX_SW_F
+	class NLD_MX_SW_W: arifle_MX_SW_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX SW Winter";
-		Scope=0;
+		Scope=2;
+		baseWeapon = "NLD_MX_SW_W";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_SW_Winter.paa";
 		hiddenselections[]=
@@ -524,11 +533,12 @@ class CfgWeapons {
 		};
 	};
 
-	class NLD_MX_DMR_W: arifle_MXM_F
+	class NLD_MX_DMR_W: arifle_MXM_Black_F
 	{
 		author="Lowlands Tactical";
 		displayName="[NLD] MX DMR Winter";
-		Scope=0;
+		Scope=2;
+		baseWeapon = "NLD_MX_DMR_W";
 		weaponPoolAvailable=1;
 		picture = "\NLD_Weapons\MX series\Winter\UI\MX_DMR_Winter.paa";
 		hiddenselections[]=

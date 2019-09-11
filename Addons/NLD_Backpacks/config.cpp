@@ -109,7 +109,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -212,7 +212,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -315,7 +315,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -398,7 +398,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -487,7 +487,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -645,7 +645,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -743,7 +743,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -831,7 +831,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -914,7 +914,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -1007,7 +1007,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -1080,7 +1080,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -1227,7 +1227,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
@@ -1300,7 +1300,7 @@ class CfgVehicles {
 			};
 			class _xx_COLT_Suppressor_Black
 			{
-				name="Colt Suppressor";
+				name="COLT_Suppressor_Black";
 				count=1;
 			};
 		};
