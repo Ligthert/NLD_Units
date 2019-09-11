@@ -1,5 +1,11 @@
 Changelog:
 
+v2019091114
+ - Added Colt C7 and C8's (from Leon M and Sovjet) to all regular infantry, making this a dependency now.(https://steamcommunity.com/sharedfiles/filedetails/?id=961038654)
+ - Winter units are not in all white anymore, opting to use the woodland vest.
+ - Winter units no longer use the winter mx rifles but the Colts.
+ - Made the winter mx rifles and a very early build MX NLD variant appear on virtual arsenal.
+
 v2018052213
  - Made ADR-97 Weapon Pack a dependency
  - Made CUP Weapons a dependency
