@@ -923,22 +923,6 @@ class cfgWeapons
 		picture = "\NLD_Gear\Desert\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Helmet.paa"};
 	};
-	class NLD_NFPT_Helmet: NLD_WLD_Helmet
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] NFP-Tan Helmet";
-		picture = "\NLD_Gear\NFP-Tan\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
-	};
-	class NLD_NFPG_Helmet: NLD_WLD_Helmet
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] NFP-Green Helmet";
-		picture = "\NLD_Gear\NFP-Green\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Helmet.paa"};
-	};
 	class NLD_WTR_Helmet: NLD_WLD_Helmet
 	{
 		dlc = "NLD_Units";
@@ -1046,6 +1030,64 @@ class cfgWeapons
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\ECH.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+		class NLD_NFPT_Helmet: H_HelmetB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] NFP-Tan Helmet";
+		picture = "\NLD_Gear\NFP-Tan\Data\uim\Helmet.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 10;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+		class NLD_NFPG_Helmet: H_HelmetB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[NLD] NFP-Green Helmet";
+		picture = "\NLD_Gear\NFP-Green\Data\uim\Helmet.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Helmet.paa"};
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[] = {"camo"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[] = {3,1};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Helmet.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
