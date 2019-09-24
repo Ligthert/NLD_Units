@@ -2681,6 +2681,142 @@ class CfgVehicles {
 		picture = "\NLD_Backpacks\Spongebob\Data\uim\Spongebobsquarebag.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Spongebobsquarebag.paa"};
 	};
+	
+	class NLD_DarthVader : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] DarthVader Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\DarthVader.paa"};
+	};
+	
+	class NLD_Dorapack : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Dora Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Dorabackpack.paa"};
+	};
+	
+	class NLD_Courage : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Courage Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Courage.paa"};
+	};
+	
+	class NLD_HelloKitty : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] HelloKitty Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\hellokitty.paa"};
+	};
+	
+	class NLD_JohnnyBravo : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] JohnnyBravo Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\JohnnyBravo.paa"};
+	};
+	
+	class NLD_KyloRenn : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] KyloRenn Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Kylo Renn.paa"};
+	};
+	
+	class NLD_Dickbag : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] BickDag";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\lulweek.paa"};
+	};
+	
+	class NLD_PatrickStar : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] PatrickStar Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Patrickstar.paa"};
+	};
+	
+	class NLD_Pikachu : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Pikachu Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Pikachu.paa"};
+	};
+	
+	class NLD_Plankton : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Plankton Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Plankton.paa"};
+	};
+	
+	class NLD_Squidward : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Squidward Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Squidward.paa"};
+	};
+	
+	class NLD_Stormtrooper : B_AssaultPack_blk {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Stormtrooper Tacticalpack";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\stormtrooper.paa"};
+	};
+	
+	class NLD_BigDickBag : B_Carryall_oli {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] DigBickBag CarryAll";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\lulweekbig.paa"};
+	};
+	
+	class NLD_Minion1 : B_Carryall_oli {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Minion1 CarryAll";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack1.paa"};
+	};
+	
+	class NLD_Minion2 : B_Carryall_oli {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Minion2 CarryAll";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack2.paa"};
+	};
+	
+	class NLD_Minion3 : B_Carryall_oli {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Minion3 CarryAll";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack3.paa"};
+	};
+	
+	class NLD_Minion4 : B_Carryall_oli {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] Minion4 CarryAll";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack4.paa"};
+	};
 
 	class NLD_80_Fieldpack_Empty : B_FieldPack_oli
 	{

@@ -313,6 +313,7 @@ class CfgVehicles {
 		class EventHandlers {
 			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
+	
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -590,6 +591,8 @@ class CfgVehicles {
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa"};
+		magazines[] = {"60Rnd_40mm_GPR_Tracer_Yellow_shells","60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells"};
+		respawnMagazines[] = {"60Rnd_40mm_GPR_Tracer_Yellow_shells","60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
