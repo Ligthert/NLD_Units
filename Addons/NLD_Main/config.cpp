@@ -118,14 +118,6 @@ class CfgFactionClasses
 		side=1;
 	};
 
-	class NLD_Units_JGL
-	{
-		displayName="[NLD] Jungle";
-		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
-		priority=1;
-		side=1;
-	};
-
   class NLD_Units_SF
 	{
 		displayName="[NLD] Special Forces (Black)";
@@ -149,14 +141,5 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
-
-  class NLD_Units_80s
-	{
-		displayName="[NLD] 80s Units";
-		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
-		priority=1;
-		side=1;
-	};
-
 
 };

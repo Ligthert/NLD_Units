@@ -1,7 +1,15 @@
 Changelog:
 
-v2019091114
+v2019092614
  - Added Colt C7 and C8's (from Leon M and Sovjet) to all regular infantry, making this a dependency now.(https://steamcommunity.com/sharedfiles/filedetails/?id=961038654)
+ - Added VW Amarok (covered offroad).
+ - Added Patriot missile system with radar.
+ - Added some fun backpacks (mostly clanrelated)
+ - Updated NFP camo seeing as we (the Netherlands) are now starting to use them.
+ - NFP camo comes in 3 tones, Green, Tan and for backpacks and vests a multitone that fits them both (to save on costs and logistical hassle).
+ - Tank/APC/IFV crews now use the NFP green aswell.
+ - Deleted the jungle units and 80s units (these were projects of other ex-members and are not properly maintained).
+ - Fixed it so the tanks and CV90 can use camonets and Slat armor.
  - Winter units are not in all white anymore, opting to use the woodland vest.
  - Winter units no longer use the winter mx rifles but the Colts.
  - Made the winter mx rifles and a very early build MX NLD variant appear on virtual arsenal.

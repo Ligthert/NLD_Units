@@ -6,12 +6,12 @@ class CfgPatches {
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
 };
-
+	
 // The MEAT!
 class CfgVehicles {
 
 	// External Class References
-	class I_MBT_03_BASE_F;
+	class I_MBT_03_cannon_F;
 	class B_MBT_01_arty_F;
 	class B_MBT_01_mlrs_F;
 	class I_APC_tracked_03_cannon_F;
@@ -22,7 +22,10 @@ class CfgVehicles {
 	class CUP_B_M113_Med_USA;
 	class CUP_B_M270_HE_USA;
 	class CUP_B_M270_DPICM_USA;
-
+	class B_Radar_System_01_F;
+	class B_SAM_System_03_F;
+    
+	
 
 // YPR_765
 	class NLD_YPR_765 : CUP_B_M113_USA
@@ -295,7 +298,7 @@ class CfgVehicles {
 	};
 	
 // Leopard2 - Woodland
-	class NLD_WLD_Leo2 : I_MBT_03_BASE_F
+	class NLD_WLD_Leo2 : I_MBT_03_cannon_F
 	{
 
 		author = "Lowlands Tactical";
@@ -307,13 +310,25 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Leo2.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobodywdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobody1wdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leorcwswdl.paa"};
-
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "CamoNet"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobodywdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobody1wdl.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leorcwswdl.paa", "A3\Armor_F\Data\camonet_NATO_Green_CO.paa"};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobodywdl.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobody1wdl.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leorcwswdl.paa",
+				"A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+			};
+			
+		};
+	
+		
 		class EventHandlers {
 			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
-	
+		
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -413,14 +428,26 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_Leo2.jpg";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "HideHull", "HideTurret"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobodytan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobody1tan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leorcwstan.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "CamoNet"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobodytan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leobody1tan.paa", "\NLD_Vehicle_Units\Armored\Leopard2\desert\Data\leorcwstan.paa", "A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"};
 
 		class EventHandlers {
 			init = "if (local (_this select 1)) then {{(_this select 1) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
 		};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobodytan.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leobody1tan.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\leorcwstan.paa",
+				"A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
+			};
+			
+		};
 
 	};
+	
 // PzH2000NL - Woodland
 	class NLD_WLD_PzH2000NL : B_MBT_01_arty_F
 	{
@@ -434,8 +461,19 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_PzH2000NL.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000body.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000turret.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000comgun.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "CamoNet"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000body.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000turret.paa", "\NLD_Vehicle_Units\Armored\PzH2000NL\woodland\Data\pzh2000comgun.paa", "A3\Armor_F\Data\camonet_NATO_Green_CO.paa"};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\pzh2000body.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\pzh2000turret.paa",
+				"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\pzh2000comgun.paa",
+				"A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+			};
+			
+		};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -499,6 +537,33 @@ class CfgVehicles {
 		};
 		class TransportWeapons {};
 	};
+	
+// Patriot Radar en raketten
+	class NLD_WLD_PatriotRadar : B_Radar_System_01_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "AN-MPQ53 radarsysteem";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+		
+	};
+	
+	class NLD_WLD_PatriotMim : B_SAM_System_03_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "MIM-104 Patriot Raketinstallatie";
+		side = 1;
+		vehicleClass = Armored;
+		faction = NLD_Units;
+				
+	};
+	
+
 // M270MLRS - Woodland
 	class NLD_WLD_M270MLRS : B_MBT_01_mlrs_F
 	{
@@ -589,10 +654,30 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_CV9035NL.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa"};
-		magazines[] = {"60Rnd_40mm_GPR_Tracer_Yellow_shells","60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells"};
-		respawnMagazines[] = {"60Rnd_40mm_GPR_Tracer_Yellow_shells","60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "60Rnd_40mm_GPR_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells", "40Rnd_40mm_APFSDS_Tracer_Yellow_shells"};
+		hiddenSelections[] = {"Camo1", "Camo2", "CamoNet", "CamoSlat"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa", "A3\Armor_F\Data\camonet_NATO_Green_CO.paa", "A3\Armor_F\Data\cage_olive_CO.paa"};		
+		
+		animationList[] =
+		{
+			"showBags",0,
+			"showBags2",1,
+			"showCamonetHull",0.5,
+			"showCamonetTurret",0.5,
+			"showTools",1,
+			"showSLATHull",0,
+			"showSLATTurret",0
+		};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa",
+				"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa",
+				"A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+				"A3\Armor_F\Data\cage_olive_CO.paa"
+			};
+			
+		};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -670,8 +755,30 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_CV9035NL.jpg";
 		crew = "NLD_DST_rifleman";
 		typicalCargo[] = {"NLD_DST_OFF"};
-		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2", "CamoNet", "CamoSlat"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa", "A3\Armor_F\Data\camonet_NATO_Desert_CO.paa", "A3\Armor_F\Data\cage_sand_CO.paa"};
+		
+		animationList[] =
+		{
+			"showBags",0,
+			"showBags2",1,
+			"showCamonetHull",0.5,
+			"showCamonetTurret",0.5,
+			"showTools",1,
+			"showSLATHull",0,
+			"showSLATTurret",0
+		};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa",
+				"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa",
+				"A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+				"A3\Armor_F\Data\cage_sand_CO.paa"
+			};
+			
+		};
 
 	};
 	

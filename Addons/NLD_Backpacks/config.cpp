@@ -59,14 +59,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_Empty : B_Carryall_oli {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] Jungle Carryall";
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_B : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall";
 		scope = 1;
@@ -141,13 +133,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
-	};
-
-	class NLD_JGL_Carryall_B : NLD_DST_Carryall_B {
-		displayName = "[NLD] Jungle Carryall";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
 	};
 
 	class NLD_DST_Carryall_GL : B_Carryall_oli {
@@ -246,13 +231,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_GL : NLD_DST_Carryall_GL {
-		displayName = "[NLD] Jungle Carryall GL";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_TL : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall TL";
 		scope = 1;
@@ -349,13 +327,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_TL : NLD_DST_Carryall_TL {
-		displayName = "[NLD] Jungle Carryall TL";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_Medic : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall Medic";
 		scope = 1;
@@ -430,13 +401,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
-	};
-
-	class NLD_JGL_Carryall_Medic : NLD_DST_Carryall_Medic {
-		displayName = "[NLD] Jungle Carryall Medic";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
 	};
 
 	class NLD_DST_Carryall_AT : B_Carryall_oli {
@@ -521,13 +485,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_AT : NLD_DST_Carryall_AT {
-		displayName = "[NLD] Jungle Carryall AT";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_AR : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall AR";
 		scope = 1;
@@ -604,13 +561,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_AR : NLD_DST_Carryall_AR {
-		displayName = "[NLD] Jungle Carryall AR";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_Eng : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall Eng";
 		scope = 1;
@@ -677,13 +627,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
-	};
-
-	class NLD_JGL_Carryall_Eng : NLD_DST_Carryall_Eng {
-		displayName = "[NLD] Jungle Carryall Eng";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
 	};
 
 	class NLD_DST_Carryall_Ammo : B_Carryall_oli {
@@ -777,13 +720,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_Ammo : NLD_DST_Carryall_Ammo {
-		displayName = "[NLD] Jungle Carryall Ammo";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_Expl : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall Expl";
 		scope = 1;
@@ -865,13 +801,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_Expl : NLD_DST_Carryall_Expl {
-		displayName = "[NLD] Jungle Carryall Expl";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_UAV : B_UAV_01_backpack_F {
 		displayName = "[NLD] Desert Carryall UAV";
 		scope = 1;
@@ -946,13 +875,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Woodland\Picture-UAV.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Woodland\Backpack-UAV.paa"};
-	};
-
-	class NLD_JGL_Carryall_UAV : NLD_DST_Carryall_UAV {
-		displayName = "[NLD] Jungle Carryall UAV";
-		scope = 1;
-		picture = "\NLD_Backpacks\NFP-Tan\Picture-UAV.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\NFP-Tan\Backpack-UAV.paa"};
 	};
 
 	class NLD_DST_Carryall_JTAC : B_Carryall_oli {
@@ -1041,13 +963,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_JTAC : NLD_DST_Carryall_JTAC {
-		displayName = "[NLD] Jungle Carryall JTAC";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_AAR : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall AAR";
 		scope = 1;
@@ -1114,13 +1029,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_AAR : NLD_DST_Carryall_AAR {
-		displayName = "[NLD] Jungle Carryall AAR";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_MMG : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall MMG";
 		scope = 1;
@@ -1181,13 +1089,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
-	};
-
-	class NLD_JGL_Carryall_MMG : NLD_DST_Carryall_MMG {
-		displayName = "[NLD] Jungle Carryall MMG";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
 	};
 
 	class NLD_DST_Carryall_MAT : B_Carryall_oli {
@@ -1261,13 +1162,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
 
-	class NLD_JGL_Carryall_MAT : NLD_DST_Carryall_MAT {
-		displayName = "[NLD] Jungle Carryall MAT";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
-	};
-
 	class NLD_DST_Carryall_AA : B_Carryall_oli {
 		displayName = "[NLD] Desert Carryall AA";
 		scope = 1;
@@ -1332,13 +1226,6 @@ class CfgVehicles {
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
-	};
-
-	class NLD_JGL_Carryall_AA : NLD_DST_Carryall_AA {
-		displayName = "[NLD] Jungle Carryall AA";
-		scope = 1;
-		picture = "\NLD_Backpacks\Jungle\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Jungle\Backpack.paa"};
 	};
 
 
@@ -2816,564 +2703,5 @@ class CfgVehicles {
 		displayName = "[NLD] Minion4 CarryAll";
         scope = 2;
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack4.paa"};
-	};
-
-	class NLD_80_Fieldpack_Empty : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack";
-        scope = 2;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-	};
-
-	class NLD_80_Fieldpack_Medic : NLD_80_Fieldpack_Empty
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack Medic";
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\80s\fieldpack_medic_oli.paa"};
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_MediKit
-			{
-				name="MediKit";
-				count=1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_B : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=5;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_GL : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack GL";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_CUP_1Rnd_HE_M203
-			{
-				magazine="CUP_1Rnd_HE_M203";
-				count=15;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=5;
-			};
-			class _xx_1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=5;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=5;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_AMMO : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack AMMO";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_CUP_1Rnd_HE_M203
-			{
-				magazine="CUP_1Rnd_HE_M203";
-				count=5;
-			};
-			class _xx_CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
-			{
-				magazine="CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
-				count=2;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=5;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_TL : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack TL";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=5;
-			};
-			class _xx_SmokeShellOrange
-			{
-				magazine="SmokeShellOrange";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=5;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_SLA : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack SLA";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=5;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_Expl : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack Expl";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_DemoCharge_Remote_Mag
-			{
-				magazine="DemoCharge_Remote_Mag";
-				count=3;
-			};
-			class _xx_SatchelCharge_Remote_Mag
-			{
-				magazine="SatchelCharge_Remote_Mag";
-				count=1;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=3;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=3;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_MineDetector
-			{
-				name="MineDetector";
-				count=1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_ENG : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack ENG";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=3;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=3;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=3;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_MineDetector
-			{
-				name="MineDetector";
-				count=1;
-			};
-			class _xx_ToolKit
-			{
-				name="ToolKit";
-				count=1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_LAT : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack LAT";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-
-		class TransportMagazines
-		{
-			class _xx_CUP_MAAWS_HEDP_M
-			{
-				magazine="CUP_MAAWS_HEDP_M";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_MAT : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack MAT";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-
-		class TransportMagazines
-		{
-			class _xx_CUP_Dragon_EP1_M
-			{
-				magazine="CUP_Dragon_EP1_M";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_MMG : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack MMG";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-
-		class TransportMagazines
-		{
-			class _xx_CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
-			{
-				magazine="CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
-	};
-
-	class NLD_80_Fieldpack_AA : B_FieldPack_oli
-	{
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] 80's Fieldpack AA";
-		scope = 1;
-		picture = "\NLD_Backpacks\80s\Picture.paa";
-		maximumLoad=320;
-		mass=30;
-
-
-		class TransportMagazines
-		{
-			class _xx_CUP_Stinger_M
-			{
-				magazine="CUP_Stinger_M";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_80
-			{
-				name="Dutch_Beret_80";
-				count=1;
-			};
-		};
 	};
 };

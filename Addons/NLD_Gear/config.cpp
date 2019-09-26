@@ -25,8 +25,8 @@ class CfgPatches
 {
 	class NLD_Units_Gear
 	{
-		units[] = {"NLD_WLD_rifleman","NLD_DST_rifleman","NLD_NFPT_rifleman","NLD_NFPG_rifleman","NLD_WTR_rifleman","NLD_JGL_rifleman","NLD_UN_WLD_rifleman","NLD_UN_DST_rifleman","NLD_Units_80_rifleman","NLD_SF_Operator","NLD_MTP_Operator","NLD_KM_Operator"};
-		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_JGL_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_Units_80_Camo","NLD_Units_80_Camo2","NLD_Units_80_Camo3","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_JGL_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_80_Chestrig","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_JGL_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
+		units[] = {"NLD_WLD_rifleman","NLD_DST_rifleman","NLD_NFPT_rifleman","NLD_NFPG_rifleman","NLD_WTR_rifleman","NLD_UN_WLD_rifleman","NLD_UN_DST_rifleman","NLD_SF_Operator","NLD_MTP_Operator","NLD_KM_Operator"};
+		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 	};
@@ -86,14 +86,6 @@ class CfgVehicles
 		linkedItems[] = {"NLD_WTR_Vest","NLD_WTR_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WTR_Vest","NLD_WTR_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class NLD_JGL_rifleman: NLD_WLD_rifleman
-	{
-		displayName = "[NLD] Jungel Rifleman";
-		uniformClass = "NLD_JGL_Camo";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Uniform.paa",""};
-		linkedItems[] = {"NLD_JGL_Vest","NLD_JGL_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NLD_JGL_Vest","NLD_JGL_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-	};
 	class NLD_UN_WLD_rifleman: NLD_WLD_rifleman
 	{
 		vehicleClass = "Infantry_UN_Woodland";
@@ -109,15 +101,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa","\NLD_Infantry_Units\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-	};
-	class NLD_Units_80_rifleman: NLD_WLD_rifleman
-	{
-		displayName = "[NLD] 80's Rifleman";
-		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
-		uniformClass = "NLD_Units_80_Camo";
-		hiddenSelectionsTextures[] = {"NLD_Gear\80s\Data\Uniform.paa",""};
-		linkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"V_Chestrig_oli","NLD_M1Helmet_Green","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class NLD_SF_Operator: NLD_WLD_rifleman
 	{
@@ -249,22 +232,6 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_WTR_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
-		};
-	};
-	class NLD_JGL_Camo: NLD_WLD_Camo
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Jungle Camo";
-		picture = "\NLD_Gear\Jungle\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_JGL_rifleman";
 			containerClass = "Supply60";
 			mass = 1;
 		};
@@ -494,54 +461,6 @@ class cfgWeapons
 			mass = 1;
 		};
 	};
-	class NLD_Units_80_Camo: Uniform_Base
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Uniform";
-		picture = "\NLD_Gear\80s\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_rifleman";
-			containerClass = "Supply80";
-			mass = 1;
-		};
-	};
-	class NLD_Units_80_Camo2: Uniform_Base
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Pullover";
-		picture = "\NLD_Gear\80s\Data\uim\Pullover.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_CLS";
-			containerClass = "Supply80";
-			mass = 1;
-		};
-	};
-	class NLD_Units_80_Camo3: Uniform_Base
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Uniform Short";
-		picture = "\NLD_Gear\80s\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_Units_80_MMG";
-			containerClass = "Supply80";
-			mass = 1;
-		};
-	};
 	class NLD_WLD_Vest: V_PlateCarrierIA1_dgtl
 	{
 		dlc = "NLD_Units";
@@ -669,14 +588,6 @@ class cfgWeapons
 		displayName = "[NLD] Black Vest";
 		picture = "\NLD_Gear\SF\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Vest.paa"};
-	};
-	class NLD_JGL_Vest: NLD_WLD_Vest
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] Jungle Vest";
-		picture = "\NLD_Gear\Jungle\Data\uim\Vest.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Vest.paa"};
 	};
 	class NLD_UN_Vest: V_PlateCarrierIA1_dgtl
 	{
@@ -827,46 +738,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class NLD_80_Chestrig: V_Chestrig_oli
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] 80's Chestrig";
-		model = "\A3\Characters_F\Common\equip_chestrig";
-		class ItemInfo: VestItem
-		{
-			mass = 20;
-			uniformModel = "\A3\Characters_F\Common\equip_chestrig.p3d";
-			containerClass = "Supply120";
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					hitpointName = "HitChest";
-					armor = 6;
-					passThrough = 0.65;
-				};
-				class Diaphragm
-				{
-					hitpointName = "HitDiaphragm";
-					armor = 6;
-					passThrough = 0.65;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 6;
-					passThrough = 0.65;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.65;
-				};
-			};
-		};
-	};
+
 	class NLD_Police_belt: V_PlateCarrier1_blk
 	{
 		dlc = "NLD_Units";
@@ -939,14 +811,7 @@ class cfgWeapons
 		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\Helmet.paa"};
 	};
-	class NLD_JGL_Helmet: NLD_WLD_Helmet
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] Jungle Helmet";
-		picture = "\NLD_Gear\Jungle\Data\uim\Helmet.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\Jungle\Data\Helmet.paa"};
-	};
+
 	class NLD_UN_Helmet: NLD_WLD_Helmet
 	{
 		dlc = "NLD_Units";

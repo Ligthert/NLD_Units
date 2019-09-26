@@ -21,8 +21,6 @@ class CfgVehicleClasses
 class CfgWeapons {
 
 	// ext class ref
-	class CUP_arifle_M4A1_black;
-	class CUP_arifle_M4A1_BUIS_GL;
 	class CUP_lmg_minimipara;
 	class CUP_lmg_m240;
 	class CUP_srifle_M107_Base;
@@ -33,7 +31,6 @@ class CfgWeapons {
 	class arifle_MX_GL_Black_F;
 	class arifle_MX_SW_Black_F;
 	class arifle_MXM_Black_F;
-	class CUP_srifle_M14;
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_03_blk_F;
@@ -143,50 +140,6 @@ class CfgWeapons {
 			{
 				slot="PointerSlot";
 				item="COLT_Laser_Pointer_Tan";
-			};
-		};
-	};
-
-	// Diemaco C8
-	class NLD_blk_C8: CUP_arifle_M4A1_black {
-		displayName="[NLD] Diemaco C8";
-		author="Lowlands Tactical";
-		scope=1;
-		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
-		descriptionShort = "Dimaco C8"; //$STR_DSS_M16A2;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_Elcan_reflex";
-			};
-			class LinkedItemsAcc
-			{
-				slot = "CUP_PicatinnySideMountM4";
-				item = "acc_pointer_IR";
-			};
-		};
-	};
-
-	// Diemaco C8 GL
-	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
-		displayName="[NLD] Diemaco C8 GL";
-		author="Lowlands Tactical";
-		scope=1;
-		class Library {libTextDesc = "Dimaco C8";}; //$STR_LIB_M16;};
-		descriptionShort = "Dimaco C8 GL"; //$STR_DSS_M16A2;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_Elcan_reflex";
-			};
-			class LinkedItemsAcc
-			{
-				slot = "CUP_PicatinnySideMountM4";
-				item = "acc_pointer_IR";
 			};
 		};
 	};
@@ -834,19 +787,6 @@ class CfgWeapons {
 			{
 				slot = "UnderBarrelSlot";
 				item = "bipod_01_F_snd";
-			};
-		};
-	};
-
-	class NLD_M14_Aim: CUP_srifle_M14
-	{
-		author="Lowlands Tactical";
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot="CUP_PicatinnyTopMountM14";
-				item="optic_DMS";
 			};
 		};
 	};
