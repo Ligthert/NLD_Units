@@ -1631,6 +1631,73 @@ class CfgVehicles {
 			};
 		};
 	};
+	
+	class NLD_DSI_Backpack_Medic : B_AssaultPack_blk {
+		displayName = "[NLD] Black backpack Medic";
+		scope = 1;
+		picture = "\NLD_Backpacks\SF\Picture.paa";
+
+		class TransportMagazines
+		{
+			
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_MediKit
+			{
+				name="MediKit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+	};
+	
+	class NLD_DSI_Engi : B_AssaultPack_blk {
+		displayName = "[NLD] Black backpack Breacher";
+		scope = 1;
+		picture = "\NLD_Backpacks\SF\Picture.paa";
+
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_DSI_MGback : B_AssaultPack_blk {
+		displayName = "[NLD] Black backpack MG";
+		scope = 1;
+		picture = "\NLD_Backpacks\SF\Picture.paa";
+
+		class TransportMagazines
+		{
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=2;
+			};
+		};
+	};
 
 	class NLD_MTP_Carryall_Medic : NLD_SF_Carryall_Medic
 	{

@@ -141,5 +141,12 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
 	};
+  class NLD_Units_DSI
+	{
+		displayName="[NLD] DSI";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
 
 };

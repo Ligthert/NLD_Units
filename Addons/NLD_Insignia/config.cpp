@@ -35,6 +35,22 @@ class CfgUnitInsignia
     	texture = "\NLD_Insignia\Badges\KCT.paa";
     	textureVehicle = "\NLD_Insignia\Badges\KCT.paa";
     };
+	class NLD_DSI
+    {
+        dlc="NLD_Units";
+    	displayName = "[NLD] DSI";
+    	author = "Lowlands Tactical";
+    	texture = "\NLD_Insignia\Badges\DSI.paa";
+    	textureVehicle = "\NLD_Insignia\Badges\DSI.paa";
+    };
+	class NLD_AT
+    {
+        dlc="NLD_Units";
+    	displayName = "[NLD] AT";
+    	author = "Lowlands Tactical";
+    	texture = "\NLD_Insignia\Badges\AT.paa";
+    	textureVehicle = "\NLD_Insignia\Badges\AT.paa";
+    };
     class NLD_UIM
     {
         dlc="NLD_Units";

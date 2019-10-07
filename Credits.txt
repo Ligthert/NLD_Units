@@ -2,15 +2,14 @@
 __________________________________________
 
 Textures		: 	Smootch, ShiftySean & Outlaw28
-config.cpp		:	Sacha Ligthert & Smootch
+config.cpp		:	Sacha Ligthert & Smootch & Shiftysean
 Models			:	Bohemia Interactive
 
 __________________________________________
 
-Uniforms		   : Craig (@SP_Pack/NED_Pack)
-Uniforms 		   : teriyaki (TRYK's Multi-Play Uniforms)
-Weapons			   : Community Upgrade Project
-F16C			   : Firewill
-EC135			   : Aplion
-NH90 			   : Aplion
-Chinooks + Lynxes + Apache : Deltagamer
+Weapons, vehicles, air units and more   : Community Upgrade Project
+F16C			   		: Firewill
+EC135			   		: Aplion
+NH90 			   		: Aplion
+Colt weapons				: Leon M. & Sovjet
+

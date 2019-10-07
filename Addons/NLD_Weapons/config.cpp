@@ -39,11 +39,17 @@ class CfgWeapons {
 	class arifle_SPAR_01_GL_snd_F;
 	class arifle_SPAR_03_snd_F;
 	class arifle_SPAR_02_snd_F;
-	class CUP_hgun_Glock17;
+	class CUP_hgun_Glock17_blk;
 	class Weapon_C7NLD_nogrip;
 	class Weapon_C7NLD_BaseGL;
 	class Weapon_C8NLD_BaseGL;
 	class Weapon_C8NLD_nogrip;
+	class SMG_03C_black;
+	class CUP_glaunch_M32;
+	class CUP_smg_MP5A5_flashlight;
+	class CUP_sgun_M1014;
+	class SMG_05_F;
+	class srifle_DMR_02_F;
 	
 	
 	class NLD_C7: Weapon_C7NLD_nogrip
@@ -613,12 +619,38 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_blk_F";
+				item="optic_MRCO";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
 				item="acc_pointer_IR";
+			};
+		};
+	};
+	class NLD_HK416_DSI: arifle_SPAR_01_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK416 DSI";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_MRCO";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_flashlight";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_M";
 			};
 		};
 	};
@@ -634,7 +666,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_blk_F";
+				item="optic_MRCO";
 			};
 			class LinkedItemsAcc
 			{
@@ -655,7 +687,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_blk_F";
+				item="optic_LRPS";
 			};
 			class LinkedItemsAcc
 			{
@@ -666,6 +698,68 @@ class CfgWeapons {
 			{
 				slot = "UnderBarrelSlot";
 				item = "bipod_01_F_blk";
+			};
+		};
+	};
+	class NLD_HK417_DSI: arifle_SPAR_03_blk_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] HK417";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_LRPS";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_B";
+			};
+		};
+	};
+	class NLD_SIG_DSI: srifle_DMR_02_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] SIG SUR300";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_AMS";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_01_F_blk";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_338_black";
 			};
 		};
 	};
@@ -681,7 +775,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_blk_F";
+				item="optic_MRCO";
 			};
 			class LinkedItemsAcc
 			{
@@ -790,8 +884,100 @@ class CfgWeapons {
 			};
 		};
 	};
+	
+	class NLD_MP5K: SMG_05_F
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] MP5K";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_CompM2_Black";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_flashlight";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_L";
+			};
+		};
+	};
+	
+	class NLD_MP5: CUP_smg_MP5A5_flashlight
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] MP5A5";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_CompM2_Black";
+			};			
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_L";
+			};
+		};
+	};
+	
+	class NLD_Beneli: CUP_sgun_M1014
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] Beneli Shotgun";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_CompM4";
+			};			
+		};
+	};
+	
+	class NLD_P90: SMG_03C_black
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] FN P90";
+		Scope=2;
+		weaponPoolAvailable=1;	
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_570";
+			};
+		};
+	};
+	
+	class NLD_M32_GL: CUP_glaunch_M32
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] M32 GL";
+		Scope=2;
+		weaponPoolAvailable=1;
+	};
 
-	class NLD_Glock17: CUP_hgun_Glock17
+	class NLD_Glock17: CUP_hgun_Glock17_blk
 	{
 		scope=2;
 		displayName="[NLD] Glock17";
@@ -1011,14 +1197,14 @@ class CfgVehicles
 				weapon = "CUP_launch_FIM92Stinger";
 				count = 5;
 			};
-			class _xx_NLD_blk_C8
+			class _xx_NLD_C8
 			{
-				weapon = "NLD_blk_C8";
+				weapon = "NLD_C8";
 				count = 20;
 			};
-			class _xx_NLD_blk_C8GL
+			class _xx_NLD_C8_GL
 			{
-				weapon = "NLD_blk_C8GL";
+				weapon = "NLD_C8_GL";
 				count = 10;
 			};
 			class _xx_NLD_Minimi

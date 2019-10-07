@@ -4084,6 +4084,344 @@ class CfgGroups
   			};
       };
     };
-
-  }; // WEST
+	
+	// DSI
+   class NLD_Units_DSI
+   {
+      name = "[NLD] DSI";
+      class SpecOps
+      {
+        name = "DSI";
+        class NLD_DSI_Heavy_MRAP
+	    {
+  				name = "Bearcat heavy infantry group";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+				icon = "\a3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_TL";
+  					faction = "NLD_Units";
+  					rank = "LIEUTENANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Medic";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {2.5,-2.5,0};
+  				};
+  				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_MG";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Bearcat";
+  					faction = "NLD_Units";
+  					rank = "PRIVATE";
+  					position[] = {5,-5,0};
+  				};
+			};	
+			class NLD_DSI_Van_attacksqd
+			{
+  				name = "Police Van Squad";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_TL";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_TL";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+  				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Breach";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+  				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Medic";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {5,-5,0};
+  				};
+				class unit4
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_MG";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-5,-5,0};
+  				};
+				class unit5
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_AT";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {7.5,-7.5,0};
+  				};
+				class unit6
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_assault_mp5";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-7.5,-7.5,0};
+  				};
+				class unit7
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_assault_mp5";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {10,-10,0};
+  				};
+				class unit8
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_assault";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-10,-10,0};
+  				};
+				class unit9
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_SLA";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {12.5,-12.5,0};
+  				};
+				class unit10
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_EOD";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-12.5,-12.5,0};
+  				};
+				class unit11
+  				{
+  					side = 1;
+  					vehicle = "NLD_VWCrafter";
+  					faction = "NLD_Units";
+  					rank = "Private";
+  					position[] = {15,-15,0};
+  				};
+  			};
+			class NLD_DSI_BMW_ATteam
+			{
+  				name = "BMW AT Team";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_TL";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_Breach";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+  				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_assault_p90";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+  				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_BMW";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {5,-5,0};
+  				};
+			};
+			
+			class NLD_DSI_ATteam
+			{
+  				name = "AT Team";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_TL";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_Breach";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+  				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_assault";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+  				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_Medic";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {5,-5,0};
+  				};
+			};	
+			class NLD_DSI_team
+			{
+  				name = "DSI Team";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_TL";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Breach";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+  				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_assault";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+  				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_Medic";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {5,-5,0};
+  				};
+			};	
+			class NLD_DSI_sniperteam
+			{
+  				name = "DSI SniperTeam";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_SLA";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_DSI_HSLA";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+			};	
+  			class NLD_AT_CBRN
+  			{
+  				name = "AT CBRN Team";
+  				side = 1;
+  				faction = "NLD_Units";
+  				rarityGroup = 0.3;
+				icon = "\a3\ui_f\data\map\markers\nato\b_support.paa";
+  				class unit0
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_CBRN";
+  					faction = "NLD_Units";
+  					rank = "SERGEANT";
+  					position[] = {0,0,0};
+  				};
+  				class unit1
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_CBRN";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {2.5,-2.5,0};
+  				};
+				class unit2
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_CBRN";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {-2.5,-2.5,0};
+  				};
+				class unit3
+  				{
+  					side = 1;
+  					vehicle = "NLD_AT_CBRN";
+  					faction = "NLD_Units";
+  					rank = "CORPORAL";
+  					position[] = {5,-5,0};
+  				};
+  			};
+       };
+    };
+  };// WEST
 }; // cfgGroups

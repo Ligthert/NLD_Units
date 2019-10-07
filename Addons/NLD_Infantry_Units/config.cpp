@@ -53,6 +53,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Korps Mariniers)";
 	};
+	class Infantry_DSI
+	{
+		displayname="Men (DSI";
+	};
 	class Infantry_Diver
 	{
 		displayName="Men (Diver)";
@@ -1433,8 +1437,8 @@ class CfgVehicles {
     {
     	displayName="Operator (MP5)";
     	backpack = "NLD_SF_Carryall_MP5";
-    	weapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-		respawnWeapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+    	weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
     editorPreview = "\NLD_Infantry_Units\previews\NLD_SF_Operator_MP5.jpg";
@@ -1557,8 +1561,8 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa", "\NLD_Insignia\Badges\KCT.paa"};
 		hiddenSelectionsMaterials[] = {"\NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
     	backpack = "NLD_MTP_Carryall_MP5";
-    	weapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-		respawnWeapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+    	weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_MTP_ECH", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -1683,8 +1687,8 @@ class CfgVehicles {
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\Uniform.paa", "\NLD_Gear\Korps_Mariniers\Data\KM-Badge.paa"};
 			hiddenSelectionsMaterials[] = {"\NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
     	backpack = "NLD_KM_Carryall_MP5";
-    	weapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
-			respawnWeapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+    	weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+			respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
 			magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 			respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 			linkedItems[] = {"NLD_MTP_PlateCarrier", "NLD_KM_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -2334,6 +2338,345 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_UN_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     editorPreview = "\NLD_Infantry_Units\previews\NLD_UN_DST_AAA.jpg";
 	};
+	
+//DSI
+	class NLD_DSI_assault: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2;
+		displayName = "DSI Assault (HK416)";
+		genericNames = "NLD_Units";
+		faction = "NLD_Units_DSI";
+		vehicleClass = "Infantry_DSI";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_DSI_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_assault.jpg";
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		weapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+    };
+	
+	class NLD_DSI_SLA: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI SLA";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_HK417_DSI", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_HK417_DSI", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag","20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_SLA.jpg";
+	};
+	
+	class NLD_DSI_HSLA: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Heavy SLA";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_SIG_DSI", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_SIG_DSI", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"10Rnd_338_Mag", "10Rnd_338_Mag","10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"10Rnd_338_Mag", "10Rnd_338_Mag","10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "10Rnd_338_Mag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_HSLA.jpg";
+	};
+	
+	class NLD_DSI_EOD: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Explosive Expert";
+		backpack = "B_UGV_02_Demining_backpack_F";
+		faction = "NLD_Units_DSI";
+		canDeactivateMines = 1;
+		engineer = 1;
+		linkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass","B_UavTerminal", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_EOD.jpg";
+	};
+	
+	class NLD_DSI_Breach: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Breacher";
+		faction = "NLD_Units_DSI";
+		canDeactivateMines = 1;
+		engineer = 1;
+		linkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_Beneli", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_Beneli", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_Breach.jpg";
+	};
+	
+	class NLD_DSI_assault_mp5: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Assault (MP5A5)";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_assault_mp5.jpg";
+	};
+	
+	class NLD_DSI_Diver: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "U_B_Wetsuit";
+		displayName = "DSI Diver";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"V_RebreatherB", "G_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"V_RebreatherB", "G_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_MP5", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_Diver.jpg";
+	};
+	
+	class NLD_DSI_GL: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Grenadier";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_M32_GL", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_M32_GL", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203","CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203", "CUP_6Rnd_HE_M203", "CUP_6Rnd_HE_M203", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203","CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203", "CUP_6Rnd_Smoke_M203", "CUP_6Rnd_HE_M203", "CUP_6Rnd_HE_M203", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_GL.jpg";
+	};
+	
+	class NLD_DSI_TL: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Team Leader";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_TL.jpg";
+	};
+	
+	class NLD_DSI_Medic: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Medic";
+		faction = "NLD_Units_DSI";
+		attendant = 1;
+		backpack = "NLD_DSI_Backpack_Medic";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_HK416_DSI", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_Medic.jpg";
+	};
+	
+	class NLD_DSI_AT: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI AT";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_HK416_DSI", "NLD_AT4", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_HK416_DSI", "NLD_AT4", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_M136_M", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_M136_M", "CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_AT.jpg";
+	};
+	
+	class NLD_DSI_MG: NLD_DSI_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_DSI_Camo";
+		displayName = "DSI Assault MG";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_Vest_DSI_EOD", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		respawnLinkedItems[] = {"NLD_DSI_PlateCarrier", "NLD_DSI_Helmet","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGogglesB_blk_F"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa", "\NLD_Insignia\Badges\DSI.paa"};
+		weapons[] = {"NLD_Minimi", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_Minimi", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_DSI_MG.jpg";
+	};
+	
+	//AT
+	class NLD_AT_assault: B_Soldier_base_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2;
+		displayName = "AT Assault (MP5)";
+		genericNames = "NLD_Units";
+		faction = "NLD_Units_DSI";
+		vehicleClass = "Infantry_DSI";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_AT_Camo";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_assault.jpg";
+		hasDriver = 1;
+		faceType = "Man_A3";
+		linkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+    };
+	
+	class NLD_AT_EOD: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_AT_Camo";
+		displayName = "AT Explosive Expert";
+		backpack = "B_UGV_02_Demining_backpack_F";
+		faction = "NLD_Units_DSI";
+		canDeactivateMines = 1;
+		engineer = 1;
+		linkedItems[] = {"NLD_Vest_AT_EOD", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_Vest_AT_EOD", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass","B_UavTerminal", "ItemWatch", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_EOD.jpg";
+	};
+	
+	class NLD_AT_Breach: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_AT_Camo";
+		displayName = "AT Breacher";
+		faction = "NLD_Units_DSI";
+		canDeactivateMines = 1;
+		engineer = 1;
+		linkedItems[] = {"NLD_Vest_AT_EOD", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_Vest_AT_EOD", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_Beneli", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_Beneli", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_Breach.jpg";
+	};
+	
+	class NLD_AT_assault_p90: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_AT_Camo";
+		displayName = "AT Assault (FN P90)";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "muzzle_snds_570"};
+		respawnLinkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH", "CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "muzzle_snds_570"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_P90", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_P90", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03","50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03","50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "50Rnd_570x28_SMG_03", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_assault_p90.jpg";
+	};
+	
+	class NLD_AT_TL: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_AT_Camo";
+		displayName = "AT Team Leader";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_TL.jpg";
+	};
+	
+	class NLD_AT_CBRN: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "U_C_CBRN_Suit_01_Blue_F";
+		displayName = "AT CBRN";
+		backpack = "B_CombinationUnitRespirator_01_F";
+		faction = "NLD_Units_DSI";
+		linkedItems[] = {"NLD_AT_Vest", "G_AirPurifyingRespirator_01_F", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_AT_Vest", "G_AirPurifyingRespirator_01_F", "ItemMap", "ItemCompass","B_UavTerminal", "ItemWatch", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17", "SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_CBRN.jpg";
+	};
+	
+	class NLD_AT_Medic: NLD_AT_assault
+	{
+		vehicleClass = "Infantry_DSI";
+		uniformClass = "NLD_AT_Camo";
+		displayName = "AT Medic";
+		faction = "NLD_Units_DSI";
+		attendant = 1;
+		backpack = "NLD_DSI_Backpack_Medic";
+		linkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"NLD_AT_Vest", "NLD_SF_ECH","CUP_PMC_Facewrap_Black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa", "\NLD_Insignia\Badges\AT.paa"};
+		weapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5K", "NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_AT_Medic.jpg";
+	};
 
 // Support
 	class NLD_Helipilot: B_Helipilot_F
@@ -2485,8 +2828,8 @@ class CfgVehicles {
     editorPreview = "\NLD_Infantry_Units\previews\NLD_KMAR_Police.jpg";
 		linkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 		respawnLinkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
-		weapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put"};
-		respawnWeapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put"};
+		weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
         class Wounds
@@ -2514,8 +2857,8 @@ class CfgVehicles {
     editorPreview = "\NLD_Infantry_Units\previews\NLD_KMAR_Police2.jpg";
 		linkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
 		respawnLinkedItems[] = {"NLDO_KMAR_Vest", "Dutch_Beret_KMAR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" };
-		weapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put"};
-		respawnWeapons[] = {"CUP_smg_MP5A5", "NLD_Glock17", "Throw", "Put"};
+		weapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_MP5", "NLD_Glock17", "Throw", "Put"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
         class Wounds

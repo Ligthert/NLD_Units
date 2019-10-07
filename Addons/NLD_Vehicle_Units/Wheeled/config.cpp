@@ -25,6 +25,9 @@ class CfgVehicles {
 	class CUP_B_M1126_ICV_MK19_Woodland;
 	class CUP_B_M1133_MEV_Woodland;
 	class I_E_Offroad_01_comms_F;
+	class CUP_I_Van_Transport_ION;
+	class C_SUV_01_F;
+	class B_MRAP_01_F;
 
 
 	
@@ -730,13 +733,14 @@ class CfgVehicles {
 		scopeCurator = 2;
 		displayName = "VW Amarok";
 		side = 1;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Amarok.jpg";
 		vehicleClass = Car;
 		faction = "NLD_Units";
 		crew = "NLD_WLD_rifleman";
 		typicalCargo[] = {"NLD_WLD_rifleman"};
 		textureList[] = 
 		{
-			"Green", 1,
+			"Green", 1
 		};
 
 		
@@ -801,7 +805,208 @@ class CfgVehicles {
 			};
 		}; 
 	};
+	
+	class NLD_VWCrafter : CUP_I_Van_Transport_ION {
+		author = "Lowlands Tactical";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "VW Crafter";
+		side = 1;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_VWCrafter.jpg";
+		vehicleClass = Car;
+		faction = "NLD_Units_DSI";
+		crew = "NLD_DSI_assault";
+		typicalCargo[] = {"NLD_DSI_assault"};
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\VW\Van_02.paa"};
 
+		
+		animationList[] = 
+		{
+			"Door_1_source",0,
+			"Door_2_source",0,
+			"Door_3_source",0,
+			"Door_4_source",0,
+			"Hide_Door_1_source",0,
+			"Hide_Door_2_source",0,
+			"Hide_Door_3_source",0,
+			"Hide_Door_4_source",0,
+			"lights_em_hide",0,
+			"spare_tyre_holder_hide",1,
+			"spare_tyre_hide",1,
+			"reflective_tape_hide",1,
+			"roof_rack_hide",1,
+			"LED_lights_hide",0,
+			"sidesteps_hide",1,
+			"rearsteps_hide",0,
+			"side_protective_frame_hide",0,
+			"front_protective_frame_hide",1,
+			"beacon_front_hide",1,
+			"beacon_rear_hide",1
+		};
+		
+		class TransportWeapons {
+
+			class _xx_NLD_MP5 {
+				weapon = "NLD_MP5";
+				count = 2;
+			}; 
+		};
+	
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=15;
+			};
+		}; 
+	};
+
+	class NLD_DSI_BMW : C_SUV_01_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "BMW X6";
+		side = 1;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DSI_BMW.jpg";
+		vehicleClass = Car;
+		faction = "NLD_Units_DSI";
+		crew = "NLD_AT_assault";
+		typicalCargo[] = {"NLD_AT_assault"};
+		textureList[] = 
+		{
+			"Black", 1
+		};		
+		class TransportWeapons {
+
+			class _xx_NLD_MP5 {
+				weapon = "NLD_MP5";
+				count = 2;
+			}; 
+		};
+	
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=15;
+			};
+		}; 
+	};
+	
+	class NLD_DSI_Bearcat : B_MRAP_01_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Bearcat";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units_DSI";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_DSI_Bearcat.jpg";
+		crew = "NLD_DSI_assault";
+		typicalCargo[] = {"NLD_DSI_assault","NLD_DSI_assault"};
+		hiddenSelections[] = {"Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Bearcat\Bearcat.paa","\NLD_Vehicle_Units\Wheeled\Bearcat\Bearcat_adds.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportWeapons {
+
+			class _xx_NLD_SIG_DSI {
+				weapon = "NLD_SIG_DSI";
+				count = 1;
+			}; 
+			class _xx_NLD_HK417_DSI {
+				weapon = "NLD_HK417_DSI";
+				count = 1;
+			}; 
+			class _xx_NLD_HK416_DSI {
+				weapon = "NLD_HK416_DSI";
+				count = 4;
+			}; 
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_CUP_30Rnd_9x19_MP5
+			{
+				magazine="CUP_30Rnd_9x19_MP5";
+				count=15;
+			};
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			{
+				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_10Rnd_338_Mag
+			{
+				magazine="10Rnd_338_Mag";
+				count=15;
+			};
+			class _xx_20Rnd_762x51_Mag
+			{
+				magazine="20Rnd_762x51_Mag";
+				count=5;
+			};
+		};
+	};
+	
 	class NLD_WLD_VECTOR : B_LSV_01_unarmed_olive_F {
 		author = "Lowlands Tactical";
 		scope = 2;

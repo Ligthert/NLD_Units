@@ -546,9 +546,11 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "AN-MPQ53 radarsysteem";
 		side = 1;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_PatriotRadar.jpg";
 		vehicleClass = Armored;
 		faction = NLD_Units;
-		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Patriot\MiM.paa", "\NLD_Vehicle_Units\Armored\Patriot\Radar.paa"};		
 	};
 	
 	class NLD_WLD_PatriotMim : B_SAM_System_03_F
@@ -558,9 +560,11 @@ class CfgVehicles {
 		scope = 2;
 		displayName = "MIM-104 Patriot Raketinstallatie";
 		side = 1;
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_PatriotMim.jpg";
 		vehicleClass = Armored;
 		faction = NLD_Units;
-				
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Patriot\Base.paa", "\NLD_Vehicle_Units\Armored\Patriot\Missile.paa"};
 	};
 	
 
@@ -656,13 +660,17 @@ class CfgVehicles {
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2", "CamoNet", "CamoSlat"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90turret.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\woodland\Data\cv90body.paa", "A3\Armor_F\Data\camonet_NATO_Green_CO.paa", "A3\Armor_F\Data\cage_olive_CO.paa"};		
+			
+		class EventHandlers {
+			init = "_this select 0 removeWeaponTurret ['autocannon_30mm',[0]];_this select 0 addWeaponTurret ['autocannon_40mm_CTWS',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];";	 
+		};
 		
 		animationList[] =
 		{
 			"showBags",0,
 			"showBags2",1,
-			"showCamonetHull",0.5,
-			"showCamonetTurret",0.5,
+			"showCamonetHull",0,
+			"showCamonetTurret",0,
 			"showTools",1,
 			"showSLATHull",0,
 			"showSLATTurret",0
@@ -758,12 +766,16 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo1", "Camo2", "CamoNet", "CamoSlat"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90turrettan.paa", "\NLD_Vehicle_Units\Armored\CV9035NL\Desert\Data\cv90bodytan.paa", "A3\Armor_F\Data\camonet_NATO_Desert_CO.paa", "A3\Armor_F\Data\cage_sand_CO.paa"};
 		
+		class EventHandlers {
+			init = "_this select 0 removeWeaponTurret ['autocannon_30mm',[0]];_this select 0 addWeaponTurret ['autocannon_40mm_CTWS',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['60Rnd_40mm_GPR_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];_this select 0 addMagazineTurret ['40Rnd_40mm_APFSDS_Tracer_Yellow_shells',[0]];";	 
+		};
+		
 		animationList[] =
 		{
 			"showBags",0,
 			"showBags2",1,
-			"showCamonetHull",0.5,
-			"showCamonetTurret",0.5,
+			"showCamonetHull",0,
+			"showCamonetTurret",0,
 			"showTools",1,
 			"showSLATHull",0,
 			"showSLATTurret",0
