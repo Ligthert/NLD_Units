@@ -155,6 +155,14 @@ class CfgUnitInsignia
         texture = "\NLD_Insignia\Badges\MedicRound.paa";
         textureVehicle = "\NLD_Insignia\Badges\MedicRound.paa";
     };
+	class NLD_312SQN
+    {
+        dlc="NLD_Units";
+        displayName = "[NLD] 312 SQN Vipers";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Insignia\Badges\312SQN.paa";
+        textureVehicle = "\NLD_Insignia\Badges\312SQN.paa";
+    };
     class NLD_109MLRS
     {
         dlc="NLD_Units";

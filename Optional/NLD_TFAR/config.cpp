@@ -77,4 +77,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"NLD_TFAR\data\TFAR_LR_NFP_co.paa"};
 		model = "\task_force_radio_items\models\clf_nicecomm2";
 	};
+	
+	class NLD_rt1523g_BLACK: tf_rt1523g
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] RT-1523G (ASIP) BLACK";
+		descriptionShort = "RT-1523G (ASIP) NLD BLACK long range radio 20km";
+		maximumLoad = 160;
+		mass = 120;
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"NLD_TFAR\data\TFAR_LR_BLACK_co.paa"};
+		model = "\task_force_radio_items\models\clf_nicecomm2";
+	};
 };

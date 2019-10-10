@@ -10,6 +10,7 @@ v2019092614
  - Added NH90 armed.
  - Updated NH90 texture
  - NH90 also has ace fastroping now.
+ - Fixed F16 error and updated texture.
  - Updated NFP camo seeing as we (the Netherlands) are now starting to use them.
  - NFP camo comes in 3 tones, Green, Tan and for backpacks and vests a multitone that fits them both (to save on costs and logistical hassle).
  - Tank/APC/IFV crews now use the NFP green aswell.

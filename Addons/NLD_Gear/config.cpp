@@ -177,6 +177,7 @@ class cfgWeapons
 	class H_HelmetB_light_black;
 	class V_PlateCarrierIAGL_oli;
 	class V_PlateCarrierIA2_dgtl;
+	class U_B_PilotCoveralls;
 	
 	class NLD_WLD_Camo: Uniform_Base
 	{
@@ -388,6 +389,23 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Helipilot";
+			containerClass = "Supply90";
+			mass = 40;
+		};
+	};
+	class NLD_pilot_base: U_B_PilotCoveralls
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Pilot Coveralls";
+		genericNames = "NLD_Units";
+		picture = "\A3\characters_f\data\ui\icon_U_B_Pilotcoveralls_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_pilot";
 			containerClass = "Supply90";
 			mass = 40;
 		};

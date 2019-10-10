@@ -72,6 +72,7 @@ class CfgVehicles {
 	class B_Spotter_F;
 	class C_man_pilot_F;
 	class B_diver_F;
+	class B_Fighter_Pilot_F;
 	class O_Soldier_base_F;
 
 
@@ -2699,6 +2700,28 @@ class CfgVehicles {
 		magazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_30Rnd_9x19_MP5", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
     editorPreview = "\NLD_Infantry_Units\previews\NLD_Helipilot.jpg";
+	};
+	
+	class NLD_Pilot_F16: B_Fighter_Pilot_F
+	{
+		author = "Lowlands Tactical";
+		side = 1;
+		scope = 2;
+		displayName = "Pilot F16 312 SQN";
+		faction = "NLD_Units";
+		genericNames = "NLD_Units";
+		vehicleClass = "Infantry_Support";
+		model = "\A3\Characters_F\Common\pilot_f.p3d";
+		uniformAccessories[] = {};
+		uniformClass = "NLD_pilot_base";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\pilot_suit_rus_co.paa", "\NLD_Insignia\Badges\312SQN.paa"};
+		faceType = "Man_A3";
+		weapons[] = {"NLD_Glock17", "Throw", "Put"};
+		respawnWeapons[] = {"NLD_Glock17", "Throw", "Put"};
+		magazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Fighter_Pilot_F.jpg";
 	};
 
 	class NLD_Helicrew: B_Helipilot_F
