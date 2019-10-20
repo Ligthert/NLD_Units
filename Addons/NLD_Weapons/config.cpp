@@ -32,13 +32,6 @@ class CfgWeapons {
 	class arifle_MX_GL_Black_F;
 	class arifle_MX_SW_Black_F;
 	class arifle_MXM_Black_F;
-	class arifle_SPAR_01_blk_F;
-	class arifle_SPAR_01_GL_blk_F;
-	class arifle_SPAR_03_blk_F;
-	class arifle_SPAR_02_blk_F;
-	class arifle_SPAR_01_snd_F;
-	class arifle_SPAR_01_GL_snd_F;
-	class arifle_SPAR_03_snd_F;
 	class arifle_SPAR_02_snd_F;
 	class CUP_hgun_Glock17_blk;
 	class Weapon_C7NLD_nogrip;
@@ -54,6 +47,13 @@ class CfgWeapons {
 	class launch_MRAWS_green_F;
 	class CUP_arifle_M4A1_black;
 	class CUP_arifle_M4A1_BUIS_GL;
+	class CUP_arifle_HK_M27;
+	class CUP_arifle_HK416_CQB_Desert;
+	class CUP_arifle_HK416_CQB_AG36_Desert;
+	class CUP_arifle_HK417_20_Desert;
+	class CUP_arifle_HK417_20;
+	class CUP_arifle_HK416_CQB_AG36;
+	class CUP_arifle_HK416_CQB_Black;
 	
 	
 	class NLD_C7: Weapon_C7NLD_nogrip
@@ -662,7 +662,7 @@ class CfgWeapons {
 
 
 	//HK416
-	class NLD_HK416: arifle_SPAR_01_blk_F
+	class NLD_HK416: CUP_arifle_HK416_CQB_Black
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -683,7 +683,7 @@ class CfgWeapons {
 			};
 		};
 	};
-	class NLD_HK416_DSI: arifle_SPAR_01_blk_F
+	class NLD_HK416_DSI: CUP_arifle_HK416_CQB_Black
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -700,16 +700,16 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_flashlight";
+				item="CUP_acc_LLM01_L";
 			};
 			class LinkedItemsMuzzle
 			{
 				slot = "MuzzleSlot";
-				item = "muzzle_snds_M";
+				item = "CUP_muzzle_snds_M16";
 			};
 		};
 	};
-	class NLD_HK416_GL: arifle_SPAR_01_GL_blk_F
+	class NLD_HK416_GL: CUP_arifle_HK416_CQB_AG36
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -730,7 +730,7 @@ class CfgWeapons {
 			};
 		};
 	};
-	class NLD_HK417: arifle_SPAR_03_blk_F
+	class NLD_HK417: CUP_arifle_HK417_20
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -756,7 +756,7 @@ class CfgWeapons {
 			};
 		};
 	};
-	class NLD_HK417_DSI: arifle_SPAR_03_blk_F
+	class NLD_HK417_DSI: CUP_arifle_HK417_20
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -778,7 +778,7 @@ class CfgWeapons {
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_blk";
+				item = "CUP_bipod_VLTOR_Modpod_black";
 			};
 			class LinkedItemsMuzzle
 			{
@@ -846,11 +846,11 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="CUP_optic_SB_3_12x50_PMII_Tan";
+				item="CUP_optic_SB_3_12x50_PMII";
 			};			
 		};
 	};
-	class NLD_HK_LSW: arifle_SPAR_02_blk_F
+	class NLD_HK_LSW: CUP_arifle_HK_M27
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -872,12 +872,12 @@ class CfgWeapons {
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_blk";
+				item = "CUP_bipod_VLTOR_Modpod_black";
 			};
 		};
 	};
 
-	class NLD_HK416_SND: arifle_SPAR_01_snd_F
+	class NLD_HK416_SND: CUP_arifle_HK416_CQB_Desert
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -898,7 +898,7 @@ class CfgWeapons {
 			};
 		};
 	};
-	class NLD_HK416_GL_SND: arifle_SPAR_01_GL_snd_F
+	class NLD_HK416_GL_SND: CUP_arifle_HK416_CQB_AG36_Desert
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -919,7 +919,7 @@ class CfgWeapons {
 			};
 		};
 	};
-	class NLD_HK417_SND: arifle_SPAR_03_snd_F
+	class NLD_HK417_SND: CUP_arifle_HK417_20_Desert
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
@@ -931,7 +931,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="CUP_optic_SB_3_12x50_PMII_Tan";
+				item="CUP_optic_SB_3_12x50_PMII";
 			};
 			class LinkedItemsAcc
 			{
@@ -941,7 +941,7 @@ class CfgWeapons {
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_snd";
+				item = "CUP_bipod_VLTOR_Modpod";
 			};
 		};
 	};
@@ -950,7 +950,7 @@ class CfgWeapons {
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName="[NLD] HK LSW sand";
-		Scope=2;
+		Scope=1;
 		weaponPoolAvailable=1;
 		class LinkedItems
 		{
@@ -1146,6 +1146,12 @@ class CfgVehicles
 				magazine = "CUP_30Rnd_556x45_Stanag";
 				count = 100;
 			};
+			
+			class _xx_CUP_20Rnd_762x51_HK417
+			{
+				magazine = "CUP_20Rnd_762x51_HK417";
+				count = 20;
+			};
 
 			class _xx_16Rnd_9x21_Mag
 			{
@@ -1153,9 +1159,9 @@ class CfgVehicles
 				count = 50;
 			};
 
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
 			{
-				magazine = "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine = "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
 				count = "50";
 			};
 
@@ -1274,9 +1280,9 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\NLD_Weapons\AmmoCrates\data\ammocrates_wapens.paa"};
 		class TransportWeapons
 		{
-			class _xx_NLD_AT4
+			class _xx_NLD_Pzf3
 			{
-				weapon = "NLD_AT4";
+				weapon = "NLD_Pzf3";
 				count = 5;
 			};
 			class _xx_CUP_launch_FIM92Stinger

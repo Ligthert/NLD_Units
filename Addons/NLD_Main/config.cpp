@@ -128,7 +128,7 @@ class CfgFactionClasses
 
   class NLD_Units_MTP
 	{
-		displayName="[NLD] Special Forces (MTP)";
+		displayName="[NLD] Korps Commando Troepen (MTP)";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -136,11 +136,12 @@ class CfgFactionClasses
 
   class NLD_Units_KM
 	{
-		displayName="[NLD] Special Forces (KM)";
+		displayName="[NLD] Korps Mariniers";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
 	};
+	
   class NLD_Units_DSI
 	{
 		displayName="[NLD] DSI";
