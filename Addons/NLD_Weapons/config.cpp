@@ -21,9 +21,10 @@ class CfgVehicleClasses
 class CfgWeapons {
 
 	// ext class ref
-	class CUP_lmg_minimipara;
+	class CUP_lmg_L110A1;
 	class CUP_lmg_m240;
-	class CUP_srifle_M107_Base;
+	class CUP_srifle_M107_Pristine;
+	class CUP_srifle_M107_Desert;
 	class CUP_srifle_AWM_wdl;
 	class CUP_launch_M136;
 	class arifle_MXC_Black_F;
@@ -47,9 +48,12 @@ class CfgWeapons {
 	class SMG_03C_black;
 	class CUP_glaunch_M32;
 	class CUP_smg_MP5A5_flashlight;
-	class CUP_sgun_M1014;
+	class CUP_sgun_M1014_vfg;
 	class SMG_05_F;
 	class srifle_DMR_02_F;
+	class launch_MRAWS_green_F;
+	class CUP_arifle_M4A1_black;
+	class CUP_arifle_M4A1_BUIS_GL;
 	
 	
 	class NLD_C7: Weapon_C7NLD_nogrip
@@ -149,9 +153,49 @@ class CfgWeapons {
 			};
 		};
 	};
+	
+// Diemaco C8
+	class NLD_blk_C8: CUP_arifle_M4A1_black {
+		displayName="[NLD] Diemaco C8";
+		author="Lowlands Tactical";
+		scope=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM4";
+				item = "CUP_optic_Elcan_reflex";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "CUP_PicatinnySideMountM4";
+				item = "acc_pointer_IR";
+			};
+		};
+	};
+
+	// Diemaco C8 GL
+	class NLD_blk_C8GL: CUP_arifle_M4A1_BUIS_GL {
+		displayName="[NLD] Diemaco C8 GL";
+		author="Lowlands Tactical";
+		scope=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM4";
+				item = "CUP_optic_Elcan_reflex";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "CUP_PicatinnySideMountM4";
+				item = "acc_pointer_IR";
+			};
+		};
+	};
 
 	// Minimi
-	class NLD_Minimi: CUP_lmg_minimipara {
+	class NLD_Minimi: CUP_lmg_L110A1 {
 		displayName="[NLD] FN Minimi";
 		author="Lowlands Tactical";
 		scope=2;
@@ -160,12 +204,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM249";
-				item = "CUP_optic_ElcanM145";
+				item = "CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot = "CUP_PicatinnySideMountM249";
-				item = "acc_pointer_IR";
+				item = "CUP_acc_LLM01_L";
 			};
 		};
 	};
@@ -181,7 +225,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountAWM";
-				item = "optic_LRPS";
+				item = "CUP_optic_SB_3_12x50_PMII";
 			};
 			class LinkedItemsBipod
 			{
@@ -199,8 +243,8 @@ class CfgWeapons {
 		magazines[] =
 		{
 			"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
-			"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
-			"NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"
+			"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",
+			"NLD_200Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M"
 		};
 		class LinkedItems
 		{
@@ -225,6 +269,17 @@ class CfgWeapons {
 		magazines[] =
 		{
 			"CUP_M136_M"
+		};
+	};
+	
+	//Panzerfaust 3
+	class NLD_Pzf3: launch_MRAWS_green_F {
+		displayName="[NLD] Panzerfasut 3";
+		author="Lowlands Tactical";
+		scope=2;
+		magazines[] =
+		{
+			"MRAWS_HEAT_F"
 		};
 	};
 
@@ -619,12 +674,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_MRCO";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 		};
 	};
@@ -640,7 +695,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_MRCO";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
@@ -666,12 +721,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_MRCO";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 		};
 	};
@@ -687,17 +742,17 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_LRPS";
+				item="CUP_optic_SB_3_12x50_PMII";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_ANPEQ_15_Flashlight_Black_L";
 			};
 			class LinkedItemsUnder
 			{
 				slot = "UnderBarrelSlot";
-				item = "bipod_01_F_blk";
+				item = "CUP_bipod_VLTOR_Modpod_black";
 			};
 		};
 	};
@@ -713,7 +768,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_LRPS";
+				item="CUP_optic_SB_3_12x50_PMII";
 			};
 			class LinkedItemsAcc
 			{
@@ -744,7 +799,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_AMS";
+				item="CUP_optic_SB_3_12x50_PMII";
 			};
 			class LinkedItemsAcc
 			{
@@ -763,6 +818,38 @@ class CfgWeapons {
 			};
 		};
 	};
+	class NLD_M107: CUP_srifle_M107_Pristine
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] M107 Barret";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_SB_3_12x50_PMII";
+			};			
+		};
+	};
+	class NLD_M107_Tan: CUP_srifle_M107_Desert
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] M107 Barret (Tan)";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_SB_3_12x50_PMII_Tan";
+			};			
+		};
+	};
 	class NLD_HK_LSW: arifle_SPAR_02_blk_F
 	{
 		dlc="NLD_Units";
@@ -775,12 +862,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_MRCO";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 			class LinkedItemsUnder
 			{
@@ -802,12 +889,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_snd_F";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 		};
 	};
@@ -823,12 +910,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_snd_F";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 		};
 	};
@@ -844,7 +931,7 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_snd_F";
+				item="CUP_optic_SB_3_12x50_PMII_Tan";
 			};
 			class LinkedItemsAcc
 			{
@@ -870,12 +957,12 @@ class CfgWeapons {
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ERCO_snd_F";
+				item="CUP_optic_AIMM_COMPM4_BLK";
 			};
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="acc_pointer_IR";
+				item="CUP_acc_LLM01_L";
 			};
 			class LinkedItemsUnder
 			{
@@ -934,11 +1021,11 @@ class CfgWeapons {
 		};
 	};
 	
-	class NLD_Beneli: CUP_sgun_M1014
+	class NLD_Beneli: CUP_sgun_M1014_vfg
 	{
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
-		displayName="[NLD] Beneli Shotgun";
+		displayName="[NLD] Mossberg Shotgun";
 		Scope=2;
 		weaponPoolAvailable=1;
 		class LinkedItems

@@ -173,7 +173,7 @@ class cfgWeapons
 	class V_PlateCarrier1_blk;
 	class V_PlateCarrierIA1_dgtl;
 	class V_Chestrig_oli;
-	class NVGoggles_OPFOR;
+	class CUP_NVG_PVS15_black;
 	class H_HelmetB_light_black;
 	class V_PlateCarrierIAGL_oli;
 	class V_PlateCarrierIA2_dgtl;
@@ -1467,7 +1467,7 @@ class cfgWeapons
 		picture = "\NLD_Gear\SF\Data\uim\BaseballCap.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\BaseballCap.paa"};
 	};
-	class NLD_NVGoggles: NVGoggles_OPFOR
+	class NLD_NVGoggles: CUP_NVG_PVS15_black
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
