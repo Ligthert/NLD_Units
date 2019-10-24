@@ -553,13 +553,15 @@ class CfgVehicles {
 		author = "Lowlands Tactical";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "VECTOR armed (Desert)";
+		displayName = "VECTOR armed (Tan)";
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units_MTP";
 		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_VECTOR_ARMED.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -625,8 +627,8 @@ class CfgVehicles {
 	};
 		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
 		author = "Lowlands Tactical";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "VECTOR unarmed (Desert)";
 		side = 1;
 		vehicleClass = Car;
@@ -1009,8 +1011,8 @@ class CfgVehicles {
 	
 	class NLD_WLD_VECTOR : B_LSV_01_unarmed_olive_F {
 		author = "Lowlands Tactical";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "VECTOR unarmed (Olive)";
 		side = 1;
 		vehicleClass = Car;
@@ -1079,8 +1081,8 @@ class CfgVehicles {
 
 	class NLD_WLD_VECTOR_ARMED : B_T_LSV_01_armed_olive_F {
 		author = "Lowlands Tactical";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "VECTOR (Olive)";
 		side = 1;
 		vehicleClass = Car;
