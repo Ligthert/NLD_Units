@@ -28,6 +28,8 @@ class CfgVehicles {
 	class CUP_I_Van_Transport_ION;
 	class C_SUV_01_F;
 	class B_MRAP_01_F;
+	class bma3_bushmaster_unarmed_F;
+	class bma3_bushmaster_pws127mm_F;
 
 
 	
@@ -123,14 +125,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -143,9 +145,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -243,14 +245,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -263,9 +265,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -314,6 +316,259 @@ class CfgVehicles {
 				count=5;
 			};
 			
+		};
+		class TransportWeapons {};
+	};
+
+// Bushmasters	
+	class NLD_Bushmaster_unarmed: bma3_bushmaster_unarmed_F
+	{
+		author="Lowlands Tactical";
+		displayName="Bushmaster PMV unarmed";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"
+			};
+			
+		};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_ATMine_Range_Mag
+			{
+				magazine="ATMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=10;
+			};
+			class _xx_SLAMDirectionalMine_Wire_Mag
+			{
+				magazine="SLAMDirectionalMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_ClaymoreDirectionalMine_Remote_Mag
+			{
+				magazine="ClaymoreDirectionalMine_Remote_Mag";
+				count=10;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_MRAWS_HEAT_F
+			{
+				magazine="MRAWS_HEAT_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_Bushmaster_armed: bma3_bushmaster_pws127mm_F
+	{
+		author="Lowlands Tactical";
+		displayName="Bushmaster PMV armed";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"};
+		
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa",
+				"\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"
+			};
+			
+		};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_ATMine_Range_Mag
+			{
+				magazine="ATMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=10;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=10;
+			};
+			class _xx_SLAMDirectionalMine_Wire_Mag
+			{
+				magazine="SLAMDirectionalMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=10;
+			};
+			class _xx_ClaymoreDirectionalMine_Remote_Mag
+			{
+				magazine="ClaymoreDirectionalMine_Remote_Mag";
+				count=10;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				magazine="DemoCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_SatchelCharge_Remote_Mag
+			{
+				magazine="SatchelCharge_Remote_Mag";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=15;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_MRAWS_HEAT_F
+			{
+				magazine="MRAWS_HEAT_F";
+				count=5;
+			};
 		};
 		class TransportWeapons {};
 	};
@@ -366,14 +621,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -386,9 +641,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -443,14 +698,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -463,9 +718,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -520,14 +775,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -540,9 +795,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -563,6 +818,17 @@ class CfgVehicles {
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"};
 
+		class TextureSources {
+			textures[]=
+			{
+				"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa",
+				"\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa",
+				"\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa",
+				"\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"
+			};
+			
+		};
+		
 		class TransportItems {
 			class _xx_FirstAidKit {
 				name = "FirstAidKit";
@@ -592,19 +858,19 @@ class CfgVehicles {
 				magazine="SmokeShellGreen";
 				count=5;
 			};
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_CUP_20Rnd_762x51_HK417
 			{
-				magazine="30Rnd_65x39_caseless_mag";
+				magazine="CUP_20Rnd_762x51_HK417";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -617,9 +883,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -627,8 +893,8 @@ class CfgVehicles {
 	};
 		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
 		author = "Lowlands Tactical";
-		scope = 1;
-		scopeCurator = 1;
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "VECTOR unarmed (Desert)";
 		side = 1;
 		vehicleClass = Car;
@@ -671,14 +937,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -691,9 +957,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -795,14 +1061,14 @@ class CfgVehicles {
 				magazine="30Rnd_556x45_Stanag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 		}; 
@@ -986,9 +1252,9 @@ class CfgVehicles {
 				magazine="CUP_30Rnd_9x19_MP5";
 				count=15;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1001,9 +1267,9 @@ class CfgVehicles {
 				magazine="10Rnd_338_Mag";
 				count=15;
 			};
-			class _xx_20Rnd_762x51_Mag
+			class _xx_CUP_20Rnd_762x51_HK417
 			{
-				magazine="20Rnd_762x51_Mag";
+				magazine="CUP_20Rnd_762x51_HK417";
 				count=5;
 			};
 		};
@@ -1055,19 +1321,19 @@ class CfgVehicles {
 				magazine="30Rnd_556x45_Stanag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
-			class _xx_20Rnd_762x51_Mag
+			class _xx_CUP_20Rnd_762x51_HK417
 			{
-				magazine="20Rnd_762x51_Mag";
+				magazine="CUP_20Rnd_762x51_HK417";
 				count=15;
 			};
 			class _xx_Titan_AT
@@ -1125,19 +1391,19 @@ class CfgVehicles {
 				magazine="30Rnd_556x45_Stanag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
-			class _xx_20Rnd_762x51_Mag
+			class _xx_CUP_20Rnd_762x51_HK417
 			{
-				magazine="20Rnd_762x51_Mag";
+				magazine="CUP_20Rnd_762x51_HK417";
 				count=15;
 			};
 			class _xx_Titan_AT
@@ -1225,14 +1491,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1245,9 +1511,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1300,14 +1566,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1320,9 +1586,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1375,14 +1641,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1395,9 +1661,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1450,14 +1716,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1470,9 +1736,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1525,14 +1791,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1545,9 +1811,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1600,14 +1866,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1620,9 +1886,9 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};

@@ -11,7 +11,7 @@ DEL /S /Q *.pbo
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -U NLD_Gear
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_F-16
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Grouped_Units
-"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -U NLD_Infantry_Units
+"C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Infantry_Units
 "C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe" -UP NLD_Vehicle_Units
 
 copy ..\External_Addons\*.pbo .

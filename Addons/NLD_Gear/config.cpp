@@ -45,7 +45,7 @@ class CfgVehicles
 	{
 		side = 1;
 		scope = 2;
-		displayName = "[NLD] Woodland Rifleman";
+		displayName = "Woodland Rifleman";
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01";
 		uniformClass = "NLD_WLD_Camo";
 		hiddenSelections[] = {"Camo","insignia"};
@@ -56,7 +56,7 @@ class CfgVehicles
 	};
 	class NLD_DST_rifleman: NLD_WLD_rifleman
 	{
-		displayName = "[NLD] Desert Rifleman";
+		displayName = "Desert Rifleman";
 		uniformClass = "NLD_DST_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa",""};
 		linkedItems[] = {"NLD_DST_Vest","NLD_DST_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -64,7 +64,7 @@ class CfgVehicles
 	};
 	class NLD_NFPT_rifleman: NLD_WLD_rifleman
 	{
-		displayName = "[NLD] NFP Tan Rifleman";
+		displayName = "NFP Tan Rifleman";
 		uniformClass = "NLD_NFPT_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Uniform.paa",""};
 		linkedItems[] = {"NLD_NFPT_Vest","NLD_NFPT_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -72,7 +72,7 @@ class CfgVehicles
 	};
 	class NLD_NFPG_rifleman: NLD_WLD_rifleman
 	{
-		displayName = "[NLD] NFP Green Rifleman";
+		displayName = "NFP Green Rifleman";
 		uniformClass = "NLD_NFPG_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Uniform.paa",""};
 		linkedItems[] = {"NLD_NFPG_Vest","NLD_NFPG_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -80,7 +80,7 @@ class CfgVehicles
 	};
 	class NLD_WTR_rifleman: NLD_WLD_rifleman
 	{
-		displayName = "[NLD] Winter Rifleman";
+		displayName = "Winter Rifleman";
 		uniformClass = "NLD_WTR_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Uniform.paa",""};
 		linkedItems[] = {"NLD_WTR_Vest","NLD_WTR_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -102,9 +102,19 @@ class CfgVehicles
 		linkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NLD_UN_Vest","NLD_UN_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
+	class NLD_KMI_rifleman: NLD_WLD_rifleman
+	{
+		vehicleClass = "Infantry_KMI";
+		uniformClass = "NLD_KM_Camo";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa","\NLD_Infantry_Units\Badges\KCT.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		linkedItems[] = {"NLD_KMI_Vest","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_KMI_Vest","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
 	class NLD_SF_Operator: NLD_WLD_rifleman
 	{
-		displayName = "[NLD] Black Operator";
+		displayName = "Black Operator";
 		vehicleClass = "Infantry_SF";
 		uniformClass = "NLD_SF_Camo";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Uniform.paa",""};
@@ -113,7 +123,7 @@ class CfgVehicles
 	};
 	class NLD_MTP_Operator: NLD_SF_Operator
 	{
-		displayName = "[NLD] MTP Operator";
+		displayName = "MTP Operator";
 		uniformClass = "NLD_MTP_Camo";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa","\NLD_Infantry_Units\Badges\KCT.paa"};
@@ -123,7 +133,7 @@ class CfgVehicles
 	};
 	class NLD_DSI_assault: NLD_SF_Operator
 	{
-		displayName = "[NLD] DSI assault (HK416)";
+		displayName = "DSI assault (HK416)";
 		uniformClass = "NLD_DSI_Camo";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_DSI.paa","\NLD_Infantry_Units\Badges\DSI.paa"};
@@ -133,7 +143,7 @@ class CfgVehicles
 	};
 	class NLD_AT_assault: NLD_SF_Operator
 	{
-		displayName = "[NLD] AT assault (MP5)";
+		displayName = "AT assault (MP5)";
 		uniformClass = "NLD_AT_Camo";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Uniform_AT.paa","\NLD_Infantry_Units\Badges\DSI.paa"};
@@ -143,13 +153,13 @@ class CfgVehicles
 	};
 	class NLD_KM_Operator: NLD_SF_Operator
 	{
-		displayName = "[NLD] KM Operator";
+		displayName = "KM Operator";
 		uniformClass = "NLD_KM_Camo";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\Uniform.paa","\NLD_Infantry_Units\Badges\KCT.paa"};
 		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
-		linkedItems[] = {"NLD_KM_PlateCarrier","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NLD_KM_PlateCarrier","NLD_KM_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 };
 class cfgWeapons
@@ -167,6 +177,7 @@ class cfgWeapons
 	class H_MilCap_mcamo;
 	class H_HelmetB_plain_mcamo;
 	class H_HelmetCrew_B;
+	class H_HelmetSpecB;
 	class Uniform_Base;
 	class U_B_HeliPilotCoveralls;
 	class VestItem;
@@ -723,7 +734,7 @@ class cfgWeapons
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
-		scope = 2;
+		scope = 1;
 		displayName = "[NLD] UN Vest";
 		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
 		hiddenSelections[] = {"camo"};
@@ -1078,13 +1089,22 @@ class cfgWeapons
 		picture = "\NLD_Gear\Winter\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Helmet.paa"};
 	};
-	class NLD_KM_Helmet: NLD_WLD_Helmet
+	class NLD_KMI_Helmet: NLD_WLD_Helmet
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
-		displayName = "[NLD] KM Helmet";
+		displayName = "[NLD] KMI Helmet";
 		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\Helmet.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\Helmet.paa"};
+	};
+	
+	class NLD_KM_Helmet: H_HelmetSpecB
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] Marsof Helmet";
+		picture = "\NLD_Gear\SF\Data\uim\ECH.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\KM_ECH.paa"};
 	};
 
 	class NLD_UN_Helmet: NLD_WLD_Helmet
@@ -1472,6 +1492,28 @@ class cfgWeapons
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
 		displayName = "[NLD] NV Goggles";
+	};
+};
+
+class cfgGlasses
+{
+	class CUP_PMC_Facewrap_Tan;
+	
+	class NLD_Facewrap_Aliende: CUP_PMC_Facewrap_Tan
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Facewrap Alien grey";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_aliende.paa"};
+	};
+	class NLD_Facewrap_Multicam: CUP_PMC_Facewrap_Tan
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] Facewrap Multicam";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_multicam.paa"};
 	};
 };
 //};

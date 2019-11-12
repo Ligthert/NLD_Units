@@ -35,6 +35,14 @@ class CfgUnitInsignia
     	texture = "\NLD_Insignia\Badges\KCT.paa";
     	textureVehicle = "\NLD_Insignia\Badges\KCT.paa";
     };
+	class NLD_KCTScorps
+    {
+        dlc="NLD_Units";
+    	displayName = "[NLD] KCT scorpions";
+    	author = "Lowlands Tactical";
+    	texture = "\NLD_Insignia\Badges\kctscorps.paa";
+    	textureVehicle = "\NLD_Insignia\Badges\kctscorps.paa";
+    };
 	class NLD_DSI
     {
         dlc="NLD_Units";
@@ -67,13 +75,21 @@ class CfgUnitInsignia
         texture = "\NLD_Insignia\Badges\RNLMC.paa";
         textureVehicle = "\NLD_Insignia\Badges\RNLMC.paa";
     };
-    class NLD_KM
+    class NLD_KMI
     {
         dlc="NLD_Units";
         displayName = "[NLD] Korps Mariniers";
         author = "Lowlands Tactical";
         texture = "\NLD_Insignia\Badges\Korps Mariniers.paa";
         textureVehicle = "\NLD_Insignia\Badges\Korps Mariniers.paa";
+    };
+	class NLD_KM
+    {
+        dlc="NLD_Units";
+        displayName = "[NLD] C-squadron";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Insignia\Badges\c-squadron.paa";
+        textureVehicle = "\NLD_Insignia\Badges\c-squadron.paa";
     };
     class NLD_KM2
     {
@@ -90,6 +106,14 @@ class CfgUnitInsignia
         author = "Lowlands Tactical";
         texture = "\NLD_Insignia\Badges\TF55.paa";
         textureVehicle = "\NLD_Insignia\Badges\TF55.paa";
+    };
+	class NLD_Frogman
+    {
+        dlc="NLD_Units";
+        displayName = "[NLD] Kikvorsmannen";
+        author = "Lowlands Tactical";
+        texture = "\NLD_Insignia\Badges\rsz_frogman.paa";
+        textureVehicle = "\NLD_Insignia\Badges\rsz_frogman.paa";
     };
     class NLD_TF55G
     {

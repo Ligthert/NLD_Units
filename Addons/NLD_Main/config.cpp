@@ -120,7 +120,7 @@ class CfgFactionClasses
 
   class NLD_Units_SF
 	{
-		displayName="[NLD] Special Forces (Black)";
+		displayName="[NLD] Marsof Divers";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -135,6 +135,14 @@ class CfgFactionClasses
 	};
 
   class NLD_Units_KM
+	{
+		displayName="[NLD] MARSOF";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+	
+	class NLD_Units_KMI
 	{
 		displayName="[NLD] Korps Mariniers";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";

@@ -243,8 +243,7 @@ class CfgWeapons {
 		magazines[] =
 		{
 			"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
-			"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",
-			"NLD_200Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M"
+			"CUP_100Rnd_TE4_LRT4_red_Tracer_762x51_Belt_M"
 		};
 		class LinkedItems
 		{
@@ -681,6 +680,11 @@ class CfgWeapons {
 				slot="PointerSlot";
 				item="CUP_acc_LLM01_L";
 			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M16";
+			};
 		};
 	};
 	class NLD_HK416_DSI: CUP_arifle_HK416_CQB_Black
@@ -728,6 +732,11 @@ class CfgWeapons {
 				slot="PointerSlot";
 				item="CUP_acc_LLM01_L";
 			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M16";
+			};
 		};
 	};
 	class NLD_HK417: CUP_arifle_HK417_20
@@ -753,6 +762,11 @@ class CfgWeapons {
 			{
 				slot = "UnderBarrelSlot";
 				item = "CUP_bipod_VLTOR_Modpod_black";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_B";
 			};
 		};
 	};
@@ -874,6 +888,11 @@ class CfgWeapons {
 				slot = "UnderBarrelSlot";
 				item = "CUP_bipod_VLTOR_Modpod_black";
 			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M16";
+			};
 		};
 	};
 
@@ -894,7 +913,12 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="CUP_acc_LLM01_L";
+				item="CUP_acc_LLM01_coyote_L";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M16_coyote";
 			};
 		};
 	};
@@ -915,7 +939,12 @@ class CfgWeapons {
 			class LinkedItemsAcc
 			{
 				slot="PointerSlot";
-				item="CUP_acc_LLM01_L";
+				item="CUP_acc_LLM01_coyote_L";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M16_coyote";
 			};
 		};
 	};
@@ -942,6 +971,11 @@ class CfgWeapons {
 			{
 				slot = "UnderBarrelSlot";
 				item = "CUP_bipod_VLTOR_Modpod";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_B_arid_F";
 			};
 		};
 	};
@@ -1069,31 +1103,25 @@ class CfgWeapons {
 		scope=2;
 		displayName="[NLD] Glock17";
 	};
+	
+	class NLD_Glock17S: CUP_hgun_Glock17_blk
+	{
+		scope=2;
+		displayName="[NLD] Glock17";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M9";
+			};
+		};
+	};
+	
 };
 
 // Magazines
 class CfgMagazines {
-
-	// ext class ref
-	class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M;
-
-	// 200rnd belt
-	class NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M {
-
-		author = "CUP";
-		scope = 2;
-		displayName = "[NLD] 7.62x51mm 200 Rnd 240 Belt (red tracers)";
-		picture = "\A3\Weapons_F\Data\UI\M_200Rnd_65x39_CA.paa";
-		model = "\A3\weapons_F\ammo\mag_univ.p3d";
-		count = 200;
-		type = 2 * 256;
-		ammo = "B_762x51_Tracer_Red";
-		initSpeed = 900;
-		tracersEvery = 4;
-		lastRoundsTracer = 4;
-		nameSound = "mgun";
-		descriptionShort = "7.62x51mm Belt (red tracers)";
-	};
 };
 
 // Ammo Boxes
@@ -1159,9 +1187,9 @@ class CfgVehicles
 				count = 50;
 			};
 
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_red_Tracer_556x45_M249_Pouch
 			{
-				magazine = "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine = "CUP_200Rnd_TE4_red_Tracer_556x45_M249_Pouch";
 				count = "50";
 			};
 
@@ -1171,9 +1199,9 @@ class CfgVehicles
 				count = 50;
 			};
 
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine = "NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 50;
 			};
 			class _xx_HandGrenade

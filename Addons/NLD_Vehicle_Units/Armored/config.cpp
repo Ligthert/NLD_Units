@@ -78,14 +78,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -365,14 +365,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -443,14 +443,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -588,14 +588,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -696,14 +696,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -800,14 +800,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -917,14 +917,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -994,14 +994,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1071,14 +1071,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1149,14 +1149,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1227,14 +1227,14 @@ class CfgVehicles {
 				magazine="30Rnd_65x39_caseless_mag";
 				count=15;
 			};
-			class _xx_NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="NLD_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
