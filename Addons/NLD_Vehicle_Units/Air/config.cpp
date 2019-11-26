@@ -27,7 +27,7 @@ class CfgVehicles
 	class B_Heli_Transport_03_F;
 	class B_Heli_Transport_03_unarmed_F;
 	class CUP_B_CH47F_USA;
-	class CUP_B_AH64D_DL_USA;
+	class CUP_B_AH64_DL_USA;
 	class CUP_B_AW159_Unarmed_GB;
 	class CUP_B_AW159_Hellfire_GB;
 	class CUP_B_SA330_Puma_HC2_BAF;
@@ -36,6 +36,7 @@ class CfgVehicles
 	class CUP_B_C130J_USMC;
 	class CUP_B_C130J_Cargo_USMC;
 	class CUP_CH47F_VIV_Base;
+	class CUP_B_USMC_DYN_MQ9;
 
 	class EC635_NLD_Police: EC635_Unarmed
 	{
@@ -87,7 +88,7 @@ class CfgVehicles
 		class TransportWeapons{};
 	};
 
-	class NLD_AH64D : CUP_B_AH64D_DL_USA
+	class NLD_AH64D : CUP_B_AH64_DL_USA
 	{
 		author = "Lowlands Tactical";
 		scope = 2;
@@ -129,6 +130,20 @@ class CfgVehicles
 				count=5;
 			};
 		};
+	};
+	
+	class NLD_MQ9 : CUP_B_USMC_DYN_MQ9
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "MQ9 Reaper";
+		side = 1;
+		crew = "B_UAV_AI";
+		faction = "NLD_Units";
+		editorPreview = "";
+		vehicleclass﻿ = "Autonomous";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MQ9\Data\mq9reaper.paa"};
 	};
 	
 	class NLD_Cougar : CUP_B_SA330_Puma_HC2_BAF
@@ -488,9 +503,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -503,9 +518,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -564,9 +579,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -579,9 +594,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -718,9 +733,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -733,9 +748,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -798,9 +813,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -813,9 +828,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -876,9 +891,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -891,9 +906,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -954,9 +969,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -969,9 +984,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1032,9 +1047,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1047,9 +1062,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};
@@ -1110,9 +1125,9 @@ class CfgVehicles
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=5;
 			};
-			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
 			{
-				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
 				count=5;
 			};
 			class _xx_CUP_30Rnd_556x45_Stanag
@@ -1125,9 +1140,9 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_CUP_M136_M
+			class _xx_MRAWS_HEAT_F
 			{
-				magazine="CUP_M136_M";
+				magazine="MRAWS_HEAT_F";
 				count=5;
 			};
 		};

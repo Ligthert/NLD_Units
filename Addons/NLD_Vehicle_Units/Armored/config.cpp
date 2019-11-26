@@ -25,6 +25,13 @@ class CfgVehicles {
 	class B_Radar_System_01_F;
 	class B_SAM_System_03_F;
 	class CUP_B_Leopard2A6_GER;
+	class B_SDV_01_F;
+	class I_C_Boat_Transport_02_F;
+	class CUP_B_RHIB_USMC;
+	class CUP_I_Frigate_AAF;
+	class CUP_I_LCVP_VIV_RACS;
+	class CUP_I_LCVP_RACS;
+	class CUP_B_MK10_GB;
     
 	
 
@@ -1254,6 +1261,185 @@ class CfgVehicles {
 			};
 		};
 		class TransportWeapons {};
+	};
+	
+// BOATS
+
+	class NLD_RHIB : I_C_Boat_Transport_02_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "RHIB";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_KMI_Rifleman";
+		typicalCargo[] = {"NLD_KMI_Rifleman"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=2;
+			};
+			class _xx_CUP_20Rnd_762x51_HK417
+			{
+				magazine="CUP_20Rnd_762x51_HK417";
+				count=3;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_FRISC : CUP_B_RHIB_USMC
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "FRISC-motorboot";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_KM_Operator";
+		typicalCargo[] = {"NLD_KM_Operator"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=2;
+			};
+			class _xx_CUP_20Rnd_762x51_HK417
+			{
+				magazine="CUP_20Rnd_762x51_HK417";
+				count=3;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_LCF : CUP_I_Frigate_AAF
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Zeven Provinciënklasse LCF";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+	};
+	
+	class NLD_SDV : B_SDV_01_F
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "Minisub";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_SF_Operator";
+		typicalCargo[] = {"NLD_SF_Operator"};
+	};
+	
+	class NLD_LCU : CUP_B_MK10_GB
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "LCU MK2";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+	};
+	
+	class NLD_LCVP : CUP_I_LCVP_RACS
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "LCVP MK5 (Infantry)";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+	};
+	
+	class NLD_LCVP_VIV : CUP_I_LCVP_VIV_RACS
+	{
+
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "LCVP MK5 (Vehicles)";
+		side = 1;
+		vehicleClass = Boats;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
 	};
 
 

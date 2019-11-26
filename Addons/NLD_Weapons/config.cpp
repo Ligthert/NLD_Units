@@ -895,6 +895,33 @@ class CfgWeapons {
 			};
 		};
 	};
+	
+	class NLD_Colt_LSW: CUP_arifle_HK_M27
+	{
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName="[NLD] LOAWNLD";
+		Scope=2;
+		weaponPoolAvailable=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="CUP_optic_AIMM_COMPM4_BLK";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="CUP_acc_LLM01_L";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "CUP_bipod_VLTOR_Modpod_black";
+			};
+		};
+	};
 
 	class NLD_HK416_SND: CUP_arifle_HK416_CQB_Desert
 	{

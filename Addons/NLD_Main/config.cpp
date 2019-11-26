@@ -56,7 +56,7 @@ class CfgFactionClasses
 {
 	class NLD_Units
 	{
-    displayName="NLD Armed Forces";
+    displayName="[NLD] Vehicles & support";
 		icon="\NLD_Main\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -96,7 +96,7 @@ class CfgFactionClasses
 
 	class NLD_Units_WTR
 	{
-		displayName="[NLD] Winter";
+		displayName="[NLD] NFP-Arctic";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;
@@ -128,7 +128,7 @@ class CfgFactionClasses
 
   class NLD_Units_MTP
 	{
-		displayName="[NLD] Korps Commando Troepen (MTP)";
+		displayName="[NLD] Korps Commando Troepen";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;

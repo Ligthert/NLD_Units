@@ -88,8 +88,8 @@ class CfgUnitInsignia
         dlc="NLD_Units";
         displayName = "[NLD] C-squadron";
         author = "Lowlands Tactical";
-        texture = "\NLD_Insignia\Badges\c-squadron.paa";
-        textureVehicle = "\NLD_Insignia\Badges\c-squadron.paa";
+        texture = "\NLD_Insignia\Badges\csquad.paa";
+        textureVehicle = "\NLD_Insignia\Badges\csquad.paa";
     };
     class NLD_KM2
     {

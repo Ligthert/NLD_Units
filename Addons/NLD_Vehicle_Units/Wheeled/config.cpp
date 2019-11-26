@@ -21,6 +21,7 @@ class CfgVehicles {
 	class B_LSV_01_armed_sand_F;
 	class B_LSV_01_unarmed_olive_F;
 	class B_LSV_01_unarmed_sand_F;
+	class B_T_LSV_01_armed_F;
 	class CUP_B_M1126_ICV_M2_Woodland;
 	class CUP_B_M1126_ICV_MK19_Woodland;
 	class CUP_B_M1133_MEV_Woodland;
@@ -30,6 +31,7 @@ class CfgVehicles {
 	class B_MRAP_01_F;
 	class bma3_bushmaster_unarmed_F;
 	class bma3_bushmaster_pws127mm_F;
+	class B_Quadbike_01_F;
 
 
 	
@@ -804,29 +806,27 @@ class CfgVehicles {
 		class TransportWeapons {};
 	};
 
-		class NLD_DST_VECTOR_ARMED : B_LSV_01_armed_sand_F {
+		class NLD_DST_VECTOR_ARMED : B_T_LSV_01_armed_F {
 		author = "Lowlands Tactical";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "VECTOR armed (Tan)";
 		side = 1;
 		vehicleClass = Car;
-		faction = "NLD_Units_MTP";
+		faction = "NLD_Units";
 		editorPreview = "\NLD_vehicle_units\previews\NLD_DST_VECTOR_ARMED.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
-		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
+		hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa", "\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"};
-
-		class TextureSources {
-			textures[]=
+		
+		class TextureSources
+		{
+			class NLD_tan
 			{
-				"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa",
-				"\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa",
-				"\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa",
-				"\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"
+				displayName = "NLD";
+				textures[] = {"\NLD_Vehicle_Units\Wheeled\Vector\Vector01tan.paa","\NLD_Vehicle_Units\Wheeled\Vector\Vector02tan.paa","\NLD_Vehicle_Units\Wheeled\Vector\Vector03tan.paa","\NLD_Vehicle_Units\Wheeled\Vector\Vector04tan.paa"};
 			};
-			
 		};
 		
 		class TransportItems {
@@ -893,8 +893,8 @@ class CfgVehicles {
 	};
 		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
 		author = "Lowlands Tactical";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "VECTOR unarmed (Desert)";
 		side = 1;
 		vehicleClass = Car;
@@ -1409,6 +1409,56 @@ class CfgVehicles {
 			class _xx_Titan_AT
 			{
 				magazine="Titan_AT";
+				count=3;
+			};
+		};
+		class TransportWeapons {};
+	};
+	
+	class NLD_Quad : B_Quadbike_01_F {
+		author = "Lowlands Tactical";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Suzuki King Quad";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_MTP_Operator";
+		typicalCargo[] = {"NLD_MTP_Operator"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=2;
+			};
+			class _xx_CUP_20Rnd_762x51_HK417
+			{
+				magazine="CUP_20Rnd_762x51_HK417";
 				count=3;
 			};
 		};
