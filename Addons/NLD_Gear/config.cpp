@@ -182,8 +182,11 @@ class cfgWeapons
 	class U_B_HeliPilotCoveralls;
 	class VestItem;
 	class V_PlateCarrier1_blk;
+	class V_PlateCarrier1_rgr_noflag_F;
 	class V_PlateCarrierIA1_dgtl;
 	class V_Chestrig_oli;
+	class V_TacVest_oli;
+	class V_I_G_resistanceLeader_F;
 	class CUP_NVG_PVS15_black;
 	class H_HelmetB_light_black;
 	class V_PlateCarrierIAGL_oli;
@@ -202,8 +205,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_WLD_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	
@@ -220,8 +223,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_DSI_assault";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	
@@ -238,8 +241,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_AT_assault";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 
@@ -255,8 +258,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_DST_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_NFPT_Camo: NLD_WLD_Camo
@@ -271,8 +274,24 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_NFPT_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
+		};
+	};
+	class NLD_NFPN_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] NFP-Navy Camo";
+		picture = "";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_Crew_Navy";
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_NFPG_Camo: NLD_WLD_Camo
@@ -287,8 +306,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_NFPG_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_WTR_Camo: NLD_WLD_Camo
@@ -303,8 +322,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_WTR_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_SF_CAMO: NLD_WLD_Camo
@@ -320,8 +339,8 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformType = "Neopren";
 			uniformClass = "NLD_SF_Operator";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_MTP_CAMO: NLD_WLD_Camo
@@ -336,8 +355,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_MTP_Operator";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_MTP_CAMO2: NLD_WLD_Camo
@@ -352,8 +371,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_MTP_Operator";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_KMI_Camo: Uniform_Base
@@ -368,8 +387,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_KMI_rifleman";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_KM_Camo: Uniform_Base
@@ -384,8 +403,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_KM_Operator";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_Helipilot_base: U_B_HeliPilotCoveralls
@@ -401,8 +420,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Helipilot";
-			containerClass = "Supply90";
-			mass = 40;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_pilot_base: U_B_PilotCoveralls
@@ -418,8 +437,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_pilot";
-			containerClass = "Supply90";
-			mass = 40;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_Helicrew_base: U_B_HeliPilotCoveralls
@@ -434,8 +453,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Helicrew";
-			containerClass = "Supply90";
-			mass = 40;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_Crew_base: Uniform_Base
@@ -450,8 +469,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Crew";
-			containerClass = "Supply90";
-			mass = 40;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_Crew_MLRS_base: Uniform_Base
@@ -466,8 +485,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Crew_MLRS";
-			containerClass = "Supply90";
-			mass = 40;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_Police_Uniform: U_B_HeliPilotCoveralls
@@ -482,7 +501,7 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Police_F";
-			containerClass = "Supply80";
+			containerClass = "Supply40";
 			mass = 20;
 		};
 	};
@@ -498,7 +517,7 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_Lifeliner_F";
-			containerClass = "Supply80";
+			containerClass = "Supply40";
 			mass = 20;
 		};
 	};
@@ -514,8 +533,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Police";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_KMAR_Camo2: Uniform_Base
@@ -530,8 +549,8 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Police2";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
 	class NLD_KMAR_Crew_Camo: Uniform_Base
@@ -546,57 +565,51 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Crew";
-			containerClass = "Supply60";
-			mass = 1;
+			containerClass = "Supply40";
+			mass = 20;
 		};
 	};
-	class NLD_WLD_Vest: V_PlateCarrierIA1_dgtl
+	class NLD_WLD_Vest: V_TacVest_oli
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] Woodland Vest";
-		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
+		displayName = "[NLD] Woodland TacVest";
+		picture = "\NLD_Gear\Desert\Data\uim\TacVest_oli.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
-		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+		model = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
 		class ItemInfo: VestItem
 		{
 			mass = 20;
-			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
-			containerClass = "Supply120";
-			hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
+			uniformmodel = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
+			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
-					hitpointName = "HitChest";
-					armor = 16;
-					passThrough = 0.3;
+					HitpointName = "HitChest";
+					armor = 12;
+					PassThrough = 0.4;
 				};
 				class Diaphragm
 				{
-					hitpointName = "HitDiaphragm";
-					armor = 16;
-					passThrough = 0.3;
+					HitpointName = "HitDiaphragm";
+					armor = 12;
+					PassThrough = 0.4;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 16;
-					passThrough = 0.3;
+					armor = 12;
+					passThrough = 0.4;
 				};
 				class Body
 				{
 					hitpointName = "HitBody";
-					passThrough = 0.3;
+					passThrough = 0.4;
 				};
 			};
 		};
@@ -614,7 +627,7 @@ class cfgWeapons
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 30;
 			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_AT.paa"};
@@ -636,12 +649,6 @@ class cfgWeapons
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
 					armor = 16;
 					passThrough = 0.3;
 				};
@@ -666,9 +673,9 @@ class cfgWeapons
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 40;
 			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
-			containerClass = "Supply120";
+			containerClass = "Supply140";
 			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Vest.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
@@ -676,25 +683,25 @@ class cfgWeapons
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 24;
-					PassThrough = 0.2;
+					armor = 16;
+					PassThrough = 0.3;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 24;
-					PassThrough = 0.2;
+					armor = 16;
+					PassThrough = 0.3;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 24;
-					passThrough = 0.2;
+					armor = 16;
+					passThrough = 0.3;
 				};
 				class Body
 				{
 					hitpointName = "HitBody";
-					passThrough = 0.2;
+					passThrough = 0.3;
 				};
 			};
 		};
@@ -715,11 +722,11 @@ class cfgWeapons
 		displayName = "[NLD] Desert Vest";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Vest.paa"};
 	};
-	class NLD_WTR_Vest: NLD_WLD_Vest
+	class NLD_WTR_Vest: NLD_NFPT_Vest
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
-		displayName = "[NLD] Winter Vest";
+		displayName = "[NLD] NFP-Arctic Vest";
 		picture = "\NLD_Gear\Winter\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Vest.paa"};
 	};
@@ -727,11 +734,12 @@ class cfgWeapons
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
+		scope = 1;
 		displayName = "[NLD] Black Vest";
 		picture = "\NLD_Gear\SF\Data\uim\Vest.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Vest.paa"};
 	};
-	class NLD_UN_Vest: V_PlateCarrierIA1_dgtl
+	class NLD_UN_Vest: V_PlateCarrier1_blk
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
@@ -740,48 +748,9 @@ class cfgWeapons
 		picture = "\NLD_Gear\Desert\Data\uim\Vest.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\NLD_Gear\UN\Data\Vest.paa"};
-		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
-		class ItemInfo: VestItem
-		{
-			mass = 20;
-			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
-			containerClass = "Supply120";
-			hiddenSelectionsTextures[] = {"\NLD_Gear\UN\Data\Vest.paa"};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					hitpointName = "HitChest";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					hitpointName = "HitDiaphragm";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-			};
-		};
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
 	};
+	
 	class NLD_SF_PlateCarrier: V_PlateCarrier1_blk
 	{
 		dlc = "NLD_Units";
@@ -794,55 +763,10 @@ class cfgWeapons
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 50;
 			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-			containerClass = "Supply120";
+			containerClass = "Supply140";
 			hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\PlateCarrier.paa"};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 30;
-					PassThrough = 0.1;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 30;
-					PassThrough = 0.1;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 30;
-					passThrough = 0.1;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.1;
-				};
-			};
-		};
-	};
-	class NLD_DSI_PlateCarrier: V_PlateCarrier1_blk
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] DSI Plate Carrier";
-		picture = "\NLD_Gear\SF\Data\uim\Vest.paa";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_DSI.paa"};
-		model = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
-		class ItemInfo: VestItem
-		{
-			mass = 20;
-			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
-			containerClass = "Supply120";
-			hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_DSI.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
@@ -873,6 +797,99 @@ class cfgWeapons
 		};
 	};
 	
+	
+	class NLD_DSI_PlateCarrier: V_PlateCarrier1_blk
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] DSI Plate Carrier";
+		picture = "\NLD_Gear\SF\Data\uim\Vest.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_DSI.paa"};
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
+		class ItemInfo: VestItem
+		{
+			mass = 40;
+			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest02.p3d";
+			containerClass = "Supply140";
+			hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_DSI.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	};
+	
+	class NLD_KMI_Vest: V_I_G_resistanceLeader_F
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] KMI TacVest";
+		picture = "\NLD_Gear\Korps_Mariniers\Data\uim\TacVest_camo.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\TacVest_camo.paa"};
+		model = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
+		class ItemInfo: VestItem
+		{
+			mass = 20;
+			uniformmodel = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
+			containerClass = "Supply100";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\TacVest_camo.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 12;
+					PassThrough = 0.4;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 12;
+					PassThrough = 0.4;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 12;
+					passThrough = 0.4;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.4;
+				};
+			};
+		};
+	};
+	
 	class NLD_Vest_DSI_EOD: V_PlateCarrierIAGL_oli
 	{
 		dlc = "NLD_Units";
@@ -885,9 +902,9 @@ class cfgWeapons
 		model = "\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 60;
 			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
-			containerClass = "Supply120";
+			containerClass = "Supply100";
 			hiddenSelectionsTextures[] = {"\NLD_Gear\DSI\Vest_DSI_EOD.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
@@ -895,28 +912,42 @@ class cfgWeapons
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 20;
-					PassThrough = 0.2;
+					armor = 24;
+					PassThrough = 0.1;
 					explosionShielding  = 0.5;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 20;
-					PassThrough = 0.2;
+					armor = 24;
+					PassThrough = 0.1;
 					explosionShielding  = 0.5;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 20;
-					passThrough = 0.2;
+					armor = 24;
+					passThrough = 0.1;
 					explosionShielding  = 0.5;
 				};
 				class Body
 				{
 					hitpointName = "HitBody";
-					passThrough = 0.2;
+					passThrough = 0.1;
+					explosionShielding  = 0.5;
+				};
+				class HitNeck
+				{
+					hitpointName = "HitNeck";
+					armor = 8; 
+					passThrough = 0.1;
+					explosionShielding  = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough	= 0.1;
 					explosionShielding  = 0.5;
 				};
 			};
@@ -935,7 +966,7 @@ class cfgWeapons
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 40;
 			uniformmodel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
@@ -952,14 +983,14 @@ class cfgWeapons
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 20;
+					armor = 16;
 					PassThrough = 0.3;
 					explosionShielding  = 0.5;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 20;
+					armor = 16;
 					passThrough = 0.3;
 					explosionShielding  = 0.5;
 				};
@@ -969,6 +1000,26 @@ class cfgWeapons
 					passThrough = 0.3;
 					explosionShielding  = 0.5;
 				};
+				class HitNeck
+				{
+					hitpointName = "HitNeck";
+					armor = 8; 
+					passThrough = 0.3;
+					explosionShielding  = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough	= 0.3;
+					explosionShielding  = 0.5;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
 			};
 		};
 	};
@@ -976,17 +1027,9 @@ class cfgWeapons
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
-		displayName = "[NLD] MTP Plate Carrier";
+		displayName = "[NLD] Mcam Plate Carrier";
 		picture = "\NLD_Gear\MTP\Data\uim\PlateCarrier.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\PlateCarrier.paa"};
-	};
-	class NLD_MTPG_PlateCarrier: NLD_SF_PlateCarrier
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] MTPG Plate Carrier";
-		picture = "\NLD_Gear\MTP\Data\uim\PlateCarrier.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\PlateCarrierGreen.paa"};
 	};
 	class NLDO_KMAR_Vest: V_PlateCarrier1_blk
 	{
@@ -1002,7 +1045,7 @@ class cfgWeapons
 		{
 			mass = 20;
 			uniformModel = "\A3\Characters_F_EPC\Civil\equip_press_vest_01.p3d";
-			containerClass = "Supply120";
+			containerClass = "Supply40";
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Vest.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
@@ -1010,25 +1053,31 @@ class cfgWeapons
 				class Chest
 				{
 					HitpointName = "HitChest";
-					armor = 20;
-					PassThrough = 0.2;
+					armor = 12;
+					PassThrough = 0.4;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
-					armor = 20;
-					PassThrough = 0.2;
+					armor = 12;
+					PassThrough = 0.4;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 20;
-					passThrough = 0.2;
+					armor = 12;
+					passThrough = 0.4;
 				};
 				class Body
 				{
 					hitpointName = "HitBody";
-					passThrough = 0.2;
+					passThrough = 0.4;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 12;
+					passThrough = 0.4;
 				};
 			};
 		};
@@ -1048,8 +1097,8 @@ class cfgWeapons
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_belt";
-			containerClass = "Supply80";
-			mass = 20;
+			containerClass = "Supply40";
+			mass = 5;
 			hiddenSelections[] = {"camo"};
 		};
 	};
@@ -1066,7 +1115,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Helmet.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Helmet.paa"};
@@ -1077,7 +1126,7 @@ class cfgWeapons
 				{
 					hitpointName = "HitHead";
 					armor = 6;
-					passThrough = 0.5;
+					passThrough = 0.3;
 				};
 			};
 		};
@@ -1099,7 +1148,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Helmet.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
@@ -1109,7 +1158,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
+					armor = 6;
 					passThrough = 0.3;
 				};
 			};
@@ -1154,7 +1203,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\HelmetCamo.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 1;
+			mass = 16;
 			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\HelmetCamo.paa"};
@@ -1165,7 +1214,7 @@ class cfgWeapons
 				{
 					hitpointName = "HitHead";
 					armor = 6;
-					passThrough = 0.5;
+					passThrough = 0.3;
 				};
 			};
 		};
@@ -1183,7 +1232,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\ECH.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\ECH.paa"};
@@ -1193,8 +1242,8 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
-					passThrough = 0.3;
+					armor = 6;
+					passThrough = 0.2;
 				};
 			};
 		};
@@ -1212,7 +1261,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\ECH.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\ECH.paa"};
@@ -1222,8 +1271,8 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
-					passThrough = 0.3;
+					armor = 6;
+					passThrough = 0.2;
 				};
 			};
 		};
@@ -1241,7 +1290,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Helmet.paa"};
@@ -1251,8 +1300,8 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
-					passThrough = 0.3;
+					armor = 6;
+					passThrough = 0.2;
 				};
 			};
 		};
@@ -1270,7 +1319,7 @@ class cfgWeapons
 		hiddenSelections[] = {"camo"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 10;
+			mass = 15;
 			uniformmodel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Helmet.paa"};
@@ -1280,8 +1329,8 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
-					passThrough = 0.3;
+					armor = 6;
+					passThrough = 0.2;
 				};
 			};
 		};
@@ -1309,8 +1358,8 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 10;
-					passThrough = 0.3;
+					armor = 4;
+					passThrough = 0.2;
 				};
 			};
 		};
@@ -1328,7 +1377,7 @@ class cfgWeapons
 		hiddenSelections[] = {"Camo"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 5;
+			mass = 2;
 			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
 			modelSides[] = {3,1};
 			armor = "3*0.5";
@@ -1340,7 +1389,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 6;
+					armor = 2;
 					passThrough = 0.5;
 				};
 			};
@@ -1359,7 +1408,7 @@ class cfgWeapons
 		hiddenSelections[] = {"Camo"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 5;
+			mass = 2;
 			uniformmodel = "A3\Characters_F\Common\headgear_helmet_heli";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\lifeliner\pilots\lifeliner_helmet.paa"};
@@ -1369,7 +1418,7 @@ class cfgWeapons
 				class Head
 				{
 					hitpointName = "HitHead";
-					armor = 6;
+					armor = 2;
 					passThrough = 0.5;
 				};
 			};
@@ -1388,7 +1437,7 @@ class cfgWeapons
 		hiddenSelections[] = {"Camo"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 5;
+			mass = 15;
 			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_ia_helmet_crew";
 			modelSides[] = {3,1};
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Support\Data\KMAR_Helmet.paa"};
@@ -1421,7 +1470,7 @@ class cfgWeapons
 			mass = 1;
 			uniformmodel = "\A3\Characters_F\Common\booniehat";
 			modelSides[] = {3,1};
-			armor = "0.5";
+			armor = 0.5;
 			passThrough = 0.95;
 			hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\BoonieHat.paa"};
 			hiddenSelections[] = {"Camo"};
@@ -1525,14 +1574,6 @@ class cfgGlasses
 {
 	class CUP_PMC_Facewrap_Tan;
 	
-	class NLD_Facewrap_Aliende: CUP_PMC_Facewrap_Tan
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] Facewrap Alien grey";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_aliende.paa"};
-	};
 	class NLD_Facewrap_Multicam: CUP_PMC_Facewrap_Tan
 	{
 		dlc = "NLD_Units";

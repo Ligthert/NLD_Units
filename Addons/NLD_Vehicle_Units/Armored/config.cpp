@@ -32,6 +32,7 @@ class CfgVehicles {
 	class CUP_I_LCVP_VIV_RACS;
 	class CUP_I_LCVP_RACS;
 	class CUP_B_MK10_GB;
+	
     
 	
 
@@ -1382,8 +1383,11 @@ class CfgVehicles {
 		vehicleClass = Boats;
 		faction = "NLD_Units";
 		editorPreview = "";
-		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		crew = "NLD_Crew_Navy";
+		typicalCargo[] = {"NLD_Crew_Navy"};
+		class EventHandlers {
+			init = "_this select 0 forceFlagTexture '\NLD_Vehicle_Units\Armored\LCF\NL_Flag.paa'";
+		};
 	};
 	
 	class NLD_SDV : B_SDV_01_F
@@ -1410,8 +1414,8 @@ class CfgVehicles {
 		vehicleClass = Boats;
 		faction = "NLD_Units";
 		editorPreview = "";
-		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		crew = "NLD_Crew_Navy";
+		typicalCargo[] = {"NLD_Crew_Navy"};
 	};
 	
 	class NLD_LCVP : CUP_I_LCVP_RACS
@@ -1424,8 +1428,8 @@ class CfgVehicles {
 		vehicleClass = Boats;
 		faction = "NLD_Units";
 		editorPreview = "";
-		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		crew = "NLD_Crew_Navy";
+		typicalCargo[] = {"NLD_Crew_Navy"};
 	};
 	
 	class NLD_LCVP_VIV : CUP_I_LCVP_VIV_RACS
@@ -1438,8 +1442,8 @@ class CfgVehicles {
 		vehicleClass = Boats;
 		faction = "NLD_Units";
 		editorPreview = "";
-		crew = "NLD_Crew";
-		typicalCargo[] = {"NLD_Crew"};
+		crew = "NLD_Crew_Navy";
+		typicalCargo[] = {"NLD_Crew_Navy"};
 	};
 
 

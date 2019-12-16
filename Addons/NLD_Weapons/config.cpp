@@ -26,7 +26,7 @@ class CfgWeapons {
 	class CUP_srifle_M107_Pristine;
 	class CUP_srifle_M107_Desert;
 	class CUP_srifle_AWM_wdl;
-	class CUP_launch_M136;
+	class CUP_launch_M136_Loaded;
 	class arifle_MXC_Black_F;
 	class arifle_MX_Black_F;
 	class arifle_MX_GL_Black_F;
@@ -54,6 +54,7 @@ class CfgWeapons {
 	class CUP_arifle_HK417_20;
 	class CUP_arifle_HK416_CQB_AG36;
 	class CUP_arifle_HK416_CQB_Black;
+	class launch_I_Titan_short_F;
 	
 	
 	class NLD_C7: Weapon_C7NLD_nogrip
@@ -261,7 +262,7 @@ class CfgWeapons {
 	};
 
 	//AT4
-	class NLD_AT4: CUP_launch_M136 {
+	class NLD_AT4: CUP_launch_M136_Loaded {
 		displayName="[NLD] AT4";
 		author="Lowlands Tactical";
 		scope=2;
@@ -273,12 +274,24 @@ class CfgWeapons {
 	
 	//Panzerfaust 3
 	class NLD_Pzf3: launch_MRAWS_green_F {
-		displayName="[NLD] Panzerfasut 3";
+		displayName="[NLD] Panzerfaust 3";
 		author="Lowlands Tactical";
 		scope=2;
 		magazines[] =
 		{
 			"MRAWS_HEAT_F"
+		};
+	};
+	
+	//Spike MR
+	class NLD_Spike: launch_I_Titan_short_F {
+		displayName="[NLD] Spike MR";
+		author="Lowlands Tactical";
+		scope=2;
+		magazines[] =
+		{
+			"Titan_AT",
+			"Titan_AP"
 		};
 	};
 

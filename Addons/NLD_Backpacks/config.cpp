@@ -16,13 +16,14 @@ class CfgVehicles {
 	class B_AssaultPack_blk;
 	class B_UAV_01_backpack_F;
 	class B_FieldPack_oli;
-	class B_Kitbag_cbr;
+	class B_Kitbag_mcamo;
 	class B_Kitbag_rgr;
 	class CUP_B_USPack_Black;
+	class B_Carryall_cbr;
 
 
 
-	class NLD_DST_Carryall_Empty: B_Carryall_oli {
+	class NLD_DST_Carryall_Empty: B_Carryall_cbr {
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
 		displayName = "[NLD] Desert Carryall";
@@ -57,7 +58,7 @@ class CfgVehicles {
 	class NLD_WTR_Carryall_Empty : B_Carryall_oli {
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
-		displayName = "[NLD] Winter Carryall";
+		displayName = "[NLD] NFP Arctic Carryall";
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
 	};
@@ -70,11 +71,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_B : B_Carryall_oli {
+	class NLD_DST_Carryall_B : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -148,11 +148,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 	
-	class NLD_DST_Carryall_SLA : B_Carryall_oli {
+	class NLD_DST_Carryall_SLA : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -232,11 +231,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_GL : B_Carryall_oli {
+	class NLD_DST_Carryall_GL : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall GL";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -330,11 +328,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_TL : B_Carryall_oli {
+	class NLD_DST_Carryall_TL : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall TL";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -428,11 +425,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_Medic : B_Carryall_oli {
+	class NLD_DST_Carryall_Medic : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall Medic";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -506,11 +502,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_AT : B_Carryall_oli {
+	class NLD_DST_Carryall_AT : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall AT";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -589,12 +584,88 @@ class CfgVehicles {
 		picture = "\NLD_Backpacks\Korps_Mariniers\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
+	
+		class NLD_DST_Carryall_AT4 : B_Carryall_cbr {
+		displayName = "[NLD] Desert Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\Desert\Picture.paa";
 
-	class NLD_DST_Carryall_AR : B_Carryall_oli {
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NLD_NVGoggles {
+				name = "NLD_NVGoggles";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_COLT_Suppressor_Black
+			{
+				name="COLT_Suppressor_Black";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_WLD_Carryall_AT4 : NLD_DST_Carryall_AT4 {
+		displayName = "[NLD] Woodland Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\Woodland\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Woodland\Backpack.paa"};
+	};
+
+	class NLD_NFPT_Carryall_AT4 : NLD_DST_Carryall_AT4 {
+		displayName = "[NLD] NFP-Tan Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\NFP-Tan\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\NFP-Tan\Backpack.paa"};
+	};
+
+	class NLD_NFPG_Carryall_AT4 : NLD_DST_Carryall_AT4{
+		displayName = "[NLD] NFP-Green Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\NFP-Green\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\NFP-Green\Backpack.paa"};
+	};
+
+	class NLD_WTR_Carryall_AT4 : NLD_DST_Carryall_AT4 {
+		displayName = "[NLD] Winter Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\Winter\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};
+	};
+	
+	class NLD_KMI_Carryall_AT4 : NLD_DST_Carryall_AT4 {
+		displayName = "[NLD] Korps Mariniers Carryall AT4";
+		scope = 1;
+		picture = "\NLD_Backpacks\Korps_Mariniers\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
+	};
+
+	class NLD_DST_Carryall_AR : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall AR";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -716,11 +787,10 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_DST_Carryall_Eng : B_Carryall_oli {
+	class NLD_DST_Carryall_Eng : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall Eng";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportItems
 		{
@@ -786,11 +856,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_Ammo : B_Carryall_oli {
+	class NLD_DST_Carryall_Ammo : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall Ammo";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -879,11 +948,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_Expl : B_Carryall_oli {
+	class NLD_DST_Carryall_Expl : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall Expl";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1040,11 +1108,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_JTAC : B_Carryall_oli {
+	class NLD_DST_Carryall_JTAC : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall JTAC";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1128,11 +1195,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_AAR : B_Carryall_oli {
+	class NLD_DST_Carryall_AAR : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall AAR";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1196,11 +1262,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_MMG : B_Carryall_oli {
+	class NLD_DST_Carryall_MMG : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall MMG";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1260,11 +1325,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_MAT : B_Carryall_oli {
+	class NLD_DST_Carryall_MAT : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall MAT";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1333,11 +1397,10 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Korps_Mariniers\Backpack.paa"};
 	};
 
-	class NLD_DST_Carryall_AA : B_Carryall_oli {
+	class NLD_DST_Carryall_AA : B_Carryall_cbr {
 		displayName = "[NLD] Desert Carryall AA";
 		scope = 1;
 		picture = "\NLD_Backpacks\Desert\Picture.paa";
-		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Desert\Backpack.paa"};
 
 		class TransportMagazines
 		{
@@ -1411,17 +1474,12 @@ class CfgVehicles {
 		picture = "\NLD_Backpacks\SF\Picture.paa";
 	};
 
-	class NLD_MTP_Carryall_Empty : B_Kitbag_cbr {
+	class NLD_MTP_Carryall_Empty : B_Kitbag_mcamo {
 		dlc="NLD_Units";
 		author="Lowlands Tactical";
-		displayName = "[NLD] KCT Kitbag coyote";
+		displayName = "[NLD] KCT mcam Kitbag";
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
-	};
-	class NLD_MTPG_Carryall_Empty : B_Kitbag_rgr {
-		dlc="NLD_Units";
-		author="Lowlands Tactical";
-		displayName = "[NLD] KCT Kitbag green";
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 	};
 	class NLD_KM_Carryall_Empty : B_Kitbag_rgr {
 		dlc="NLD_Units";
@@ -1469,6 +1527,11 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
@@ -1508,14 +1571,20 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_B : B_Kitbag_cbr
+	class NLD_MTP_Carryall_B : B_Kitbag_mcamo
 	{
-		displayName = "[NLD] KCT Kitbag Tan(basic)";
+		displayName = "[NLD] KCT mcam Kitbag (basic)";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -1547,43 +1616,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-		class NLD_MTPG_Carryall_B : B_Kitbag_rgr
-	{
-		displayName = "[NLD] KCT Kitbag Green(basic)";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -1653,14 +1688,20 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_TL : B_Kitbag_cbr
+	class NLD_MTP_Carryall_TL : B_Kitbag_mcamo
 	{
-		displayName = "[NLD] KCT Kitbag tan (TL)";
+		displayName = "[NLD] KCT mcam Kitbag (TL)";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 
 		class TransportMagazines
 		{
@@ -1717,68 +1758,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_TL : B_Kitbag_rgr
-	{
-		displayName = "[NLD] KCT Kitbag green (TL)";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="HandGrenade";
-				count=2;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=2;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=2;
-			};
-			class _xx_SmokeShellRed
-			{
-				magazine="SmokeShellRed";
-				count=1;
-			};
-			class _xx_SmokeShellBlue
-			{
-				magazine="SmokeShellBlue";
-				count=1;
-			};
-			class _xx_SmokeShellYellow
-			{
-				magazine="SmokeShellYellow";
-				count=1;
-			};
-			class _xx_1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=4;
-			};
-			class _xx_1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=4;
-			};
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -1844,6 +1826,11 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
@@ -1889,6 +1876,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -1961,11 +1953,12 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_MTP_Carryall_Medic : B_Kitbag_cbr
+	class NLD_MTP_Carryall_Medic : B_Kitbag_mcamo
 	{
-		displayName = "[NLD] KCT Kitbag Tan Medic";
+		displayName = "[NLD] KCT mcam Kitbag Medic";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -2002,48 +1995,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_Medic : B_Kitbag_rgr
-	{
-		displayName = "[NLD] KCT Kitbag Green Medic";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_MediKit
-			{
-				name="MediKit";
-				count=1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=10;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2088,6 +2042,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2137,13 +2096,19 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_ComSpec : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan ComSpec";
+	class NLD_MTP_Carryall_ComSpec : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag ComSpec";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -2180,47 +2145,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_ComSpec : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green ComSpec";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_Laserbatteries
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="Laserbatteries";
-				count=1;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2264,6 +2191,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2328,13 +2260,19 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_Expl : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan Expl";
+	class NLD_MTP_Carryall_Expl : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag Expl";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -2386,62 +2324,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_Expl : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green Expl";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_DemoCharge_Remote_Mag
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="DemoCharge_Remote_Mag";
-				count=3;
-			};
-			class _xx_SatchelCharge_Remote_Mag
-			{
-				magazine="SatchelCharge_Remote_Mag";
-				count=1;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_MineDetector
-			{
-				name="MineDetector";
-				count=1;
-			};
-			class _xx_ToolKit
-			{
-				name="ToolKit";
-				count=1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2502,6 +2387,11 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
@@ -2515,7 +2405,7 @@ class CfgVehicles {
 			class _xx_Titan_AT
 			{
 				magazine="Titan_AT";
-				count=3;
+				count=2;
 			};
 			class _xx_HandGrenade
 			{
@@ -2549,20 +2439,26 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_AT : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan AT";
+	class NLD_MTP_Carryall_AT : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag AT";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 				class TransportMagazines
 		{
 			class _xx_Titan_AT
 			{
 				magazine="Titan_AT";
-				count=3;
+				count=2;
 			};
 			class _xx_HandGrenade
 			{
@@ -2592,47 +2488,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_AT : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green AT";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-				class TransportMagazines
-		{
-			class _xx_Titan_AT
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="Titan_AT";
-				count=3;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2648,7 +2506,7 @@ class CfgVehicles {
 			class _xx_Titan_AT
 			{
 				magazine="Titan_AT";
-				count=3;
+				count=2;
 			};
 			class _xx_HandGrenade
 			{
@@ -2676,6 +2534,145 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
+		};
+	};
+	
+	class NLD_SF_Carryall_LAT : CUP_B_USPack_Black {
+		displayName = "[NLD] Black Tactical Pack LAT";
+		scope = 1;
+		picture = "\NLD_Backpacks\SF\Picture.paa";
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_NVGogglesB_blk_F {
+				name = "NVGogglesB_blk_F";
+				count = 1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_MTP_Carryall_LAT : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag LAT";
+		scope = 1;
+		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
+		
+				class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_Commandos
+			{
+				name="Dutch_Beret_Commandos";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
+		};
+	};
+
+	class NLD_KM_Carryall_LAT : B_Kitbag_rgr {
+		displayName = "[NLD] Marsof Kitbag LAT";
+		scope = 1;
+		picture = "\NLD_Backpacks\Korps_Mariniers\Picture.paa";
+
+		class TransportMagazines
+		{
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=1;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=1;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=2;
+			};
+			class _xx_Dutch_Beret_RoyalMarines
+			{
+				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2725,13 +2722,19 @@ class CfgVehicles {
 				name="Dutch_Beret_RoyalMarines";
 				count=1;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 
-	class NLD_MTP_Carryall_AA : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan AA";
+	class NLD_MTP_Carryall_AA : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag AA";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -2768,47 +2771,9 @@ class CfgVehicles {
 				name="Dutch_Beret_Commandos";
 				count=1;
 			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_AA : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green AA";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_Titan_AT
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
 			{
-				magazine="Titan_AA";
-				count=2;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2852,6 +2817,11 @@ class CfgVehicles {
 			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_RoyalMarines";
+				count=1;
+			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
 				count=1;
 			};
 		};
@@ -2904,10 +2874,11 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_MTP_Carryall_SLA : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan Sniper";
+	class NLD_MTP_Carryall_SLA : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag Sniper";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -2947,57 +2918,11 @@ class CfgVehicles {
 		};
 	};
 	
-	class NLD_MTPG_Carryall_SLA : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green Sniper";
+	class NLD_MTP_Carryall_HSLA : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag HSniper";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-			class _xx_ClaymoreDirectionalMine_Remote_Mag
-			{
-				magazine="ClaymoreDirectionalMine_Remote_Mag";
-				count=2;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_CUP_NVG_GPNVG_black {
-				name = "CUP_NVG_GPNVG_black";
-				count = 1;
-			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
-				count=1;
-			};
-		};
-	};
-	
-	class NLD_MTP_Carryall_HSLA : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan HSniper";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -3042,10 +2967,10 @@ class CfgVehicles {
 		};
 	};
 	
-	class NLD_MTPG_Carryall_HSLA : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green HSniper";
+	class NLD_KM_Carryall_HSLA : B_Kitbag_rgr {
+		displayName = "[NLD] Marsof Kitbag Heavy Sniper";
 		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		picture = "\NLD_Backpacks\Korps_Mariniers\Picture.paa";
 		
 		class TransportMagazines
 		{
@@ -3082,7 +3007,7 @@ class CfgVehicles {
 				name="FirstAidKit";
 				count=2;
 			};
-			class _xx_Dutch_Beret_Commandos
+			class _xx_Dutch_Beret_RoyalMarines
 			{
 				name="Dutch_Beret_Commandos";
 				count=1;
@@ -3180,10 +3105,11 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_MTP_Carryall_AR : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan AR";
+	class NLD_MTP_Carryall_AR : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag AR";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -3223,96 +3149,11 @@ class CfgVehicles {
 		};
 	};
 	
-	class NLD_MTPG_Carryall_AR : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green AR";
+	class NLD_MTP_Carryall_MMG : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag MMG";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-			class _xx_CUP_200Rnd_TE4_red_Tracer_556x45_M249_Pouch
-			{
-				magazine="CUP_200Rnd_TE4_red_Tracer_556x45_M249_Pouch";
-				count=4;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
-				count=1;
-			};
-		};
-	};
-	
-	class NLD_MTP_Carryall_MMG : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag Tan MMG";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
-		
-		class TransportMagazines
-		{
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=1;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=1;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=1;
-			};
-			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
-			{
-				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count=4;
-			};
-		};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
-			class _xx_Dutch_Beret_Commandos
-			{
-				name="Dutch_Beret_Commandos";
-				count=1;
-			};
-		};
-	};
-	
-	class NLD_MTPG_Carryall_MMG : B_Kitbag_rgr {
-		displayName = "[NLD] KCT Kitbag Green MMG";
-		scope = 1;
-		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{
@@ -3430,6 +3271,11 @@ class CfgVehicles {
 				name="FirstAidKit";
 				count=2;
 			};
+			class _xx_CUP_muzzle_mfsup_flashhider_556x45_Black
+			{
+				name="CUP_muzzle_mfsup_flashhider_556x45_Black";
+				count=1;
+			};
 		};
 	};
 	
@@ -3523,10 +3369,11 @@ class CfgVehicles {
 		};
 	};
 
-	class NLD_MTP_Carryall_MP5 : B_Kitbag_cbr {
-		displayName = "[NLD] KCT Kitbag MP5";
+	class NLD_MTP_Carryall_MP5 : B_Kitbag_mcamo {
+		displayName = "[NLD] KCT mcam Kitbag MP5";
 		scope = 1;
 		picture = "\NLD_Backpacks\MTP\Picture.paa";
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\MTP\Kitbag_mcam.paa"};
 		
 		class TransportMagazines
 		{

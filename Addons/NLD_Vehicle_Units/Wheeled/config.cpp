@@ -32,6 +32,7 @@ class CfgVehicles {
 	class bma3_bushmaster_unarmed_F;
 	class bma3_bushmaster_pws127mm_F;
 	class B_Quadbike_01_F;
+	class CUP_I_LR_SF_HMG_AAF;
 
 
 	
@@ -889,8 +890,98 @@ class CfgVehicles {
 				count=5;
 			};
 		};
-		class TransportWeapons {};
+		class TransportWeapons {
+			
+			class _xx_NLD_Pzf3 
+			{
+				weapon = "NLD_Pzf3";
+				count = 2;
+			}; 
+		};
 	};
+	
+	class NLD_WLD_MB_SF : CUP_I_LR_SF_HMG_AAF {
+		author = "Lowlands Tactical";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "MB G280 CDI";
+		side = 1;
+		vehicleClass = Car;
+		faction = "NLD_Units";
+		editorPreview = "";
+		crew = "NLD_KM_Operator";
+		typicalCargo[] = {"NLD_KM_Operator"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\MBG280\MB1.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MB2.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MB2.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MBM2.paa"};
+		
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_CUP_20Rnd_762x51_HK417
+			{
+				magazine="CUP_20Rnd_762x51_HK417";
+				count=15;
+			};
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count=5;
+			};
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch
+			{
+				magazine="CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch";
+				count=5;
+			};
+			class _xx_CUP_30Rnd_556x45_Stanag
+			{
+				magazine="CUP_30Rnd_556x45_Stanag";
+				count=15;
+			};
+			class _xx_CUP_5Rnd_86x70_L115A1
+			{
+				magazine="CUP_5Rnd_86x70_L115A1";
+				count=15;
+			};
+			class _xx_MRAWS_HEAT_F
+			{
+				magazine="MRAWS_HEAT_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {
+
+			class _xx_NLD_Pzf3 {
+				weapon = "NLD_Pzf3";
+				count = 2;
+			}; 
+		};
+	};
+	
 		class NLD_DST_VECTOR : B_LSV_01_unarmed_sand_F {
 		author = "Lowlands Tactical";
 		scope = 1;
@@ -1006,11 +1097,20 @@ class CfgVehicles {
 		faction = "NLD_Units";
 		crew = "NLD_WLD_rifleman";
 		typicalCargo[] = {"NLD_WLD_rifleman"};
+				
+		class TextureSources
+		{
+			class NLD_WLD_Amarok
+			{
+				displayName = "NLD";
+				textures[] = {"\NLD_Vehicle_Units\Wheeled\Amarok\Amarok2.paa", "\NLD_Vehicle_Units\Wheeled\Amarok\Amarok2.paa", "\NLD_Vehicle_Units\Wheeled\Amarok\Amarok1.paa"};
+			};
+		};
+		
 		textureList[] = 
 		{
-			"Green", 1
+			"NLD_WLD_Amarok", 1
 		};
-
 		
 		animationList[] =
 		{
