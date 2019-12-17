@@ -1,4 +1,28 @@
 Changelog:
+v2019.......
+ - Added MB G280 CDI special forces jeep.
+ - Added Bushmaster APC (added dependency).
+ - Added dutch MQ9 Reaper uav.
+ - Added Cups Leopard 2A6.
+ - Added boats like the rhib, frisc, LCU's, minisubs and a frigate (zeven provinciën class).
+ - Added a Panzerfaust 3 AT unit in most infantries (Using the Maaws mk1 mod).
+ - Vector jeep new texture.
+ - VW Amarok new texture.
+ - Embedded mods that are allowed and don't get updated a lot anymore.
+ - Reworked special forces, now having KCT units, Marsof and Frogmen (although they wear uniforms, they have increased swim speed).
+ - Special Forces use Cups HK416 and HK417 now with compM4 + magnifier.
+ - KCT and MARSOF have a heavy sniper using the M107.
+ - Normal infantry use the PVS15 NV goggles now.
+ - All the special forces use the apex nv/thermal goggles as to prevent clipping with the scopes mostly.
+ - Autorifleman use the proper FN minimi now and ammo pouches.
+ - Also added the old Diemaco's back in the data for backwards compatibility with old missions.
+ - Korps Mariniers are their own thing now, much like the other normal infantry.
+ - UAV Operators use the raven uav and backpack now.
+ - Winter units changed to have NFP-Arctic (which is my own take on it as it's still being debated if we're gonna use it).
+ - Boat crew have NFP-Navy uniforms (Which is confirmed to come, but no actual pictures yet, so again my own take).
+ - Changed a lot of vests.
+ - Changed the NFP green, tan and multitone again to be a bit more accurate to the current design.
+ 
 
 v2019092614
  - Added Colt C7 and C8's (from Leon M and Sovjet) to all regular infantry, making this a dependency now.(https://steamcommunity.com/sharedfiles/filedetails/?id=961038654)

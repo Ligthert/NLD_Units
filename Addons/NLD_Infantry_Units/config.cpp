@@ -233,6 +233,7 @@ class CfgVehicles {
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_WLD_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		weapons[] = {"NLD_C8", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
 		respawnWeapons[] = {"NLD_C8", "NLD_Glock17", "Throw", "Put", "Rangefinder"};
+		backpack = "NLD_WLD_Carryall_B";
 		icon = "iconManOfficer";
 		faction = "NLD_Units_WLD";
     editorPreview = "\NLD_Infantry_Units\previews\NLD_WLD_OFF.jpg";
@@ -498,6 +499,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_Desert";
 		uniformClass = "NLD_DST_Camo";
 		faction = "NLD_Units_DST";
+		backpack = "NLD_DST_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_DST_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -778,6 +780,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_NFPTAN";
 		uniformClass = "NLD_NFPT_Camo";
 		faction = "NLD_Units_NFPT";
+		backpack = "NLD_NFPT_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Tan\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_NFPT_Vest", "NLD_NFPT_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -1057,6 +1060,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_NFPGREEN";
 		uniformClass = "NLD_NFPG_Camo";
 		faction = "NLD_Units_NFPG";
+		backpack = "NLD_NFPG_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\NFP-Green\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_NFPG_Vest", "NLD_NFPG_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -1337,6 +1341,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_WINTER";
 		uniformClass = "NLD_WTR_Camo";
 		faction = "NLD_Units_WTR";
+		backpack = "NLD_WTR_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Winter\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WTR_Vest", "NLD_WTR_Helmet", "CUP_G_ESS_KHK_Facewrap_White", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WTR_Vest", "NLD_WTR_Helmet", "CUP_G_ESS_KHK_Facewrap_White", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -1655,6 +1660,7 @@ class CfgVehicles {
 		uniformClass = "NLD_KMI_Camo";
 		faction = "NLD_Units_KMI";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		backpack = "NLD_KMI_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Korps_Mariniers\Data\Uniform.paa", "\NLD_Gear\Korps_Mariniers\Data\KM-Badge.paa"};
 		hiddenSelectionsMaterials[] = {"\NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
 		linkedItems[] = {"NLD_KMI_Vest", "NLD_KMI_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -1715,7 +1721,7 @@ class CfgVehicles {
 		linkedItems[] = {"NLD_KMI_Vest", "NLD_KMI_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_KMI_Vest", "NLD_KMI_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		editorPreview = "\NLD_Infantry_Units\previews\NLD_KM_Operator.jpg";
-		backpack = "NLD_WTR_Carryall_Ammo";
+		backpack = "NLD_KMI_Carryall_Ammo";
 	};
 
 	class NLD_KMI_AAR: NLD_WLD_rifleman
@@ -2510,6 +2516,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_UN_Woodland";
 		uniformClass = "NLD_WLD_Camo";
 		faction = "NLD_Units_UN_WLD";
+		backpack = "NLD_WLD_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Woodland\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
@@ -2787,6 +2794,7 @@ class CfgVehicles {
 		vehicleClass = "Infantry_UN_Desert";
 		uniformClass = "NLD_DST_Camo";
 		faction = "NLD_Units_UN_DST";
+		backpack = "NLD_DST_Carryall_B";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\Desert\Data\Uniform.paa", "\NLD_Insignia\Badges\11LMB.paa"};
 		linkedItems[] = {"NLD_WLD_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
 		respawnLinkedItems[] = {"NLD_WLD_Vest", "NLD_UN_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};

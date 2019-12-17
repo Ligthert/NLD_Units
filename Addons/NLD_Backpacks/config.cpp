@@ -135,7 +135,7 @@ class CfgVehicles {
 	};
 
 	class NLD_WTR_Carryall_B : NLD_DST_Carryall_B {
-		displayName = "[NLD] Winter Carryall";
+		displayName = "[NLD] NFP-Arctic Carryall";
 		scope = 1;
 		picture = "\NLD_Backpacks\Winter\Picture.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Winter\Backpack.paa"};

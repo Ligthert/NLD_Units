@@ -1454,6 +1454,78 @@ class CfgGroups
           };
         };
       };
+	  
+		class Mechanized
+		{
+        name = "Mechanized";
+	  
+				class NLD_WLD_CV90inf
+				{
+					name = "Bushmaster rifle group";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+					icon = "\a3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_Bushmaster_armed";
+						rank = "CAPTAIN";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_DST_SL";
+						rank = "LIEUTENANT";
+						position[] = {-12.5,-12.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_DST_TL";
+						rank = "SERGEANT";
+						position[] = {12.5,-12.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_DST_AR";
+						rank = "CORPORAL";
+						position[] = {-15,-15,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_DST_GL";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_DST_CLS";
+						rank = "PRIVATE";
+						position[] = {-17.5,-17.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_DST_AR";
+						rank = "PRIVATE";
+						position[] = {17.5,-17.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_DST_LAT";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+				};
+				
+			};
+		
 
       class Armored
       {
@@ -2373,7 +2445,7 @@ class CfgGroups
 
     class NLD_Units_WTR
     {
-      name = "[NLD] Winter";
+      name = "[NLD] NFP-Arctic";
 
       class Infantry
       {
@@ -2798,14 +2870,14 @@ class CfgGroups
       };
     };
 
-    class NLD_Units_NFPT
+    class NLD_Units_KMI
     {
-      name = "[NLD] NFP-Tan";
+      name = "[NLD] Korps Mariniers";
 
       class Infantry
       {
         name = "Infantry";
-				class NLD_NFPT_InfSentry
+				class NLD_KMI_InfSentry
 				{
 					name = "Sentry";
 					side = 1;
@@ -2815,19 +2887,19 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "NLD_NFPT_GL";
+						vehicle = "NLD_KMI_GL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "NLD_NFPT_Rifleman";
+						vehicle = "NLD_KMI_Rifleman";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfTeam
+				class NLD_KMI_InfTeam
 				{
 					name = "Team";
 					side = 1;
@@ -2837,33 +2909,33 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_Rifleman";
+						vehicle="NLD_KMI_Rifleman";
 						rank = "PRIVATE";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AR";
+						vehicle="NLD_KMI_AR";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_LAT";
+						vehicle="NLD_KMI_LAT";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfSquad
+				class NLD_KMI_InfSquad
 				{
 					name = "Squad";
 					side = 1;
@@ -2873,61 +2945,61 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_TL";
+						vehicle="NLD_KMI_TL";
 						rank = "CORPORAL";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_LAT";
+						vehicle="NLD_KMI_LAT";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_CLS";
+						vehicle="NLD_KMI_CLS";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class unit4
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AR";
+						vehicle="NLD_KMI_AR";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class unit5
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AR";
+						vehicle="NLD_KMI_AR";
 						rank = "PRIVATE";
 						position[] = {7.5,-7.5,0};
 					};
 					class unit6
 					{
 						side = 1;
-						vehicle="NLD_NFPT_GL";
+						vehicle="NLD_KMI_GL";
 						rank = "PRIVATE";
 						position[] = {-7.5,-7.5,0};
 					};
 					class unit7
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AMMO";
+						vehicle="NLD_KMI_AMMO";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 				};
-				class NLD_NFPT_InfCmdr
+				class NLD_KMI_InfCmdr
 				{
 					name = "Platoon Command";
 					side = 1;
@@ -2937,33 +3009,33 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_OFF";
+						vehicle="NLD_KMI_OFF";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_CLS";
+						vehicle="NLD_KMI_CLS";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_Rifleman";
+						vehicle="NLD_KMI_Rifleman";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfAtTeam
+				class NLD_KMI_InfAtTeam
 				{
 					name = "Anti-armor Team";
 					side = 1;
@@ -2973,33 +3045,33 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_MAT";
+						vehicle="NLD_KMI_MAT";
 						rank = "PRIVATE";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_MAT";
+						vehicle="NLD_KMI_MAT";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AMAT";
+						vehicle="NLD_KMI_AMAT";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfAaTeam
+				class NLD_KMI_InfAaTeam
 				{
 					name = "Anti-air Team";
 					side = 1;
@@ -3009,33 +3081,33 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AA";
+						vehicle="NLD_KMI_AA";
 						rank = "PRIVATE";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AA";
+						vehicle="NLD_KMI_AA";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AAA";
+						vehicle="NLD_KMI_AAA";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfLMGTeam
+				class NLD_KMI_InfLMGTeam
 				{
 					name = "LMG Team";
 					side = 1;
@@ -3045,33 +3117,33 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AR";
+						vehicle="NLD_KMI_AR";
 						rank = "PRIVATE";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AR";
+						vehicle="NLD_KMI_AR";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AAR";
+						vehicle="NLD_KMI_AAR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 				};
-				class NLD_NFPT_InfMMGTeam
+				class NLD_KMI_InfMMGTeam
 				{
 					name = "MMG Team";
 					side = 1;
@@ -3081,28 +3153,28 @@ class CfgGroups
 					class unit0
 					{
 						side = 1;
-						vehicle="NLD_NFPT_SL";
+						vehicle="NLD_KMI_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class unit1
 					{
 						side = 1;
-						vehicle="NLD_NFPT_MMG";
+						vehicle="NLD_KMI_MMG";
 						rank = "PRIVATE";
 						position[] = {2.5,-2.5,0};
 					};
 					class unit2
 					{
 						side = 1;
-						vehicle="NLD_NFPT_MMG";
+						vehicle="NLD_KMI_MMG";
 						rank = "PRIVATE";
 						position[] = {-2.5,-2.5,0};
 					};
 					class unit3
 					{
 						side = 1;
-						vehicle="NLD_NFPT_AMMG";
+						vehicle="NLD_KMI_AMMG";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
@@ -3112,7 +3184,7 @@ class CfgGroups
       {
         name = "Support";
 
-        class NLD_NFPT_InfClsTeam
+        class NLD_KMI_InfClsTeam
         {
           name = "Medic Team";
           side = 1;
@@ -3122,33 +3194,33 @@ class CfgGroups
           class unit0
           {
             side = 1;
-            vehicle="NLD_NFPT_TL";
+            vehicle="NLD_KMI_TL";
             rank = "CORPORAL";
             position[] = {0,0,0};
           };
           class unit1
           {
             side = 1;
-            vehicle="NLD_NFPT_CLS";
+            vehicle="NLD_KMI_CLS";
             rank = "PRIVATE";
             position[] = {2.5,-2.5,0};
           };
           class unit2
           {
             side = 1;
-            vehicle="NLD_NFPT_CLS";
+            vehicle="NLD_KMI_CLS";
             rank = "PRIVATE";
             position[] = {-2.5,-2.5,0};
           };
           class unit3
           {
             side = 1;
-            vehicle="NLD_NFPT_CLS";
+            vehicle="NLD_KMI_CLS";
             rank = "PRIVATE";
             position[] = {5,-5,0};
           };
         };
-        class NLD_NFPT_InfEngTeam
+        class NLD_KMI_InfEngTeam
         {
           name = "Engineering Team";
           side = 1;
@@ -3158,33 +3230,33 @@ class CfgGroups
           class unit0
           {
             side = 1;
-            vehicle="NLD_NFPT_TL";
+            vehicle="NLD_KMI_TL";
             rank = "CORPORAL";
             position[] = {0,0,0};
           };
           class unit1
           {
             side = 1;
-            vehicle="NLD_NFPT_Engi";
+            vehicle="NLD_KMI_Engi";
             rank = "PRIVATE";
             position[] = {2.5,-2.5,0};
           };
           class unit2
           {
             side = 1;
-            vehicle="NLD_NFPT_Engi";
+            vehicle="NLD_KMI_Engi";
             rank = "PRIVATE";
             position[] = {-2.5,-2.5,0};
           };
           class unit3
           {
             side = 1;
-            vehicle="NLD_NFPT_Rifleman";
+            vehicle="NLD_KMI_Rifleman";
             rank = "PRIVATE";
             position[] = {5,-5,0};
           };
         };
-        class NLD_NFPT_InfExplTeam
+        class NLD_KMI_InfExplTeam
         {
           name = "EOD Team";
           side = 1;
@@ -3194,28 +3266,28 @@ class CfgGroups
           class unit0
           {
             side = 1;
-            vehicle="NLD_NFPT_TL";
+            vehicle="NLD_KMI_TL";
             rank = "CORPORAL";
             position[] = {0,0,0};
           };
           class unit1
           {
             side = 1;
-            vehicle="NLD_NFPT_Expl";
+            vehicle="NLD_KMI_Expl";
             rank = "PRIVATE";
             position[] = {2.5,-2.5,0};
           };
           class unit2
           {
             side = 1;
-            vehicle="NLD_NFPT_Expl";
+            vehicle="NLD_KMI_Expl";
             rank = "PRIVATE";
             position[] = {-2.5,-2.5,0};
           };
           class unit3
           {
             side = 1;
-            vehicle="NLD_NFPT_Rifleman";
+            vehicle="NLD_KMI_Rifleman";
             rank = "PRIVATE";
             position[] = {5,-5,0};
           };
@@ -3648,10 +3720,435 @@ class CfgGroups
 				};
       };
     };
+	
+	class NLD_Units_NFPT
+    {
+      name = "[NLD] NFP-Tan";
+
+      class Infantry
+      {
+        name = "Infantry";
+				class NLD_NFPT_InfSentry
+				{
+					name = "Sentry";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "NLD_NFPT_GL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "NLD_NFPT_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfTeam
+				{
+					name = "Team";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Rifleman";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_LAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfSquad
+				{
+					name = "Squad";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_TL";
+						rank = "CORPORAL";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_LAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_CLS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class unit4
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AR";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class unit5
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AR";
+						rank = "PRIVATE";
+						position[] = {7.5,-7.5,0};
+					};
+					class unit6
+					{
+						side = 1;
+						vehicle="NLD_NFPT_GL";
+						rank = "PRIVATE";
+						position[] = {-7.5,-7.5,0};
+					};
+					class unit7
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AMMO";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class NLD_NFPT_InfCmdr
+				{
+					name = "Platoon Command";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_OFF";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_CLS";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfAtTeam
+				{
+					name = "Anti-armor Team";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_MAT";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_MAT";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AMAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfAaTeam
+				{
+					name = "Anti-air Team";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AA";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AA";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AAA";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfLMGTeam
+				{
+					name = "LMG Team";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AR";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AR";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AAR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+				class NLD_NFPT_InfMMGTeam
+				{
+					name = "MMG Team";
+					side = 1;
+					faction = "NLD_Units";
+					rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+					class unit0
+					{
+						side = 1;
+						vehicle="NLD_NFPT_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class unit1
+					{
+						side = 1;
+						vehicle="NLD_NFPT_MMG";
+						rank = "PRIVATE";
+						position[] = {2.5,-2.5,0};
+					};
+					class unit2
+					{
+						side = 1;
+						vehicle="NLD_NFPT_MMG";
+						rank = "PRIVATE";
+						position[] = {-2.5,-2.5,0};
+					};
+					class unit3
+					{
+						side = 1;
+						vehicle="NLD_NFPT_AMMG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+				};
+      };
+      class Support
+      {
+        name = "Support";
+
+        class NLD_NFPT_InfClsTeam
+        {
+          name = "Medic Team";
+          side = 1;
+          faction = "NLD_Units";
+          rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_support.paa";
+          class unit0
+          {
+            side = 1;
+            vehicle="NLD_NFPT_TL";
+            rank = "CORPORAL";
+            position[] = {0,0,0};
+          };
+          class unit1
+          {
+            side = 1;
+            vehicle="NLD_NFPT_CLS";
+            rank = "PRIVATE";
+            position[] = {2.5,-2.5,0};
+          };
+          class unit2
+          {
+            side = 1;
+            vehicle="NLD_NFPT_CLS";
+            rank = "PRIVATE";
+            position[] = {-2.5,-2.5,0};
+          };
+          class unit3
+          {
+            side = 1;
+            vehicle="NLD_NFPT_CLS";
+            rank = "PRIVATE";
+            position[] = {5,-5,0};
+          };
+        };
+        class NLD_NFPT_InfEngTeam
+        {
+          name = "Engineering Team";
+          side = 1;
+          faction = "NLD_Units";
+          rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_support.paa";
+          class unit0
+          {
+            side = 1;
+            vehicle="NLD_NFPT_TL";
+            rank = "CORPORAL";
+            position[] = {0,0,0};
+          };
+          class unit1
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Engi";
+            rank = "PRIVATE";
+            position[] = {2.5,-2.5,0};
+          };
+          class unit2
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Engi";
+            rank = "PRIVATE";
+            position[] = {-2.5,-2.5,0};
+          };
+          class unit3
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Rifleman";
+            rank = "PRIVATE";
+            position[] = {5,-5,0};
+          };
+        };
+        class NLD_NFPT_InfExplTeam
+        {
+          name = "EOD Team";
+          side = 1;
+          faction = "NLD_Units";
+          rarityGroup = 0.3;
+          icon = "\a3\ui_f\data\map\markers\nato\b_support.paa";
+          class unit0
+          {
+            side = 1;
+            vehicle="NLD_NFPT_TL";
+            rank = "CORPORAL";
+            position[] = {0,0,0};
+          };
+          class unit1
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Expl";
+            rank = "PRIVATE";
+            position[] = {2.5,-2.5,0};
+          };
+          class unit2
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Expl";
+            rank = "PRIVATE";
+            position[] = {-2.5,-2.5,0};
+          };
+          class unit3
+          {
+            side = 1;
+            vehicle="NLD_NFPT_Rifleman";
+            rank = "PRIVATE";
+            position[] = {5,-5,0};
+          };
+        };
+      };
+    };
 
     class NLD_Units_SF
     {
-      name = "[NLD] Special Forces (Black)";
+      name = "[NLD] MARSOF Divers";
       class SpecOps
       {
         name = "Special Forces";
@@ -3796,7 +4293,7 @@ class CfgGroups
 
     class NLD_Units_MTP
     {
-      name = "[NLD] Special Forces (MTP)";
+      name = "[NLD] Korps Commando Troepen";
       class SpecOps
       {
         name = "Special Forces";
@@ -3806,7 +4303,7 @@ class CfgGroups
   				side = 1;
   				faction = "NLD_Units";
   				rarityGroup = 0.3;
-          icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
+				icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
   				class unit0
   				{
   					side = 1;
@@ -3878,7 +4375,7 @@ class CfgGroups
   				side = 1;
   				faction = "NLD_Units";
   				rarityGroup = 0.3;
-          icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
+				icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
   				class unit0
   				{
   					side = 1;
@@ -3918,7 +4415,7 @@ class CfgGroups
   				side = 1;
   				faction = "NLD_Units";
   				rarityGroup = 0.3;
-          icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
+				icon = "\a3\ui_f\data\map\markers\nato\b_recon.paa";
   				class unit0
   				{
   					side = 1;
@@ -3942,7 +4439,7 @@ class CfgGroups
     // Koninklijke Mariniers
     class NLD_Units_KM
     {
-      name = "[NLD] Special Forces (KM)";
+      name = "[NLD] MARSOF";
       class SpecOps
       {
         name = "Special Forces";

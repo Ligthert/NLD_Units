@@ -28,7 +28,7 @@ class CfgPatches
 		units[] = {"NLD_WLD_rifleman","NLD_DST_rifleman","NLD_NFPT_rifleman","NLD_NFPG_rifleman","NLD_WTR_rifleman","NLD_UN_WLD_rifleman","NLD_UN_DST_rifleman","NLD_SF_Operator","NLD_MTP_Operator","NLD_KM_Operator","NLD_DSI_assault"};
 		weapons[] = {"NLD_WLD_Camo","NLD_DST_Camo","NLD_DSI_Camo","NLD_NFPT_Camo","NLD_NFPG_Camo","NLD_WTR_Camo","NLD_SF_CAMO","NLD_MTP_CAMO","NLD_MTP_CAMO2","NLD_KM_Camo","NLD_KM_Camo2","NLD_Helipilot_base","NLD_Helicrew_base","NLD_Crew_base","NLD_Crew_MLRS_base","NLD_Police_Uniform","NLD_Lifeliner_Uniform","NLD_KMAR_Camo","NLD_KMAR_Camo2","NLD_KMAR_Crew_Camo","NLD_WLD_Vest","NLD_NFPT_Vest","NLD_NFPG_Vest","NLD_DST_Vest","NLD_WTR_Vest","NLD_SF_Vest","NLD_UN_Vest","NLD_SF_PlateCarrier","NLD_MTP_PlateCarrier","NLDO_KMAR_Vest","NLD_Police_belt","NLD_WLD_Helmet","NLD_DST_Helmet","NLD_NFPT_Helmet","NLD_NFPG_Helmet","NLD_WTR_Helmet","NLD_KM_Helmet","NLD_UN_Helmet","NLD_WLD_Helmet_Camo","NLD_SF_ECH","NLD_MTP_ECH","NLD_Police_Helmet","NLD_Lifeliner_Helmet","NLD_KMAR_Helmet","NLD_M1Helmet_Green","NLD_WLD_BoonieHat","NLD_DST_BoonieHat","NLD_NFPT_BoonieHat","NLD_NFPG_BoonieHat","NLD_SF_BoonieHat","NLD_WLD_BaseballCap","NLD_DST_BaseballCap","NLD_NFPT_BaseballCap","NLD_NFPG_BaseballCap","NLD_SF_BaseballCap"};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
+		requiredAddons[] = {"A3_Data_F_Enoch_Loadorder"};
 	};
 };
 class CfgVehicles
@@ -1573,6 +1573,7 @@ class cfgWeapons
 class cfgGlasses
 {
 	class CUP_PMC_Facewrap_Tan;
+	class G_balaclava_TI_blk_f;
 	
 	class NLD_Facewrap_Multicam: CUP_PMC_Facewrap_Tan
 	{
@@ -1581,6 +1582,24 @@ class cfgGlasses
 		scope = 2;
 		displayName = "[NLD] Facewrap Multicam";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_multicam.paa"};
+	};
+	
+	class NLD_ShiftyGoggles: G_Balaclava_TI_blk_F
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "[NLD] ShiftySean Goggles";
+		scope=2;
+		model = "\A3\Characters_F_Exp\BLUFOR\G_balaclava_TI_G_f.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\NLD_Gear\SF\Data\Shiftygoggles.paa", "\A3\Characters_F\Heads\Glasses\data\g_combat_ca.paa"
+		};
 	};
 };
 //};
