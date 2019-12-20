@@ -46,6 +46,7 @@ class CfgVehicles
 		side = 3;
 		faction = "NLD_Units";
 		crew = "NLD_Police_F";
+		editorPreview = "\NLD_vehicle_units\previews\EC635_NLD_Police.jpg";
 		typicalCargo[] = {"NLD_Police_F","NLD_Police_F"};
 		vehicleClass = "Air";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\police\ec635\OuterHaul_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\UpperParts_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\Tail_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\Bawl_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\SideDoors_co.paa","\NLD_Vehicle_Units\Air\Data\police\ec635\CargoDoors_co.paa"};
@@ -68,6 +69,7 @@ class CfgVehicles
 		side = 3;
 		faction = "NLD_Units";
 		crew = "NLD_Lifeliner_F";
+		editorPreview = "\NLD_vehicle_units\previews\EC635_NLD_Lifeliner.jpg";
 		typicalCargo[] = {"NLD_Lifeliner_F","NLD_Lifeliner_F"};
 		vehicleClass = "Air";
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\OuterHaul_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\UpperParts_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\Tail_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\Bawl_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\SideDoors_co.paa","\NLD_Vehicle_Units\Air\Data\lifeliner\ec635\CargoDoors_co.paa"};
@@ -140,7 +142,7 @@ class CfgVehicles
 		side = 1;
 		crew = "B_UAV_AI";
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_MQ9.jpg";
 		vehicleclass﻿ = "Autonomous";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\MQ9\Data\mq9reaper.paa"};

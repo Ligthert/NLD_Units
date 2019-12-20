@@ -411,7 +411,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Armored;
 		faction = "NLD_Units";
-		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_Leo2.jpg";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Leopard2A6.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
 		hiddenSelections[] = {"Camo1", "Camo2"};
@@ -1275,7 +1275,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_RHIB.jpg";
 		crew = "NLD_KMI_Rifleman";
 		typicalCargo[] = {"NLD_KMI_Rifleman"};
 		
@@ -1331,7 +1331,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_FRISC.jpg";
 		crew = "NLD_KM_Operator";
 		typicalCargo[] = {"NLD_KM_Operator"};
 		
@@ -1382,7 +1382,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_LCF.jpg";
 		crew = "NLD_Crew_Navy";
 		typicalCargo[] = {"NLD_Crew_Navy"};
 		class EventHandlers {
@@ -1399,7 +1399,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_SDV.jpg";
 		crew = "NLD_SF_Operator";
 		typicalCargo[] = {"NLD_SF_Operator"};
 	};
@@ -1413,7 +1413,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_LCU.jpg";
 		crew = "NLD_Crew_Navy";
 		typicalCargo[] = {"NLD_Crew_Navy"};
 	};
@@ -1427,7 +1427,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_LCVP.jpg";
 		crew = "NLD_Crew_Navy";
 		typicalCargo[] = {"NLD_Crew_Navy"};
 	};
@@ -1441,7 +1441,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Boats;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_LCVP_VIV.jpg";
 		crew = "NLD_Crew_Navy";
 		typicalCargo[] = {"NLD_Crew_Navy"};
 	};

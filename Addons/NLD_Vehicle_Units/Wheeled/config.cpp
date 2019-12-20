@@ -333,6 +333,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Bushmaster_unarmed.jpg";
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"};
 		
@@ -459,6 +460,7 @@ class CfgVehicles {
 		faction="NLD_Units";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Bushmaster_armed.jpg";
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Bushmaster\camo1_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo2_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\camo3_co.paa","\NLD_Vehicle_Units\Wheeled\Bushmaster\labels_army_nl.paa"};
 		
@@ -908,7 +910,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_WLD_MB_SF.jpg";
 		crew = "NLD_KM_Operator";
 		typicalCargo[] = {"NLD_KM_Operator"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\MBG280\MB1.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MB2.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MB2.paa", "\NLD_Vehicle_Units\Wheeled\MBG280\MBM2.paa"};
@@ -1523,7 +1525,7 @@ class CfgVehicles {
 		side = 1;
 		vehicleClass = Car;
 		faction = "NLD_Units";
-		editorPreview = "";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Quad.jpg";
 		crew = "NLD_MTP_Operator";
 		typicalCargo[] = {"NLD_MTP_Operator"};
 
