@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"NLD_Units_Infantry","NLD_Units_Insignia"};
+		requiredAddons[] = {"A3_Data_F_Enoch_Loadorder", "NLD_Units_Infantry","NLD_Units_Insignia"};
 	};
 };
 
