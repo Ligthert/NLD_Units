@@ -61,6 +61,14 @@ class CfgFactionClasses
 		priority=1;
 		side=1;
   };
+  
+  class NLD_Units_2035
+  {
+    displayName="[NLD] 2035 Vehicles & support";
+		icon="\NLD_Main\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+  };
 
   class NLD_Units_WLD
   {
@@ -129,6 +137,14 @@ class CfgFactionClasses
   class NLD_Units_MTP
 	{
 		displayName="[NLD] Korps Commando Troepen";
+		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
+		priority=1;
+		side=1;
+	};
+	
+   class NLD_Units_SF2035
+	{
+		displayName="[NLD] Special Forces 2035";
 		icon="\NLD_Infantry_Units\Icon\Icon.jpg";
 		priority=1;
 		side=1;

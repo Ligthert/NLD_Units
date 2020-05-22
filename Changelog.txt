@@ -1,4 +1,9 @@
 Changelog:
+V2020052216 (Internal build)
+- Removed TFAR optional pbo.
+- Added contact dlc radiobags in all camotypes.
+
+
 v2020010115
  - Added MB G280 CDI special forces jeep.
  - Added Bushmaster APC (added dependency).

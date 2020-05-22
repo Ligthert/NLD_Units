@@ -20,6 +20,8 @@ class CfgVehicles {
 	class B_Kitbag_rgr;
 	class CUP_B_USPack_Black;
 	class B_Carryall_cbr;
+	class B_RadioBag_01_wdl_F;
+	class B_RadioBag_01_black_F;
 
 
 
@@ -3599,5 +3601,54 @@ class CfgVehicles {
 		displayName = "[NLD] Minion4 CarryAll";
         scope = 2;
 		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Spongebob\Data\Swagpack4.paa"};
+	};
+//Radiobags
+	class NLD_Radiobag_Navy : B_RadioBag_01_wdl_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag Navy";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_Navy_Radio.paa"};
+	};
+	class NLD_Radiobag_Arctic : B_RadioBag_01_black_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag NFP-Arctic";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_Arctic_Radio.paa"};
+	};
+	class NLD_Radiobag_WDL : B_RadioBag_01_wdl_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag wdl";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_Woodland_Radio.paa"};
+	};
+	class NLD_Radiobag_NFPMT : B_RadioBag_01_wdl_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag NFP-MT";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_NFPT_Radio.paa"};
+	};
+	class NLD_Radiobag_M81 : B_RadioBag_01_wdl_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag M81 wdl";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_M81_Radio.paa"};
+	};
+	class NLD_Radiobag_MCAM : B_RadioBag_01_wdl_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag mcam";
+        scope = 2;
+		hiddenSelectionsTextures[] = {"\NLD_Backpacks\Radiobags\NLD_MTP_Radio.paa"};
+	};
+	class NLD_Radiobag_Black : B_RadioBag_01_black_F {
+		dlc="NLD_Units";
+		author="Lowlands Tactical";
+		displayName = "[NLD] LR Radiobag black";
+        scope = 2;
 	};
 };

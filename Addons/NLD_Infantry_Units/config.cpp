@@ -31,7 +31,7 @@ class CfgVehicleClasses
 	};
 	class Infantry_NFPTAN
 	{
-		displayName="Men (NFP-TAN)";
+		displayName="Men (NFP-Tan)";
 	};
 	class Infantry_NFPGREEN
 	{
@@ -59,8 +59,25 @@ class CfgVehicleClasses
 	};
 	class Infantry_DSI
 	{
-	displayname="Men (DSI)";
+		displayname="Men (DSI)";
 	};
+	class Infantry_NDPG
+	{
+		displayname="Men (NDP-Green)";
+	};
+	class Infantry_NDPT
+	{
+		displayname="Men (NDP-Tan)";
+	};
+	class Infantry_SF2035
+	{
+		displayname="Men (SF 2035)";
+	};
+	class Infantry_CTRGNL
+	{
+		displayname="Men (CTRG group 0)";
+	};
+	
 	class Infantry_Diver
 	{
 		displayName="Men (Diver)";
@@ -3579,6 +3596,26 @@ class CfgVehicles {
 		tex[] = {};
 		mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
+	};
+//2035 SF
+	class NLD_SF2035_Operator: NLD_WLD_rifleman
+	{
+		displayName = "Operator";
+		vehicleClass = "Infantry_SF2035";
+		genericNames = "NLD_Units";
+		backpack = "";
+		uniformClass = "NLD_SF_Camo";
+		faction = "NLD_Units_SF2035";
+		hiddenSelections[] = {"Camo", "insignia"};
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\Uniform.paa", "\NLD_Insignia\Badges\rsz_frogman.paa"};
+		hasDriver = 1;
+		linkedItems[] = {"V_RebreatherB", "NLD_SF_ECH", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		respawnLinkedItems[] = {"V_RebreatherB", "NLD_SF_ECH", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "ItemRadio"};
+		weapons[] = {"NLD_HK416", "NLD_Glock17S", "Throw", "Put", "Rangefinder"};
+		respawnWeapons[] = {"NLD_HK416", "NLD_Glock17S", "Throw", "Put", "Rangefinder"};
+		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "CUP_17Rnd_9x19_glock17", "CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		editorPreview = "\NLD_Infantry_Units\previews\NLD_SF_Operator.jpg";
 	};
 };
 

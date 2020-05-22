@@ -160,6 +160,16 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
 		linkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};	
+	class NLD_SF2035_Operator: NLD_SF_Operator
+	{
+		displayName = "SF2035 Operator";
+		uniformClass = "NLD_SF2035_Camo";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		hiddenSelectionsTextures[] = {"\NLD_Gear\SF2035\Data\Uniform.paa","\NLD_Infantry_Units\Badges\csquad.paa"};
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		linkedItems[] = {"NLD_SF2035_PlateCarrier","NLD_SF2035_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"NLD_SF2035_PlateCarrier","NLD_SF2035_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 };
 class cfgWeapons
@@ -192,6 +202,7 @@ class cfgWeapons
 	class V_PlateCarrierIAGL_oli;
 	class V_PlateCarrierIA2_dgtl;
 	class U_B_PilotCoveralls;
+	class V_PlateCarrierSpec_rgr;
 	
 	class NLD_WLD_Camo: Uniform_Base
 	{
@@ -206,46 +217,26 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_WLD_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
-	
-	class NLD_DSI_Camo: NLD_WLD_Camo
+	class NLD_SF2035_Camo: NLD_WLD_Camo
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] DSI Camo";
+		displayName = "[NLD] SF2035 Camo";
 		picture = "\NLD_Gear\SF\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "NLD_DSI_assault";
+			uniformClass = "NLD_SF2035_Operator";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
-	
-	class NLD_AT_Camo: NLD_WLD_Camo
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] AT Camo";
-		picture = "\NLD_Gear\Support\Data\uim\KMAR_coveralls.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_AT_assault";
-			containerClass = "Supply40";
-			mass = 20;
-		};
-	};
-
 	class NLD_DST_Camo: Uniform_Base
 	{
 		dlc = "NLD_Units";
@@ -259,7 +250,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_DST_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_NFPT_Camo: NLD_WLD_Camo
@@ -275,7 +266,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_NFPT_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_NFPN_Camo: NLD_WLD_Camo
@@ -291,7 +282,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Crew_Navy";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_NFPG_Camo: NLD_WLD_Camo
@@ -307,7 +298,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_NFPG_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_WTR_Camo: NLD_WLD_Camo
@@ -315,7 +306,7 @@ class cfgWeapons
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
 		scope = 2;
-		displayName = "[NLD] Winter Camo";
+		displayName = "[NLD] NFP-Winter Camo";
 		picture = "\NLD_Gear\Winter\Data\uim\Uniform.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -323,7 +314,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_WTR_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_SF_CAMO: NLD_WLD_Camo
@@ -340,7 +331,7 @@ class cfgWeapons
 			uniformType = "Neopren";
 			uniformClass = "NLD_SF_Operator";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_MTP_CAMO: NLD_WLD_Camo
@@ -356,7 +347,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_MTP_Operator";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_MTP_CAMO2: NLD_WLD_Camo
@@ -372,7 +363,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_MTP_Operator";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_KMI_Camo: Uniform_Base
@@ -388,7 +379,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_KMI_rifleman";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_KM_Camo: Uniform_Base
@@ -404,7 +395,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_KM_Operator";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Helipilot_base: U_B_HeliPilotCoveralls
@@ -421,7 +412,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Helipilot";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_pilot_base: U_B_PilotCoveralls
@@ -438,7 +429,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_pilot";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Helicrew_base: U_B_HeliPilotCoveralls
@@ -454,7 +445,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Helicrew";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Crew_base: Uniform_Base
@@ -470,7 +461,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Crew";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Crew_MLRS_base: Uniform_Base
@@ -486,7 +477,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Crew_MLRS";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Police_Uniform: U_B_HeliPilotCoveralls
@@ -502,7 +493,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Police_F";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_Lifeliner_Uniform: U_B_HeliPilotCoveralls
@@ -518,7 +509,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_Lifeliner_F";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_KMAR_Camo: Uniform_Base
@@ -534,7 +525,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Police";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_KMAR_Camo2: Uniform_Base
@@ -550,7 +541,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Police2";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_KMAR_Crew_Camo: Uniform_Base
@@ -566,7 +557,7 @@ class cfgWeapons
 			uniformModel = "-";
 			uniformClass = "NLD_KMAR_Crew";
 			containerClass = "Supply40";
-			mass = 20;
+			mass = 40;
 		};
 	};
 	class NLD_WLD_Vest: V_TacVest_oli
@@ -581,7 +572,7 @@ class cfgWeapons
 		model = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
 		class ItemInfo: VestItem
 		{
-			mass = 20;
+			mass = 30;
 			uniformmodel = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
@@ -1277,7 +1268,8 @@ class cfgWeapons
 			};
 		};
 	};
-		class NLD_NFPT_Helmet: H_HelmetB
+	
+	class NLD_NFPT_Helmet: H_HelmetB
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
@@ -1306,7 +1298,8 @@ class cfgWeapons
 			};
 		};
 	};
-		class NLD_NFPG_Helmet: H_HelmetB
+		
+	class NLD_NFPG_Helmet: H_HelmetB
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
@@ -1335,6 +1328,7 @@ class cfgWeapons
 			};
 		};
 	};
+	
 	class NLD_DSI_Helmet: H_HelmetB_light_black
 	{
 		dlc = "NLD_Units";
@@ -1364,6 +1358,7 @@ class cfgWeapons
 			};
 		};
 	};
+	
 	class NLD_Police_Helmet: ItemCore
 	{
 		dlc = "NLD_Units";
@@ -1582,24 +1577,6 @@ class cfgGlasses
 		scope = 2;
 		displayName = "[NLD] Facewrap Multicam";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_multicam.paa"};
-	};
-	
-	class NLD_ShiftyGoggles: G_Balaclava_TI_blk_F
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		displayName = "[NLD] ShiftySean Goggles";
-		scope=2;
-		model = "\A3\Characters_F_Exp\BLUFOR\G_balaclava_TI_G_f.p3d";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\NLD_Gear\SF\Data\Shiftygoggles.paa", "\A3\Characters_F\Heads\Glasses\data\g_combat_ca.paa"
-		};
 	};
 };
 //};
