@@ -220,6 +220,40 @@ class cfgWeapons
 			mass = 40;
 		};
 	};
+	class NLD_DSI_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] DSI Camo";
+		picture = "\NLD_Gear\SF\Data\uim\Uniform.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_DSI_assault";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class NLD_AT_Camo: NLD_WLD_Camo
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "[NLD] AT Camo";
+		picture = "\NLD_Gear\Support\Data\uim\KMAR_coveralls.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "NLD_AT_assault";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
 	class NLD_SF2035_Camo: NLD_WLD_Camo
 	{
 		dlc = "NLD_Units";
