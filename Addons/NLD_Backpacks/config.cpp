@@ -112,6 +112,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -194,6 +199,11 @@ class CfgVehicles {
 			{
 				name="FirstAidKit";
 				count=2;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
 			};
 		};
 	};
@@ -290,6 +300,11 @@ class CfgVehicles {
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};
@@ -389,6 +404,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -466,6 +486,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -511,27 +536,6 @@ class CfgVehicles {
 
 		class TransportMagazines
 		{
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=3;
-			};
-
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=2;
-			};
 		};
 		class TransportItems
 		{
@@ -539,16 +543,30 @@ class CfgVehicles {
 				name = "NLD_NVGoggles";
 				count = 1;
 			};
-			class _xx_FirstAidKit
-			{
-				name="FirstAidKit";
-				count=2;
-			};
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
+		};
+		class TransportWeapons {
+			
+			class _xx_CUP_launch_PzF3
+			{
+				weapon="CUP_launch_PzF3";
+				count = 1;
+			};
+			class _xx_CUP_launch_BF3
+			{
+				weapon="CUP_launch_BF3";
+				count = 1;
+			};
+
 		};
 	};
 
@@ -624,6 +642,11 @@ class CfgVehicles {
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};
@@ -702,6 +725,11 @@ class CfgVehicles {
 			{
 				name="FirstAidKit";
 				count=2;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
 			};
 		};
 	};
@@ -786,6 +814,11 @@ class CfgVehicles {
 				name="CUP_muzzle_snds_M16";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -818,6 +851,11 @@ class CfgVehicles {
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};
@@ -912,6 +950,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -994,6 +1037,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -1070,6 +1118,11 @@ class CfgVehicles {
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};
@@ -1159,6 +1212,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -1226,6 +1284,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -1287,6 +1350,11 @@ class CfgVehicles {
 			class _xx_FirstAidKit
 			{
 				name="FirstAidKit";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};
@@ -1361,6 +1429,11 @@ class CfgVehicles {
 				name="COLT_Suppressor_Black";
 				count=1;
 			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
+				count=1;
+			};
 		};
 	};
 
@@ -1426,6 +1499,11 @@ class CfgVehicles {
 			class _xx_COLT_Suppressor_Black
 			{
 				name="COLT_Suppressor_Black";
+				count=1;
+			};
+			class _xx_Dutch_Beret_Luchtmobiele_Brigade
+			{
+				name="Dutch_Beret_Luchtmobiele_Brigade";
 				count=1;
 			};
 		};

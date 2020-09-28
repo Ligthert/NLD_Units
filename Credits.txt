@@ -1,8 +1,8 @@
 @NLD_units: Credits
 __________________________________________
 
-Textures		: 	Smootch, ShiftySean & Outlaw28
-config.cpp		:	Sacha Ligthert & Smootch & Shiftysean
+Textures		: 	ShiftySean
+config.cpp		:	Sacha Ligthert & Shiftysean
 Models			:	Bohemia Interactive
 
 __________________________________________

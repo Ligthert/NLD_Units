@@ -28,6 +28,7 @@ class CfgVehicles
 	class B_Heli_Transport_03_unarmed_F;
 	class CUP_B_CH47F_USA;
 	class CUP_B_AH64_DL_USA;
+	class CUP_B_AH64D_DL_USA;
 	class CUP_B_AW159_Unarmed_GB;
 	class CUP_B_AW159_Hellfire_GB;
 	class CUP_B_SA330_Puma_HC2_BAF;
@@ -99,6 +100,50 @@ class CfgVehicles
 		crew = "NLD_HeliPilot";
 		faction = "NLD_Units";
 		editorPreview = "\NLD_vehicle_units\previews\NLD_AH64D.jpg";
+		vehicleClass = Air;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_adds_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_alfa_ca.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+		};
+	};
+	
+	class NLD_AH64E : CUP_B_AH64D_DL_USA
+	{
+		author = "Lowlands Tactical";
+		scope = 2;
+		displayName = "AH64E Guardian";
+		side = 1;
+		crew = "NLD_HeliPilot";
+		faction = "NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_AH64E.jpg";
 		vehicleClass = Air;
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_body_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_adds_co.paa","\NLD_Vehicle_Units\Air\Data\Apache\Data\ah64d_alfa_ca.paa"};
@@ -520,11 +565,6 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -595,11 +635,6 @@ class CfgVehicles
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -750,11 +785,6 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -830,11 +860,6 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -907,11 +932,6 @@ class CfgVehicles
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -986,11 +1006,6 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1064,11 +1079,6 @@ class CfgVehicles
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1141,11 +1151,6 @@ class CfgVehicles
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};

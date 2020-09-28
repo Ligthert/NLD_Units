@@ -22,8 +22,6 @@ class CfgVehicles {
 	class B_LSV_01_unarmed_olive_F;
 	class B_LSV_01_unarmed_sand_F;
 	class B_T_LSV_01_armed_F;
-	class CUP_B_M1126_ICV_M2_Woodland;
-	class CUP_B_M1126_ICV_MK19_Woodland;
 	class CUP_B_M1133_MEV_Woodland;
 	class I_E_Offroad_01_comms_F;
 	class CUP_I_Van_Transport_ION;
@@ -33,12 +31,15 @@ class CfgVehicles {
 	class bma3_bushmaster_pws127mm_F;
 	class B_Quadbike_01_F;
 	class CUP_I_LR_SF_HMG_AAF;
+	class CUP_B_Boxer_HMG_GER_WDL;
+	class CUP_B_Boxer_GMG_GER_WDL;
+	class CUP_B_Boxer_Empty_GER_WDL;
 
 
 	
 // Boxer GNGP M2 - Woodland
 
-	class NLD_Boxer_m2: CUP_B_M1126_ICV_M2_Woodland
+	class NLD_Boxer_m2: CUP_B_Boxer_HMG_GER_WDL
 	{
 		author="Lowlands Tactical";
 		displayName="Boxer MRAV GNGP (M2)";
@@ -48,7 +49,7 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_m2.jpg";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxer_optics.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_wheel.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_module.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_FLW.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_lp.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\unit_sign_mech_ca.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -148,17 +149,23 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
+		};
+		class TransportWeapons {
+			class _xx_NLD_MAG
 			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
+				weapon = "NLD_MAG";
+				count = 2;
+			};
+			class _xx_CUP_launch_PzF3
+			{
+				weapon="CUP_launch_PzF3";
+				count = 2;
 			};
 		};
-		class TransportWeapons {};
 	};
 	
 // Boxer GNPG MK19 - Woodland
-	class NLD_Boxer_mk19: CUP_B_M1126_ICV_MK19_Woodland
+	class NLD_Boxer_mk19: CUP_B_Boxer_GMG_GER_WDL
 	{
 		author="Lowlands Tactical";
 		displayName="Boxer MRAV GNGP (MK19)";
@@ -168,7 +175,7 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_mk19.jpg";
 		crew="NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_extra.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_hmg.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxer_optics.paa"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_wheel.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_module.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_FLW.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_GMG.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_mk19\Boxermrav_lp.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\unit_sign_mech_ca.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -268,13 +275,32 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
+		};
+		class TransportWeapons {
+			class _xx_NLD_MAG
 			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
+				weapon = "NLD_MAG";
+				count = 2;
+			};
+			class _xx_CUP_launch_PzF3
+			{
+				weapon="CUP_launch_PzF3";
+				count = 2;
 			};
 		};
-		class TransportWeapons {};
+	};
+	
+	class NLD_Boxer_empty: CUP_B_Boxer_Empty_GER_WDL
+	{
+		author="Lowlands Tactical";
+		displayName="Boxer MRAV Empty";
+		side=1;
+		scope=2;
+		faction="NLD_Units";
+		editorPreview = "\NLD_vehicle_units\previews\NLD_Boxer_empty.jpg";
+		crew="NLD_Crew";
+		typicalCargo[] = {"NLD_Crew"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_body.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_wheel.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_back.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\Boxermrav_lp.paa","\NLD_Vehicle_Units\Wheeled\Boxer\Boxer_m2\unit_sign_mech_ca.paa"};
 	};
 	
 // Boxer AMB - Woodland
@@ -442,11 +468,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -569,11 +590,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -645,11 +661,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -723,11 +734,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -799,11 +805,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -886,17 +887,13 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
+
 		};
 		class TransportWeapons {
 			
-			class _xx_NLD_Pzf3 
+			class _xx_CUP_launch_PzF3 
 			{
-				weapon = "NLD_Pzf3";
+				weapon = "CUP_launch_Pzf3";
 				count = 2;
 			}; 
 		};
@@ -977,8 +974,8 @@ class CfgVehicles {
 		};
 		class TransportWeapons {
 
-			class _xx_NLD_Pzf3 {
-				weapon = "NLD_Pzf3";
+			class _xx_CUP_launch_Pzf3 {
+				weapon = "CUP_launch_Pzf3";
 				count = 2;
 			}; 
 		};
@@ -1049,11 +1046,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -1663,11 +1655,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1737,11 +1724,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -1813,11 +1795,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1887,11 +1864,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -1963,11 +1935,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -2037,11 +2004,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};

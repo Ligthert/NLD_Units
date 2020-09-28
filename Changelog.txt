@@ -1,8 +1,14 @@
 Changelog:
-V2020052216 (Internal build)
-- Removed TFAR optional pbo.
+V2020092817
 - Added contact dlc radiobags in all camotypes.
-
+- Added Cups real Boxer mrav apc in M2, GMG and empty variants.
+- Added Cups real Panzerfaust 3 on the light AT rifleman.
+- Added the AH64E Guardian apache (using cups D longbow apache).
+- New textures for the Leopard 2A6.
+- New helmets and vests for Marsof and KCT infantry units.
+- Crew infantry now carry the C8NLD.
+- FN MAG now uses a different model.
+- Regular infantry once again has berets.
 
 v2020010115
  - Added MB G280 CDI special forces jeep.

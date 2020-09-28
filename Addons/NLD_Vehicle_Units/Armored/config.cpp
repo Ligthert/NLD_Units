@@ -106,11 +106,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -393,11 +388,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -414,8 +404,8 @@ class CfgVehicles {
 		editorPreview = "\NLD_vehicle_units\previews\NLD_Leopard2A6.jpg";
 		crew = "NLD_Crew";
 		typicalCargo[] = {"NLD_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2"};
-		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_hull.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_turret.paa"};
+		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "license_plate", "unit_sign", "lp_1","lp_2","lp_3","lp_4","lp_5","lp_6","us_c_1","us_c_2","us_b_1","us_b_2","us_b_3"};
+		hiddenSelectionsTextures[] = {"\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_hull.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_turret.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_Wheels.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\Leo_Trans.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\license_plate_co.paa", "\NLD_Vehicle_Units\Armored\Leopard2\woodland\Data\unit_sign_armor_ca.paa"};
 		
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -470,11 +460,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -616,11 +601,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -724,11 +704,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -827,11 +802,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -945,11 +915,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1022,11 +987,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1098,11 +1058,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};
@@ -1177,11 +1132,6 @@ class CfgVehicles {
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
 			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
-			};
 		};
 		class TransportWeapons {};
 	};
@@ -1254,11 +1204,6 @@ class CfgVehicles {
 			{
 				magazine="CUP_5Rnd_86x70_L115A1";
 				count=15;
-			};
-			class _xx_MRAWS_HEAT_F
-			{
-				magazine="MRAWS_HEAT_F";
-				count=5;
 			};
 		};
 		class TransportWeapons {};

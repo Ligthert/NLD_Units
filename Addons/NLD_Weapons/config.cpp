@@ -22,7 +22,6 @@ class CfgWeapons {
 
 	// ext class ref
 	class CUP_lmg_L110A1;
-	class CUP_lmg_m240;
 	class CUP_srifle_M107_Pristine;
 	class CUP_srifle_M107_Desert;
 	class CUP_srifle_AWM_wdl;
@@ -55,6 +54,7 @@ class CfgWeapons {
 	class CUP_arifle_HK416_CQB_AG36;
 	class CUP_arifle_HK416_CQB_Black;
 	class launch_I_Titan_short_F;
+	class CUP_lmg_FNMAG_RIS_modern;
 	
 	
 	class NLD_C7: Weapon_C7NLD_nogrip
@@ -237,7 +237,7 @@ class CfgWeapons {
 	};
 
 	// Mag
-	class NLD_MAG: CUP_lmg_M240 {
+	class NLD_MAG: CUP_lmg_FNMAG_RIS_modern {
 		displayName="[NLD] FN MAG";
 		author="Lowlands Tactical";
 		scope=2;
@@ -276,7 +276,7 @@ class CfgWeapons {
 	class NLD_Pzf3: launch_MRAWS_green_F {
 		displayName="[NLD] Panzerfaust 3";
 		author="Lowlands Tactical";
-		scope=2;
+		scope=1;
 		magazines[] =
 		{
 			"MRAWS_HEAT_F"

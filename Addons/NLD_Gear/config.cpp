@@ -161,16 +161,6 @@ class CfgVehicles
 		linkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"NLD_KM_PlateCarrier","NLD_SF_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};	
-	class NLD_SF2035_Operator: NLD_SF_Operator
-	{
-		displayName = "SF2035 Operator";
-		uniformClass = "NLD_SF2035_Camo";
-		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
-		hiddenSelectionsTextures[] = {"\NLD_Gear\SF2035\Data\Uniform.paa","\NLD_Infantry_Units\Badges\csquad.paa"};
-		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
-		linkedItems[] = {"NLD_SF2035_PlateCarrier","NLD_SF2035_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"NLD_SF2035_PlateCarrier","NLD_SF2035_ECH","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-	};
 };
 class cfgWeapons
 {
@@ -202,7 +192,7 @@ class cfgWeapons
 	class V_PlateCarrierIAGL_oli;
 	class V_PlateCarrierIA2_dgtl;
 	class U_B_PilotCoveralls;
-	class V_PlateCarrierSpec_rgr;
+	class V_PlateCarrierSpec_rgr; 
 	
 	class NLD_WLD_Camo: Uniform_Base
 	{
@@ -250,23 +240,6 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "NLD_AT_assault";
-			containerClass = "Supply40";
-			mass = 40;
-		};
-	};
-	class NLD_SF2035_Camo: NLD_WLD_Camo
-	{
-		dlc = "NLD_Units";
-		author = "Lowlands Tactical";
-		scope = 2;
-		displayName = "[NLD] SF2035 Camo";
-		picture = "\NLD_Gear\SF\Data\uim\Uniform.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelectionsMaterials[] = {"NLD_Gear\Korps_Mariniers\Data\data\TRYKuni2.rvmat"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "NLD_SF2035_Operator";
 			containerClass = "Supply40";
 			mass = 40;
 		};
@@ -1611,6 +1584,23 @@ class cfgGlasses
 		scope = 2;
 		displayName = "[NLD] Facewrap Multicam";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\SF\Data\facewrap_multicam.paa"};
+	};
+	class NLD_ShiftyGoggles: G_Balaclava_TI_blk_F
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "Shifties Goggles";
+		scope=2;
+		model = "\A3\Characters_F_Exp\BLUFOR\G_balaclava_TI_G_f.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\NLD_Gear\SF\Data\Shiftygoggles.paa", "\A3\Characters_F\Heads\Glasses\data\g_combat_ca.paa"
+		};
 	};
 };
 //};
