@@ -1602,5 +1602,22 @@ class cfgGlasses
 			"\NLD_Gear\SF\Data\Shiftygoggles.paa", "\A3\Characters_F\Heads\Glasses\data\g_combat_ca.paa"
 		};
 	};
+	class NLD_PekGoggles: G_Balaclava_TI_blk_F
+	{
+		dlc = "NLD_Units";
+		author = "Lowlands Tactical";
+		displayName = "Pekururu Goggles";
+		scope=2;
+		model = "\A3\Characters_F_Exp\BLUFOR\G_balaclava_TI_G_f.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\NLD_Gear\SF\Data\PekGoggles.paa", "\A3\Characters_F\Heads\Glasses\data\g_combat_ca.paa"
+		};
+	};
 };
 //};
