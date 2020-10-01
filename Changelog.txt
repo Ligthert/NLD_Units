@@ -5,6 +5,7 @@ V2020092817
 - Added Cups real Panzerfaust 3 on the light AT rifleman.
 - Added the AH64E Guardian apache (using cups D longbow apache).
 - New textures for the Leopard 2A6.
+- Slightly altered the multicam textures of the KCT.
 - New helmets and vests for KCT infantry units.
 - New vests for Marsof infantry units.
 - Crew infantry now carry the C8NLD.
