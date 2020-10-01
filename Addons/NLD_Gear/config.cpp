@@ -1025,6 +1025,7 @@ class cfgWeapons
 	{
 		dlc = "NLD_Units";
 		author = "Lowlands Tactical";
+		scope = 1;
 		displayName = "[NLD] Mcam Plate Carrier";
 		picture = "\NLD_Gear\MTP\Data\uim\PlateCarrier.paa";
 		hiddenSelectionsTextures[] = {"\NLD_Gear\MTP\Data\PlateCarrier.paa"};
